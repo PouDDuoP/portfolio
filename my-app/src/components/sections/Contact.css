@@ -58,32 +58,7 @@ a.contact__card:hover {
   color: inherit;
 }
 
-.contact__card--email {
-  background: var(--color-primary);
-  border-color: var(--color-primary);
-}
-
-.contact__card--email .contact__card-icon {
-  background: rgba(255, 255, 255, 0.2);
-  color: var(--color-bg);
-}
-
-.contact__card--email .contact__card-label {
-  color: rgba(255, 255, 255, 0.8);
-}
-
-.contact__card--email .contact__card-value {
-  color: var(--color-bg);
-}
-
-.contact__card--email:hover {
-  background: var(--color-primary-hover);
-  border-color: var(--color-primary-hover);
-}
-
-.contact__card--email:hover .contact__card-value {
-  color: var(--color-bg);
-}
+/* Remove email-specific styling to match other cards */
 
 .contact__card-icon {
   display: flex;
@@ -126,8 +101,12 @@ a.contact__card:hover {
   text-overflow: ellipsis;
 }
 
+a.contact__card-value {
+  color: var(--color-primary); /* Azul claro/cyan para indicar hipervínculo */
+}
+
 a.contact__card-value:hover {
-  color: var(--color-primary);
+  color: var(--color-primary-hover);
 }
 
 .contact__cta {
