@@ -17,12 +17,13 @@
   },
   "availability": "Disponible para proyectos",
   "availability_en": "Available for projects",
-  "bio": "Desarrollador web versátil con más de 5 años de experiencia en la industria, especializado en soluciones back-end (PHP, ASP, Python, NodeJS) y front-end (JavaScript, Bootstrap). Experiencia probada en el diseño, desarrollo y optimización de aplicaciones escalables.",
-  "bio_en": "Versatile web developer with over 5 years of industry experience, specialized in back-end solutions (PHP, ASP, Python, NodeJS) and front-end (JavaScript, Bootstrap). Proven experience in design, development and optimization of scalable applications.",
+  "bio": "Desarrollador web versátil con más de 5 años de experiencia en la industria, especializado en soluciones back-end (PHP, ASP, Python, NodeJS) y front-end (JavaScript, Bootstrap). Experiencia probada en el diseño, desarrollo y optimización de aplicaciones escalables, gestión de bases de datos y consumo de APIs. Apasionado por la mejora continua y la resolución de problemas para entregar soluciones innovadoras",  
+  "bio_en": "Versatile web developer with over 5 years of industry experience, specialized in back-end solutions (PHP, ASP, Python, NodeJS) and front-end (JavaScript, Bootstrap). Proven experience in design, development and optimization of scalable applications. Passionate about continuous improvement and problem-solving to deliver innovative solutions.",
   "values": [
     { "es": "Calidad sobre cantidad", "en": "Quality over quantity" },
     { "es": "Simplicidad sobre complejidad", "en": "Simplicity over complexity" },
-    { "es": "El usuario siempre tiene la razón", "en": "The user is always right" },
-    { "es": "El código debe ser tan elegante como la interfaz", "en": "Code should be as elegant as the interface" }
+    { "es": "El código debe ser tan elegante como la interfaz", "en": "Code should be as elegant as the interface" },
+    { "es": "Siempre dispuesto a colaborar", "en": "Always willing to collaborate" },
+    { "es": "La honestidad es una prioridad", "en": "Honesty is a priority" }
   ]
 }
