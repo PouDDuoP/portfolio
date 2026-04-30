@@ -1,6 +1,6 @@
 # Kevin Alvarado - Portfolio
 
-Portafolio personal de Kevin Alvarado, Desarrollador Web con más de 5 años de experiencia en la industria.
+Portafolio personal de Kevin Alvarado, Desarrollador Web con más de 5 años de experiencia en la industria, especializado en soluciones back-end y front-end.
 
 ## 🚀 Tecnologías
 
@@ -25,7 +25,7 @@ Portafolio personal de Kevin Alvarado, Desarrollador Web con más de 5 años de 
 - PostgreSQL (5+ años)
 - MySQL (2+ años)
 
-### Herrramientas
+### Herramientas
 - Git (3+ años)
 - SourceTree (2+ años)
 - Jira (2+ años)
@@ -35,7 +35,7 @@ Portafolio personal de Kevin Alvarado, Desarrollador Web con más de 5 años de 
 
 ### Laborales
 1. **Sistema de Qualitas Assistance** (Humanitas Administradora de Riesgos)
-   - ASP Classic + VBScript, PHP, Git, Bootstrap 3, jQuery, JavaScript, HTML5, CSS, SQL Server
+   - ASP Classic, VBScript, PHP, Git, Bootstrap 3, jQuery, JavaScript, HTML5, CSS, SQL Server
    - Gestión de comisiones, pagos, upgrades de productos y reportes de data extensa
 
 2. **Sistema de Globalmate**
@@ -61,12 +61,13 @@ Caracas, Venezuela
 - Refactorización y depuración de código
 - Integración de APIs y Web Services (REST/SOAP)
 - Gestión y optimización de bases de datos relacionales
+- Consumo de APIs externas
 - Entrenamiento de nuevos desarrolladores
 
 ## 🎓 Educación
 
 - **Ingeniero en Informática** (2012-2017)  
-  Colegio Universitario de Caracas
+  Colegio Universitario de Caracas (CUC)
 
 ### Certificaciones
 - SQL (Advanced) Certificate - HackerRank (2022)
@@ -78,6 +79,7 @@ Caracas, Venezuela
 - Backend Node.js + PostgreSQL - Platzi (2023)
 - Backend Node.js + Autenticación con Passport.js y JWT - Platzi (2024)
 - Angular 17: Creación de Aplicaciones Web - Platzi (2025)
+- Curso Profesional de Scrum - Platzi (2025)
 
 ## 🌐 Idiomas
 - Español (Nativo)
@@ -85,6 +87,7 @@ Caracas, Venezuela
 
 ## 📬 Contacto
 - Email: kevinalvarado.ag@gmail.com
+- Teléfono: +58 414 2321163
 - GitHub: [@PouDDuoP](https://github.com/PouDDuoP)
 - LinkedIn: [/in/kevin-alvarado-graterol](https://linkedin.com/in/kevin-alvarado-graterol)
 - Ubicación: Caracas, Venezuela
@@ -97,6 +100,8 @@ Caracas, Venezuela
 - Diseño Responsive
 - Animaciones CSS
 - Context API para gestión de idioma (ES/EN)
+- Traducción dinámica completa (ES/EN)
+- Desplegado en Vercel
 
 ## 📁️ Estructura del Proyecto
 
@@ -138,4 +143,7 @@ MIT
 ---
 
 **Kevin Alvarado** - Desarrollador Web  
+Desarrollador web versátil con más de 5 años de experiencia en la industria  
 Disponible para proyectos
+
+🌐 **Live Demo**: [kevin-alvarado-dev.vercel.app](https://kevin-alvarado-dev.vercel.app)
