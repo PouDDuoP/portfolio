@@ -1,16 +1,18 @@
 import profile from '../../data/profile.json';
+import { useLanguage } from '../../context/LanguageContext';
 import './Footer.css';
 
 export default function Footer() {
+  const { lang } = useLanguage();
   const currentYear = new Date().getFullYear();
   
   return (
     <footer className="footer">
       <div className="footer__container">
         <div className="footer__content">
-          <div className="footer__brand">
-            <span className="footer__logo">{profile.fullName}</span>
-            <p className="footer__tagline">{profile.tagline}</p>
+           <div className="footer__brand">
+            <span className="footer__logo">{lang === 'es' ? profile.fullName : profile.fullName_en}</span>
+            <p className="footer__tagline">{lang === 'es' ? profile.tagline : profile.tagline_en}</p>
           </div>
           
           <div className="footer__links">
@@ -29,7 +31,7 @@ export default function Footer() {
         
         <div className="footer__bottom">
           <p className="footer__copyright">
-            © {currentYear} {profile.fullName}. {profile.availability}.
+            © {currentYear} {lang === 'es' ? profile.fullName : profile.fullName_en}. {lang === 'es' ? profile.availability : profile.availability_en}.
           </p>
         </div>
       </div>
