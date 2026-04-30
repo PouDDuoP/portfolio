@@ -1,0 +1,122 @@
+.contact {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.contact__intro {
+  text-align: center;
+  margin-bottom: var(--space-2xl);
+}
+
+.contact__title {
+  font-family: var(--font-display);
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--color-text);
+  margin: 0 0 var(--space-md);
+}
+
+.contact__text {
+  font-size: 1.125rem;
+  color: var(--color-text-secondary);
+  margin: 0;
+  line-height: 1.7;
+}
+
+.contact__cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--space-lg);
+  margin-bottom: var(--space-2xl);
+}
+
+.contact__card {
+  display: flex;
+  align-items: center;
+  gap: var(--space-md);
+  padding: var(--space-lg);
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  transition: all var(--transition-fast);
+}
+
+.contact__card:hover {
+  border-color: var(--color-primary);
+  transform: translateY(-2px);
+}
+
+.contact__card--email {
+  background: var(--color-primary);
+  border-color: var(--color-primary);
+}
+
+.contact__card--email .contact__card-icon {
+  background: rgba(255, 255, 255, 0.2);
+  color: var(--color-bg);
+}
+
+.contact__card--email .contact__card-label {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.contact__card--email .contact__card-value {
+  color: var(--color-bg);
+}
+
+.contact__card-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  background: var(--color-surface);
+  border-radius: var(--radius-sm);
+  color: var(--color-text-secondary);
+  flex-shrink: 0;
+}
+
+.contact__card-icon svg {
+  width: 20px;
+  height: 20px;
+}
+
+.contact__card-content {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-xs);
+  min-width: 0;
+}
+
+.contact__card-label {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--color-text-secondary);
+}
+
+.contact__card-value {
+  font-size: 0.875rem;
+  color: var(--color-text);
+  text-decoration: none;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.contact__card-value:hover {
+  color: var(--color-primary);
+}
+
+.contact__cta {
+  display: flex;
+  justify-content: center;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .contact__cards {
+    grid-template-columns: 1fr;
+  }
+}
