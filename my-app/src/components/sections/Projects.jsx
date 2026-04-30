@@ -43,9 +43,10 @@ export default function Projects() {
       <div className="projects__grid">
         {filteredProjects.map((project, index) => (
           <Card key={project.id} className="project-card" style={{ '--delay': `${index * 0.1}s` }}>
-            <div className="project-card__image">
-              <img src={project.image} alt={lang === 'es' ? project.title : project.title_en} loading="lazy" />
-              <div className="project-card__overlay">
+            {project.image && (
+              <div className="project-card__image">
+                <img src={project.image} alt={lang === 'es' ? project.title : project.title_en} loading="lazy" />
+                <div className="project-card__overlay">
                 <div className="project-card__actions">
                   {project.github && (
                     <a 
@@ -74,9 +75,10 @@ export default function Projects() {
                     </a>
                   )}
                 </div>
-              </div>
-            </div>
-           
+               </div>
+             </div>
+            )}
+            
             <div className="project-card__content">
               <h3 className="project-card__title">
                 {lang === 'es' ? project.title : project.title_en}
