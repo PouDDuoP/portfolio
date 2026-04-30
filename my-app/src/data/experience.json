@@ -1,47 +1,33 @@
 [
   {
-    "id": "globant",
-    "company": "Globant",
-    "companyUrl": "https://www.globant.com",
-    "role": "Senior Full Stack Developer",
-    "location": "Remoto",
-    "startDate": "2024-01",
-    "endDate": "actual",
-    "achievements": [
-      "Lideré la migración de monolito a microservicios, reduciendo tiempo de deployment de 45min a 8min",
-      "Implementé sistema de CI/CD que disminuyó errores de producción en un 70%",
-      "Mentoré a 3 desarrolladores junior, todos promovidos a mid-level en 6 meses"
-    ],
-    "techStack": ["React", "Node.js", "AWS", "Docker", "Kubernetes"]
-  },
-  {
-    "id": "freelance",
-    "company": "Freelance",
+    "id": "humanitas-qualitas",
+    "company": "Humanitas Administradora de Riesgos / Qualitas Assistance",
+    "company_en": "Humanitas Risk Administrator / Qualitas Assistance",
     "companyUrl": "",
-    "role": "Full Stack Developer & UX/UI Designer",
-    "location": "Maracaibo, Venezuela",
-    "startDate": "2020-01",
-    "endDate": "2023-12",
+    "role": "Especialista Web",
+    "role_en": "Web Specialist",
+    "location": "Caracas, Venezuela",
+    "location_en": "Caracas, Venezuela",
+    "startDate": "2017-01",
+    "endDate": "2024-12",
     "achievements": [
-      "Desarrollé más de 25 proyectos web y móviles para clientes en USA y Europa",
-      "Creé sistema de diseño utilizado en 15+ proyectos, reduciendo tiempo de development en un 40%",
-      "Implementé metodologías ágiles adaptadas para equipos pequeños, incrementando productividad un 30%"
+      "Diseñé y desarrollé soluciones de software utilizando patrones MVC y MVT, mejorando la escalabilidad del sistema principal",
+      "Refactoricé y depuré código existente, mejorando el rendimiento de las aplicaciones y facilitando su mantenimiento",
+      "Optimización de procesos",
+      "Gestioné la integración y el consumo de APIs y Web Services (REST/SOAP), asegurando el intercambio de datos JSON",
+      "Gestioné y optimicé bases de datos relacionales (SQL Server, Oracle, PostgreSQL, MySQL)",
+      "Proporcioné mantenimiento y soporte crítico a páginas web afiliadas",
+      "Entrenamiento de nuevos desarrolladores en el funcionamiento de Qualitas Assistance"
     ],
-    "techStack": ["React", "React Native", "Node.js", "PostgreSQL", "MongoDB", "Figma"]
-  },
-  {
-    "id": "urbem",
-    "company": "Urbem Solutions",
-    "companyUrl": "https://urbemsolutions.com",
-    "role": "Frontend Developer",
-    "location": "Maracaibo, Venezuela",
-    "startDate": "2018-06",
-    "endDate": "2019-12",
-    "achievements": [
-      "Desarrollé dashboard administrativo utilizado por 50+ clientes empresariales",
-      "Implementé componentes reutilizables que redujeron codebase en un 25%",
-      "Optimicé rendimiento de carga de 4.2s a 1.8s, mejorando UX significativamente"
+    "achievements_en": [
+      "Designed and developed software solutions using MVC and MVT patterns, improving main system scalability",
+      "Refactored and debugged existing code, improving application performance and maintainability",
+      "Process optimization",
+      "Managed integration and consumption of APIs and Web Services (REST/SOAP), ensuring JSON data exchange",
+      "Managed and optimized relational databases (SQL Server, Oracle, PostgreSQL, MySQL)",
+      "Provided critical maintenance and support for affiliate websites",
+      "Trained new developers on Qualitas Assistance operations and workflow"
     ],
-    "techStack": ["Vue.js", "JavaScript", "SASS", "Chart.js", "Firebase"]
+    "techStack": ["ASP Classic", "VBScript", "PHP", "Git", "Bootstrap 3", "jQuery", "JavaScript", "HTML5", "CSS", "SQL Server"]
   }
 ]

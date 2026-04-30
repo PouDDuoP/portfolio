@@ -1,25 +1,28 @@
 {
   "name": "Kevin",
-  "surname": "Paredes",
-  "fullName": "Kevin Paredes",
-  "title": "Full Stack Developer & UX/UI Designer",
-  "tagline": "Creando experiencias digitales que conectan tecnología y humanidad",
-  "email": "kevinparedes.dev@gmail.com",
-  "location": "Maracaibo, Venezuela",
-  "phone": "+58 412-456-7890",
+  "surname": "Alvarado",
+  "fullName": "Kevin Alvarado",
+  "fullName_en": "Kevin Alvarado",
+  "title": "Desarrollador Web",
+  "title_en": "Web Developer",
+  "tagline": "Desarrollador web versátil con más de 5 años de experiencia en la industria",
+  "tagline_en": "Versatile web developer with over 5 years of industry experience",
+  "email": "kevinalvarado.ag@gmail.com",
+  "location": "Caracas, Venezuela",
+  "phone": "+58 414 2321163",
   "avatar": "/images/profile.jpg",
   "social": {
     "github": "https://github.com/PouDDuoP",
-    "linkedin": "https://linkedin.com/in/kevinparedes",
-    "twitter": "https://x.com/kevinparedes",
-    "bluesky": "https://bsky.app/profile/kevinparedes.bsky.social"
+    "linkedin": "https://linkedin.com/in/kevin-alvarado-graterol"
   },
-  "availability": "Disponible para proyectos freelance",
-  "bio": "Desarrollador full stack con más de 5 años de experiencia creando soluciones digitales. Mi background en diseño UX/UI me permite entender no solo el código, sino la experiencia del usuario. Creo que la mejor tecnología es aquella que pasa desapercibida porque simplemente funciona.",
+  "availability": "Disponible para proyectos",
+  "availability_en": "Available for projects",
+  "bio": "Desarrollador web versátil con más de 5 años de experiencia en la industria, especializado en soluciones back-end (PHP, ASP, Python, NodeJS) y front-end (JavaScript, Bootstrap). Experiencia probada en el diseño, desarrollo y optimización de aplicaciones escalables.",
+  "bio_en": "Versatile web developer with over 5 years of industry experience, specialized in back-end solutions (PHP, ASP, Python, NodeJS) and front-end (JavaScript, Bootstrap). Proven experience in design, development and optimization of scalable applications.",
   "values": [
-    "Calidad sobre cantidad",
-    "Simplicidad sobre complejidad",
-    "El usuario siempre tiene la razón",
-    "El código debe ser tan elegante como la interfaz"
+    { "es": "Calidad sobre cantidad", "en": "Quality over quantity" },
+    { "es": "Simplicidad sobre complejidad", "en": "Simplicity over complexity" },
+    { "es": "El usuario siempre tiene la razón", "en": "The user is always right" },
+    { "es": "El código debe ser tan elegante como la interfaz", "en": "Code should be as elegant as the interface" }
   ]
 }

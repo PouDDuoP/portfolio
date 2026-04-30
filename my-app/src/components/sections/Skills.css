@@ -7,7 +7,7 @@
 .skills__category {
   display: flex;
   flex-direction: column;
-  gap: var(--space-xl);
+  gap: var(--space-lg);
 }
 
 .skills__category--soft {
@@ -27,13 +27,27 @@
 .skills__list {
   display: flex;
   flex-direction: column;
-  gap: var(--space-lg);
+  gap: var(--space-md);
 }
 
 .skills__item {
   display: flex;
   flex-direction: column;
-  gap: var(--space-sm);
+  gap: var(--space-xs);
+  opacity: 0;
+  animation: fadeIn 0.6s ease forwards;
+  animation-delay: var(--delay, 0s);
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateX(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
 }
 
 .skills__item-header {
@@ -48,15 +62,18 @@
   color: var(--color-text);
 }
 
-.skills__item-level {
+.skills__item-years {
   font-family: var(--font-mono);
   font-size: 0.75rem;
   color: var(--color-primary);
+  background: var(--color-primary-alpha);
+  padding: var(--space-xs) var(--space-sm);
+  border-radius: var(--radius-sm);
 }
 
 .skills__bar {
-  height: 6px;
-  background: var(--color-surface);
+  height: 8px;
+  background: var(--color-bg-secondary);
   border-radius: var(--radius-full);
   overflow: hidden;
 }
@@ -70,13 +87,9 @@
   animation-delay: var(--delay, 0s);
 }
 
-.skills__bar-fill--design {
-  background: linear-gradient(90deg, var(--color-accent), var(--color-primary));
-}
-
 @keyframes fillBar {
   to {
-    width: var(--width);
+    width: var(--width, 50%);
   }
 }
 
@@ -96,12 +109,12 @@
   font-size: 0.9375rem;
   color: var(--color-text-secondary);
   transition: all var(--transition-fast);
-  animation: fadeIn 0.5s ease forwards;
+  animation: fadeInTag 0.5s ease forwards;
   animation-delay: var(--delay, 0s);
   opacity: 0;
 }
 
-@keyframes fadeIn {
+@keyframes fadeInTag {
   to {
     opacity: 1;
   }

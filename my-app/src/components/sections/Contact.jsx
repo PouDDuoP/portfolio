@@ -1,22 +1,32 @@
-import profile from '../data/profile.json';
+import profile from '../../data/profile.json';
+import { useLanguage } from '../../context/LanguageContext';
 import Section from '../common/Section';
 import Button from '../common/Button';
 import './Contact.css';
 
 export default function Contact() {
+  const { lang } = useLanguage();
   const handleEmail = () => {
     window.location.href = `mailto:${profile.email}`;
   };
   
   return (
-    <Section id="contact" title="Contacto" subtitle="Hablemos">
+    <Section 
+      id="contact" 
+      title={lang === 'es' ? 'Contacto' : 'Contact'} 
+      subtitle={lang === 'es' ? 'Hablemos' : 'Let\'s talk'}
+    >
       <div className="contact">
         <div className="contact__intro">
-          <h3 className="contact__title">{profile.tagline}</h3>
+          <h3 className="contact__title">
+            {lang === 'es' ? profile.tagline : profile.tagline_en}
+          </h3>
           <p className="contact__text">
-            Actualmente estoy {profile.availability.toLowerCase()}. 
-            Si tienes un proyecto en mente o simplemente quieres charlar sobre 
-            tecnología, no dudes en contactarme.
+            {lang === 'es' ? 'Actualmente estoy' : 'I am currently'} <strong>{lang === 'es' ? profile.availability.toLowerCase() : profile.availability_en.toLowerCase()}</strong>. 
+            {lang === 'es' 
+              ? 'Si tienes un proyecto en mente o simplemente quieres charlar sobre tecnología, no dudes en contactarme.'
+              : 'If you have a project in mind or just want to chat about technology, don\'t hesitate to reach out.'
+            }
           </p>
         </div>
         
@@ -28,7 +38,9 @@ export default function Contact() {
               </svg>
             </div>
             <div className="contact__card-content">
-              <span className="contact__card-label">Email</span>
+              <span className="contact__card-label">
+                {lang === 'es' ? 'Email' : 'Email'}
+              </span>
               <a href={`mailto:${profile.email}`} className="contact__card-value">
                 {profile.email}
               </a>
@@ -42,7 +54,9 @@ export default function Contact() {
               </svg>
             </div>
             <div className="contact__card-content">
-              <span className="contact__card-label">GitHub</span>
+              <span className="contact__card-label">
+                {lang === 'es' ? 'GitHub' : 'GitHub'}
+              </span>
               <a href={profile.social.github} target="_blank" rel="noopener noreferrer" className="contact__card-value">
                 @PouDDuoP
               </a>
@@ -56,9 +70,11 @@ export default function Contact() {
               </svg>
             </div>
             <div className="contact__card-content">
-              <span className="contact__card-label">LinkedIn</span>
+              <span className="contact__card-label">
+                {lang === 'es' ? 'LinkedIn' : 'LinkedIn'}
+              </span>
               <a href={profile.social.linkedin} target="_blank" rel="noopener noreferrer" className="contact__card-value">
-                /in/kevinparedes
+                /in/kevin-alvarado-graterol
               </a>
             </div>
           </div>
@@ -66,7 +82,7 @@ export default function Contact() {
         
         <div className="contact__cta">
           <Button onClick={handleEmail} variant="primary" size="large">
-            Enviar Email
+            {lang === 'es' ? 'Enviar Email' : 'Send Email'}
           </Button>
         </div>
       </div>

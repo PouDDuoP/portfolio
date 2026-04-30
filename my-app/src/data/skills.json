@@ -1,24 +1,52 @@
 {
-  "technical": [
-    { "name": "React", "level": 95, "category": "Frontend" },
-    { "name": "JavaScript/TypeScript", "level": 90, "category": "Frontend" },
-    { "name": "HTML/CSS", "level": 92, "category": "Frontend" },
-    { "name": "Node.js", "level": 85, "category": "Backend" },
-    { "name": "PostgreSQL", "level": 80, "category": "Backend" },
-    { "name": "MongoDB", "level": 78, "category": "Backend" },
-    { "name": "Firebase", "level": 85, "category": "Backend" },
-    { "name": "Git", "level": 90, "category": "Tools" },
-    { "name": "Docker", "level": 75, "category": "Tools" },
-    { "name": "AWS", "level": 70, "category": "Tools" },
-    { "name": "Figma", "level": 88, "category": "Design" },
-    { "name": "UX/UI Design", "level": 85, "category": "Design" }
+  "categories": [
+    {
+      "name": "Back-end",
+      "skills": [
+        { "name": "Node.js", "years": "1+ año" },
+        { "name": "Express", "years": "1+ año" },
+        { "name": "Python", "years": "2+ años" },
+        { "name": "Django", "years": "1+ año" },
+        { "name": "PHP", "years": "5+ años" },
+        { "name": "ASP", "years": "5+ años" }
+      ]
+    },
+    {
+      "name": "Front-end",
+      "skills": [
+        { "name": "JavaScript", "years": "5+ años" },
+        { "name": "jQuery", "years": "5+ años" },
+        { "name": "Bootstrap", "years": "5+ años" },
+        { "name": "CSS", "years": "5+ años" },
+        { "name": "HTML", "years": "5+ años" }
+      ]
+    },
+    {
+      "name": "Bases de Datos",
+      "skills": [
+        { "name": "SQL Server", "years": "5+ años" },
+        { "name": "Oracle", "years": "5+ años" },
+        { "name": "PostgreSQL", "years": "5+ años" },
+        { "name": "MySQL", "years": "2+ años" }
+      ]
+    },
+    {
+      "name": "Herramientas",
+      "skills": [
+        { "name": "Git", "years": "3+ años" },
+        { "name": "SourceTree", "years": "2+ años" },
+        { "name": "Jira", "years": "2+ años" },
+        { "name": "Docker", "years": "6+ meses" }
+      ]
+    }
   ],
   "soft": [
-    { "name": "Liderazgo técnico", "level": 90 },
-    { "name": "Comunicación", "level": 88 },
-    { "name": "Resolución de problemas", "level": 92 },
-    { "name": "Trabajo en equipo", "level": 90 },
-    { "name": "Gestión de tiempo", "level": 85 },
-    { "name": "Adaptabilidad", "level": 88 }
+    { "name": "Español", "level": "Nativo" },
+    { "name": "Inglés", "level": "B1" },
+    { "name": "Resolución de problemas", "level": "Avanzado" },
+    { "name": "Comunicación", "level": "Avanzado" },
+    { "name": "Trabajo en equipo", "level": "Avanzado" },
+    { "name": "Gestión de tiempo", "level": "Intermedio" },
+    { "name": "Adaptabilidad", "level": "Avanzado" }
   ]
 }
