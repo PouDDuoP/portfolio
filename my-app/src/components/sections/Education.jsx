@@ -43,7 +43,7 @@ export default function Education() {
                 rel="noopener noreferrer"
                 className="education__institution"
               >
-                {cert.institution}
+                {lang === 'es' ? cert.institution : cert.institution_en}
               </a>
               
               <p className="education__description">
