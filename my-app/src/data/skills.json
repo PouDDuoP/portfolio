@@ -1,0 +1,24 @@
+{
+  "technical": [
+    { "name": "React", "level": 95, "category": "Frontend" },
+    { "name": "JavaScript/TypeScript", "level": 90, "category": "Frontend" },
+    { "name": "HTML/CSS", "level": 92, "category": "Frontend" },
+    { "name": "Node.js", "level": 85, "category": "Backend" },
+    { "name": "PostgreSQL", "level": 80, "category": "Backend" },
+    { "name": "MongoDB", "level": 78, "category": "Backend" },
+    { "name": "Firebase", "level": 85, "category": "Backend" },
+    { "name": "Git", "level": 90, "category": "Tools" },
+    { "name": "Docker", "level": 75, "category": "Tools" },
+    { "name": "AWS", "level": 70, "category": "Tools" },
+    { "name": "Figma", "level": 88, "category": "Design" },
+    { "name": "UX/UI Design", "level": 85, "category": "Design" }
+  ],
+  "soft": [
+    { "name": "Liderazgo técnico", "level": 90 },
+    { "name": "Comunicación", "level": 88 },
+    { "name": "Resolución de problemas", "level": 92 },
+    { "name": "Trabajo en equipo", "level": 90 },
+    { "name": "Gestión de tiempo", "level": 85 },
+    { "name": "Adaptabilidad", "level": 88 }
+  ]
+}

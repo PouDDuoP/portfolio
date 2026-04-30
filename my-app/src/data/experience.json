@@ -1,0 +1,47 @@
+[
+  {
+    "id": "globant",
+    "company": "Globant",
+    "companyUrl": "https://www.globant.com",
+    "role": "Senior Full Stack Developer",
+    "location": "Remoto",
+    "startDate": "2024-01",
+    "endDate": "actual",
+    "achievements": [
+      "Lideré la migración de monolito a microservicios, reduciendo tiempo de deployment de 45min a 8min",
+      "Implementé sistema de CI/CD que disminuyó errores de producción en un 70%",
+      "Mentoré a 3 desarrolladores junior, todos promovidos a mid-level en 6 meses"
+    ],
+    "techStack": ["React", "Node.js", "AWS", "Docker", "Kubernetes"]
+  },
+  {
+    "id": "freelance",
+    "company": "Freelance",
+    "companyUrl": "",
+    "role": "Full Stack Developer & UX/UI Designer",
+    "location": "Maracaibo, Venezuela",
+    "startDate": "2020-01",
+    "endDate": "2023-12",
+    "achievements": [
+      "Desarrollé más de 25 proyectos web y móviles para clientes en USA y Europa",
+      "Creé sistema de diseño utilizado en 15+ proyectos, reduciendo tiempo de development en un 40%",
+      "Implementé metodologías ágiles adaptadas para equipos pequeños, incrementando productividad un 30%"
+    ],
+    "techStack": ["React", "React Native", "Node.js", "PostgreSQL", "MongoDB", "Figma"]
+  },
+  {
+    "id": "urbem",
+    "company": "Urbem Solutions",
+    "companyUrl": "https://urbemsolutions.com",
+    "role": "Frontend Developer",
+    "location": "Maracaibo, Venezuela",
+    "startDate": "2018-06",
+    "endDate": "2019-12",
+    "achievements": [
+      "Desarrollé dashboard administrativo utilizado por 50+ clientes empresariales",
+      "Implementé componentes reutilizables que redujeron codebase en un 25%",
+      "Optimicé rendimiento de carga de 4.2s a 1.8s, mejorando UX significativamente"
+    ],
+    "techStack": ["Vue.js", "JavaScript", "SASS", "Chart.js", "Firebase"]
+  }
+]

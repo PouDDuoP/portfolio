@@ -1,0 +1,25 @@
+{
+  "name": "Kevin",
+  "surname": "Paredes",
+  "fullName": "Kevin Paredes",
+  "title": "Full Stack Developer & UX/UI Designer",
+  "tagline": "Creando experiencias digitales que conectan tecnología y humanidad",
+  "email": "kevinparedes.dev@gmail.com",
+  "location": "Maracaibo, Venezuela",
+  "phone": "+58 412-456-7890",
+  "avatar": "/images/profile.jpg",
+  "social": {
+    "github": "https://github.com/PouDDuoP",
+    "linkedin": "https://linkedin.com/in/kevinparedes",
+    "twitter": "https://x.com/kevinparedes",
+    "bluesky": "https://bsky.app/profile/kevinparedes.bsky.social"
+  },
+  "availability": "Disponible para proyectos freelance",
+  "bio": "Desarrollador full stack con más de 5 años de experiencia creando soluciones digitales. Mi background en diseño UX/UI me permite entender no solo el código, sino la experiencia del usuario. Creo que la mejor tecnología es aquella que pasa desapercibida porque simplemente funciona.",
+  "values": [
+    "Calidad sobre cantidad",
+    "Simplicidad sobre complejidad",
+    "El usuario siempre tiene la razón",
+    "El código debe ser tan elegante como la interfaz"
+  ]
+}

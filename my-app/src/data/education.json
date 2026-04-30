@@ -1,0 +1,52 @@
+[
+  {
+    "id": " platzi-react-avanzado",
+    "institution": "Platzi",
+    "institutionUrl": "https://platzi.com",
+    "degree": "Carrera de React Intermediate y Avanzado",
+    "startDate": "2023",
+    "endDate": "2023",
+    "description": "Patrones avanzados de React, performance optimization, testing y arquitecturas escalables.",
+    "verified": true
+  },
+  {
+    "id": "platzi-pwa",
+    "institution": "Platzi",
+    "institutionUrl": "https://platzi.com",
+    "degree": "Desarrollo de Progressive Web Apps",
+    "startDate": "2022",
+    "endDate": "2022",
+    "description": "Service workers, web app manifest, estrategias de cache y offline-first.",
+    "verified": true
+  },
+  {
+    "id": "platzi-javascript",
+    "institution": "Platzi",
+    "institutionUrl": "https://platzi.com",
+    "degree": "Carrera de JavaScript Completa",
+    "startDate": "2020",
+    "endDate": "2021",
+    "description": "Desde fundamentos hasta async/await, ES6+, DOM y proyectos prácticos.",
+    "verified": true
+  },
+  {
+    "id": "udemy-react-native",
+    "institution": "Udemy",
+    "institutionUrl": "https://udemy.com",
+    "degree": "React Native: Create Zero to App",
+    "startDate": "2021",
+    "endDate": "2021",
+    "description": "Desarrollo de apps móviles cross-platform con React Native y Expo.",
+    "verified": true
+  },
+  {
+    "id": "free-code-camp",
+    "institution": "freeCodeCamp",
+    "institutionUrl": "https://freecodecamp.org",
+    "degree": "Responsive Web Design Certification",
+    "startDate": "2019",
+    "endDate": "2019",
+    "description": "HTML5, CSS3, diseño responsive, flexbox, grid y accesibilidad.",
+    "verified": true
+  }
+]

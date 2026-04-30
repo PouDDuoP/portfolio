@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ecommerce-platform",
+    "title": "Plataforma E-commerce",
+    "description": "Plataforma de comercio electrónico completa con panel de administración, procesamiento de pagos y gestión de inventario en tiempo real.",
+    "challenge": "Crear una experiencia de compra fluida que incrementara las conversiones mientras maneja inventario complejo de múltiples proveedores.",
+    "result": "Incremento del 45% en conversiones y reducción del 60% en carritos abandonados.",
+    "techStack": ["React", "Node.js", "PostgreSQL", "Stripe", "Redis"],
+    "image": "/images/projects/ecommerce.png",
+    "github": "https://github.com/PouDDuoP/ecommerce-platform",
+    "demo": "https://demo-ecommerce.example.com",
+    "featured": true
+  },
+  {
+    "id": "taskflow",
+    "title": "TaskFlow - Gestor de Proyectos",
+    "description": "Aplicación web para gestión de proyectos ágiles con tableros Kanban, timeline interactivo y reportes en tiempo real.",
+    "challenge": "Diseñar una interfaz que simplificara la complejidad de la gestión de proyectos sin perder funcionalidad.",
+    "result": "Adopción del 90% por los equipos en el primer mes, decremento del 35% en tiempo dedicado a administración.",
+    "techStack": ["React", "TypeScript", "Firebase", "TailwindCSS", "Framer Motion"],
+    "image": "/images/projects/taskflow.png",
+    "github": "https://github.com/PouDDuoP/taskflow",
+    "demo": "https://taskflow.example.com",
+    "featured": true
+  },
+  {
+    "id": "crypto-dashboard",
+    "title": "CryptoDashboard",
+    "description": "Dashboard de análisis de criptomonedas con gráficos interactivos, alertas personalizadas y portafolio tracking.",
+    "challenge": "Visualizar datos financieros complejos de manera intuitiva y en tiempo real.",
+    "result": "Más de 10,000 usuarios activos, featured en Product Hunt con 450+ upvotes.",
+    "techStack": ["React", "D3.js", "WebSocket", "CoinGecko API", "Chart.js"],
+    "image": "/images/projects/crypto.png",
+    "github": "https://github.com/PouDDuoP/crypto-dashboard",
+    "demo": "https://crypto.example.com",
+    "featured": true
+  },
+  {
+    "id": "foodie-app",
+    "title": "Foodie - Delivery App",
+    "description": "Aplicación móvil de delivery de comida con geolocalización,chat en tiempo real y sistema de recomendaciones.",
+    "challenge": "Crear una experiencia de pedido fluida en condiciones de conectividad variable.",
+    "result": "4.8 estrellas en stores, 85% de pedidos completados exitosamente en primera intención.",
+    "techStack": ["React Native", "Expo", "Socket.io", "MongoDB", "AWS"],
+    "image": "/images/projects/foodie.png",
+    "github": "https://github.com/PouDDuoP/foodie-app",
+    "demo": "",
+    "featured": false
+  },
+  {
+    "id": "health-tracker",
+    "title": "Health Tracker",
+    "description": "Aplicación PWA para seguimiento de salud y hábitos con dashboards personalizados y analytics.",
+    "challenge": "Motivar a usuarios a mantener hábitos saludables a través de gamificación y feedback inmediato.",
+    "result": "Retención del 70% después de 30 días, promedio de 4.5 sesiones por semana.",
+    "techStack": ["React", "PWA", "LocalStorage", "Chart.js", "Workbox"],
+    "image": "/images/projects/health.png",
+    "github": "https://github.com/PouDDuoP/health-tracker",
+    "demo": "https://health.example.com",
+    "featured": false
+  },
+  {
+    "id": "chat-app",
+    "title": "RealChat",
+    "description": "Aplicación de chat en tiempo real con salas privadas, compartir archivos y sincronización multi-dispositivo.",
+    "challenge": "Mantener conversaciones en tiempo real con baja latencia y soporte offline.",
+    "result": "Latencia promedio de 120ms, soporte para hasta 500 usuarios simultáneos por sala.",
+    "techStack": ["React", "Socket.io", "Node.js", "MongoDB", "WebRTC"],
+    "image": "/images/projects/chat.png",
+    "github": "https://github.com/PouDDuoP/realchat",
+    "demo": "",
+    "featured": false
+  }
+]
