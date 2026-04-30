@@ -17,7 +17,7 @@ const categoryTranslations = {
   'Back-end': { es: 'Back-end', en: 'Back-end' },
   'Front-end': { es: 'Front-end', en: 'Front-end' },
   'Bases de Datos': { es: 'Bases de Datos', en: 'Databases' },
-  'Herrramientas': { es: 'Herrramientas', en: 'Tools' },
+  'Tools': { es: 'Herramientas', en: 'Tools' },
   'Idiomas': { es: 'Idiomas', en: 'Languages' },
   'Habilidades Blandas': { es: 'Habilidades Blandas', en: 'Soft Skills' }
 };
@@ -50,7 +50,10 @@ export default function Skills() {
                       <div className="skills__item-header">
                         <span className="skills__item-name">{skill.name}</span>
                         <div className="skills__item-meta">
-                          <span className="skills__item-years">{skill.years}</span>
+                           <span className="skills__item-years">
+                             {lang === 'es' ? skill.years : 
+                               skill.years.replace('años', 'years').replace('año', 'year').replace('meses', 'months')}
+                           </span>
                           {skill.type && (
                             <span className={`skills__item-type skills__item-type--${skill.type}`}>
                               {skill.type === 'personal' 
@@ -85,13 +88,16 @@ export default function Skills() {
               {skills.soft
                 .filter(s => s.name === 'Español' || s.name === 'Inglés')
                 .map((skill, index) => (
-                  <span 
-                    key={index} 
-                    className="skills__tag"
-                    style={{ '--delay': `${index * 0.05}s` }}
-                  >
-                    {skill.name}: {skill.level}
-                  </span>
+                  <span
+                     key={index}
+                     className="skills__tag"
+                     style={{ '--delay': `${index * 0.05}s` }}
+                   >
+                     {skill.name}: {lang === 'es' ? skill.level :
+                       skill.level === 'Nativo' ? 'Native' :
+                       skill.level === 'Avanzado' ? 'Advanced' :
+                       skill.level === 'Intermedio' ? 'Intermediate' : skill.level}
+                   </span>
                 ))}
             </div>
           </div>
@@ -101,19 +107,22 @@ export default function Skills() {
             <h3 className="skills__category-title">
               {lang === 'es' ? 'Habilidades Blandas' : 'Soft Skills'}
             </h3>
-            <div className="skills__tags">
-              {skills.soft
-                .filter(s => s.name !== 'Español' && s.name !== 'Inglés')
-                .map((skill, index) => (
-                  <span 
-                    key={index} 
-                    className="skills__tag"
-                    style={{ '--delay': `${index * 0.05}s` }}
-                  >
-                    {skill.name}: {skill.level}
-                  </span>
-                ))}
-            </div>
+              <div className="skills__tags">
+                {skills.soft
+                  .filter(s => s.name !== 'Español' && s.name !== 'Inglés')
+                  .map((skill, index) => (
+                    <span 
+                      key={index} 
+                      className="skills__tag"
+                      style={{ '--delay': `${index * 0.05}s` }}
+                    >
+                      {skill.name}: {lang === 'es' ? skill.level : 
+                        skill.level === 'Avanzado' ? 'Advanced' :
+                        skill.level === 'Intermedio' ? 'Intermediate' :
+                        skill.level === 'Nativo' ? 'Native' : skill.level}
+                    </span>
+                  ))}
+              </div>
           </div>
         </div>
       </div>
