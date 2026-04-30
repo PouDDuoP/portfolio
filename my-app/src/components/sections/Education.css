@@ -95,13 +95,15 @@
 
 .education__institution {
   font-size: 0.875rem;
-  color: var(--color-text-secondary);
-  text-decoration: none;
+  color: #2563eb; /* Azul tradicional para hipervínculos */
+  text-decoration: underline;
+  text-decoration-color: rgba(37, 99, 235, 0.4);
+  transition: all var(--transition-fast);
 }
 
 .education__institution:hover {
-  color: var(--color-primary);
-  text-decoration: underline;
+  color: #1d4ed8;
+  text-decoration-color: #1d4ed8;
 }
 
 .education__description {
