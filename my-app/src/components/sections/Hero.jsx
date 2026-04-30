@@ -71,13 +71,13 @@ export default function Hero() {
             <div className="hero__stat">
               <span className="hero__stat-number">6</span>
               <span className="hero__stat-label">
-                {lang === 'es' ? 'Proyectos completados' : 'Projects completed'}
+                {lang === 'es' ? 'Proyectos' : 'Projects'}
               </span>
             </div>
             <div className="hero__stat">
-              <span className="hero__stat-number">1</span>
+              <span className="hero__stat-number">2</span>
               <span className="hero__stat-label">
-                {lang === 'es' ? 'Empresa' : 'Company'}
+                {lang === 'es' ? 'Clientes / Empresas' : 'Clients / Companies'}
               </span>
             </div>
           </div>
