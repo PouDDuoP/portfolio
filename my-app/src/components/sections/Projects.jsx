@@ -16,26 +16,26 @@ export default function Projects() {
   });
   
   return (
-    <Section id="projects" title="Proyectos" subtitle="Trabajos realizados">
+    <Section id="projects" title={lang === 'es' ? 'Proyectos' : 'Projects'} subtitle={lang === 'es' ? 'Trabajos realizados' : 'Work done'}>
       <div className="projects__controls">
         <div className="projects__filters">
           <button 
             className={`projects__filter ${activeFilter === 'all' ? 'projects__filter--active' : ''}`}
             onClick={() => setActiveFilter('all')}
           >
-            Todos
+            {lang === 'es' ? 'Todos' : 'All'}
           </button>
           <button 
             className={`projects__filter ${activeFilter === 'personal' ? 'projects__filter--active' : ''}`}
             onClick={() => setActiveFilter('personal')}
           >
-            Personales
+            {lang === 'es' ? 'Personales' : 'Personal'}
           </button>
           <button 
             className={`projects__filter ${activeFilter === 'laboral' ? 'projects__filter--active' : ''}`}
             onClick={() => setActiveFilter('laboral')}
           >
-            Laborales
+            {lang === 'es' ? 'Laborales' : 'Professional'}
           </button>
         </div>
       </div>
