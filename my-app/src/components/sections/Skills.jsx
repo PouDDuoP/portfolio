@@ -49,7 +49,16 @@ export default function Skills() {
                     >
                       <div className="skills__item-header">
                         <span className="skills__item-name">{skill.name}</span>
-                        <span className="skills__item-years">{skill.years}</span>
+                        <div className="skills__item-meta">
+                          <span className="skills__item-years">{skill.years}</span>
+                          {skill.type && (
+                            <span className={`skills__item-type skills__item-type--${skill.type}`}>
+                              {skill.type === 'personal' 
+                                ? (lang === 'es' ? 'Ámbito Personal' : 'Personal Scope') 
+                                : (lang === 'es' ? 'Ámbito Laboral' : 'Work Scope')}
+                            </span>
+                          )}
+                        </div>
                       </div>
                       <div className="skills__bar">
                         <div 

@@ -3,40 +3,40 @@
     {
       "name": "Back-end",
       "skills": [
-        { "name": "Node.js", "years": "1+ año" },
-        { "name": "Express", "years": "1+ año" },
-        { "name": "Python", "years": "2+ años" },
-        { "name": "Django", "years": "1+ año" },
-        { "name": "PHP", "years": "5+ años" },
-        { "name": "ASP", "years": "5+ años" }
+        { "name": "Node.js", "years": "1+ año", "type": "personal" },
+        { "name": "Express", "years": "1+ año", "type": "personal" },
+        { "name": "Python", "years": "2+ años", "type": "laboral" },
+        { "name": "Django", "years": "1+ año", "type": "laboral" },
+        { "name": "PHP", "years": "5+ años", "type": "laboral" },
+        { "name": "ASP", "years": "5+ años", "type": "laboral" }
       ]
     },
     {
       "name": "Front-end",
       "skills": [
-        { "name": "JavaScript", "years": "5+ años" },
-        { "name": "jQuery", "years": "5+ años" },
-        { "name": "Bootstrap", "years": "5+ años" },
-        { "name": "CSS", "years": "5+ años" },
-        { "name": "HTML", "years": "5+ años" }
+        { "name": "JavaScript", "years": "5+ años", "type": "laboral" },
+        { "name": "jQuery", "years": "5+ años", "type": "laboral" },
+        { "name": "Bootstrap", "years": "5+ años", "type": "laboral" },
+        { "name": "CSS", "years": "5+ años", "type": "laboral" },
+        { "name": "HTML", "years": "5+ años", "type": "laboral" }
       ]
     },
     {
       "name": "Bases de Datos",
       "skills": [
-        { "name": "SQL Server", "years": "5+ años" },
-        { "name": "Oracle", "years": "5+ años" },
-        { "name": "PostgreSQL", "years": "5+ años" },
-        { "name": "MySQL", "years": "2+ años" }
+        { "name": "SQL Server", "years": "5+ años", "type": "laboral" },
+        { "name": "Oracle", "years": "5+ años", "type": "laboral" },
+        { "name": "PostgreSQL", "years": "5+ años", "type": "personal" },
+        { "name": "MySQL", "years": "2+ años", "type": "personal" }
       ]
     },
     {
       "name": "Herramientas",
       "skills": [
-        { "name": "Git", "years": "3+ años" },
-        { "name": "SourceTree", "years": "2+ años" },
-        { "name": "Jira", "years": "2+ años" },
-        { "name": "Docker", "years": "6+ meses" }
+        { "name": "Git", "years": "3+ años", "type": "laboral" },
+        { "name": "SourceTree", "years": "2+ años", "type": "laboral" },
+        { "name": "Jira", "years": "2+ años", "type": "laboral" },
+        { "name": "Docker", "years": "6+ meses", "type": "laboral" }
       ]
     }
   ],

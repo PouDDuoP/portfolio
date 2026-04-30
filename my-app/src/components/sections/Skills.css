@@ -56,10 +56,43 @@
   align-items: center;
 }
 
+.skills__item-name-wrapper {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+}
+
 .skills__item-name {
   font-size: 0.9375rem;
   font-weight: 500;
   color: var(--color-text);
+}
+
+.skills__item-type {
+  font-family: var(--font-mono);
+  font-size: 0.625rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  padding: 2px 6px;
+  border-radius: var(--radius-sm);
+  font-weight: 600;
+}
+
+.skills__item-meta {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+  flex-wrap: wrap;
+}
+
+.skills__item-type--personal {
+  background: rgba(251, 191, 36, 0.2);
+  color: var(--color-accent); /* Dorado */
+}
+
+.skills__item-type--laboral {
+  background: rgba(34, 211, 238, 0.2);
+  color: var(--color-primary); /* Azul Cyan */
 }
 
 .skills__item-years {
