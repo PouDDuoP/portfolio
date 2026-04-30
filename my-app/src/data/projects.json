@@ -11,7 +11,7 @@
     "result": "Reducción de requerimientos de reportes en al menos un 90%, eliminación de registros manuales en Excel",
     "result_en": "Report requirements reduced by at least 90%, elimination of manual Excel records",
     "techStack": ["ASP Classic", "VBScript", "PHP", "Git", "Bootstrap 3", "jQuery", "JavaScript", "HTML5", "CSS", "SQL Server"],
-    "image": "/images/projects/qualitas.png",
+    "image": "",
     "github": "",
     "demo": "",
     "featured": true
@@ -28,7 +28,7 @@
     "result": "Página más cómoda para navegar en dispositivos móviles, eliminación de errores de información",
     "result_en": "More comfortable page for navigating on mobile devices, elimination of information errors",
     "techStack": ["PHP", "Bootstrap 3", "jQuery", "JavaScript", "HTML5", "CSS", "Oracle Database"],
-    "image": "/images/projects/globalmate.png",
+    "image": "",
     "github": "",
     "demo": "",
     "featured": true
@@ -45,7 +45,7 @@
     "result": "Interacción exitosa de clientes y agentes, conexión de base de datos existente mediante InspectDB",
     "result_en": "Successful interaction of clients and agents, existing database connection via InspectDB",
     "techStack": ["Python", "Django", "Git", "Bootstrap 3", "jQuery", "JavaScript", "HTML5", "CSS", "Oracle Database", "Docker"],
-    "image": "/images/projects/mankind.png",
+    "image": "",
     "github": "",
     "demo": "",
     "featured": true
@@ -62,7 +62,7 @@
     "result": "Bases sólidas de programación, primer contacto con desarrollo de software",
     "result_en": "Solid programming foundations, first contact with software development",
     "techStack": ["C++"],
-    "image": "/images/projects/inventario.png",
+    "image": "",
     "github": "",
     "demo": "",
     "featured": false
@@ -79,7 +79,7 @@
     "result": "Aprendizaje completo de desarrollo web con PHP y PostgreSQL",
     "result_en": "Complete learning of web development with PHP and PostgreSQL",
     "techStack": ["PHP", "JavaScript", "PostgreSQL", "HTML5", "CSS3", "MVC"],
-    "image": "/images/projects/buzon.png",
+    "image": "",
     "github": "",
     "demo": "",
     "featured": false
@@ -96,7 +96,7 @@
     "result": "Canal para informar sobre averías, mayor conocimiento de frontend con Bootstrap",
     "result_en": "Channel to report breakdowns, greater frontend knowledge with Bootstrap",
     "techStack": ["PHP", "JavaScript", "PostgreSQL", "HTML5", "CSS3", "Bootstrap 3", "jQuery", "MVC"],
-    "image": "/images/projects/incidencias.png",
+    "image": "",
     "github": "",
     "demo": "",
     "featured": false
