@@ -13,13 +13,6 @@ export default function About() {
       subtitle={lang === 'es' ? 'Conoce mi historia' : 'Discover my story'}
     >
       <div className="about">
-        <div className="about__image">
-          <div className="about__image-wrapper">
-            <img src={profile.avatar} alt={profile.fullName} loading="lazy" />
-          </div>
-          <div className="about__image-decoration"></div>
-        </div>
-        
         <div className="about__content">
           <p className="about__bio">
             {lang === 'es' ? profile.bio : profile.bio_en}
