@@ -113,5 +113,13 @@
 @media (max-width: 768px) {
   .about__info {
     grid-template-columns: 1fr;
+    gap: var(--space-md);
+  }
+  
+  .about__info-item {
+    padding: var(--space-sm);
+    background: var(--color-surface);
+    border-radius: var(--radius-sm);
+    border: 1px solid var(--color-border);
   }
 }
