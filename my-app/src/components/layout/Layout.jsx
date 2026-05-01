@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import Header from './Header';
 import Footer from './Footer';
+import BackToTop from '../common/BackToTop';
 import './Layout.css';
 
 export default function Layout({ children }) {
@@ -22,6 +23,7 @@ export default function Layout({ children }) {
         {children}
       </main>
       <Footer />
+      <BackToTop />
     </div>
   );
 }
