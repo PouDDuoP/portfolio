@@ -102,6 +102,10 @@ Caracas, Venezuela
 - Context API para gestión de idioma (ES/EN)
 - Traducción dinámica completa (ES/EN)
 - Desplegado en Vercel
+- Optimización LCP (Code Splitting con React.lazy)
+- Accesibilidad WCAG 2.0 AA (contraste verificado)
+- Carga optimizada de fuentes (preconnect + preload)
+- Imagen de perfil en WebP (mejor compresión)
 
 ## 📁️ Estructura del Proyecto
 
@@ -109,7 +113,7 @@ Caracas, Venezuela
 my-app/
 ├── public/
 │   └── images/
-│       ├── profile.jpg
+│       ├── profile.webp    # Imagen de perfil optimizada (WebP)
 │       └── projects/
 ├── src/
 │   ├── components/
@@ -124,17 +128,27 @@ my-app/
 │   │   ├── skills.json
 │   │   └── education.json
 │   └── styles/           # variables.css, reset.css, global.css
-└── index.html
+├── index.html            # Optimizado: preconnect + preload para fuentes
+└── vercel.json          # Configuración de despliegue
 ```
 
 ## 🚀 Scripts Disponibles
 
 ```bash
-npm run dev      # Servidor de desarrollo
-npm run build    # Build de producción
+npm run dev      # Servidor de desarrollo (http://localhost:5173)
+npm run build    # Build de producción optimizado (code splitting)
 npm run preview  # Previsualizar build
 npm run lint     # Linter
 ```
+
+## 🚀 Optimizaciones de Rendimiento
+
+- **LCP Optimizado**: Code splitting con `React.lazy()` - El bundle se divide en chunks bajo demanda
+- **Fuentes optimizadas**: Preconexión temprana a Google Fonts + precarga no bloqueante
+- **Accesibilidad**: Contraste WCAG 2.0 AA verificado (contraste > 4.5:1)
+- **Imagenes**: Perfil convertido a WebP para mejor compresión
+- **Vercel**: Despliegue automático con configuración optimizada
+- **0 errores críticos** en PageSpeed Insights y Accesibility Checker
 
 ## 📄 Licencia
 
