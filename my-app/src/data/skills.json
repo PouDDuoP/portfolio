@@ -41,12 +41,12 @@
     }
   ],
   "soft": [
-    { "name": "Español", "level": "Nativo" },
-    { "name": "Inglés", "level": "B1" },
-    { "name": "Resolución de problemas", "level": "Avanzado" },
-    { "name": "Comunicación", "level": "Avanzado" },
-    { "name": "Trabajo en equipo", "level": "Intermedio" },
-    { "name": "Gestión de tiempo", "level": "Intermedio" },
-    { "name": "Adaptabilidad", "level": "Avanzado" }
+    { "name": "Español", "name_en": "Spanish", "level": "Nativo" },
+    { "name": "Inglés", "name_en": "English", "level": "B1" },
+    { "name": "Resolución de problemas", "name_en": "Problem Solving", "level": "Avanzado" },
+    { "name": "Comunicación", "name_en": "Communication", "level": "Avanzado" },
+    { "name": "Trabajo en equipo", "name_en": "Teamwork", "level": "Intermedio" },
+    { "name": "Gestión de tiempo", "name_en": "Time Management", "level": "Intermedio" },
+    { "name": "Adaptabilidad", "name_en": "Adaptability", "level": "Avanzado" }
   ]
 }
