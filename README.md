@@ -160,4 +160,4 @@ MIT
 Desarrollador web versátil con más de 5 años de experiencia en la industria  
 Disponible para proyectos
 
-🌐 **Live Demo**: [kevin-alvarado-dev.vercel.app](https://kevin-alvarado-dev.vercel.app)
+🌐 **Live Demo**: [kevin-alvarado.vercel.app](https://kevin-alvarado.vercel.app)
