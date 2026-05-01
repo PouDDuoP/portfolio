@@ -162,20 +162,20 @@
 
 .hero__avatar-wrapper {
   position: relative;
-  width: 350px;
-  height: 350px;
+  width: 300px;
+  height: 300px;
 }
 
 .hero__avatar-ring {
   position: absolute;
-  top: -20px;
-  left: -20px;
-  right: -20px;
-  bottom: -20px;
+  top: -15px;
+  left: -15px;
+  right: -15px;
+  bottom: -15px;
   border: 2px solid var(--color-primary);
   border-radius: var(--radius-lg);
-  opacity: 0.3;
-  animation: ringRotate 10s linear infinite;
+  opacity: 0.2;
+  animation: ringRotate 15s linear infinite;
 }
 
 .hero__avatar-ring::before {
@@ -201,13 +201,15 @@
   border-radius: var(--radius-lg);
   overflow: hidden;
   background: var(--color-bg-secondary);
-  border: 3px solid var(--color-border);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
 }
 
 .hero__avatar img {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  object-position: center top;
+  filter: contrast(1.05) brightness(1.02);
 }
 
 .hero__scroll {
@@ -256,8 +258,8 @@
   }
   
   .hero__avatar-wrapper {
-    width: 250px;
-    height: 250px;
+    width: 220px;
+    height: 220px;
   }
   
   .hero__actions {

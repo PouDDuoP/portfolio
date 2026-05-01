@@ -90,7 +90,8 @@ export default function Hero() {
               <img 
                   src={profile.avatar} 
                   alt={`${profile.fullName} - ${profile.title}`}
-                  loading="eager"
+                  loading="lazy"
+                  fetchPriority="high"
                 />
             </div>
           </div>
