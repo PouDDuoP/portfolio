@@ -92,12 +92,14 @@ export default function Skills() {
                      key={index}
                      className="skills__tag"
                      style={{ '--delay': `${index * 0.05}s` }}
-                   >
-                     {skill.name}: {lang === 'es' ? skill.level :
-                       skill.level === 'Nativo' ? 'Native' :
-                       skill.level === 'Avanzado' ? 'Advanced' :
-                       skill.level === 'Intermedio' ? 'Intermediate' : skill.level}
-                   </span>
+                    >
+                      {lang === 'es' ? skill.name : (skill.name_en || skill.name)}: {
+                        lang === 'es' ? skill.level :
+                          skill.level === 'Nativo' ? 'Native' :
+                          skill.level === 'Avanzado' ? 'Advanced' :
+                          skill.level === 'Intermedio' ? 'Intermediate' : skill.level
+                      }
+                    </span>
                 ))}
             </div>
           </div>
@@ -116,10 +118,12 @@ export default function Skills() {
                       className="skills__tag"
                       style={{ '--delay': `${index * 0.05}s` }}
                     >
-                      {skill.name}: {lang === 'es' ? skill.level : 
-                        skill.level === 'Avanzado' ? 'Advanced' :
-                        skill.level === 'Intermedio' ? 'Intermediate' :
-                        skill.level === 'Nativo' ? 'Native' : skill.level}
+                      {lang === 'es' ? skill.name : (skill.name_en || skill.name)}: {
+                        lang === 'es' ? skill.level :
+                          skill.level === 'Avanzado' ? 'Advanced' :
+                          skill.level === 'Intermedio' ? 'Intermediate' :
+                          skill.level === 'Nativo' ? 'Native' : skill.level
+                      }
                     </span>
                   ))}
               </div>
