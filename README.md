@@ -18,6 +18,9 @@ Portafolio personal de Kevin Alvarado, Desarrollador Web con más de 5 años de 
 - Bootstrap (5+ años)
 - CSS (5+ años)
 - HTML (5+ años)
+- Angular (6+ meses)
+- Tailwind CSS (6+ meses)
+- Flutter (6+ meses)
 
 ### Bases de Datos
 - SQL Server (5+ años)
@@ -30,6 +33,7 @@ Portafolio personal de Kevin Alvarado, Desarrollador Web con más de 5 años de 
 - SourceTree (2+ años)
 - Jira (2+ años)
 - Docker (6+ meses)
+- OpenCode (2+ meses)
 
 ## 📁️ Proyectos
 
@@ -50,6 +54,8 @@ Portafolio personal de Kevin Alvarado, Desarrollador Web con más de 5 años de 
 1. **Sistema de Control de Inventario** - C++
 2. **Sistema de Buzón para Reporte de Incidencias** - PHP, JavaScript, PostgreSQL, HTML5, CSS3, MVC
 3. **Sistema de Control de Incidencias** - PHP, JavaScript, PostgreSQL, HTML5, CSS3, Bootstrap 3, jQuery, MVC
+4. **Stability - Desarrollo Front-end** (Colaboración externa) - Flutter, Dart, BLoC, GetIt, Dio
+5. **My Store** (Personal) - Node.js, Express, PostgreSQL, Angular, TypeScript, Tailwind CSS
 
 ## 💼 Experiencia
 
@@ -86,11 +92,12 @@ Caracas, Venezuela
 - Inglés (B1)
 
 ## 📬 Contacto
-- Email: kevinalvarado.ag@gmail.com
+- Email: kevinalvarado.ag@gmail.com (botón de copia disponible)
 - Teléfono: +58 414 2321163
 - GitHub: [@PouDDuoP](https://github.com/PouDDuoP)
 - LinkedIn: [/in/kevin-alvarado-graterol](https://linkedin.com/in/kevin-alvarado-graterol)
 - Ubicación: Caracas, Venezuela
+- **CV disponible**: [Descargar PDF](https://kevin-alvarado.vercel.app/CV-KevinAlvarado-2026.pdf)
 
 ## 🚀 Stack Técnico del Portafolio
 
@@ -106,6 +113,20 @@ Caracas, Venezuela
 - Accesibilidad WCAG 2.0 AA (contraste verificado)
 - Carga optimizada de fuentes (preconnect + preload)
 - Imagen de perfil en WebP (mejor compresión)
+
+## ✨ Nuevas Funcionalidades (2026)
+
+### Botón de Copia de Email
+- Implementado en la sección de Contacto
+- Permite copiar el email al portapapeles con un solo clic
+- Usa Clipboard API con fallback para navegadores antiguos
+- Feedback visual: "¡Copiado!" / "Copied!" por 2 segundos
+
+### Descarga de CV
+- Botón de descarga directa del CV actualizado (2026)
+- Archivo: `CV-KevinAlvarado-2026.pdf`
+- Visible en la sección Hero para fácil acceso de reclutadores
+- Traducciones: "Descargar CV" / "Download CV"
 
 ## 📁️ Estructura del Proyecto
 
