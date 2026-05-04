@@ -31,6 +31,9 @@
   --container-padding: 1.5rem;
   --section-padding: 6rem;
   --section-padding-mobile: 4rem;
+  --breakpoint-sm: 480px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 1024px;
   
   /* Spacing */
   --space-xs: 0.25rem;
