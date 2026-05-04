@@ -18,11 +18,14 @@
         { "name": "jQuery", "years": "5+ años", "type": "laboral" },
         { "name": "Bootstrap", "years": "5+ años", "type": "laboral" },
         { "name": "CSS", "years": "5+ años", "type": "laboral" },
-        { "name": "HTML", "years": "5+ años", "type": "laboral" }
-      ]
-    },
-    {
-      "name": "Bases de Datos",
+        { "name": "HTML", "years": "5+ años", "type": "laboral" },
+        { "name": "Angular", "years": "6+ meses", "type": "personal" },
+        { "name": "Tailwind CSS", "years": "6+ meses", "type": "personal" },
+        { "name": "Flutter", "years": "6+ meses", "type": "laboral" }
+       ]
+     },
+     {
+       "name": "Bases de Datos",
       "skills": [
         { "name": "SQL Server", "years": "5+ años", "type": "laboral" },
         { "name": "Oracle", "years": "5+ años", "type": "laboral" },
@@ -36,10 +39,11 @@
         { "name": "Git", "years": "3+ años", "type": "laboral" },
         { "name": "SourceTree", "years": "2+ años", "type": "laboral" },
         { "name": "Jira", "years": "2+ años", "type": "laboral" },
-        { "name": "Docker", "years": "6+ meses", "type": "laboral" }
-      ]
-    }
-  ],
+        { "name": "Docker", "years": "6+ meses", "type": "laboral" },
+        { "name": "OpenCode", "years": "2+ meses", "type": "personal" }
+       ]
+     }
+   ],
   "soft": [
     { "name": "Español", "name_en": "Spanish", "level": "Nativo" },
     { "name": "Inglés", "name_en": "English", "level": "B1" },
