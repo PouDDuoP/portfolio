@@ -99,6 +99,40 @@
     "image": "",
     "github": "",
     "demo": "",
-    "featured": false
-  }
-]
+      "featured": false
+    },
+    {
+      "id": "stability",
+      "type": "laboral",
+      "title": "Stability - Desarrollo Front-end",
+      "title_en": "Stability - Front-end Development",
+      "description": "Front-end de Stability desarrollado con Flutter, Dart y BLoC siguiendo Clean Architecture.",
+      "description_en": "Stability Front-end developed with Flutter, Dart and BLoC following Clean Architecture.",
+      "challenge": "Aplicar Clean Architecture con BLoC para escalabilidad y mantenibilidad en Flutter",
+      "challenge_en": "Apply Clean Architecture with BLoC for scalability and maintainability in Flutter",
+      "result": "Sistema completo de gestión de clases con autenticación, reservas, perfiles y localización en español",
+      "result_en": "Complete class management system with authentication, reservations, profiles, and Spanish localization",
+      "techStack": ["Flutter", "Dart", "BLoC", "GetIt", "Dio", "Shared Preferences", "Table Calendar", "Image Picker", "Flutter SVG", "Pin Code Fields", "Intl", "Animations"],
+      "image": "",
+      "github": "",
+      "demo": "",
+      "featured": true
+    },
+    {
+      "id": "my-store",
+      "type": "personal",
+      "title": "Desarrollo de My Store",
+      "title_en": "My Store Development",
+      "description": "Aplicación Full-stack con back-end en Node.js/Express/PostgreSQL y front-end en Angular/Tailwind CSS. Incluye API REST documentada, autenticación JWT, carrito de compras y panel de administración.",
+      "description_en": "Full-stack application with Node.js/Express/PostgreSQL back-end and Angular/Tailwind CSS front-end. Includes documented REST API, JWT authentication, shopping cart, and admin panel.",
+      "challenge": "Desarrollar una aplicación completa con arquitectura por capas y dominios, aplicando metodología SDD y persistencia con Engram",
+      "challenge_en": "Develop a complete application with layered and domain architecture, applying SDD methodology and Engram persistence",
+      "result": "API REST completa con documentación Swagger, SPA con i18n, pruebas unitarias con Jest, y despliegue con Docker",
+      "result_en": "Complete REST API with Swagger documentation, SPA with i18n, unit tests with Jest, and Docker deployment",
+      "techStack": ["Node.js", "Express.js", "JWT", "Passport", "Bcrypt", "Joi", "Swagger", "Sequelize ORM", "PostgreSQL", "Docker Compose", "Nodemailer", "Jest", "Angular", "TypeScript", "Tailwind CSS", "RxJS", "Signals", "SSR", "i18n"],
+      "image": "",
+      "github": "",
+      "demo": "",
+      "featured": true
+    }
+  ]
