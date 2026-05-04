@@ -53,13 +53,16 @@ export default function Hero() {
           </p>
           
           <div className="hero__actions">
-            <Button href="#projects" variant="primary" size="large">
-              {lang === 'es' ? 'Ver proyectos' : 'View projects'}
-            </Button>
-            <Button href="#contact" variant="secondary" size="large">
-              {lang === 'es' ? 'Contactar' : 'Contact'}
-            </Button>
-          </div>
+             <Button href="#projects" variant="primary" size="large">
+               {lang === 'es' ? 'Ver proyectos' : 'View projects'}
+             </Button>
+             <Button href="#contact" variant="secondary" size="large">
+               {lang === 'es' ? 'Contactar' : 'Contact'}
+             </Button>
+             <Button href="/CV-KevinAlvarado-2026.pdf" download variant="secondary" size="large">
+               {lang === 'es' ? 'Descargar CV' : 'Download CV'}
+             </Button>
+           </div>
           
           <div className="hero__stats">
             <div className="hero__stat">
@@ -68,12 +71,12 @@ export default function Hero() {
                 {lang === 'es' ? 'Años de experiencia' : 'Years of experience'}
               </span>
             </div>
-            <div className="hero__stat">
-              <span className="hero__stat-number">6</span>
-              <span className="hero__stat-label">
-                {lang === 'es' ? 'Proyectos' : 'Projects'}
-              </span>
-            </div>
+             <div className="hero__stat">
+               <span className="hero__stat-number">8</span>
+               <span className="hero__stat-label">
+                 {lang === 'es' ? 'Proyectos' : 'Projects'}
+               </span>
+             </div>
             <div className="hero__stat">
               <span className="hero__stat-number">2</span>
               <span className="hero__stat-label">

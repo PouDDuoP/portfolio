@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import profile from '../../data/profile.json';
 import { useLanguage } from '../../context/LanguageContext';
 import Section from '../common/Section';
@@ -6,8 +7,35 @@ import './Contact.css';
 
 export default function Contact() {
   const { lang } = useLanguage();
+  const [copied, setCopied] = useState(false);
+
   const handleEmail = () => {
     window.location.href = `mailto:${profile.email}`;
+  };
+
+  const copyEmail = async () => {
+    try {
+      await navigator.clipboard.writeText(profile.email);
+      setCopied(true);
+      setTimeout(() => setCopied(false), 2000);
+    } catch {
+      // Fallback for older browsers
+      const textArea = document.createElement('textarea');
+      textArea.value = profile.email;
+      textArea.style.position = 'fixed';
+      textArea.style.opacity = '0';
+      document.body.appendChild(textArea);
+      textArea.focus();
+      textArea.select();
+      try {
+        document.execCommand('copy');
+        setCopied(true);
+        setTimeout(() => setCopied(false), 2000);
+      } catch {
+        // Silently fail
+      }
+      document.body.removeChild(textArea);
+    }
   };
   
   return (
@@ -31,21 +59,34 @@ export default function Contact() {
         </div>
         
         <div className="contact__cards">
-          <a href={`mailto:${profile.email}`} className="contact__card">
-             <div className="contact__card-icon">
-               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden="true">
-                 <path d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
-               </svg>
-             </div>
-             <div className="contact__card-content">
-               <span className="contact__card-label">
-                 {lang === 'es' ? 'Email' : 'Email'}
-               </span>
-               <span className="contact__card-value">
-                 {profile.email}
-               </span>
-             </div>
-           </a>
+          <div className="contact__card">
+              <a href={`mailto:${profile.email}`} className="contact__card-link">
+                <div className="contact__card-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden="true">
+                    <path d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
+                  </svg>
+                </div>
+                <div className="contact__card-content">
+                  <span className="contact__card-label">
+                    {lang === 'es' ? 'Email' : 'Email'}
+                  </span>
+                  <span className="contact__card-value">
+                    {profile.email}
+                  </span>
+                </div>
+              </a>
+              <button
+                className="contact__copy-btn"
+                onClick={copyEmail}
+                aria-label={lang === 'es' ? 'Copiar email' : 'Copy email'}
+                title={lang === 'es' ? 'Copiar email' : 'Copy email'}
+              >
+                {copied
+                  ? (lang === 'es' ? '¡Copiado!' : 'Copied!')
+                  : (lang === 'es' ? 'Copiar' : 'Copy')
+                }
+              </button>
+            </div>
           
           <a href={profile.social.github} target="_blank" rel="noopener noreferrer" className="contact__card">
              <div className="contact__card-icon">
