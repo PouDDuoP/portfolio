@@ -5,6 +5,7 @@ import './Skills.css';
 
 // Función para convertir años a porcentaje de barra
 const getWidthPercent = (years) => {
+  if (years.includes('2+ meses')) return 5;
   if (years.includes('6+ meses')) return 10;
   if (years.includes('1+ año')) return 20;
   if (years.includes('2+ años')) return 40;
