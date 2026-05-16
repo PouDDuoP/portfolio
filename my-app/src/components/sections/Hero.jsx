@@ -1,12 +1,12 @@
 import { useEffect, useRef } from 'react';
 import profile from '../../data/profile.json';
-import { useLanguage } from '../../context/LanguageContext';
+import { useT } from '../../i18n';
 import Button from '../common/Button';
 import './Hero.css';
 
 export default function Hero() {
   const heroRef = useRef(null);
-  const { lang } = useLanguage();
+  const { t } = useT();
   
   useEffect(() => {
     const observer = new IntersectionObserver(
@@ -37,30 +37,30 @@ export default function Hero() {
       <div className="hero__container">
         <div className="hero__content">
           <span className="hero__badge">
-            {lang === 'es' ? profile.availability : profile.availability_en}
+            {t('profile.availability')}
           </span>
           
           <h1 className="hero__title">
-            {lang === 'es' ? 'Hola, soy' : 'Hello, I\'m'} <span className="hero__name">{profile.name}</span>
+            {t('hero.greeting')} <span className="hero__name">{profile.name}</span>
           </h1>
           
           <p className="hero__subtitle">
-            {lang === 'es' ? profile.title : profile.title_en}
+            {t('profile.title')}
           </p>
           
           <p className="hero__tagline">
-            {lang === 'es' ? profile.tagline : profile.tagline_en}
+            {t('profile.tagline')}
           </p>
           
           <div className="hero__actions">
              <Button href="#projects" variant="primary" size="large">
-               {lang === 'es' ? 'Ver proyectos' : 'View projects'}
+               {t('hero.viewProjects')}
              </Button>
              <Button href="#contact" variant="secondary" size="large">
-               {lang === 'es' ? 'Contactar' : 'Contact'}
+               {t('hero.contact')}
              </Button>
              <Button href="/CV-KevinAlvarado-2026.pdf" download variant="secondary" size="large">
-               {lang === 'es' ? 'Descargar CV' : 'Download CV'}
+               {t('hero.downloadCv')}
              </Button>
            </div>
           
@@ -68,19 +68,19 @@ export default function Hero() {
             <div className="hero__stat">
               <span className="hero__stat-number">5+</span>
               <span className="hero__stat-label">
-                {lang === 'es' ? 'Años de experiencia' : 'Years of experience'}
+                {t('hero.yearsExperience')}
               </span>
             </div>
              <div className="hero__stat">
                <span className="hero__stat-number">8</span>
                <span className="hero__stat-label">
-                 {lang === 'es' ? 'Proyectos' : 'Projects'}
+                 {t('hero.projects')}
                </span>
              </div>
             <div className="hero__stat">
               <span className="hero__stat-number">2</span>
               <span className="hero__stat-label">
-                {lang === 'es' ? 'Clientes / Empresas' : 'Clients / Companies'}
+                {t('hero.clients')}
               </span>
             </div>
           </div>
@@ -100,7 +100,7 @@ export default function Hero() {
         </div>
       </div>
       
-      <a href="#about" className="hero__scroll" aria-label={lang === 'es' ? 'Desplazarse hacia abajo' : 'Scroll down'}>
+      <a href="#about" className="hero__scroll" aria-label={t('hero.scrollDown')}>
         <span></span>
       </a>
     </section>

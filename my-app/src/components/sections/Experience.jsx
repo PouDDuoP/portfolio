@@ -1,25 +1,23 @@
 import experience from '../../data/experience.json';
-import { useLanguage } from '../../context/LanguageContext';
+import { useT } from '../../i18n';
 import Section from '../common/Section';
 import './Experience.css';
 
 export default function Experience() {
-  const { lang } = useLanguage();
+  const { t } = useT();
   
   const formatDate = (date) => {
-    if (date === 'actual') return lang === 'es' ? 'Actual' : 'Present';
+    if (date === 'actual') return t('experience.present');
     const [year, month] = date.split('-');
-    const monthNamesEs = ['Ene', 'Feb', 'Mar', 'Abr', 'May', 'Jun', 'Jul', 'Ago', 'Sep', 'Oct', 'Nov', 'Dic'];
-    const monthNamesEn = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
-    const monthNames = lang === 'es' ? monthNamesEs : monthNamesEn;
+    const monthNames = ['Ene', 'Feb', 'Mar', 'Abr', 'May', 'Jun', 'Jul', 'Ago', 'Sep', 'Oct', 'Nov', 'Dic'];
     return `${monthNames[parseInt(month) - 1]} ${year}`;
   };
   
   return (
     <Section 
       id="experience" 
-      title={lang === 'es' ? 'Experiencia' : 'Experience'} 
-      subtitle={lang === 'es' ? 'Mi trayectoria' : 'My journey'}
+      title={t('experience.title')} 
+      subtitle={t('experience.subtitle')}
     >
       <div className="experience__timeline">
         {experience.map((job, index) => (
@@ -41,7 +39,7 @@ export default function Experience() {
                     rel="noopener noreferrer"
                     className="experience__company"
                   >
-                    {lang === 'es' ? job.company : job.company_en}
+                    {t('experience.' + job.id + '.company')}
                     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden="true">
                       <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6M15 3h6v6M10 14L21 3"/>
                     </svg>
@@ -49,21 +47,21 @@ export default function Experience() {
                 )}
                 {!job.companyUrl && (
                   <span className="experience__company">
-                    {lang === 'es' ? job.company : job.company_en}
+                    {t('experience.' + job.id + '.company')}
                   </span>
                 )}
               </div>
               
               <h3 className="experience__role">
-                {lang === 'es' ? job.role : job.role_en}
+                {t('experience.' + job.id + '.role')}
               </h3>
               <span className="experience__location">
-                {lang === 'es' ? job.location : job.location_en}
+                {t('experience.' + job.id + '.location')}
               </span>
               
               <ul className="experience__achievements">
-                {(lang === 'es' ? job.achievements : job.achievements_en).map((achievement, i) => (
-                  <li key={i}>{achievement}</li>
+                {job.achievements.map((_, i) => (
+                  <li key={i}>{t('experience.' + job.id + '.achievements.' + i)}</li>
                 ))}
               </ul>
               
