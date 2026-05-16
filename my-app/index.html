@@ -7,6 +7,15 @@
     <meta name="description" content="Kevin Alvarado - Desarrollador Web. Desarrollador web versatil con mas de 5 anos de experiencia en la industria." />
     <meta name="author" content="Kevin Alvarado" />
     <meta name="theme-color" content="#0a0a0b" />
+    <script>
+      (function() {
+        try {
+          var theme = localStorage.getItem('portfolio-theme');
+          if (!theme) theme = 'dark';
+          document.documentElement.dataset.theme = theme;
+        } catch(e) {}
+      })();
+    </script>
     
     <!-- Preconnect to Google Fonts domains -->
     <link rel="preconnect" href="https://fonts.googleapis.com">

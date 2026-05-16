@@ -1,13 +1,31 @@
-import { createContext, useContext, useState, useCallback } from 'react';
+import { createContext, useContext, useState, useCallback, useEffect } from 'react';
 
 const LanguageContext = createContext();
 
+function getInitialLang() {
+  try {
+    return localStorage.getItem('portfolio-lang') || 'es';
+  } catch {
+    return 'es';
+  }
+}
+
 export function LanguageProvider({ children }) {
-  const [lang, setLang] = useState('es');
-  
+  const [lang, setLang] = useState(getInitialLang);
+
   const toggleLang = useCallback(() => {
-    setLang(prev => prev === 'es' ? 'en' : 'es');
+    setLang(prev => {
+      const next = prev === 'es' ? 'en' : 'es';
+      try {
+        localStorage.setItem('portfolio-lang', next);
+      } catch {}
+      return next;
+    });
   }, []);
+
+  useEffect(() => {
+    document.documentElement.lang = lang;
+  }, [lang]);
   
   return (
     <LanguageContext.Provider value={{ lang, toggleLang }}>

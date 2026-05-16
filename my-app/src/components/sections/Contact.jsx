@@ -1,12 +1,12 @@
 import { useState } from 'react';
 import profile from '../../data/profile.json';
-import { useLanguage } from '../../context/LanguageContext';
+import { useT } from '../../i18n';
 import Section from '../common/Section';
 import Button from '../common/Button';
 import './Contact.css';
 
 export default function Contact() {
-  const { lang } = useLanguage();
+  const { t } = useT();
   const [copied, setCopied] = useState(false);
 
   const handleEmail = () => {
@@ -41,20 +41,16 @@ export default function Contact() {
   return (
     <Section 
       id="contact" 
-      title={lang === 'es' ? 'Contacto' : 'Contact'} 
-      subtitle={lang === 'es' ? 'Hablemos' : 'Let\'s talk'}
+      title={t('contact.title')} 
+      subtitle={t('contact.subtitle')}
     >
       <div className="contact">
         <div className="contact__intro">
           <h3 className="contact__title">
-            {lang === 'es' ? profile.tagline : profile.tagline_en}
+            {t('profile.tagline')}
           </h3>
           <p className="contact__text">
-            {lang === 'es' ? 'Actualmente estoy' : 'I am currently'} <strong>{lang === 'es' ? profile.availability.toLowerCase() : profile.availability_en.toLowerCase()}</strong>. 
-            {lang === 'es' 
-              ? 'Si tienes un proyecto en mente o simplemente quieres charlar sobre tecnología, no dudes en contactarme.'
-              : 'If you have a project in mind or just want to chat about technology, don\'t hesitate to reach out.'
-            }
+            {t('contact.currently')} <strong>{t('profile.availability').toLowerCase()}</strong>. {t('contact.cta')}
           </p>
         </div>
         
@@ -68,7 +64,7 @@ export default function Contact() {
                 </div>
                 <div className="contact__card-content">
                   <span className="contact__card-label">
-                    {lang === 'es' ? 'Email' : 'Email'}
+                    {t('contact.email')}
                   </span>
                   <span className="contact__card-value">
                     {profile.email}
@@ -78,12 +74,12 @@ export default function Contact() {
               <button
                 className="contact__copy-btn"
                 onClick={copyEmail}
-                aria-label={lang === 'es' ? 'Copiar email' : 'Copy email'}
-                title={lang === 'es' ? 'Copiar email' : 'Copy email'}
+                aria-label={t('contact.copyEmail')}
+                title={t('contact.copyEmail')}
               >
                 {copied
-                  ? (lang === 'es' ? '¡Copiado!' : 'Copied!')
-                  : (lang === 'es' ? 'Copiar' : 'Copy')
+                  ? t('contact.copied')
+                  : t('contact.copy')
                 }
               </button>
             </div>
@@ -96,7 +92,7 @@ export default function Contact() {
              </div>
              <div className="contact__card-content">
                <span className="contact__card-label">
-                 {lang === 'es' ? 'GitHub' : 'GitHub'}
+                 {t('contact.github')}
                </span>
                <span className="contact__card-value">
                  @PouDDuoP
@@ -112,7 +108,7 @@ export default function Contact() {
              </div>
              <div className="contact__card-content">
                <span className="contact__card-label">
-                 {lang === 'es' ? 'LinkedIn' : 'LinkedIn'}
+                 {t('contact.linkedin')}
                </span>
                <span className="contact__card-value">
                  /in/kevin-alvarado-graterol
@@ -123,7 +119,7 @@ export default function Contact() {
         
         <div className="contact__cta">
           <Button onClick={handleEmail} variant="primary" size="large">
-            {lang === 'es' ? 'Enviar Email' : 'Send Email'}
+            {t('contact.sendEmail')}
           </Button>
         </div>
       </div>
