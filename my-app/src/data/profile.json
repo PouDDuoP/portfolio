@@ -2,11 +2,8 @@
   "name": "Kevin",
   "surname": "Alvarado",
   "fullName": "Kevin Alvarado",
-  "fullName_en": "Kevin Alvarado",
   "title": "Desarrollador Web",
-  "title_en": "Web Developer",
   "tagline": "Desarrollador web versátil con más de 5 años de experiencia en la industria",
-  "tagline_en": "Versatile web developer with over 5 years of industry experience",
   "email": "kevinalvarado.ag@gmail.com",
   "location": "Caracas, Venezuela",
   "phone": "+58 414 2321163",
@@ -16,14 +13,12 @@
     "linkedin": "https://linkedin.com/in/kevin-alvarado-graterol"
   },
   "availability": "Disponible para proyectos",
-  "availability_en": "Available for projects",
-  "bio": "Desarrollador web versátil con más de 5 años de experiencia en la industria, especializado en soluciones back-end (PHP, ASP, Python, NodeJS) y front-end (JavaScript, Bootstrap). Experiencia probada en el diseño, desarrollo y optimización de aplicaciones escalables, gestión de bases de datos y consumo de APIs. Apasionado por la mejora continua y la resolución de problemas para entregar soluciones innovadoras",  
-  "bio_en": "Versatile web developer with over 5 years of industry experience, specialized in back-end solutions (PHP, ASP, Python, NodeJS) and front-end (JavaScript, Bootstrap). Proven experience in design, development and optimization of scalable applications. Passionate about continuous improvement and problem-solving to deliver innovative solutions.",
+  "bio": "Desarrollador web versátil con más de 5 años de experiencia en la industria, especializado en soluciones back-end (PHP, ASP, Python, NodeJS) y front-end (JavaScript, Bootstrap). Experiencia probada en el diseño, desarrollo y optimización de aplicaciones escalables, gestión de bases de datos y consumo de APIs. Apasionado por la mejora continua y la resolución de problemas para entregar soluciones innovadoras",
   "values": [
-    { "es": "Calidad sobre cantidad", "en": "Quality over quantity" },
-    { "es": "Simplicidad sobre complejidad", "en": "Simplicity over complexity" },
-    { "es": "El código debe ser tan elegante como la interfaz", "en": "Code should be as elegant as the interface" },
-    { "es": "Siempre dispuesto a colaborar", "en": "Always willing to collaborate" },
-    { "es": "La honestidad es una prioridad", "en": "Honesty is a priority" }
+    "Calidad sobre cantidad",
+    "Simplicidad sobre complejidad",
+    "El código debe ser tan elegante como la interfaz",
+    "Siempre dispuesto a colaborar",
+    "La honestidad es una prioridad"
   ]
 }
