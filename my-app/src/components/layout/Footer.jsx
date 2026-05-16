@@ -1,9 +1,9 @@
 import profile from '../../data/profile.json';
-import { useLanguage } from '../../context/LanguageContext';
+import { useT } from '../../i18n';
 import './Footer.css';
 
 export default function Footer() {
-  const { lang } = useLanguage();
+  const { t } = useT();
   const currentYear = new Date().getFullYear();
   
   return (
@@ -11,8 +11,8 @@ export default function Footer() {
       <div className="footer__container">
         <div className="footer__content">
            <div className="footer__brand">
-            <span className="footer__logo">{lang === 'es' ? profile.fullName : profile.fullName_en}</span>
-            <p className="footer__tagline">{lang === 'es' ? profile.tagline : profile.tagline_en}</p>
+            <span className="footer__logo">{t('profile.fullName')}</span>
+            <p className="footer__tagline">{t('profile.tagline')}</p>
           </div>
           
           <div className="footer__links">
@@ -31,7 +31,7 @@ export default function Footer() {
         
         <div className="footer__bottom">
           <p className="footer__copyright">
-            © {currentYear} {lang === 'es' ? profile.fullName : profile.fullName_en}. {lang === 'es' ? profile.availability : profile.availability_en}.
+            © {currentYear} {t('profile.fullName')}. {t('profile.availability')}.
           </p>
         </div>
       </div>

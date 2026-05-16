@@ -1,10 +1,10 @@
 import { useState, useEffect } from 'react';
-import { useLanguage } from '../../context/LanguageContext';
+import { useT } from '../../i18n';
 import './BackToTop.css';
 
 export default function BackToTop() {
   const [visible, setVisible] = useState(false);
-  const { lang } = useLanguage();
+  const { t } = useT();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -21,7 +21,7 @@ export default function BackToTop() {
 
   if (!visible) return null;
 
-  const label = lang === 'es' ? 'Volver arriba' : 'Back to top';
+  const label = t('common.backToTop');
 
   return (
     <button

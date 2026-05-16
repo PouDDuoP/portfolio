@@ -1,7 +1,24 @@
+import { memo } from 'react';
 import skills from '../../data/skills.json';
-import { useLanguage } from '../../context/LanguageContext';
+import { useT } from '../../i18n';
 import Section from '../common/Section';
 import './Skills.css';
+
+const softNameKeyMap = {
+  'Español': 'Spanish',
+  'Inglés': 'English',
+  'Resolución de problemas': 'ProblemSolving',
+  'Comunicación': 'Communication',
+  'Trabajo en equipo': 'Teamwork',
+  'Gestión de tiempo': 'TimeManagement',
+  'Adaptabilidad': 'Adaptability'
+};
+
+const levelKeyMap = {
+  'Nativo': 'native',
+  'Avanzado': 'advanced',
+  'Intermedio': 'intermediate'
+};
 
 // Función para convertir años a porcentaje de barra
 const getWidthPercent = (years) => {
@@ -14,30 +31,21 @@ const getWidthPercent = (years) => {
   return 50; // default
 };
 
-const categoryTranslations = {
-  'Back-end': { es: 'Back-end', en: 'Back-end' },
-  'Front-end': { es: 'Front-end', en: 'Front-end' },
-  'Bases de Datos': { es: 'Bases de Datos', en: 'Databases' },
-  'Tools': { es: 'Herramientas', en: 'Tools' },
-  'Idiomas': { es: 'Idiomas', en: 'Languages' },
-  'Habilidades Blandas': { es: 'Habilidades Blandas', en: 'Soft Skills' }
-};
-
-export default function Skills() {
-  const { lang } = useLanguage();
+const Skills = memo(function Skills() {
+  const { t } = useT();
   
   return (
     <Section 
       id="skills" 
-      title={lang === 'es' ? 'Habilidades' : 'Skills'} 
-      subtitle={lang === 'es' ? 'Tecnologías que domino' : 'Technologies I master'}
+      title={t('skills.title')} 
+      subtitle={t('skills.subtitle')}
     >
       <div className="skills">
         <div className="skills__grid">
           {skills.categories.map((category, catIndex) => (
             <div key={catIndex} className="skills__category">
               <h3 className="skills__category-title">
-                {categoryTranslations[category.name]?.[lang] || category.name}
+                {t('skills.categories.' + category.name)}
               </h3>
               <div className="skills__list">
                 {category.skills.map((skill, index) => {
@@ -52,14 +60,13 @@ export default function Skills() {
                         <span className="skills__item-name">{skill.name}</span>
                         <div className="skills__item-meta">
                            <span className="skills__item-years">
-                             {lang === 'es' ? skill.years : 
-                               skill.years.replace('años', 'years').replace('año', 'year').replace('meses', 'months')}
+                             {t('skills.years.' + skill.years)}
                            </span>
                           {skill.type && (
                             <span className={`skills__item-type skills__item-type--${skill.type}`}>
                               {skill.type === 'personal' 
-                                ? (lang === 'es' ? 'Ámbito Personal' : 'Personal Scope') 
-                                : (lang === 'es' ? 'Ámbito Laboral' : 'Work Scope')}
+                                ? t('skills.type.personal')
+                                : t('skills.type.laboral')}
                             </span>
                           )}
                         </div>
@@ -83,7 +90,7 @@ export default function Skills() {
           {/* Idiomas */}
           <div className="skills__category skills__category--soft">
             <h3 className="skills__category-title">
-              {lang === 'es' ? 'Idiomas' : 'Languages'}
+              {t('skills.languages')}
             </h3>
             <div className="skills__tags">
               {skills.soft
@@ -94,11 +101,8 @@ export default function Skills() {
                      className="skills__tag"
                      style={{ '--delay': `${index * 0.05}s` }}
                     >
-                      {lang === 'es' ? skill.name : (skill.name_en || skill.name)}: {
-                        lang === 'es' ? skill.level :
-                          skill.level === 'Nativo' ? 'Native' :
-                          skill.level === 'Avanzado' ? 'Advanced' :
-                          skill.level === 'Intermedio' ? 'Intermediate' : skill.level
+                      {t('skills.soft.' + (softNameKeyMap[skill.name] || skill.name))}: {
+                        t('skills.level.' + (levelKeyMap[skill.level] || skill.level))
                       }
                     </span>
                 ))}
@@ -108,7 +112,7 @@ export default function Skills() {
           {/* Habilidades Blandas */}
           <div className="skills__category skills__category--soft">
             <h3 className="skills__category-title">
-              {lang === 'es' ? 'Habilidades Blandas' : 'Soft Skills'}
+              {t('skills.softSkills')}
             </h3>
               <div className="skills__tags">
                 {skills.soft
@@ -119,11 +123,8 @@ export default function Skills() {
                       className="skills__tag"
                       style={{ '--delay': `${index * 0.05}s` }}
                     >
-                      {lang === 'es' ? skill.name : (skill.name_en || skill.name)}: {
-                        lang === 'es' ? skill.level :
-                          skill.level === 'Avanzado' ? 'Advanced' :
-                          skill.level === 'Intermedio' ? 'Intermediate' :
-                          skill.level === 'Nativo' ? 'Native' : skill.level
+                      {t('skills.soft.' + (softNameKeyMap[skill.name] || skill.name))}: {
+                        t('skills.level.' + (levelKeyMap[skill.level] || skill.level))
                       }
                     </span>
                   ))}
@@ -133,4 +134,6 @@ export default function Skills() {
       </div>
     </Section>
   );
-}
+});
+
+export default Skills;
