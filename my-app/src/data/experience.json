@@ -2,12 +2,9 @@
   {
     "id": "humanitas-qualitas",
     "company": "Humanitas Administradora de Riesgos / Qualitas Assistance",
-    "company_en": "Humanitas Risk Administrator / Qualitas Assistance",
     "companyUrl": "",
     "role": "Especialista Web",
-    "role_en": "Web Specialist",
     "location": "Caracas, Venezuela",
-    "location_en": "Caracas, Venezuela",
     "startDate": "2017-01",
     "endDate": "2024-12",
     "achievements": [
@@ -18,15 +15,6 @@
       "Gestioné y optimicé bases de datos relacionales (SQL Server, Oracle, PostgreSQL, MySQL)",
       "Proporcioné mantenimiento y soporte crítico a páginas web afiliadas",
       "Entrenamiento de nuevos desarrolladores en el funcionamiento de Qualitas Assistance"
-    ],
-    "achievements_en": [
-      "Designed and developed software solutions using MVC and MVT patterns, improving main system scalability",
-      "Refactored and debugged existing code, improving application performance and maintainability",
-      "Process optimization",
-      "Managed integration and consumption of APIs and Web Services (REST/SOAP), ensuring JSON data exchange",
-      "Managed and optimized relational databases (SQL Server, Oracle, PostgreSQL, MySQL)",
-      "Provided critical maintenance and support for affiliate websites",
-      "Trained new developers on Qualitas Assistance operations and workflow"
     ],
     "techStack": ["ASP Classic", "VBScript", "PHP", "Git", "Bootstrap 3", "jQuery", "JavaScript", "HTML5", "CSS", "SQL Server"]
   }

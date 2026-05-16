@@ -1,16 +1,16 @@
 import education from '../../data/education.json';
-import { useLanguage } from '../../context/LanguageContext';
+import { useT } from '../../i18n';
 import Section from '../common/Section';
 import './Education.css';
 
 export default function Education() {
-  const { lang } = useLanguage();
+  const { t } = useT();
   
   return (
     <Section 
       id="education" 
-      title={lang === 'es' ? 'Educación' : 'Education'} 
-      subtitle={lang === 'es' ? 'Formación continua' : 'Continuous learning'}
+      title={t('education.title')} 
+      subtitle={t('education.subtitle')}
     >
       <div className="education__grid">
         {education.map((cert, index) => (
@@ -26,16 +26,18 @@ export default function Education() {
               <div className="education__header">
                 <span className="education__year">{cert.startDate} — {cert.endDate}</span>
                 {cert.verified && (
-                  <span className="education__verified" aria-label={lang === 'es' ? 'Certificado verificado' : 'Verified certificate'}>
+                  <span className="education__verified" aria-label={t('education.verifiedLabel')}>
                     <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
                       <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
                     </svg>
-                    {lang === 'es' ? 'Verificado' : 'Verified'}
+                    {t('education.verified')}
                   </span>
                 )}
               </div>
               
-              <h3 className="education__degree">{cert.degree}</h3>
+              <h3 className="education__degree">
+                {t('education.' + cert.id + '.degree')}
+              </h3>
               
               <a 
                 href={cert.institutionUrl} 
@@ -43,11 +45,11 @@ export default function Education() {
                 rel="noopener noreferrer"
                 className="education__institution"
               >
-                {lang === 'es' ? cert.institution : cert.institution_en}
+                {t('education.' + cert.id + '.institution')}
               </a>
               
               <p className="education__description">
-                {lang === 'es' ? cert.description : cert.description_en}
+                {t('education.' + cert.id + '.description')}
               </p>
             </div>
           </div>
