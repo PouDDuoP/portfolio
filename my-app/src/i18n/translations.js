@@ -41,6 +41,7 @@ const translations = {
   'skills.type.personal': { es: 'Ámbito Personal', en: 'Personal Scope' },
   'skills.type.laboral': { es: 'Ámbito Laboral', en: 'Work Scope' },
   'skills.level.native': { es: 'Nativo', en: 'Native' },
+  'skills.level.B1': { es: 'B1', en: 'B1' },
   'skills.level.advanced': { es: 'Avanzado', en: 'Advanced' },
   'skills.level.intermediate': { es: 'Intermedio', en: 'Intermediate' },
 
