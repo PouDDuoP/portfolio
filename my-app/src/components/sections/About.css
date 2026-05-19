@@ -12,7 +12,14 @@
 }
 
 .about__bio {
-  font-size: 1.125rem;
+  padding: var(--space-xl);
+  background: var(--color-surface);
+  border-radius: var(--radius-md);
+  border: 1px solid var(--color-border);
+}
+
+.about__bio-text {
+  font-size: 1rem;
   line-height: 1.8;
   color: var(--color-text-secondary);
   margin: 0;
@@ -97,7 +104,7 @@
     max-width: 200px;
   }
   
-  .about__bio {
+  .about__bio-text {
     text-align: left;
   }
   
