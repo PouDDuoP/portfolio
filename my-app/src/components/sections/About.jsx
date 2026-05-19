@@ -14,10 +14,12 @@ export default function About() {
     >
       <div className="about">
         <div className="about__content">
-          <p className="about__bio">
-            {t('profile.bio')}
-          </p>
-          
+          <div className="about__bio">
+            <p className="about__bio-text">
+              {t('profile.bio')}
+            </p>
+          </div>
+
           <div className="about__values">
             <h3 className="about__values-title">
               {t('about.values')}
