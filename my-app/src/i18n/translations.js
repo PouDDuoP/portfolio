@@ -110,15 +110,15 @@ const translations = {
 
   // Profile data
   'profile.fullName': { es: 'Kevin Alvarado', en: 'Kevin Alvarado' },
-  'profile.title': { es: 'Desarrollador Web', en: 'Web Developer' },
+  'profile.title': { es: 'Desarrollador Full Stack', en: 'Full Stack Developer' },
   'profile.tagline': {
-    es: 'Desarrollador web versátil con más de 5 años de experiencia en la industria',
-    en: 'Versatile web developer with over 5 years of industry experience'
+    es: 'Desarrollador full stack versátil con más de 5 años de experiencia en la industria',
+    en: 'Versatile full stack developer with over 5 years of industry experience'
   },
   'profile.availability': { es: 'Disponible para proyectos', en: 'Available for projects' },
   'profile.bio': {
-    es: 'Desarrollador web versátil con más de 5 años de experiencia en la industria, especializado en soluciones back-end (PHP, ASP, Python, NodeJS) y front-end (JavaScript, Bootstrap). Experiencia probada en el diseño, desarrollo y optimización de aplicaciones escalables, gestión de bases de datos y consumo de APIs. Apasionado por la mejora continua y la resolución de problemas para entregar soluciones innovadoras',
-    en: 'Versatile web developer with over 5 years of industry experience, specialized in back-end solutions (PHP, ASP, Python, NodeJS) and front-end (JavaScript, Bootstrap). Proven experience in design, development and optimization of scalable applications. Passionate about continuous improvement and problem-solving to deliver innovative solutions.'
+    es: 'Desarrollador Web Full-Stack con más de 5 años de experiencia en la industria, especializado en el diseño, desarrollo y optimización de aplicaciones escalables, gestión de bases de datos y consumo de APIs. Mi trayectoria se define por un fuerte compromiso con la mejora constante y el aprendizaje continuo, lo que me permite adoptar rápidamente metodologías avanzadas, integrar nuevas herramientas tecnológicas y optimizar flujos de trabajo con agilidad. Apasionado por la resolución de problemas complejos y la entrega de soluciones innovadoras que aporten valor real al negocio.',
+    en: 'Full-Stack Web Developer with over 5 years of industry experience, specialized in the design, development, and optimization of scalable applications, database management, and API consumption. My career is defined by a strong commitment to constant improvement and continuous learning, which allows me to quickly adopt advanced methodologies, integrate new technological tools, and optimize workflows with agility. Passionate about solving complex problems and delivering innovative solutions that bring real value to the business.'
   },
 
   // Profile values
