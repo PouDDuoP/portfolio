@@ -4,6 +4,7 @@ const translations = {
   'nav.skills': { es: 'Habilidades', en: 'Skills' },
   'nav.projects': { es: 'Proyectos', en: 'Projects' },
   'nav.experience': { es: 'Experiencia', en: 'Experience' },
+  'nav.education': { es: 'Educación', en: 'Education' },
   'nav.contact': { es: 'Contacto', en: 'Contact' },
   'nav.menuOpen': { es: 'Abrir menú de navegación', en: 'Toggle navigation' },
   'nav.switchLang': { es: 'Switch to English', en: 'Cambiar a Español' },
