@@ -1,8 +1,0 @@
-allowBuilds:
-  msgpackr-extract: false
-
-packages:
-  - '**'
-
-minimumReleaseAge: 3 days
-trustPolicy: no-downgrade
