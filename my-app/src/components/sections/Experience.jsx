@@ -1,5 +1,5 @@
 import experience from '../../data/experience.json';
-import { useT } from '../../i18n';
+import { useT } from '../../i18n/useTranslation';
 import Section from '../common/Section';
 import './Experience.css';
 
@@ -30,7 +30,7 @@ export default function Experience() {
             <div className="experience__content">
               <div className="experience__header">
                 <div className="experience__date">
-                  {formatDate(job.startDate)} — {formatDate(job.endDate)}
+                  {formatDate(job.startDate)} - {formatDate(job.endDate)}
                 </div>
                 {job.companyUrl && (
                   <a 
@@ -60,14 +60,14 @@ export default function Experience() {
               </span>
               
               <ul className="experience__achievements">
-                {job.achievements.map((_, i) => (
-                  <li key={i}>{t('experience.' + job.id + '.achievements.' + i)}</li>
+                  {job.achievements.map((achievement, idx) => (
+                  <li key={achievement}>{t('experience.' + job.id + '.achievements.' + idx)}</li>
                 ))}
               </ul>
               
               <div className="experience__stack">
-                {job.techStack.map((tech, i) => (
-                  <span key={i} className="experience__tech">{tech}</span>
+                {job.techStack.map((tech) => (
+                  <span key={tech} className="experience__tech">{tech}</span>
                 ))}
               </div>
             </div>

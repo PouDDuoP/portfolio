@@ -13,7 +13,7 @@ export function useT() {
 
     // Simple interpolation: replace {{key}} with value
     for (const [k, v] of Object.entries(params)) {
-      text = text.replace(new RegExp(`\\{\\{${k}\\}\\}`, 'g'), v);
+      text = text.replaceAll(`{{${k}}}`, v);
     }
 
     return text;
