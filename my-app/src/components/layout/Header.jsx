@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { useT } from '../../i18n';
+import { useT } from '../../i18n/useTranslation';
 import { useTheme } from '../../context/ThemeContext';
 import './Header.css';
 
@@ -20,7 +20,7 @@ export default function Header({ scrolled }) {
   return (
     <header className={`header ${scrolled ? 'header--scrolled' : ''}`}>
       <div className="header__container">
-        <a href="#" className="header__logo">
+        <a href="#hero" className="header__logo">
           <span className="header__logo-text">KA</span>
           <span className="header__logo-dot"></span>
         </a>
@@ -40,6 +40,7 @@ export default function Header({ scrolled }) {
         
         <div className="header__actions">
           <button
+            type="button"
             className="header__theme-toggle"
             onClick={toggleTheme}
             aria-label={theme === 'dark' ? t('theme.toggleLight') : t('theme.toggleDark')}
@@ -56,6 +57,7 @@ export default function Header({ scrolled }) {
             )}
           </button>
           <button 
+            type="button"
             className="header__lang-toggle"
             onClick={toggleLang}
             aria-label={t('nav.switchLang')}
@@ -64,6 +66,7 @@ export default function Header({ scrolled }) {
           </button>
           
           <button 
+            type="button"
             className={`header__menu-btn ${menuOpen ? 'active' : ''}`}
             onClick={() => setMenuOpen(!menuOpen)}
             aria-label={t('nav.menuOpen')}

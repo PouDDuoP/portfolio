@@ -1,5 +1,5 @@
 import profile from '../../data/profile.json';
-import { useT } from '../../i18n';
+import { useT } from '../../i18n/useTranslation';
 import Section from '../common/Section';
 import './About.css';
 
@@ -25,8 +25,8 @@ export default function About() {
               {t('about.values')}
             </h3>
             <ul className="about__values-list">
-              {profile.values.map((value, index) => (
-                <li key={index} className="about__value">
+              {profile.values.map((value) => (
+                <li key={value} className="about__value">
                   <span className="about__value-icon">→</span>
                   {t('profile.values.' + index)}
                 </li>

@@ -1,4 +1,4 @@
-import { createContext, useContext, useState, useCallback, useEffect } from 'react';
+import { createContext, use, useState, useCallback, useEffect, useMemo } from 'react';
 
 const LanguageContext = createContext();
 
@@ -27,15 +27,17 @@ export function LanguageProvider({ children }) {
     document.documentElement.lang = lang;
   }, [lang]);
   
+  const value = useMemo(() => ({ lang, toggleLang }), [lang, toggleLang]);
+
   return (
-    <LanguageContext.Provider value={{ lang, toggleLang }}>
+    <LanguageContext.Provider value={value}>
       {children}
     </LanguageContext.Provider>
   );
 }
 
 export function useLanguage() {
-  const context = useContext(LanguageContext);
+  const context = use(LanguageContext);
   if (!context) {
     throw new Error('useLanguage must be used within a LanguageProvider');
   }
