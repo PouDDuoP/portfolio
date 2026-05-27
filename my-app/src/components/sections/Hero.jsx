@@ -1,6 +1,6 @@
 import { useEffect, useRef } from 'react';
 import profile from '../../data/profile.json';
-import { useT } from '../../i18n';
+import { useT } from '../../i18n/useTranslation';
 import Button from '../common/Button';
 import './Hero.css';
 

@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import profile from '../../data/profile.json';
-import { useT } from '../../i18n';
+import { useT } from '../../i18n/useTranslation';
 import Section from '../common/Section';
 import Button from '../common/Button';
 import './Contact.css';
@@ -72,6 +72,7 @@ export default function Contact() {
                 </div>
               </a>
               <button
+                type="button"
                 className="contact__copy-btn"
                 onClick={copyEmail}
                 aria-label={t('contact.copyEmail')}

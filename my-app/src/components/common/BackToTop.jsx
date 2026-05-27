@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { useT } from '../../i18n';
+import { useT } from '../../i18n/useTranslation';
 import './BackToTop.css';
 
 export default function BackToTop() {
@@ -25,6 +25,7 @@ export default function BackToTop() {
 
   return (
     <button
+      type="button"
       className="back-to-top"
       onClick={scrollToTop}
       aria-label={label}

@@ -1,6 +1,6 @@
 import { memo } from 'react';
 import skills from '../../data/skills.json';
-import { useT } from '../../i18n';
+import { useT } from '../../i18n/useTranslation';
 import Section from '../common/Section';
 import './Skills.css';
 
@@ -43,7 +43,7 @@ const Skills = memo(function Skills() {
       <div className="skills">
         <div className="skills__grid">
           {skills.categories.map((category, catIndex) => (
-            <div key={catIndex} className="skills__category">
+            <div key={category.name} className="skills__category">
               <h3 className="skills__category-title">
                 {t('skills.categories.' + category.name)}
               </h3>
@@ -52,7 +52,7 @@ const Skills = memo(function Skills() {
                   const widthPercent = getWidthPercent(skill.years);
                   return (
                     <div 
-                      key={index} 
+                      key={skill.name} 
                       className="skills__item"
                       style={{ '--delay': `${catIndex * 0.15 + index * 0.05}s` }}
                     >
@@ -93,19 +93,22 @@ const Skills = memo(function Skills() {
               {t('skills.languages')}
             </h3>
             <div className="skills__tags">
-              {skills.soft
-                .filter(s => s.name === 'Español' || s.name === 'Inglés')
-                .map((skill, index) => (
-                  <span
-                     key={index}
-                     className="skills__tag"
-                     style={{ '--delay': `${index * 0.05}s` }}
+              {skills.soft.reduce((acc, skill) => {
+                if (skill.name === 'Español' || skill.name === 'Inglés') {
+                  acc.push(
+                    <span
+                      key={skill.name}
+                      className="skills__tag"
+                      style={{ '--delay': `${acc.length * 0.05}s` }}
                     >
                       {t('skills.soft.' + (softNameKeyMap[skill.name] || skill.name))}: {
                         t('skills.level.' + (levelKeyMap[skill.level] || skill.level))
                       }
                     </span>
-                ))}
+                  );
+                }
+                return acc;
+              }, [])}
             </div>
           </div>
           
@@ -115,19 +118,22 @@ const Skills = memo(function Skills() {
               {t('skills.softSkills')}
             </h3>
               <div className="skills__tags">
-                {skills.soft
-                  .filter(s => s.name !== 'Español' && s.name !== 'Inglés')
-                  .map((skill, index) => (
-                    <span 
-                      key={index} 
-                      className="skills__tag"
-                      style={{ '--delay': `${index * 0.05}s` }}
-                    >
-                      {t('skills.soft.' + (softNameKeyMap[skill.name] || skill.name))}: {
-                        t('skills.level.' + (levelKeyMap[skill.level] || skill.level))
-                      }
-                    </span>
-                  ))}
+                {skills.soft.reduce((acc, skill) => {
+                  if (skill.name !== 'Español' && skill.name !== 'Inglés') {
+                    acc.push(
+                      <span
+                        key={skill.name}
+                        className="skills__tag"
+                        style={{ '--delay': `${acc.length * 0.05}s` }}
+                      >
+                        {t('skills.soft.' + (softNameKeyMap[skill.name] || skill.name))}: {
+                          t('skills.level.' + (levelKeyMap[skill.level] || skill.level))
+                        }
+                      </span>
+                    );
+                  }
+                  return acc;
+                }, [])}
               </div>
           </div>
         </div>
