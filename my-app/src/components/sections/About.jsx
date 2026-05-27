@@ -25,7 +25,7 @@ export default function About() {
               {t('about.values')}
             </h3>
             <ul className="about__values-list">
-              {profile.values.map((value) => (
+              {profile.values.map((value, index) => (
                 <li key={value} className="about__value">
                   <span className="about__value-icon">→</span>
                   {t('profile.values.' + index)}
