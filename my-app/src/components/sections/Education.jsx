@@ -1,5 +1,5 @@
 import education from '../../data/education.json';
-import { useT } from '../../i18n';
+import { useT } from '../../i18n/useTranslation';
 import Section from '../common/Section';
 import './Education.css';
 
@@ -24,7 +24,7 @@ export default function Education() {
             
             <div className="education__content">
               <div className="education__header">
-                <span className="education__year">{cert.startDate} — {cert.endDate}</span>
+                <span className="education__year">{cert.startDate} - {cert.endDate}</span>
                 {cert.verified && (
                   <span className="education__verified" aria-label={t('education.verifiedLabel')}>
                     <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">

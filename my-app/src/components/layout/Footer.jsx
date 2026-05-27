@@ -1,5 +1,5 @@
 import profile from '../../data/profile.json';
-import { useT } from '../../i18n';
+import { useT } from '../../i18n/useTranslation';
 import './Footer.css';
 
 export default function Footer() {

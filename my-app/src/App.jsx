@@ -19,7 +19,7 @@ const SectionLoader = () => (
     justifyContent: 'center',
     color: 'var(--color-text-secondary)'
   }}>
-    Loading...
+    Loading…
   </div>
 );
 
