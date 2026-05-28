@@ -30,7 +30,6 @@ const translations = {
   // About
   'about.title': { es: 'Sobre mí', en: 'About Me' },
   'about.subtitle': { es: 'Conoce mi historia', en: 'Discover my story' },
-  'about.values': { es: 'Mis valores', en: 'My values' },
   'about.location': { es: 'Ubicación', en: 'Location' },
   'about.availability': { es: 'Disponibilidad', en: 'Availability' },
 
@@ -122,13 +121,6 @@ const translations = {
     es: 'Desarrollador Web Full-Stack con más de 5 años de experiencia en la industria, especializado en el diseño, desarrollo y optimización de aplicaciones escalables, gestión de bases de datos y consumo de APIs. Mi trayectoria se define por un fuerte compromiso con la mejora constante y el aprendizaje continuo, lo que me permite adoptar rápidamente metodologías avanzadas, integrar nuevas herramientas tecnológicas y optimizar flujos de trabajo con agilidad. Apasionado por la resolución de problemas complejos y la entrega de soluciones innovadoras que aporten valor real al negocio.',
     en: 'Full-Stack Web Developer with over 5 years of industry experience, specialized in the design, development, and optimization of scalable applications, database management, and API consumption. My career is defined by a strong commitment to constant improvement and continuous learning, which allows me to quickly adopt advanced methodologies, integrate new technological tools, and optimize workflows with agility. Passionate about solving complex problems and delivering innovative solutions that bring real value to the business.'
   },
-
-  // Profile values
-  'profile.values.0': { es: 'Calidad sobre cantidad', en: 'Quality over quantity' },
-  'profile.values.1': { es: 'Simplicidad sobre complejidad', en: 'Simplicity over complexity' },
-  'profile.values.2': { es: 'El código debe ser tan elegante como la interfaz', en: 'Code should be as elegant as the interface' },
-  'profile.values.3': { es: 'Siempre dispuesto a colaborar', en: 'Always willing to collaborate' },
-  'profile.values.4': { es: 'La honestidad es una prioridad', en: 'Honesty is a priority' },
 
   // Projects dynamic data
   'projects.qualitas-assitance.title': { es: 'Sistema de Qualitas Assistance', en: 'Qualitas Assistance System' },
