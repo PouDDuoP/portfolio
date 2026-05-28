@@ -53,16 +53,16 @@ export default function Hero() {
           </p>
           
           <div className="hero__actions">
-             <Button href="#projects" variant="primary" size="large">
-               {t('hero.viewProjects')}
-             </Button>
-             <Button href="#contact" variant="secondary" size="large">
-               {t('hero.contact')}
-             </Button>
-             <Button href="/CV-KevinAlvarado-2026.pdf" download variant="secondary" size="large">
-               {t('hero.downloadCv')}
-             </Button>
-           </div>
+            <Button href="#projects" variant="primary" size="large">
+              {t('hero.viewProjects')}
+            </Button>
+            <Button href="#contact" variant="secondary" size="large">
+              {t('hero.contact')}
+            </Button>
+            <Button href="/CV-KevinAlvarado-2026.pdf" download variant="secondary" size="large">
+              {t('hero.downloadCv')}
+            </Button>
+          </div>
           
           <div className="hero__stats">
             <div className="hero__stat">
@@ -71,14 +71,14 @@ export default function Hero() {
                 {t('hero.yearsExperience')}
               </span>
             </div>
-             <div className="hero__stat">
-               <span className="hero__stat-number">8</span>
-               <span className="hero__stat-label">
-                 {t('hero.projects')}
-               </span>
-             </div>
             <div className="hero__stat">
-              <span className="hero__stat-number">2</span>
+              <span className="hero__stat-number">8</span>
+              <span className="hero__stat-label">
+                {t('hero.projects')}
+              </span>
+            </div>
+            <div className="hero__stat">
+              <span className="hero__stat-number">3</span>
               <span className="hero__stat-label">
                 {t('hero.clients')}
               </span>
