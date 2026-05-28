@@ -19,20 +19,6 @@ export default function About() {
               {t('profile.bio')}
             </p>
           </div>
-
-          <div className="about__values">
-            <h3 className="about__values-title">
-              {t('about.values')}
-            </h3>
-            <ul className="about__values-list">
-              {profile.values.map((value, index) => (
-                <li key={value} className="about__value">
-                  <span className="about__value-icon">→</span>
-                  {t('profile.values.' + index)}
-                </li>
-              ))}
-            </ul>
-          </div>
           
           <div className="about__info">
             <div className="about__info-item">
