@@ -23,5 +23,9 @@ dist-ssr
 *.sln
 *.sw?
 
+# Env files (local overrides)
+.env
+.env.*
+
 # Build artifacts
 stats.html
