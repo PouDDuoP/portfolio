@@ -1,7 +1,8 @@
-import { lazy, Suspense } from 'react';
+import { lazy, Suspense, useEffect } from 'react';
 import Layout from './components/layout/Layout';
 import Hero from './components/sections/Hero';
 import About from './components/sections/About';
+import ReactGA from 'react-ga4';
 
 // Lazy-load heavy sections
 const Skills = lazy(() => import('./components/sections/Skills'));
@@ -24,6 +25,13 @@ const SectionLoader = () => (
 );
 
 function App() {
+  useEffect(() => {
+    // Envía el reporte de la página actual a Google Analytics (solo en producción)
+    if (import.meta.env.VITE_GA_ID) {
+      ReactGA.send({ hitType: "pageview", page: window.location.pathname });
+    }
+  }, []);
+
   return (
     <Layout>
       <Hero />
