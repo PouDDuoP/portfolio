@@ -97,20 +97,23 @@ Caracas, Venezuela
 - GitHub: [@PouDDuoP](https://github.com/PouDDuoP)
 - LinkedIn: [/in/kevin-alvarado-graterol](https://linkedin.com/in/kevin-alvarado-graterol)
 - Ubicación: Caracas, Venezuela
-- **CV disponible**: [Descargar PDF](https://kevin-alvarado.vercel.app/CV-KevinAlvarado-2026.pdf)
+- **CV disponible**: [Descargar PDF](https://kevin-alvarado.vercel.app) (sección Hero)
 
 ## 🚀 Stack Técnico del Portafolio
 
-- React 19.2.5
-- Vite 8.0.10
+- React 19.2.6
+- Vite 8.0.14
 - CSS3 con Variables CSS
 - Diseño Responsive
 - Animaciones CSS
-- Context API para gestión de idioma (ES/EN)
+- Context API para gestión de idioma (ES/EN) y tema (dark/light)
 - Traducción dinámica completa (ES/EN)
+- Google Analytics 4 (react-ga4)
+- @vercel/analytics
+- Vercel Blob Storage para alojamiento del CV (independiente del deploy)
 - Desplegado en Vercel
 - Optimización LCP (Code Splitting con React.lazy)
-- Accesibilidad WCAG 2.0 AA (contraste verificado)
+- Accesibilidad WCAG 2.2 AA (contraste verificado)
 - Carga optimizada de fuentes (preconnect + preload)
 - Imagen de perfil en WebP (mejor compresión)
 
@@ -124,33 +127,47 @@ Caracas, Venezuela
 
 ### Descarga de CV
 - Botón de descarga directa del CV actualizado (2026)
-- Archivo: `CV-KevinAlvarado-2026.pdf`
+- Servido desde **Vercel Blob** — independiente del deploy, se actualiza sin redeploy
+- Alojado en almacenamiento público de Vercel para disponibilidad permanente
 - Visible en la sección Hero para fácil acceso de reclutadores
 - Traducciones: "Descargar CV" / "Download CV"
+
+### Migración a Vercel Blob (2026)
+- CV movido de `public/` a Vercel Blob Storage
+- Botón se oculta automáticamente si no hay URL configurada
+- Configurable vía `VITE_CV_BLOB_URL` en variables de entorno
+- El PDF local fue eliminado del repositorio
 
 ## 📁️ Estructura del Proyecto
 
 ```
 my-app/
 ├── public/
-│   └── images/
-│       ├── profile.webp    # Imagen de perfil optimizada (WebP)
-│       └── projects/
+│   ├── images/
+│   │   └── profile.webp    # Imagen de perfil optimizada (WebP)
+│   │   └── projects/
+│   ├── favicon.svg
+│   └── icons.svg
 ├── src/
+│   ├── assets/           # Recursos estáticos (hero.png, react.svg, vite.svg)
 │   ├── components/
-│   │   ├── common/       # Button, Section, Card
+│   │   ├── common/       # Button, Card, Section, BackToTop
 │   │   ├── layout/       # Header, Footer, Layout
 │   │   └── sections/     # Hero, About, Skills, Projects, Experience, Education, Contact
-│   ├── context/          # LanguageContext (ES/EN)
+│   ├── context/          # LanguageContext (ES/EN), ThemeContext
 │   ├── data/             # JSON con información
 │   │   ├── profile.json
 │   │   ├── projects.json
 │   │   ├── experience.json
 │   │   ├── skills.json
 │   │   └── education.json
-│   └── styles/           # variables.css, reset.css, global.css
+│   ├── i18n/             # Traducciones dinámicas ES/EN
+│   └── index.css         # Estilos globales (CSS Variables)
+├── .env                  # Variables de entorno (gitignored)
+├── .env.development      # Overrides para desarrollo (gitignored)
 ├── index.html            # Optimizado: preconnect + preload para fuentes
-└── vercel.json          # Configuración de despliegue
+├── vercel.json           # Configuración de despliegue
+└── ⚡ CV servido desde Vercel Blob (no en public/)
 ```
 
 ## 🚀 Scripts Disponibles
