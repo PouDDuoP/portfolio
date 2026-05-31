@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { useT } from '../../i18n/useTranslation';
 import { useTheme } from '../../context/ThemeContext';
+import { trackEvent } from '../../utils/analytics';
 import './Header.css';
 
 const navLinks = [
@@ -59,7 +60,11 @@ export default function Header({ scrolled }) {
           <button 
             type="button"
             className="header__lang-toggle"
-            onClick={toggleLang}
+            onClick={() => {
+              const nextLang = lang === 'es' ? 'en' : 'es';
+              trackEvent('Language', 'toggle', nextLang);
+              toggleLang();
+            }}
             aria-label={t('nav.switchLang')}
           >
             {lang === 'es' ? 'EN' : 'ES'}
