@@ -3,6 +3,7 @@ import Layout from './components/layout/Layout';
 import Hero from './components/sections/Hero';
 import About from './components/sections/About';
 import ReactGA from 'react-ga4';
+import { Analytics } from '@vercel/analytics/react';
 
 // Lazy-load heavy sections
 const Skills = lazy(() => import('./components/sections/Skills'));
@@ -43,6 +44,7 @@ function App() {
         <Education />
         <Contact />
       </Suspense>
+      <Analytics />
     </Layout>
   );
 }
