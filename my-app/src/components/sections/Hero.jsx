@@ -2,6 +2,7 @@ import { useEffect, useRef } from 'react';
 import profile from '../../data/profile.json';
 import { useT } from '../../i18n/useTranslation';
 import Button from '../common/Button';
+import { trackEvent } from '../../utils/analytics';
 import './Hero.css';
 
 export default function Hero() {
@@ -60,7 +61,8 @@ export default function Hero() {
               {t('hero.contact')}
             </Button>
             {import.meta.env.VITE_CV_BLOB_URL && (
-              <Button href={import.meta.env.VITE_CV_BLOB_URL} target="_blank" rel="noopener noreferrer" variant="secondary" size="large">
+              <Button href={import.meta.env.VITE_CV_BLOB_URL} target="_blank" rel="noopener noreferrer" variant="secondary" size="large"
+                onClick={() => trackEvent('CV', 'download', 'CV-KevinAlvarado-2026')}>
                 {t('hero.downloadCv')}
               </Button>
             )}
