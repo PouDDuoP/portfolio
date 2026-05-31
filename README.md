@@ -108,7 +108,7 @@ Caracas, Venezuela
 - Animaciones CSS
 - Context API para gestión de idioma (ES/EN) y tema (dark/light)
 - Traducción dinámica completa (ES/EN)
-- Google Analytics 4 (react-ga4)
+- Google Analytics 4 (react-ga4) — event tracking personalizado
 - @vercel/analytics
 - Vercel Blob Storage para alojamiento del CV (independiente del deploy)
 - Desplegado en Vercel
@@ -137,6 +137,13 @@ Caracas, Venezuela
 - Botón se oculta automáticamente si no hay URL configurada
 - Configurable vía `VITE_CV_BLOB_URL` en variables de entorno
 - El PDF local fue eliminado del repositorio
+
+### Event Tracking con Google Analytics 4 (2026)
+- Tracking de descarga de CV (categoría: CV)
+- Tracking de clics en GitHub y LinkedIn (categoría: Social)
+- Tracking de interacciones de contacto: email, copiar email, enviar email (categoría: Contact)
+- Tracking de cambio de idioma (categoría: Language)
+- Utility centralizado en `src/utils/analytics.js` para facilitar futuros eventos
 
 ## 📁️ Estructura del Proyecto
 
