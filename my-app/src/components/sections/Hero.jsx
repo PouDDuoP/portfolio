@@ -59,9 +59,11 @@ export default function Hero() {
             <Button href="#contact" variant="secondary" size="large">
               {t('hero.contact')}
             </Button>
-            <Button href="/CV-KevinAlvarado-2026.pdf" download variant="secondary" size="large">
-              {t('hero.downloadCv')}
-            </Button>
+            {import.meta.env.VITE_CV_BLOB_URL && (
+              <Button href={import.meta.env.VITE_CV_BLOB_URL} download variant="secondary" size="large">
+                {t('hero.downloadCv')}
+              </Button>
+            )}
           </div>
           
           <div className="hero__stats">
