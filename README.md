@@ -1,6 +1,6 @@
 # Kevin Alvarado - Portfolio
 
-Portafolio personal de Kevin Alvarado, Desarrollador Web con más de 5 años de experiencia en la industria, especializado en soluciones back-end y front-end.
+Portafolio personal de Kevin Alvarado, Desarrollador Full Stack con más de 5 años de experiencia en la industria, especializado en soluciones back-end y front-end.
 
 ## 🚀 Tecnologías
 
@@ -201,8 +201,8 @@ MIT
 
 ---
 
-**Kevin Alvarado** - Desarrollador Web  
-Desarrollador web versátil con más de 5 años de experiencia en la industria  
+**Kevin Alvarado** - Desarrollador Full Stack 
+Desarrollador Full Stack versátil con más de 5 años de experiencia en la industria  
 Disponible para proyectos
 
 🌐 **Live Demo**: [kevin-alvarado.vercel.app](https://kevin-alvarado.vercel.app)
