@@ -10,6 +10,7 @@ const Skills = lazy(() => import('./components/sections/Skills'));
 const Projects = lazy(() => import('./components/sections/Projects'));
 const Experience = lazy(() => import('./components/sections/Experience'));
 const Education = lazy(() => import('./components/sections/Education'));
+const FAQ = lazy(() => import('./components/sections/FAQ'));
 const Contact = lazy(() => import('./components/sections/Contact'));
 
 // Loading fallback for lazy components
@@ -42,6 +43,7 @@ function App() {
         <Projects />
         <Experience />
         <Education />
+        <FAQ />
         <Contact />
       </Suspense>
       <Analytics />

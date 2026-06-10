@@ -1,0 +1,30 @@
+User-agent: *
+Allow: /
+
+# Search indexers — allow all for maximum crawlability
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+# AI crawlers — allow for generative engine visibility
+User-agent: Google-Extended
+Allow: /
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+Sitemap: https://kevin-alvarado.vercel.app/sitemap.xml

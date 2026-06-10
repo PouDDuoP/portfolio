@@ -42,7 +42,8 @@ export default function Hero() {
           </span>
           
           <h1 className="hero__title">
-            {t('hero.greeting')} <span className="hero__name">{profile.name}</span>
+            <span className="hero__greeting">{t('hero.greeting')}</span>{' '}
+            <span className="hero__name">{profile.fullName}</span>
           </h1>
           
           <p className="hero__subtitle">
