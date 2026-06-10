@@ -93,6 +93,34 @@ const translations = {
   'education.verified': { es: 'Verificado', en: 'Verified' },
   'education.verifiedLabel': { es: 'Certificado verificado', en: 'Verified certificate' },
 
+  // FAQ
+  'faq.subtitle': { es: 'Preguntas frecuentes', en: 'Frequently Asked Questions' },
+  'faq.tech.title': { es: '¿Qué tecnologías dominas?', en: 'What technologies do you master?' },
+  'faq.tech.text': {
+    es: 'Soy Desarrollador Full Stack con experiencia en React, Node.js, PHP, Python, Django, Angular, Flutter, y bases de datos SQL como PostgreSQL, MySQL, SQL Server y Oracle. También trabajo con ASP Classic, VBScript, Docker y metodologías como MVC y Clean Architecture.',
+    en: 'I am a Full Stack Developer with experience in React, Node.js, PHP, Python, Django, Angular, Flutter, and SQL databases like PostgreSQL, MySQL, SQL Server, and Oracle. I also work with ASP Classic, VBScript, Docker, and methodologies like MVC and Clean Architecture.'
+  },
+  'faq.availability.title': { es: '¿Estás disponible para proyectos freelance?', en: 'Are you available for freelance projects?' },
+  'faq.availability.text': {
+    es: 'Sí, estoy disponible para proyectos freelance y colaboraciones. Puedes contactarme a través de mi correo kevinalvarado.ag@gmail.com o mediante el formulario de contacto en esta página.',
+    en: 'Yes, I am available for freelance projects and collaborations. You can reach me at kevinalvarado.ag@gmail.com or through the contact form on this page.'
+  },
+  'faq.location.title': { es: '¿Dónde estás ubicado?', en: 'Where are you located?' },
+  'faq.location.text': {
+    es: 'Estoy ubicado en Caracas, Venezuela, y trabajo de forma remota con clientes y empresas de toda Latinoamérica.',
+    en: 'I am based in Caracas, Venezuela, working remotely with clients and companies across Latin America.'
+  },
+  'faq.experience.title': { es: '¿Cuántos años de experiencia tienes?', en: 'How many years of experience do you have?' },
+  'faq.experience.text': {
+    es: 'Cuento con más de 5 años de experiencia como Desarrollador Full Stack, habiendo trabajado en Humanitas Administradora de Riesgos / Qualitas Assistance desde 2017 hasta 2024.',
+    en: 'I have over 5 years of experience as a Full Stack Developer, having worked at Humanitas Administradora de Riesgos / Qualitas Assistance from 2017 to 2024.'
+  },
+  'faq.projects.title': { es: '¿Qué tipo de proyectos has realizado?', en: 'What type of projects have you worked on?' },
+  'faq.projects.text': {
+    es: 'He trabajado en una amplia variedad de proyectos: sistemas de gestión de comisiones, plataformas de cotización con generación de PDF, aplicaciones móviles con Flutter y Clean Architecture, APIs REST documentadas con Swagger, sistemas de control de incidencias, y aplicaciones full-stack con Node.js y Angular.',
+    en: 'I have worked on a wide variety of projects: commission management systems, quoting platforms with PDF generation, mobile applications with Flutter and Clean Architecture, documented REST APIs with Swagger, incident control systems, and full-stack applications with Node.js and Angular.'
+  },
+
   // Contact
   'contact.title': { es: 'Contacto', en: 'Contact' },
   'contact.subtitle': { es: 'Hablemos', en: "Let's talk" },
