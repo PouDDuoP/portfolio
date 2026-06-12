@@ -126,20 +126,23 @@ export default function Projects() {
                       <span className="sr-only">{t('common.opensInNewTab')}</span>
                     </a>
                   )}
-                  {getGithubRepos(project).map((repo, i) => (
+                  {getGithubRepos(project).map((repo, i) => {
+                    const repoLabel = repo.label || t('projects.viewCodeBtn');
+                    return (
                     <a
                       key={i}
                       href={repo.url}
                       target="_blank"
                       rel="noopener noreferrer"
                       className="project-card__btn project-card__btn--secondary"
-                      aria-label={`${t('projects.viewCode', { title: t('projects.' + project.id + '.title') })} - ${t('common.opensInNewTab')}`}
+                      aria-label={`${t('projects.viewCode', { title: t('projects.' + project.id + '.title') })} (${repoLabel}) - ${t('common.opensInNewTab')}`}
                     >
                       <Icon name="github" size={16} />
-                      {repo.label || t('projects.viewCodeBtn')}
+                      {repoLabel}
                       <span className="sr-only">{t('common.opensInNewTab')}</span>
                     </a>
-                  ))}
+                    );
+                  })}
                 </div>
               )}
             </div>
