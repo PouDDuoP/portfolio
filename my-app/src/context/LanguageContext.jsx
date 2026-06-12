@@ -1,3 +1,5 @@
+/* eslint-disable react-refresh/only-export-components */
+
 import { createContext, use, useState, useCallback, useEffect, useMemo } from 'react';
 
 const LanguageContext = createContext();
@@ -18,7 +20,7 @@ export function LanguageProvider({ children }) {
       const next = prev === 'es' ? 'en' : 'es';
       try {
         localStorage.setItem('portfolio-lang', next);
-      } catch {}
+      } catch { /* empty */ }
       return next;
     });
   }, []);

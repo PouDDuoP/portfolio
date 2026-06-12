@@ -1,42 +1,37 @@
-import { useMemo, useState, useEffect } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import profile from '../../data/profile.json';
-import skills from '../../data/skills.json';
 import { useT } from '../../i18n/useTranslation';
 import Button from '../common/Button';
 import { trackEvent } from '../../utils/analytics';
 import './Hero.css';
 
-const LANG_NAME_MAP = {
-  'Español': 'Spanish',
-  'Inglés': 'English'
-};
+const LANGUAGES = [
+  { name: 'Español', level: 'Nativo' },
+  { name: 'Inglés', level: 'B1' }
+];
 
-const LANG_LEVEL_MAP = {
-  'Nativo': 'native',
-  'B1': 'B1'
-};
+const LANG_TRANSLATIONS = { 'Español': 'Spanish', 'Inglés': 'English' };
+const LANG_LEVELS = { 'Nativo': 'native', 'B1': 'B1' };
 
 const TITLE_KEYS = ['profile.title.0', 'profile.title.1', 'profile.title.2'];
 
 export default function Hero() {
   const { t } = useT();
   const [titleIndex, setTitleIndex] = useState(0);
-  const [displayedText, setDisplayedText] = useState('');
   const [isTyping, setIsTyping] = useState(true);
+  const subtitleRef = useRef(null);
 
   const fullText = t(TITLE_KEYS[titleIndex]);
 
-  // Typewriter: type characters one by one
+  // Typewriter: actualiza el DOM directo sin re-renders
   useEffect(() => {
-    setIsTyping(true);
-    setDisplayedText('');
+    const el = subtitleRef.current;
+    if (el) el.textContent = '';
     let charIndex = 0;
 
     const interval = setInterval(() => {
       charIndex++;
-      if (charIndex <= fullText.length) {
-        setDisplayedText(fullText.slice(0, charIndex));
-      }
+      if (el) el.textContent = fullText.slice(0, charIndex);
       if (charIndex >= fullText.length) {
         clearInterval(interval);
         setIsTyping(false);
@@ -46,19 +41,16 @@ export default function Hero() {
     return () => clearInterval(interval);
   }, [titleIndex, fullText]);
 
-  // When typing finishes, pause then cycle to next title
+  // Cuando termina de escribir, pausa y cicla al siguiente título
   useEffect(() => {
-    if (!isTyping && displayedText === fullText) {
+    if (!isTyping) {
       const timeout = setTimeout(() => {
         setTitleIndex(prev => (prev + 1) % TITLE_KEYS.length);
+        setIsTyping(true);
       }, 2500);
       return () => clearTimeout(timeout);
     }
-  }, [isTyping, displayedText, fullText]);
-  
-  const languages = useMemo(() =>
-    skills.soft.filter(s => s.name === 'Español' || s.name === 'Inglés'),
-  []);
+  }, [isTyping]);
   
   return (
     <section id="hero" className="hero">
@@ -75,9 +67,7 @@ export default function Hero() {
             <span className="hero__name">{profile.fullName}</span>
           </h1>
           
-          <h2 className={`hero__subtitle${isTyping ? ' hero__subtitle--typing' : ''}`} aria-live="polite">
-            {displayedText}
-          </h2>
+          <h2 ref={subtitleRef} className={`hero__subtitle${isTyping ? ' hero__subtitle--typing' : ''}`} aria-live="polite"></h2>
           
           <p className="hero__tagline">
             {t('profile.tagline')}
@@ -108,15 +98,15 @@ export default function Hero() {
             </svg>
             <span className="hero__lang-label">{t('hero.languages')}</span>
             <div className="hero__lang-list">
-              {languages.map((lang, i) => (
+              {LANGUAGES.map((lang, i) => (
                 <span key={lang.name} className="hero__lang-item">
                   <span className="hero__lang-name">
-                    {t('skills.soft.' + (LANG_NAME_MAP[lang.name] || lang.name))}
+                    {t('skills.soft.' + LANG_TRANSLATIONS[lang.name])}
                   </span>
                   <span className="hero__lang-level">
-                    {t('skills.level.' + (LANG_LEVEL_MAP[lang.level] || lang.level))}
+                    {t('skills.level.' + LANG_LEVELS[lang.level])}
                   </span>
-                  {i < languages.length - 1 && <span className="hero__lang-sep" aria-hidden="true">|</span>}
+                  {i < LANGUAGES.length - 1 && <span className="hero__lang-sep" aria-hidden="true">|</span>}
                 </span>
               ))}
             </div>
