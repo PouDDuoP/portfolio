@@ -39,7 +39,7 @@ const translations = {
 
   // Skills
   'skills.title': { es: 'Habilidades', en: 'Skills' },
-  'skills.subtitle': { es: 'Tecnologías que domino', en: 'Technologies I master' },
+  'skills.subtitle': { es: 'Mi Stack Tecnológico', en: 'My Tech Stack' },
   'skills.languages': { es: 'Idiomas', en: 'Languages' },
   'skills.softSkills': { es: 'Habilidades Blandas', en: 'Soft Skills' },
   'skills.type.personal': { es: 'Ámbito Personal', en: 'Personal Scope' },
@@ -147,7 +147,7 @@ const translations = {
 
   // FAQ
   'faq.subtitle': { es: 'Preguntas frecuentes', en: 'Frequently Asked Questions' },
-  'faq.tech.title': { es: '¿Qué tecnologías dominas?', en: 'What technologies do you master?' },
+  'faq.tech.title': { es: '¿Cuál es tu Stack Tecnológico?', en: 'What is your Tech Stack?' },
   'faq.tech.text': {
     es: 'Soy Desarrollador Full Stack con experiencia en React, Node.js, PHP, Python, Django, Angular, Flutter, y bases de datos SQL como PostgreSQL, MySQL, SQL Server y Oracle. También trabajo con ASP Classic, VBScript, Docker y metodologías como MVC y Clean Architecture.',
     en: 'I am a Full Stack Developer with experience in React, Node.js, PHP, Python, Django, Angular, Flutter, and SQL databases like PostgreSQL, MySQL, SQL Server, and Oracle. I also work with ASP Classic, VBScript, Docker, and methodologies like MVC and Clean Architecture.'
