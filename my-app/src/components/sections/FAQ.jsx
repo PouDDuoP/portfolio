@@ -31,6 +31,7 @@ export default function FAQ() {
                 className="faq__question"
                 onClick={() => toggleItem(index)}
                 aria-expanded={isOpen}
+                aria-controls={`faq-panel-${index}`}
               >
                 <span className="faq__question-text">{t(item.key)}</span>
                 <svg
@@ -44,7 +45,7 @@ export default function FAQ() {
                   <path d="M6 9l6 6 6-6" />
                 </svg>
               </button>
-              <div className="faq__answer" role="region" hidden={!isOpen}>
+              <div className="faq__answer" role="region" id={`faq-panel-${index}`} hidden={!isOpen}>
                 <p>{t(item.contentKey)}</p>
               </div>
             </div>

@@ -23,6 +23,14 @@
   line-height: 1.7;
 }
 
+.contact__status--open-to-work {
+  color: #22c55e;
+}
+
+.contact__status--working {
+  color: #3b82f6;
+}
+
 .contact__cards {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -69,12 +77,6 @@ a.contact__card:hover {
   text-decoration: none;
 }
 
-.contact__card:hover {
-  border-color: var(--color-primary);
-  transform: translateY(-2px);
-  color: inherit;
-}
-
 /* Remove email-specific styling to match other cards */
 
 .contact__card-icon {
@@ -119,7 +121,7 @@ a.contact__card:hover {
 }
 
 a.contact__card-value {
-  color: var(--color-primary); /* Azul claro/cyan para indicar hipervínculo */
+  color: var(--color-primary); /* Light blue/cyan to indicate hyperlink */
 }
 
 a.contact__card-value:hover {
@@ -161,7 +163,13 @@ a.contact__card-value:hover {
 }
 
 /* Responsive */
-@media (max-width: 900px) {
+@media (max-width: 1024px) {
+  .contact__cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
   .contact__cards {
     grid-template-columns: 1fr;
   }

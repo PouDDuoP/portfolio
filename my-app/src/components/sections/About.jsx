@@ -19,23 +19,6 @@ export default function About() {
               {t('profile.bio')}
             </p>
           </div>
-          
-          <div className="about__info">
-            <div className="about__info-item">
-              <span className="about__info-label">
-                {t('about.location')}
-              </span>
-              <span className="about__info-value">{profile.location}</span>
-            </div>
-            <div className="about__info-item">
-              <span className="about__info-label">
-                {t('about.availability')}
-              </span>
-              <span className="about__info-value">
-                {t('profile.availability')}
-              </span>
-            </div>
-          </div>
         </div>
       </div>
     </Section>

@@ -5,13 +5,12 @@ export default function Section({
   title, 
   subtitle, 
   children, 
-  className = '',
-  dark = false 
+  className = ''
 }) {
   return (
     <section 
       id={id} 
-      className={`section ${dark ? 'section--dark' : ''} ${className}`.trim()}
+      className={`section ${className}`.trim()}
     >
       <div className="section__container">
         {(title || subtitle) && (
