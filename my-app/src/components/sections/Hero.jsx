@@ -75,9 +75,8 @@ export default function Hero() {
             <span className="hero__name">{profile.fullName}</span>
           </h1>
           
-          <p className={`hero__subtitle${isTyping ? ' hero__subtitle--typing' : ''}`}>
+          <p className={`hero__subtitle${isTyping ? ' hero__subtitle--typing' : ''}`} aria-live="polite">
             {displayedText}
-            <span className="hero__subtitle-cursor" aria-hidden="true">|</span>
           </p>
           
           <p className="hero__tagline">
