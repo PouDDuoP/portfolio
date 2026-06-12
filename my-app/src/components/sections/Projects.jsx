@@ -123,6 +123,7 @@ export default function Projects() {
                     >
                       <Icon name="external" size={16} />
                       Demo
+                      <span className="sr-only">{t('common.opensInNewTab')}</span>
                     </a>
                   )}
                   {getGithubRepos(project).map((repo, i) => (
@@ -136,6 +137,7 @@ export default function Projects() {
                     >
                       <Icon name="github" size={16} />
                       {repo.label || t('projects.viewCodeBtn')}
+                      <span className="sr-only">{t('common.opensInNewTab')}</span>
                     </a>
                   ))}
                 </div>
@@ -156,6 +158,7 @@ export default function Projects() {
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden="true">
             <path d="M5 12h14M12 5l7 7-7 7"/>
           </svg>
+          <span className="sr-only">{t('common.opensInNewTab')}</span>
         </a>
       </div>
     </Section>

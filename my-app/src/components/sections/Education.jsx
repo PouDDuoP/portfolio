@@ -56,6 +56,7 @@ export default function Education() {
                 className="education__institution"
               >
                 {t('education.' + cert.id + '.institution')}
+                <span className="sr-only">{t('common.opensInNewTab')}</span>
               </a>
 
               <p className="education__description">

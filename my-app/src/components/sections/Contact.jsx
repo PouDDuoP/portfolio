@@ -99,6 +99,7 @@ export default function Contact() {
                  @PouDDuoP
                </span>
              </div>
+             <span className="sr-only">{t('common.opensInNewTab')}</span>
            </a>
           
           <a href={profile.social.linkedin} target="_blank" rel="noopener noreferrer" className="contact__card" onClick={() => trackEvent('Social', 'click', 'LinkedIn')}>
@@ -113,6 +114,7 @@ export default function Contact() {
                  /in/kevin-alvarado-graterol
                </span>
              </div>
+             <span className="sr-only">{t('common.opensInNewTab')}</span>
            </a>
         </div>
         

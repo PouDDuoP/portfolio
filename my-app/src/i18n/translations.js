@@ -13,6 +13,7 @@ const translations = {
   'common.loading': { es: 'Cargando...', en: 'Loading...' },
   'common.backToTop': { es: 'Volver arriba', en: 'Back to top' },
   'common.skipToContent': { es: 'Saltar al contenido', en: 'Skip to content' },
+  'common.opensInNewTab': { es: 'se abre en nueva pestaña', en: 'opens in new tab' },
 
   // Theme
   'theme.toggleLight': { es: 'Cambiar a modo claro', en: 'Switch to light mode' },
