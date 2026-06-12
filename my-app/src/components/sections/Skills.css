@@ -36,7 +36,7 @@
   border: 1px solid var(--tech-color, var(--color-border));
   border-radius: var(--radius-full);
   cursor: pointer;
-  color: var(--tech-color, var(--color-text-secondary));
+  color: var(--color-text);
   font-family: var(--font-body);
   font-size: 0.875rem;
   font-weight: 500;

@@ -6,19 +6,26 @@ import { ThemeProvider } from './context/ThemeContext'
 import { LanguageProvider } from './context/LanguageContext'
 
 if (import.meta.env.VITE_GA_ID) {
-  const gaId = import.meta.env.VITE_GA_ID;
+  // Difiere gtag para no bloquear el render inicial ni causar forced reflow
+  const initGtag = () => {
+    const gaId = import.meta.env.VITE_GA_ID;
 
-  // Carga el script de gtag
-  const script = document.createElement('script');
-  script.async = true;
-  script.src = `https://www.googletagmanager.com/gtag/js?id=${gaId}`;
-  document.head.appendChild(script);
+    const script = document.createElement('script');
+    script.async = true;
+    script.src = `https://www.googletagmanager.com/gtag/js?id=${gaId}`;
+    document.head.appendChild(script);
 
-  // Inicializa dataLayer
-  window.dataLayer = window.dataLayer || [];
-  window.gtag = function(){ window.dataLayer.push(arguments); };
-  window.gtag('js', new Date());
-  window.gtag('config', gaId);
+    window.dataLayer = window.dataLayer || [];
+    window.gtag = function(){ window.dataLayer.push(arguments); };
+    window.gtag('js', new Date());
+    window.gtag('config', gaId);
+  };
+
+  if ('requestIdleCallback' in window) {
+    requestIdleCallback(initGtag, { timeout: 2000 });
+  } else {
+    setTimeout(initGtag, 1000);
+  }
 }
 
 createRoot(document.getElementById('root')).render(
