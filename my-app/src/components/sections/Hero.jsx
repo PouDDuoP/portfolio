@@ -1,4 +1,4 @@
-import { useMemo } from 'react';
+import { useMemo, useState, useEffect } from 'react';
 import profile from '../../data/profile.json';
 import skills from '../../data/skills.json';
 import { useT } from '../../i18n/useTranslation';
@@ -16,8 +16,45 @@ const LANG_LEVEL_MAP = {
   'B1': 'B1'
 };
 
+const TITLE_KEYS = ['profile.title.0', 'profile.title.1', 'profile.title.2'];
+
 export default function Hero() {
   const { t } = useT();
+  const [titleIndex, setTitleIndex] = useState(0);
+  const [displayedText, setDisplayedText] = useState('');
+  const [isTyping, setIsTyping] = useState(true);
+
+  const fullText = t(TITLE_KEYS[titleIndex]);
+
+  // Typewriter: type characters one by one
+  useEffect(() => {
+    setIsTyping(true);
+    setDisplayedText('');
+    let charIndex = 0;
+
+    const interval = setInterval(() => {
+      charIndex++;
+      if (charIndex <= fullText.length) {
+        setDisplayedText(fullText.slice(0, charIndex));
+      }
+      if (charIndex >= fullText.length) {
+        clearInterval(interval);
+        setIsTyping(false);
+      }
+    }, 35);
+
+    return () => clearInterval(interval);
+  }, [titleIndex, fullText]);
+
+  // When typing finishes, pause then cycle to next title
+  useEffect(() => {
+    if (!isTyping && displayedText === fullText) {
+      const timeout = setTimeout(() => {
+        setTitleIndex(prev => (prev + 1) % TITLE_KEYS.length);
+      }, 2500);
+      return () => clearTimeout(timeout);
+    }
+  }, [isTyping, displayedText, fullText]);
   
   const languages = useMemo(() =>
     skills.soft.filter(s => s.name === 'Español' || s.name === 'Inglés'),
@@ -38,8 +75,8 @@ export default function Hero() {
             <span className="hero__name">{profile.fullName}</span>
           </h1>
           
-          <p className="hero__subtitle">
-            {t('profile.title')}
+          <p className={`hero__subtitle${isTyping ? ' hero__subtitle--typing' : ''}`}>
+            {displayedText}
           </p>
           
           <p className="hero__tagline">
