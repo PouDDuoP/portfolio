@@ -50,6 +50,8 @@ const translations = {
   'skills.level.intermediate': { es: 'Intermedio', en: 'Intermediate' },
   'skills.closeModal': { es: 'Cerrar', en: 'Close' },
   'skills.search': { es: 'Buscar habilidades...', en: 'Search skills...' },
+  'skills.clearSearch': { es: 'Limpiar búsqueda', en: 'Clear search' },
+  'skills.examples': { es: 'Ejemplos', en: 'Examples' },
 
   // Skills categories
   'skills.categories.Back-end': { es: 'Back-end', en: 'Back-end' },
@@ -119,6 +121,7 @@ const translations = {
   'projects.result': { es: 'Resultado: ', en: 'Result: ' },
   'projects.viewAll': { es: 'Ver todos los proyectos', en: 'View all projects' },
   'projects.viewCode': { es: 'Ver código de {{title}}', en: 'View code of {{title}}' },
+  'projects.viewCodeBtn': { es: 'Ver código', en: 'View code' },
   'projects.viewDemo': { es: 'Ver demo de {{title}}', en: 'View demo of {{title}}' },
   'projects.prevSlide': { es: 'Anterior', en: 'Previous' },
   'projects.nextSlide': { es: 'Siguiente', en: 'Next' },
@@ -193,6 +196,9 @@ const translations = {
   // Profile data
   'profile.fullName': { es: 'Kevin Alvarado', en: 'Kevin Alvarado' },
   'profile.title': { es: 'Desarrollador Full Stack', en: 'Full Stack Developer' },
+  'profile.title.0': { es: 'Desarrollador Full Stack', en: 'Full Stack Developer' },
+  'profile.title.1': { es: 'Desarrollador Backend', en: 'Backend Developer' },
+  'profile.title.2': { es: 'Desarrollador Frontend', en: 'Frontend Developer' },
   'profile.tagline': {
     es: 'Desarrollador full stack versátil con más de 5 años de experiencia en la industria',
     en: 'Versatile full stack developer with over 5 years of industry experience'
