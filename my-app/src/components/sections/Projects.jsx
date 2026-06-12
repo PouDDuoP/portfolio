@@ -119,7 +119,7 @@ export default function Projects() {
                       target="_blank"
                       rel="noopener noreferrer"
                       className="project-card__btn project-card__btn--primary"
-                      aria-label={t('projects.viewDemo', { title: t('projects.' + project.id + '.title') })}
+                      aria-label={`${t('projects.viewDemo', { title: t('projects.' + project.id + '.title') })} - ${t('common.opensInNewTab')}`}
                     >
                       <Icon name="external" size={16} />
                       Demo
@@ -133,7 +133,7 @@ export default function Projects() {
                       target="_blank"
                       rel="noopener noreferrer"
                       className="project-card__btn project-card__btn--secondary"
-                      aria-label={t('projects.viewCode', { title: t('projects.' + project.id + '.title') })}
+                      aria-label={`${t('projects.viewCode', { title: t('projects.' + project.id + '.title') })} - ${t('common.opensInNewTab')}`}
                     >
                       <Icon name="github" size={16} />
                       {repo.label || t('projects.viewCodeBtn')}

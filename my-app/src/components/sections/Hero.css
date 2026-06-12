@@ -101,21 +101,19 @@
   margin: 0 0 var(--space-lg);
   min-height: 1.6em;
   font-weight: 600;
-}
-
-.hero__subtitle-cursor {
-  margin-left: 2px;
-  color: var(--color-primary);
-  font-weight: 300;
+  display: inline-block;
+  border-right: 2px solid var(--color-primary);
+  padding-right: 2px;
   animation: cursorBlink 0.7s step-end infinite;
 }
 
-.hero__subtitle--typing .hero__subtitle-cursor {
+.hero__subtitle--typing {
   animation: none;
+  border-right-color: transparent;
 }
 
 @keyframes cursorBlink {
-  50% { opacity: 0; }
+  50% { border-right-color: transparent; }
 }
 
 .hero__tagline {

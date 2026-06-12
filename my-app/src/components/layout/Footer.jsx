@@ -17,11 +17,11 @@ export default function Footer() {
           </div>
           
           <div className="footer__links">
-            <a href={profile.social.github} target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+            <a href={profile.social.github} target="_blank" rel="noopener noreferrer" aria-label={`GitHub - ${t('common.opensInNewTab')}`}>
               <Icon name="github" size={20} />
               <span className="sr-only">{t('common.opensInNewTab')}</span>
             </a>
-            <a href={profile.social.linkedin} target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+            <a href={profile.social.linkedin} target="_blank" rel="noopener noreferrer" aria-label={`LinkedIn - ${t('common.opensInNewTab')}`}>
               <Icon name="linkedin" size={20} />
               <span className="sr-only">{t('common.opensInNewTab')}</span>
             </a>
