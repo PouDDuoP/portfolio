@@ -1,11 +1,10 @@
 import { lazy, Suspense, useEffect } from 'react';
 import Layout from './components/layout/Layout';
 import Hero from './components/sections/Hero';
-import About from './components/sections/About';
-import ReactGA from 'react-ga4';
 import { Analytics } from '@vercel/analytics/react';
 
-// Lazy-load heavy sections
+// Lazy-load sections below the fold
+const About = lazy(() => import('./components/sections/About'));
 const Skills = lazy(() => import('./components/sections/Skills'));
 const Projects = lazy(() => import('./components/sections/Projects'));
 const Experience = lazy(() => import('./components/sections/Experience'));
@@ -28,16 +27,18 @@ const SectionLoader = () => (
 
 function App() {
   useEffect(() => {
-    // Envía el reporte de la página actual a Google Analytics (solo en producción)
-    if (import.meta.env.VITE_GA_ID) {
-      ReactGA.send({ hitType: "pageview", page: window.location.pathname });
+    // Envía pageview a GA4 vía gtag (solo si está configurado)
+    if (import.meta.env.VITE_GA_ID && typeof window.gtag === 'function') {
+      window.gtag('config', import.meta.env.VITE_GA_ID, { page_path: window.location.pathname });
     }
   }, []);
 
   return (
     <Layout>
       <Hero />
-      <About />
+      <Suspense fallback={<SectionLoader />}>
+        <About />
+      </Suspense>
       <Suspense fallback={<SectionLoader />}>
         <Skills />
       </Suspense>

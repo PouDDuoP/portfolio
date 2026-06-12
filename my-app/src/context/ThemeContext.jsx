@@ -1,3 +1,5 @@
+/* eslint-disable react-refresh/only-export-components */
+
 import { createContext, use, useState, useEffect, useCallback, useMemo } from 'react';
 
 const ThemeContext = createContext();
@@ -18,7 +20,7 @@ export function ThemeProvider({ children }) {
       const next = prev === 'dark' ? 'light' : 'dark';
       try {
         localStorage.setItem('portfolio-theme', next);
-      } catch {}
+      } catch { /* empty */ }
       return next;
     });
   }, []);

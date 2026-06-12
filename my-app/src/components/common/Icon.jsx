@@ -66,7 +66,7 @@ const ICONS = {
 export default function Icon({ name, size = 20, className, ariaHidden = true }) {
   const icon = ICONS[name];
   if (!icon) {
-    if (process.env.NODE_ENV === 'development') {
+    if (import.meta.env.DEV) {
       console.warn(`Icon "${name}" is not defined`);
     }
     return null;

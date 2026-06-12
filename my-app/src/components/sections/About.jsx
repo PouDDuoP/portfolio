@@ -1,4 +1,3 @@
-import profile from '../../data/profile.json';
 import { useT } from '../../i18n/useTranslation';
 import Section from '../common/Section';
 import './About.css';
