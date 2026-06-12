@@ -9,8 +9,7 @@ export default function Experience() {
   const formatDate = (date) => {
     if (date === 'actual') return t('experience.present');
     const [year, month] = date.split('-');
-    const monthNames = ['Ene', 'Feb', 'Mar', 'Abr', 'May', 'Jun', 'Jul', 'Ago', 'Sep', 'Oct', 'Nov', 'Dic'];
-    return `${monthNames[parseInt(month) - 1]} ${year}`;
+    return `${t('experience.months.' + (parseInt(month) - 1))} ${year}`;
   };
   
   return (
