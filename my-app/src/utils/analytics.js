@@ -1,10 +1,8 @@
-import ReactGA from 'react-ga4';
-
 /**
- * Envía un evento a Google Analytics 4.
- * Solo se ejecuta si VITE_GA_ID está configurado.
+ * Envía un evento a Google Analytics 4 vía gtag nativo.
+ * Solo se ejecuta si gtag está disponible.
  */
 export function trackEvent(category, action, label) {
-  if (!import.meta.env.VITE_GA_ID) return;
-  ReactGA.event({ category, action, label });
+  if (typeof window.gtag !== 'function') return;
+  window.gtag('event', action, { event_category: category, event_label: label });
 }

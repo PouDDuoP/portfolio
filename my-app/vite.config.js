@@ -12,7 +12,7 @@ export default defineConfig({
           if (id.includes('node_modules/react-dom') || id.includes('node_modules/react/')) {
             return 'vendor';
           }
-          if (id.includes('node_modules/react-ga4') || id.includes('node_modules/@vercel/analytics')) {
+          if (id.includes('@vercel/analytics')) {
             return 'analytics';
           }
         },
