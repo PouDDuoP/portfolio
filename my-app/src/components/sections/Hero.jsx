@@ -77,6 +77,7 @@ export default function Hero() {
           
           <p className={`hero__subtitle${isTyping ? ' hero__subtitle--typing' : ''}`}>
             {displayedText}
+            <span className="hero__subtitle-cursor" aria-hidden="true">|</span>
           </p>
           
           <p className="hero__tagline">
@@ -133,6 +134,7 @@ export default function Hero() {
               <Button href={import.meta.env.VITE_CV_BLOB_URL} target="_blank" rel="noopener noreferrer" variant="secondary" size="large"
                 onClick={() => trackEvent('CV', 'download', 'CV-KevinAlvarado-2026')}>
                 {t('hero.downloadCv')}
+                <span className="sr-only">{t('common.opensInNewTab')}</span>
               </Button>
             )}
           </div>

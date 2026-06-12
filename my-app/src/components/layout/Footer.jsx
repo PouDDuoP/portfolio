@@ -19,9 +19,11 @@ export default function Footer() {
           <div className="footer__links">
             <a href={profile.social.github} target="_blank" rel="noopener noreferrer" aria-label="GitHub">
               <Icon name="github" size={20} />
+              <span className="sr-only">{t('common.opensInNewTab')}</span>
             </a>
             <a href={profile.social.linkedin} target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
               <Icon name="linkedin" size={20} />
+              <span className="sr-only">{t('common.opensInNewTab')}</span>
             </a>
           </div>
         </div>

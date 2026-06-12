@@ -103,15 +103,14 @@
   font-weight: 600;
 }
 
-.hero__subtitle::after {
-  content: '|';
+.hero__subtitle-cursor {
   margin-left: 2px;
   color: var(--color-primary);
   font-weight: 300;
   animation: cursorBlink 0.7s step-end infinite;
 }
 
-.hero__subtitle--typing::after {
+.hero__subtitle--typing .hero__subtitle-cursor {
   animation: none;
 }
 
