@@ -1,6 +1,21 @@
 # Dependencies (pnpm workspace root)
 node_modules/
+
+# Build output
+dist/
+
+# Environment
+.env
+.env.*
+
 # Local AI runtime state
 .atl/
-# codegraph 
+
+# OpenCode auto-generated
 .codegraph/
+my-app/.agents/
+my-app/skills-lock.json
+
+# OS
+.DS_Store
+Thumbs.db
