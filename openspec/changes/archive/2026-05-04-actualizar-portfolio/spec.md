@@ -1,4 +1,4 @@
-# Spec: actualizar-portfolio
+﻿# Spec: actualizar-portfolio
 
 ## 1. Requirements
 
@@ -6,7 +6,7 @@
 
 Two new projects extracted from page 3 of `CV/CV 2026 V1 (SP).pdf`:
 
-#### Project 1: Stability (Colaboración en proyectos externos)
+#### Project 1: Stability (ColaboraciÃ³n en proyectos externos)
 
 - **id**: "stability"
 - **type**: "laboral"
@@ -16,7 +16,7 @@ Two new projects extracted from page 3 of `CV/CV 2026 V1 (SP).pdf`:
 - **description_en**: "Stability Front-end (Flutter, Dart, BLoC, GetIt, Dio, Shared Preferences, Table Calendar, Image Picker, Flutter SVG, Pin Code Fields, Intl, Animations)"
 - **challenge**: "Aplicar Clean Architecture con BLoC para escalabilidad y mantenibilidad en Flutter"
 - **challenge_en**: "Apply Clean Architecture with BLoC for scalability and maintainability in Flutter"
-- **result**: "Sistema completo de gestión de clases con autenticación, reservas, perfiles y localización en español"
+- **result**: "Sistema completo de gestiÃ³n de clases con autenticaciÃ³n, reservas, perfiles y localizaciÃ³n en espaÃ±ol"
 - **result_en**: "Complete class management system with authentication, reservations, profiles, and Spanish localization"
 - **techStack**: ["Flutter", "Dart", "BLoC", "GetIt", "Dio", "Shared Preferences", "Table Calendar", "Image Picker", "Flutter SVG", "Pin Code Fields", "Intl", "Animations"]
 - **featured**: true
@@ -27,11 +27,11 @@ Two new projects extracted from page 3 of `CV/CV 2026 V1 (SP).pdf`:
 - **type**: "personal"
 - **title**: "Desarrollo de My Store"
 - **title_en**: "My Store Development"
-- **description**: "Aplicación Full-stack con back-end en Node.js/Express/PostgreSQL y front-end en Angular/Tailwind CSS. Incluye API REST documentada, autenticación JWT, carrito de compras y panel de administración."
+- **description**: "AplicaciÃ³n Full-stack con back-end en Node.js/Express/PostgreSQL y front-end en Angular/Tailwind CSS. Incluye API REST documentada, autenticaciÃ³n JWT, carrito de compras y panel de administraciÃ³n."
 - **description_en**: "Full-stack application with Node.js/Express/PostgreSQL back-end and Angular/Tailwind CSS front-end. Includes documented REST API, JWT authentication, shopping cart, and admin panel."
-- **challenge**: "Desarrollar una aplicación completa con arquitectura por capas y dominios, aplicando metodología SDD y persistencia con Engram"
+- **challenge**: "Desarrollar una aplicaciÃ³n completa con arquitectura por capas y dominios, aplicando metodologÃ­a SDD y persistencia con Engram"
 - **challenge_en**: "Develop a complete application with layered and domain architecture, applying SDD methodology and Engram persistence"
-- **result**: "API REST completa con documentación Swagger, SPA con i18n, pruebas unitarias con Jest, y despliegue con Docker"
+- **result**: "API REST completa con documentaciÃ³n Swagger, SPA con i18n, pruebas unitarias con Jest, y despliegue con Docker"
 - **result_en**: "Complete REST API with Swagger documentation, SPA with i18n, unit tests with Jest, and Docker deployment"
 - **techStack**: ["Node.js", "Express.js", "JWT", "Passport", "Bcrypt", "Joi", "Swagger", "Sequelize ORM", "PostgreSQL", "Docker Compose", "Nodemailer", "Jest", "Angular", "TypeScript", "Tailwind CSS", "RxJS", "Signals", "SSR", "i18n"]
 - **featured**: true
@@ -81,10 +81,10 @@ Add the following entries to `my-app/src/data/skills.json`:
 
 **Functionality**:
 - Add a button next to or replacing the email `mailto:` link (or as an additional action)
-- On click: copy `kevinalvarado.ag@gmail.com` to clipboard using `navigator.clipboard.writeText()`
+- On click: copy `kevinalvarado.ag+jobs@gmail.com` to clipboard using `navigator.clipboard.writeText()`
 - Clipboard API fallback: Use `document.execCommand('copy')` for older browsers
-- Visual feedback: Button text changes to "¡Copiado!" / "Copied!" for 2 seconds after successful copy
-- Bilingual: Button shows "Copiar Email" / "Copy Email" initially, then "¡Copiado!" / "Copied!" on success
+- Visual feedback: Button text changes to "Â¡Copiado!" / "Copied!" for 2 seconds after successful copy
+- Bilingual: Button shows "Copiar Email" / "Copy Email" initially, then "Â¡Copiado!" / "Copied!" on success
 
 **Implementation approach**:
 1. Add state: `const [copied, setCopied] = useState(false);`
@@ -117,8 +117,8 @@ const handleCopyEmail = async () => {
 **Button placement decision**: **Hero section** (`my-app/src/components/sections/Hero.jsx`)
 
 **Reasoning**:
-- Hero is the first visible section — high-impact moment for recruiters
-- The Hero already has two CTAs ("Ver proyectos", "Contactar") — adding "Descargar CV" creates a natural trio
+- Hero is the first visible section â€” high-impact moment for recruiters
+- The Hero already has two CTAs ("Ver proyectos", "Contactar") â€” adding "Descargar CV" creates a natural trio
 - Header could become cluttered with another button alongside language toggle and mobile menu
 - Contact section is too far down the page (users may not scroll that far)
 
@@ -141,11 +141,11 @@ All NEW content must follow existing bilingual pattern:
 | Content Type | Pattern | Example |
 |-------------|---------|---------|
 | Project fields | `field_en` suffix | `title_en`, `description_en` |
-| Skill years | Component handles translation | `6+ meses` → `6+ months` (already in Skills.jsx) |
+| Skill years | Component handles translation | `6+ meses` â†’ `6+ months` (already in Skills.jsx) |
 | UI buttons | Ternary with `lang` | `lang === 'es' ? 'Descargar CV' : 'Download CV'` |
 | Section titles | Ternary with `lang` | Already used throughout components |
 
-**No changes needed to skills.json structure** — skill names are technical terms that don't need translation.
+**No changes needed to skills.json structure** â€” skill names are technical terms that don't need translation.
 
 ---
 
@@ -154,8 +154,8 @@ All NEW content must follow existing bilingual pattern:
 ### Scenario 1: User copies email to clipboard
 **Given** the user is viewing the Contact section  
 **When** the user clicks the "Copiar Email" / "Copy Email" button  
-**Then** the email `kevinalvarado.ag@gmail.com` is copied to clipboard  
-**And** the button text changes to "¡Copiado!" / "Copied!" for 2 seconds  
+**Then** the email `kevinalvarado.ag+jobs@gmail.com` is copied to clipboard  
+**And** the button text changes to "Â¡Copiado!" / "Copied!" for 2 seconds  
 **And** after 2 seconds, the button returns to its original text
 
 ### Scenario 2: User downloads CV
@@ -223,7 +223,7 @@ All NEW content must follow existing bilingual pattern:
     "description_en": "Stability Front-end (Flutter, Dart, BLoC, GetIt, Dio, Shared Preferences, Table Calendar, Image Picker, Flutter SVG, Pin Code Fields, Intl, Animations)",
     "challenge": "Aplicar Clean Architecture con BLoC para escalabilidad y mantenibilidad en Flutter",
     "challenge_en": "Apply Clean Architecture with BLoC for scalability and maintainability in Flutter",
-    "result": "Sistema completo de gestión de clases con autenticación, reservas, perfiles y localización en español",
+    "result": "Sistema completo de gestiÃ³n de clases con autenticaciÃ³n, reservas, perfiles y localizaciÃ³n en espaÃ±ol",
     "result_en": "Complete class management system with authentication, reservations, profiles, and Spanish localization",
     "techStack": ["Flutter", "Dart", "BLoC", "GetIt", "Dio", "Shared Preferences", "Table Calendar", "Image Picker", "Flutter SVG", "Pin Code Fields", "Intl", "Animations"],
     "image": "",
@@ -236,11 +236,11 @@ All NEW content must follow existing bilingual pattern:
     "type": "personal",
     "title": "Desarrollo de My Store",
     "title_en": "My Store Development",
-    "description": "Aplicación Full-stack con back-end en Node.js/Express/PostgreSQL y front-end en Angular/Tailwind CSS. Incluye API REST documentada, autenticación JWT, carrito de compras y panel de administración.",
+    "description": "AplicaciÃ³n Full-stack con back-end en Node.js/Express/PostgreSQL y front-end en Angular/Tailwind CSS. Incluye API REST documentada, autenticaciÃ³n JWT, carrito de compras y panel de administraciÃ³n.",
     "description_en": "Full-stack application with Node.js/Express/PostgreSQL back-end and Angular/Tailwind CSS front-end. Includes documented REST API, JWT authentication, shopping cart, and admin panel.",
-    "challenge": "Desarrollar una aplicación completa con arquitectura por capas y dominios, aplicando metodología SDD y persistencia con Engram",
+    "challenge": "Desarrollar una aplicaciÃ³n completa con arquitectura por capas y dominios, aplicando metodologÃ­a SDD y persistencia con Engram",
     "challenge_en": "Develop a complete application with layered and domain architecture, applying SDD methodology and Engram persistence",
-    "result": "API REST completa con documentación Swagger, SPA con i18n, pruebas unitarias con Jest, y despliegue con Docker",
+    "result": "API REST completa con documentaciÃ³n Swagger, SPA con i18n, pruebas unitarias con Jest, y despliegue con Docker",
     "result_en": "Complete REST API with Swagger documentation, SPA with i18n, unit tests with Jest, and Docker deployment",
     "techStack": ["Node.js", "Express.js", "JWT", "Passport", "Bcrypt", "Joi", "Swagger", "Sequelize ORM", "PostgreSQL", "Docker Compose", "Nodemailer", "Jest", "Angular", "TypeScript", "Tailwind CSS", "RxJS", "Signals", "SSR", "i18n"],
     "image": "",
@@ -255,20 +255,20 @@ All NEW content must follow existing bilingual pattern:
 
 **Current Front-end skills** (5 items):
 ```json
-{ "name": "JavaScript", "years": "5+ años", "type": "laboral" },
-{ "name": "jQuery", "years": "5+ años", "type": "laboral" },
-{ "name": "Bootstrap", "years": "5+ años", "type": "laboral" },
-{ "name": "CSS", "years": "5+ años", "type": "laboral" },
-{ "name": "HTML", "years": "5+ años", "type": "laboral" }
+{ "name": "JavaScript", "years": "5+ aÃ±os", "type": "laboral" },
+{ "name": "jQuery", "years": "5+ aÃ±os", "type": "laboral" },
+{ "name": "Bootstrap", "years": "5+ aÃ±os", "type": "laboral" },
+{ "name": "CSS", "years": "5+ aÃ±os", "type": "laboral" },
+{ "name": "HTML", "years": "5+ aÃ±os", "type": "laboral" }
 ```
 
-**After change** (8 items — add 3 new):
+**After change** (8 items â€” add 3 new):
 ```json
-{ "name": "JavaScript", "years": "5+ años", "type": "laboral" },
-{ "name": "jQuery", "years": "5+ años", "type": "laboral" },
-{ "name": "Bootstrap", "years": "5+ años", "type": "laboral" },
-{ "name": "CSS", "years": "5+ años", "type": "laboral" },
-{ "name": "HTML", "years": "5+ años", "type": "laboral" },
+{ "name": "JavaScript", "years": "5+ aÃ±os", "type": "laboral" },
+{ "name": "jQuery", "years": "5+ aÃ±os", "type": "laboral" },
+{ "name": "Bootstrap", "years": "5+ aÃ±os", "type": "laboral" },
+{ "name": "CSS", "years": "5+ aÃ±os", "type": "laboral" },
+{ "name": "HTML", "years": "5+ aÃ±os", "type": "laboral" },
 { "name": "Angular", "years": "6+ meses", "type": "laboral" },
 { "name": "Tailwind CSS", "years": "6+ meses", "type": "laboral" },
 { "name": "Flutter", "years": "6+ meses", "type": "laboral" }
@@ -276,24 +276,24 @@ All NEW content must follow existing bilingual pattern:
 
 **Current Tools skills** (4 items):
 ```json
-{ "name": "Git", "years": "3+ años", "type": "laboral" },
-{ "name": "SourceTree", "years": "2+ años", "type": "laboral" },
-{ "name": "Jira", "years": "2+ años", "type": "laboral" },
+{ "name": "Git", "years": "3+ aÃ±os", "type": "laboral" },
+{ "name": "SourceTree", "years": "2+ aÃ±os", "type": "laboral" },
+{ "name": "Jira", "years": "2+ aÃ±os", "type": "laboral" },
 { "name": "Docker", "years": "6+ meses", "type": "laboral" }
 ```
 
-**After change** (5 items — add 1 new):
+**After change** (5 items â€” add 1 new):
 ```json
-{ "name": "Git", "years": "3+ años", "type": "laboral" },
-{ "name": "SourceTree", "years": "2+ años", "type": "laboral" },
-{ "name": "Jira", "years": "2+ años", "type": "laboral" },
+{ "name": "Git", "years": "3+ aÃ±os", "type": "laboral" },
+{ "name": "SourceTree", "years": "2+ aÃ±os", "type": "laboral" },
+{ "name": "Jira", "years": "2+ aÃ±os", "type": "laboral" },
 { "name": "Docker", "years": "6+ meses", "type": "laboral" },
 { "name": "OpenCode", "years": "2+ meses", "type": "personal" }
 ```
 
 ### 3.3 CV File
 
-**Action**: Copy `CV/CV 2026 V1 (SP).pdf` → `my-app/public/CV-KevinAlvarado-2026.pdf`
+**Action**: Copy `CV/CV 2026 V1 (SP).pdf` â†’ `my-app/public/CV-KevinAlvarado-2026.pdf`
 
 **Reason**: Files in `public/` are served at the root of the site by Vite/React build process. Using a normalized filename avoids URL encoding issues with spaces and parentheses.
 
@@ -328,7 +328,7 @@ All NEW content must follow existing bilingual pattern:
     </span>
     <span className="contact__card-value">
       {copied 
-        ? (lang === 'es' ? '¡Copiado!' : 'Copied!') 
+        ? (lang === 'es' ? 'Â¡Copiado!' : 'Copied!') 
         : (lang === 'es' ? 'Copiar al portapapeles' : 'Copy to clipboard')}
     </span>
   </div>
@@ -376,9 +376,9 @@ const classNames = `btn btn--${variant} btn--${size} ${className}`.trim();
 
 ### 4.4 `my-app/src/components/sections/Skills.jsx`
 
-**No changes needed** — the component dynamically renders all skills from the JSON data. Adding entries to `skills.json` will automatically display them.
+**No changes needed** â€” the component dynamically renders all skills from the JSON data. Adding entries to `skills.json` will automatically display them.
 
-The `getWidthPercent` function (line 8) already handles `'6+ meses'` → returns 10% width, which is correct for the new skills.
+The `getWidthPercent` function (line 8) already handles `'6+ meses'` â†’ returns 10% width, which is correct for the new skills.
 
 The `categoryTranslations` object (line 16-23) already has entries for 'Front-end' and 'Tools' (mapped to 'Herramientas' in Spanish), so no changes needed.
 

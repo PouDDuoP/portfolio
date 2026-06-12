@@ -1,4 +1,4 @@
-# Proposal: Actualizar Portfolio
+﻿# Proposal: Actualizar Portfolio
 
 ## Intent
 
@@ -7,7 +7,7 @@ Update the portfolio with new projects from PDF CV (page 3), add new skills (Ang
 ## Scope
 
 ### In Scope
-- Add new projects from "Colaboración en proyectos externos" and "Proyectos personales" sections (page 3 of CV PDF)
+- Add new projects from "ColaboraciÃ³n en proyectos externos" and "Proyectos personales" sections (page 3 of CV PDF)
 - Add new skills to skills.json: Angular, Tailwind CSS, Flutter (Front-end), OpenCode (Herramientas)
 - Add copy-to-clipboard button for email in contact section
 - Add CV download button linking to CV 2026 V1 (SP).pdf
@@ -32,7 +32,7 @@ Update the portfolio with new projects from PDF CV (page 3), add new skills (Ang
 
 ## Approach
 
-1. **Projects**: Extract projects from CV PDF page 3 (Colaboración en proyectos externos, Proyectos personales). If extraction fails, request user to provide project details manually. Add to projects.json with bilingual titles/descriptions following existing schema.
+1. **Projects**: Extract projects from CV PDF page 3 (ColaboraciÃ³n en proyectos externos, Proyectos personales). If extraction fails, request user to provide project details manually. Add to projects.json with bilingual titles/descriptions following existing schema.
 
 2. **Skills**: Add to skills.json under appropriate categories:
    - Front-end: Angular (6+ meses), Tailwind CSS (6+ meses), Flutter (6+ meses)
@@ -41,7 +41,7 @@ Update the portfolio with new projects from PDF CV (page 3), add new skills (Ang
 
 3. **Email Copy Button**: In contact section component, add button with clipboard API:
    ```javascript
-   navigator.clipboard.writeText('kevinalvarado.ag@gmail.com')
+   navigator.clipboard.writeText('kevinalvarado.ag+jobs@gmail.com')
    ```
    Include visual feedback (copied state) and bilingual button text.
 
@@ -93,4 +93,4 @@ Update the portfolio with new projects from PDF CV (page 3), add new skills (Ang
 
 ## Notes
 
-**PDF Extraction Issue**: The PDF was partially read but sections "Colaboración en proyectos externos" and "Proyectos personales" (page 3) were not captured in the extraction. These sections must be obtained manually from the user or via alternative PDF reading method before implementing the projects task.
+**PDF Extraction Issue**: The PDF was partially read but sections "ColaboraciÃ³n en proyectos externos" and "Proyectos personales" (page 3) were not captured in the extraction. These sections must be obtained manually from the user or via alternative PDF reading method before implementing the projects task.

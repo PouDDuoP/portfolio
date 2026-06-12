@@ -1,4 +1,4 @@
-# Kevin Alvarado - Portfolio
+﻿# Kevin Alvarado - Portfolio
 
 Portafolio personal de Kevin Alvarado, Desarrollador Full Stack con más de 5 años de experiencia en la industria, especializado en soluciones back-end y front-end.
 
@@ -24,30 +24,32 @@ Portafolio personal de Kevin Alvarado, Desarrollador Full Stack con más de 5 a�
 
 ### Bases de Datos
 - SQL Server (5+ años)
-- Oracle (5+ años)
+- Oracle Database (5+ años)
 - PostgreSQL (5+ años)
 - MySQL (2+ años)
 
 ### Herramientas
 - Git (3+ años)
+- GitHub (3+ años)
+- Bitbucket (3+ años)
 - SourceTree (2+ años)
 - Jira (2+ años)
 - Docker (6+ meses)
 - OpenCode (2+ meses)
 
-## 📁️ Proyectos
+## 📁 Proyectos
 
 ### Laborales
 1. **Sistema de Qualitas Assistance** (Humanitas Administradora de Riesgos)
-   - ASP Classic, VBScript, PHP, Git, Bootstrap 3, jQuery, JavaScript, HTML5, CSS, SQL Server
+   - ASP Classic, VBScript, PHP, Git, Bitbucket, Bootstrap 3, jQuery, JavaScript, HTML5, CSS, SQL Server
    - Gestión de comisiones, pagos, upgrades de productos y reportes de data extensa
 
 2. **Sistema de Globalmate**
-   - PHP, Bootstrap 3, jQuery, JavaScript, HTML5, CSS, Oracle Database
+   - PHP, Bootstrap 3, jQuery, JavaScript, HTML5, CSS, Oracle Database, Bitbucket
    - Diseño responsive y soporte multi-idiomas
 
 3. **Sistema de Mankind**
-   - Python, Django, Git, Bootstrap 3, jQuery, JavaScript, HTML5, CSS, Oracle Database, Docker
+   - Python, Django, Git, Bitbucket, Bootstrap 3, jQuery, JavaScript, HTML5, CSS, Oracle Database, Docker
    - Cotizador de planes con generación de PDF y despliegue con Gunicorn/Nginx
 
 ### Personales
@@ -59,8 +61,8 @@ Portafolio personal de Kevin Alvarado, Desarrollador Full Stack con más de 5 a�
 
 ## 💼 Experiencia
 
-**Especialista Web** (2017-2024)  
-Humanitas Administradora de Riesgos / Qualitas Assistance  
+**Especialista Web** (2017-2024)
+Humanitas Administradora de Riesgos / Qualitas Assistance
 Caracas, Venezuela
 
 - Diseño y desarrollo de software con patrones MVC y MVT
@@ -72,7 +74,7 @@ Caracas, Venezuela
 
 ## 🎓 Educación
 
-- **Ingeniero en Informática** (2012-2017)  
+- **Ingeniero en Informática** (2012-2017)
   Colegio Universitario de Caracas (CUC)
 
 ### Certificaciones
@@ -92,14 +94,13 @@ Caracas, Venezuela
 - Inglés (B1)
 
 ## 📬 Contacto
-- Email: kevinalvarado.ag@gmail.com (botón de copia disponible)
-- Teléfono: +58 414 2321163
+- Email: kevinalvarado.ag+jobs@gmail.com (botón de copia disponible)
 - GitHub: [@PouDDuoP](https://github.com/PouDDuoP)
 - LinkedIn: [/in/kevin-alvarado-graterol](https://linkedin.com/in/kevin-alvarado-graterol)
 - Ubicación: Caracas, Venezuela
 - **CV disponible**: [Descargar PDF](https://kevin-alvarado.vercel.app) (sección Hero)
 
-## 🚀 Stack Técnico del Portafolio
+## 🛠️ Stack Técnico del Portafolio
 
 - React 19.2.6
 - Vite 8.0.14
@@ -109,15 +110,13 @@ Caracas, Venezuela
 - Context API para gestión de idioma (ES/EN) y tema (dark/light)
 - Traducción dinámica completa (ES/EN)
 - Google Analytics 4 (react-ga4) — event tracking personalizado
-- @vercel/analytics
-- Vercel Blob Storage para alojamiento del CV (independiente del deploy)
 - Desplegado en Vercel
 - Optimización LCP (Code Splitting con React.lazy)
 - Accesibilidad WCAG 2.2 AA (contraste verificado)
 - Carga optimizada de fuentes (preconnect + preload)
 - Imagen de perfil en WebP (mejor compresión)
 
-## ✨ Nuevas Funcionalidades (2026)
+## ✨ Funcionalidades
 
 ### Botón de Copia de Email
 - Implementado en la sección de Contacto
@@ -126,55 +125,51 @@ Caracas, Venezuela
 - Feedback visual: "¡Copiado!" / "Copied!" por 2 segundos
 
 ### Descarga de CV
-- Botón de descarga directa del CV actualizado (2026)
-- Servido desde **Vercel Blob** — independiente del deploy, se actualiza sin redeploy
-- Alojado en almacenamiento público de Vercel para disponibilidad permanente
-- Visible en la sección Hero para fácil acceso de reclutadores
+- Botón de descarga directa del CV actualizado
+- Servido desde almacenamiento externo — se actualiza sin redeploy
 - Traducciones: "Descargar CV" / "Download CV"
 
-### Migración a Vercel Blob (2026)
-- CV movido de `public/` a Vercel Blob Storage
-- Botón se oculta automáticamente si no hay URL configurada
-- Configurable vía `VITE_CV_BLOB_URL` en variables de entorno
-- El PDF local fue eliminado del repositorio
+### Event Tracking con Google Analytics 4
+- Tracking de descarga de CV
+- Tracking de clics en redes sociales (GitHub, LinkedIn)
+- Tracking de interacciones de contacto: email, copiar email
+- Tracking de cambio de idioma (ES/EN)
 
-### Event Tracking con Google Analytics 4 (2026)
-- Tracking de descarga de CV (categoría: CV)
-- Tracking de clics en GitHub y LinkedIn (categoría: Social)
-- Tracking de interacciones de contacto: email, copiar email, enviar email (categoría: Contact)
-- Tracking de cambio de idioma (categoría: Language)
-- Utility centralizado en `src/utils/analytics.js` para facilitar futuros eventos
+### Carousel de Proyectos y Educación
+- Componente CarouselShell reutilizable con scroll horizontal
+- Flechas de navegación animadas
+- Integración independiente en Projects y Education
 
-## 📁️ Estructura del Proyecto
+### Componente Icon
+- Sistema de iconos centralizado con 7 iconos SVG
+- Fácilmente extensible para nuevos iconos
+
+### Skip to Content
+- Enlace de accesibilidad para saltar la navegación
+- Optimizado para lectores de pantalla y navegación por teclado
+
+## 📁 Estructura del Proyecto
 
 ```
 my-app/
 ├── public/
 │   ├── images/
 │   │   └── profile.webp    # Imagen de perfil optimizada (WebP)
-│   │   └── projects/
 │   ├── favicon.svg
 │   └── icons.svg
 ├── src/
-│   ├── assets/           # Recursos estáticos (hero.png, react.svg, vite.svg)
 │   ├── components/
-│   │   ├── common/       # Button, Card, Section, BackToTop
-│   │   ├── layout/       # Header, Footer, Layout
-│   │   └── sections/     # Hero, About, Skills, Projects, Experience, Education, Contact
-│   ├── context/          # LanguageContext (ES/EN), ThemeContext
-│   ├── data/             # JSON con información
-│   │   ├── profile.json
-│   │   ├── projects.json
-│   │   ├── experience.json
-│   │   ├── skills.json
-│   │   └── education.json
-│   ├── i18n/             # Traducciones dinámicas ES/EN
-│   └── index.css         # Estilos globales (CSS Variables)
-├── .env                  # Variables de entorno (gitignored)
-├── .env.development      # Overrides para desarrollo (gitignored)
-├── index.html            # Optimizado: preconnect + preload para fuentes
-├── vercel.json           # Configuración de despliegue
-└── ⚡ CV servido desde Vercel Blob (no en public/)
+│   │   ├── common/         # Button, Card, Section, BackToTop, CarouselShell, Icon
+│   │   ├── layout/         # Header, Footer, Layout
+│   │   └── sections/       # Hero, About, Skills, Projects, Experience, Education, FAQ, Contact
+│   ├── context/            # LanguageContext (ES/EN), ThemeContext
+│   ├── data/               # JSON con información del perfil
+│   ├── i18n/               # Traducciones dinámicas ES/EN
+│   ├── utils/              # analytics.js
+│   └── index.css           # Estilos globales (CSS Variables)
+├── index.html              # Optimizado: preconnect + preload para fuentes
+├── vercel.json             # Configuración de despliegue
+└── README.md
 ```
 
 ## 🚀 Scripts Disponibles
@@ -183,15 +178,16 @@ my-app/
 npm run dev      # Servidor de desarrollo (http://localhost:5173)
 npm run build    # Build de producción optimizado (code splitting)
 npm run preview  # Previsualizar build
-npm run lint     # Linter
 ```
 
-## 🚀 Optimizaciones de Rendimiento
+## ⚡ Optimizaciones de Rendimiento
 
-- **LCP Optimizado**: Code splitting con `React.lazy()` - El bundle se divide en chunks bajo demanda
+- **LCP Optimizado**: Code splitting con `React.lazy()` — El bundle se divide en chunks bajo demanda
+- **Suspense boundaries individuales**: Cada sección carga en paralelo sin bloquear a las demás
 - **Fuentes optimizadas**: Preconexión temprana a Google Fonts + precarga no bloqueante
-- **Accesibilidad**: Contraste WCAG 2.0 AA verificado (contraste > 4.5:1)
-- **Imagenes**: Perfil convertido a WebP para mejor compresión
+- **Accesibilidad**: Contraste WCAG 2.0 AA verificado, skip-to-content, aria-controls en FAQ
+- **Imágenes**: Perfil convertido a WebP para mejor compresión
+- **Assets sin usar eliminados**: hero.png, react.svg, vite.svg
 - **Vercel**: Despliegue automático con configuración optimizada
 - **0 errores críticos** en PageSpeed Insights y Accesibility Checker
 
@@ -201,8 +197,8 @@ MIT
 
 ---
 
-**Kevin Alvarado** - Desarrollador Full Stack 
-Desarrollador Full Stack versátil con más de 5 años de experiencia en la industria  
-Disponible para proyectos
+**Kevin Alvarado** - Desarrollador Full Stack
+Desarrollador Full Stack versátil con más de 5 años de experiencia en la industria
+En búsqueda activa de empleo
 
 🌐 **Live Demo**: [kevin-alvarado.vercel.app](https://kevin-alvarado.vercel.app)
