@@ -2,11 +2,12 @@
   {
     "id": "qualitas-assitance",
     "type": "laboral",
+    "date": "2023-01",
     "title": "Sistema de Qualitas Assistance",
     "description": "Sistema integral para gestión de comisiones, pagos, upgrades de productos y reportes de data extensa.",
     "challenge": "Centralizar múltiples procesos manuales en una sola plataforma escalable",
     "result": "Reducción de requerimientos de reportes en al menos un 90%, eliminación de registros manuales en Excel",
-    "techStack": ["ASP Classic", "VBScript", "PHP", "Git", "Bootstrap 3", "jQuery", "JavaScript", "HTML5", "CSS", "SQL Server"],
+    "techStack": ["ASP Classic", "VBScript", "PHP", "Git", "Bitbucket", "Bootstrap 3", "jQuery", "JavaScript", "HTML5", "CSS", "SQL Server"],
     "image": "",
     "github": "",
     "demo": "",
@@ -15,11 +16,12 @@
   {
     "id": "globalmate",
     "type": "laboral",
+    "date": "2021-01",
     "title": "Sistema de Globalmate",
     "description": "Sistema con diseño responsive y soporte multi-idiomas para página web corporativa.",
     "challenge": "Adaptar el sistema para dispositivos móviles y múltiples idiomas",
     "result": "Página más cómoda para navegar en dispositivos móviles, eliminación de errores de información",
-    "techStack": ["PHP", "Bootstrap 3", "jQuery", "JavaScript", "HTML5", "CSS", "Oracle Database"],
+    "techStack": ["PHP", "Bootstrap 3", "jQuery", "JavaScript", "HTML5", "CSS", "Oracle Database", "Bitbucket"],
     "image": "",
     "github": "",
     "demo": "",
@@ -28,11 +30,12 @@
   {
     "id": "mankind",
     "type": "laboral",
+    "date": "2022-01",
     "title": "Sistema de Mankind",
     "description": "Cotizador de planes con generación de PDF y despliegue en producción con Gunicorn y Nginx.",
     "challenge": "Crear la primera versión de Mankind conectando bases de datos existentes",
     "result": "Interacción exitosa de clientes y agentes, conexión de base de datos existente mediante InspectDB",
-    "techStack": ["Python", "Django", "Git", "Bootstrap 3", "jQuery", "JavaScript", "HTML5", "CSS", "Oracle Database", "Docker"],
+    "techStack": ["Python", "Django", "Git", "Bitbucket", "Bootstrap 3", "jQuery", "JavaScript", "HTML5", "CSS", "Oracle Database", "Docker"],
     "image": "",
     "github": "",
     "demo": "",
@@ -41,6 +44,7 @@
   {
     "id": "inventario",
     "type": "personal",
+    "date": "2015-01",
     "title": "Sistema de Control de Inventario",
     "description": "Sistema desarrollado con C++ para gestión de inventario universitario.",
     "challenge": "Aprender las bases de la programación estructurada",
@@ -54,6 +58,7 @@
   {
     "id": "buzon",
     "type": "personal",
+    "date": "2016-01",
     "title": "Sistema de Buzón para Reporte de Incidencias",
     "description": "Sistema con patrón MVC para reporte de incidencias en instalaciones.",
     "challenge": "Desarrollar una aplicación desde cero con arquitectura MVC",
@@ -67,6 +72,7 @@
   {
     "id": "control-incidencias",
     "type": "personal",
+    "date": "2017-01",
     "title": "Sistema de Control de Incidencias",
     "description": "Sistema MVC con Bootstrap 3 y jQuery para reporte y gestión de averías.",
     "challenge": "Profundizar conocimientos frontend y patrones de arquitectura",
@@ -80,26 +86,31 @@
     {
       "id": "stability",
       "type": "laboral",
+      "date": "2024-01",
       "title": "Stability - Desarrollo Front-end",
       "description": "Front-end de Stability desarrollado con Flutter, Dart y BLoC siguiendo Clean Architecture.",
       "challenge": "Aplicar Clean Architecture con BLoC para escalabilidad y mantenibilidad en Flutter",
       "result": "Sistema completo de gestión de clases con autenticación, reservas, perfiles y localización en español",
-      "techStack": ["Flutter", "Dart", "BLoC", "GetIt", "Dio", "Shared Preferences", "Table Calendar", "Image Picker", "Flutter SVG", "Pin Code Fields", "Intl", "Animations"],
-      "image": "",
-      "github": "",
-      "demo": "",
-      "featured": true
-    },
-    {
-      "id": "my-store",
+    "techStack": ["Flutter", "Dart", "BLoC", "GetIt", "Dio", "Shared Preferences", "Table Calendar", "Image Picker", "Flutter SVG", "Pin Code Fields", "Intl", "Animations", "GitHub"],
+    "image": "",
+    "github": "",
+    "demo": "",
+    "featured": true
+  },
+  {
+    "id": "my-store",
       "type": "personal",
+      "date": "2025-06",
       "title": "Desarrollo de My Store",
       "description": "Aplicación Full-stack con back-end en Node.js/Express/PostgreSQL y front-end en Angular/Tailwind CSS. Incluye API REST documentada, autenticación JWT, carrito de compras y panel de administración.",
       "challenge": "Desarrollar una aplicación completa con arquitectura por capas y dominios, aplicando metodología SDD y persistencia con Engram",
       "result": "API REST completa con documentación Swagger, SPA con i18n, pruebas unitarias con Jest, y despliegue con Docker",
-      "techStack": ["Node.js", "Express.js", "JWT", "Passport", "Bcrypt", "Joi", "Swagger", "Sequelize ORM", "PostgreSQL", "Docker Compose", "Nodemailer", "Jest", "Angular", "TypeScript", "Tailwind CSS", "RxJS", "Signals", "SSR", "i18n"],
+      "techStack": ["Node.js", "Express.js", "JWT", "Passport", "Bcrypt", "Joi", "Swagger", "Sequelize ORM", "PostgreSQL", "Docker Compose", "Nodemailer", "Jest", "Angular", "TypeScript", "Tailwind CSS", "RxJS", "Signals", "SSR", "i18n", "GitHub"],
       "image": "",
-      "github": "",
+      "github": {
+        "frontend": "https://github.com/PouDDuoP/my-store-font-end",
+        "backend": "https://github.com/PouDDuoP/my-store"
+      },
       "demo": "",
       "featured": true
     }
