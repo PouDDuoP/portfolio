@@ -99,16 +99,18 @@
   font-size: clamp(1.25rem, 2vw, 1.5rem);
   color: var(--color-primary);
   margin: 0 0 var(--space-lg);
-  min-height: 1.6em;
+  height: 1.6em;
+  line-height: 1.6;
   font-weight: 600;
-  display: inline-block;
+  display: block;
+  width: fit-content;
   border-right: 2px solid var(--color-primary);
-  padding-right: 2px;
+  padding-right: 0.3em;
   animation: cursorBlink 0.7s step-end infinite;
 }
 
+/* Animación corre SIEMPRE — no se togglea para evitar perder compositing layer */
 .hero__subtitle--typing {
-  animation: none;
   border-right-color: transparent;
 }
 
@@ -471,5 +473,13 @@
   .hero__actions .btn {
     width: 100%;
     max-width: 280px;
+  }
+}
+
+/* Reduced motion: cursor visible sin parpadeo */
+@media (prefers-reduced-motion: reduce) {
+  .hero__subtitle {
+    animation: none;
+    border-right-color: var(--color-primary);
   }
 }
