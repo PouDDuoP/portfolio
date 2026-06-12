@@ -40,10 +40,20 @@ function App() {
       <About />
       <Suspense fallback={<SectionLoader />}>
         <Skills />
+      </Suspense>
+      <Suspense fallback={<SectionLoader />}>
         <Projects />
+      </Suspense>
+      <Suspense fallback={<SectionLoader />}>
         <Experience />
+      </Suspense>
+      <Suspense fallback={<SectionLoader />}>
         <Education />
+      </Suspense>
+      <Suspense fallback={<SectionLoader />}>
         <FAQ />
+      </Suspense>
+      <Suspense fallback={<SectionLoader />}>
         <Contact />
       </Suspense>
       <Analytics />

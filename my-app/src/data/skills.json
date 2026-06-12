@@ -3,54 +3,107 @@
     {
       "name": "Back-end",
       "skills": [
-        { "name": "Node.js", "years": "1+ año", "type": "personal" },
-        { "name": "Express", "years": "1+ año", "type": "personal" },
-        { "name": "Python", "years": "2+ años", "type": "laboral" },
-        { "name": "Django", "years": "1+ año", "type": "laboral" },
-        { "name": "PHP", "years": "5+ años", "type": "laboral" },
-        { "name": "ASP", "years": "5+ años", "type": "laboral" }
+        { "name": "Node.js", "years": "1+ año", "type": "personal", "examples": [
+          "Desarrollo de API REST con Express.js, autenticación JWT, carrito de compras y panel de administración en my-store"
+        ]},
+        { "name": "Express", "years": "1+ año", "type": "personal", "examples": [
+          "Creación de endpoints REST, middleware de autenticación y manejo de rutas para my-store"
+        ]},
+        { "name": "Python", "years": "2+ años", "type": "laboral", "examples": [
+          "Desarrollo backend con Django y Gunicorn para el cotizador de planes de Mankind",
+          "Creación de API REST con Django REST Framework para proyectos OpenWebinars"
+        ]},
+        { "name": "Django", "years": "1+ año", "type": "laboral", "examples": [
+          "Implementación de ORM, vistas basadas en clases y administración para sistemas web corporativos"
+        ]},
+        { "name": "PHP", "years": "5+ años", "type": "laboral", "examples": [
+          "Desarrollo de sistemas de gestión de comisiones, pagos y reportes en Qualitas Assistance",
+          "Implementación de patrón MVC para sistemas de control de incidencias"
+        ]},
+        { "name": "ASP", "years": "5+ años", "type": "laboral", "examples": [
+          "Mantenimiento y nuevas funcionalidades en sistema legacy de Qualitas Assistance con ASP Classic y VBScript"
+        ]}
       ]
     },
     {
       "name": "Front-end",
       "skills": [
-        { "name": "JavaScript", "years": "5+ años", "type": "laboral" },
-        { "name": "jQuery", "years": "5+ años", "type": "laboral" },
-        { "name": "Bootstrap", "years": "5+ años", "type": "laboral" },
-        { "name": "CSS", "years": "5+ años", "type": "laboral" },
-        { "name": "HTML", "years": "5+ años", "type": "laboral" },
-        { "name": "Angular", "years": "6+ meses", "type": "personal" },
-        { "name": "Tailwind CSS", "years": "6+ meses", "type": "personal" },
-        { "name": "Flutter", "years": "6+ meses", "type": "laboral" }
+        { "name": "JavaScript", "years": "5+ años", "type": "laboral", "examples": [
+          "Manipulación del DOM, consumo de APIs y lógica cliente para múltiples sistemas web",
+          "Desarrollo de componentes interactivos con jQuery y Vanilla JS"
+        ]},
+        { "name": "jQuery", "years": "5+ años", "type": "laboral", "examples": [
+          "Interacciones dinámicas, peticiones AJAX y manipulación del DOM en sistemas corporativos"
+        ]},
+        { "name": "Bootstrap", "years": "5+ años", "type": "laboral", "examples": [
+          "Maquetación responsive de dashboards, formularios y tablas en sistemas de gestión"
+        ]},
+        { "name": "CSS", "years": "5+ años", "type": "laboral", "examples": [
+          "Diseño de interfaces responsive, animaciones y temas oscuro/claro para portfolio personal",
+          "Maquetación de dashboards empresariales con estilos modulares"
+        ]},
+        { "name": "HTML", "years": "5+ años", "type": "laboral", "examples": [
+          "Estructuración semántica y accesible de interfaces web para sistemas transaccionales"
+        ]},
+        { "name": "Angular", "years": "6+ meses", "type": "personal", "examples": [
+          "Frontend de my-store con componentes standalone, servicios, RxJS y Signals"
+        ]},
+        { "name": "Tailwind CSS", "years": "6+ meses", "type": "personal", "examples": [
+          "Diseño utilitario y responsive para el frontend de my-store"
+        ]},
+        { "name": "Flutter", "years": "6+ meses", "type": "laboral", "examples": [
+          "Frontend de Stability con Dart, BLoC y Clean Architecture para gestión de clases y reservas"
+        ]}
        ]
      },
      {
        "name": "Bases de Datos",
       "skills": [
-        { "name": "SQL Server", "years": "5+ años", "type": "laboral" },
-        { "name": "Oracle", "years": "5+ años", "type": "laboral" },
-        { "name": "PostgreSQL", "years": "5+ años", "type": "personal" },
-        { "name": "MySQL", "years": "2+ años", "type": "personal" }
+        { "name": "SQL Server", "years": "5+ años", "type": "laboral", "examples": [
+          "Gestión de consultas complejas, reportes de data extensa y optimización en Qualitas Assistance"
+        ]},
+        { "name": "Oracle Database", "years": "5+ años", "type": "laboral", "examples": [
+          "Administración de bases de datos corporativas y consultas optimizadas para Globalmate y Mankind"
+        ]},
+        { "name": "PostgreSQL", "years": "5+ años", "type": "personal", "examples": [
+          "Modelado de datos y consultas para API REST de my-store y sistemas MVC con PHP"
+        ]},
+        { "name": "MySQL", "years": "2+ años", "type": "personal", "examples": [
+          "Base de datos principal en proyectos personales con PHP y MVC"
+        ]}
       ]
     },
     {
       "name": "Tools",
       "skills": [
-        { "name": "Git", "years": "3+ años", "type": "laboral" },
-        { "name": "SourceTree", "years": "2+ años", "type": "laboral" },
-        { "name": "Jira", "years": "2+ años", "type": "laboral" },
-        { "name": "Docker", "years": "6+ meses", "type": "laboral" },
-        { "name": "OpenCode", "years": "2+ meses", "type": "personal" }
+        { "name": "Git", "years": "3+ años", "type": "laboral", "examples": [
+          "Control de versiones, branching strategy y trabajo colaborativo en equipos de desarrollo"
+        ]},
+        { "name": "SourceTree", "years": "2+ años", "type": "laboral", "examples": [
+          "Gestión visual de repositorios Git y resolución de conflictos"
+        ]},
+        { "name": "Jira", "years": "2+ años", "type": "laboral", "examples": [
+          "Gestión de tickets, sprints y seguimiento de proyectos en equipos ágiles"
+        ]},
+        { "name": "GitHub", "years": "3+ años", "type": "personal", "examples": [
+          "Repositorios personales: frontend de Stability con Flutter y BLoC",
+          "Desarrollo completo de my-store con back-end Node.js y frontend Angular"
+        ]},
+        { "name": "Bitbucket", "years": "3+ años", "type": "laboral", "examples": [
+          "Control de versiones y trabajo colaborativo en Qualitas Assistance",
+          "Repositorios corporativos para Globalmate y Mankind"
+        ]},
+        { "name": "Docker", "years": "6+ meses", "type": "laboral", "examples": [
+          "Contenedorización de aplicaciones y despliegue con Docker Compose para my-store"
+        ]},
+        { "name": "OpenCode", "years": "2+ meses", "type": "personal", "examples": [
+          "Metodología SDD con persistencia Engram para el desarrollo de my-store"
+        ]}
        ]
      }
    ],
   "soft": [
     { "name": "Español", "level": "Nativo" },
-    { "name": "Inglés", "level": "B1" },
-    { "name": "Resolución de problemas", "level": "Avanzado" },
-    { "name": "Comunicación", "level": "Avanzado" },
-    { "name": "Trabajo en equipo", "level": "Intermedio" },
-    { "name": "Gestión de tiempo", "level": "Intermedio" },
-    { "name": "Adaptabilidad", "level": "Avanzado" }
+    { "name": "Inglés", "level": "B1" }
   ]
 }

@@ -2,10 +2,12 @@ import { useState, useEffect } from 'react';
 import Header from './Header';
 import Footer from './Footer';
 import BackToTop from '../common/BackToTop';
+import { useT } from '../../i18n/useTranslation';
 import './Layout.css';
 
 export default function Layout({ children }) {
   const [scrolled, setScrolled] = useState(false);
+  const { t } = useT();
   
   useEffect(() => {
     const handleScroll = () => {
@@ -18,8 +20,11 @@ export default function Layout({ children }) {
   
   return (
     <div className={`layout ${scrolled ? 'layout--scrolled' : ''}`}>
+      <a href="#main-content" className="skip-to-content">
+        {t('common.skipToContent')}
+      </a>
       <Header scrolled={scrolled} />
-      <main className="layout__main">
+      <main id="main-content" className="layout__main">
         {children}
       </main>
       <Footer />

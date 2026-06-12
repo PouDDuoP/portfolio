@@ -5,10 +5,6 @@
   align-items: center;
 }
 
-.section--dark {
-  background: var(--color-bg-secondary);
-}
-
 .section__container {
   width: 100%;
   max-width: var(--container-width);

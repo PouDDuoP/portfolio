@@ -29,3 +29,5 @@ dist-ssr
 
 # Build artifacts
 stats.html
+# Local AI runtime state
+.atl/

@@ -1,31 +1,37 @@
-.education__grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+/* ===== CAROUSEL WRAPPER ===== */
+.education__carousel-wrapper {
+  position: relative;
+  overflow: visible;
+}
+
+.education__carousel {
+  display: flex;
   gap: var(--space-xl);
+  overflow-x: auto;
+  overflow-y: hidden;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+  padding-bottom: var(--space-sm);
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.education__carousel::-webkit-scrollbar {
+  display: none;
 }
 
 .education__card {
+  flex: 0 0 400px;
+  min-width: 320px;
+  scroll-snap-align: start;
   display: flex;
   gap: var(--space-lg);
   padding: var(--space-xl);
   background: var(--color-surface);
   border: 1px solid var(--color-border);
   border-radius: var(--radius-md);
-  transition: all var(--transition-fast);
-  opacity: 0;
-  animation: fadeIn 0.6s ease forwards;
-  animation-delay: var(--delay, 0s);
-}
-
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-    transform: translateY(10px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
+  transition: box-shadow var(--transition-fast), border-color var(--transition-fast);
 }
 
 .education__card:hover {
@@ -95,7 +101,7 @@
 
 .education__institution {
   font-size: 0.875rem;
-  color: var(--color-primary); /* Cyan primario del diseño */
+  color: var(--color-primary);
   text-decoration: underline;
   text-decoration-color: var(--color-primary-alpha);
   transition: all var(--transition-fast);
@@ -111,4 +117,103 @@
   color: var(--color-text-secondary);
   margin: 0;
   line-height: 1.5;
+}
+
+/* ===== ARROWS ===== */
+.education__arrow {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 64px;
+  padding: 0;
+  border: none;
+  cursor: pointer;
+  transition: opacity var(--transition-fast), background var(--transition-fast);
+}
+
+.education__arrow--hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.education__arrow--left {
+  left: 0;
+  background: linear-gradient(to right, color-mix(in srgb, var(--color-bg) 85%, transparent) 0%, transparent 100%);
+  color: var(--color-text-secondary);
+}
+
+.education__arrow--right {
+  right: 0;
+  background: linear-gradient(to left, color-mix(in srgb, var(--color-bg) 85%, transparent) 0%, transparent 100%);
+  color: var(--color-text-secondary);
+}
+
+.education__arrow:hover {
+  color: var(--color-primary);
+}
+
+.education__arrow--left:hover {
+  background: linear-gradient(to right, color-mix(in srgb, var(--color-bg) 95%, transparent) 0%, transparent 100%);
+}
+
+.education__arrow--right:hover {
+  background: linear-gradient(to left, color-mix(in srgb, var(--color-bg) 95%, transparent) 0%, transparent 100%);
+}
+
+.education__arrow svg {
+  flex-shrink: 0;
+  filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.2));
+}
+
+/* ===== ARROW PULSE ===== */
+@keyframes education-arrow-pulse {
+  0%, 100% {
+    transform: scale(1);
+    color: var(--color-text-secondary);
+  }
+  12% {
+    transform: scale(1.2);
+    color: var(--color-primary);
+  }
+  22% {
+    transform: scale(1);
+    color: var(--color-text-secondary);
+  }
+  37% {
+    transform: scale(1.2);
+    color: var(--color-primary);
+  }
+  47% {
+    transform: scale(1);
+    color: var(--color-text-secondary);
+  }
+}
+
+.education__arrow--pulse {
+  animation: education-arrow-pulse 1000ms ease-out infinite;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .education__carousel {
+    gap: var(--space-lg);
+  }
+
+  .education__card {
+    flex: 0 0 85%;
+    min-width: 280px;
+  }
+
+  .education__arrow {
+    width: 40px;
+  }
+
+  .education__arrow svg {
+    width: 20px;
+    height: 20px;
+  }
 }

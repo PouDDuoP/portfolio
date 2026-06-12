@@ -1,13 +1,15 @@
-{
+﻿{
   "name": "Kevin",
   "surname": "Alvarado",
   "fullName": "Kevin Alvarado",
   "title": "Desarrollador Full Stack",
   "tagline": "Desarrollador full stack versátil con más de 5 años de experiencia en la industria",
-  "email": "kevinalvarado.ag@gmail.com",
+  "email": "kevinalvarado.ag+jobs@gmail.com",
   "location": "Caracas, Venezuela",
-  "phone": "+58 414 2321163",
   "avatar": "/images/profile.webp",
+  "status": {
+    "type": "open-to-work"
+  },
   "social": {
     "github": "https://github.com/PouDDuoP",
     "linkedin": "https://linkedin.com/in/kevin-alvarado-graterol"
