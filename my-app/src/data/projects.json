@@ -2,7 +2,7 @@
   {
     "id": "qualitas-assitance",
     "type": "laboral",
-    "date": "2023-01",
+    "date": "2017-03",
     "title": "Sistema de Qualitas Assistance",
     "description": "Sistema integral para gestión de comisiones, pagos, upgrades de productos y reportes de data extensa.",
     "challenge": "Centralizar múltiples procesos manuales en una sola plataforma escalable",
@@ -16,8 +16,8 @@
   {
     "id": "humanitas",
     "type": "laboral",
-    "date": "2017-01",
-    "title": "Sistema Corporativo Humanitas",
+    "date": "2017-03",
+    "title": "Sistema de Humanitas",
     "description": "Plataforma web principal de administración de riesgos y servicios web afiliados.",
     "challenge": "Mantener y evolucionar la plataforma corporativa frente a normativas cambiantes del negocio",
     "result": "Estabilidad continua de la plataforma corporativa y resolución eficiente de tickets de soporte de alta complejidad",
@@ -30,7 +30,7 @@
   {
     "id": "globalmate",
     "type": "laboral",
-    "date": "2021-01",
+    "date": "2018-01",
     "title": "Sistema de Globalmate",
     "description": "Sistema con diseño responsive y soporte multi-idiomas para página web corporativa.",
     "challenge": "Adaptar el sistema para dispositivos móviles y múltiples idiomas",
@@ -128,7 +128,7 @@
   {
     "id": "my-store",
       "type": "personal",
-      "date": "2025-06",
+      "date": "2025-04",
       "title": "Desarrollo de My Store",
       "description": "Aplicación Full-stack con back-end en Node.js/Express/PostgreSQL y front-end en Angular/Tailwind CSS. Incluye API REST documentada, autenticación JWT, carrito de compras y panel de administración.",
       "challenge": "Desarrollar una aplicación completa con arquitectura por capas y dominios, aplicando metodología SDD y persistencia con Engram",

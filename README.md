@@ -2,40 +2,34 @@
 
 Portafolio personal de Kevin Alvarado, Desarrollador Full Stack con más de 5 años de experiencia en la industria, especializado en soluciones back-end y front-end.
 
-## 🚀 Tecnologías
+## 🚀 Stack Tecnológico
 
 ### Back-end
-- ASP Classic / VBScript (5+ años)
-- PHP (5+ años)
-- Python (2+ años)
-- Django (1+ año)
-- Node.js (1+ año)
-- Express (1+ año)
+- ASP Classic / VBScript
+- PHP
+- Python / Django
+- Node.js / Express
 
 ### Front-end
-- JavaScript (5+ años)
-- jQuery (5+ años)
-- Bootstrap (5+ años)
-- CSS (5+ años)
-- HTML (5+ años)
-- Angular (6+ meses)
-- Tailwind CSS (6+ meses)
-- Flutter (6+ meses)
+- JavaScript / jQuery
+- HTML / CSS
+- Bootstrap
+- Angular
+- Tailwind CSS
+- Flutter
 
 ### Bases de Datos
-- SQL Server (5+ años)
-- Oracle Database (5+ años)
-- PostgreSQL (5+ años)
-- MySQL (2+ años)
+- SQL Server
+- Oracle Database
+- PostgreSQL
+- MySQL
 
 ### Herramientas
-- Git (3+ años)
-- GitHub (3+ años)
-- Bitbucket (3+ años)
-- SourceTree (2+ años)
-- Jira (2+ años)
-- Docker (6+ meses)
-- OpenCode (2+ meses)
+- Git / GitHub / Bitbucket
+- SourceTree
+- Jira
+- Docker
+- OpenCode
 
 ## 📁 Proyectos
 
@@ -102,16 +96,16 @@ Caracas, Venezuela
 
 ## 🛠️ Stack Técnico del Portafolio
 
-- React 19.2.6
+- Vite (build tool)
 - Vite 8.0.14
 - CSS3 con Variables CSS
 - Diseño Responsive
 - Animaciones CSS
 - Context API para gestión de idioma (ES/EN) y tema (dark/light)
 - Traducción dinámica completa (ES/EN)
-- Google Analytics 4 (react-ga4) — event tracking personalizado
+- Google Analytics 4 (gtag nativo) + @vercel/analytics — event tracking personalizado
 - Desplegado en Vercel
-- Optimización LCP (Code Splitting con React.lazy)
+- Optimización LCP (Code Splitting con lazy loading)
 - Accesibilidad WCAG 2.2 AA (contraste verificado)
 - Carga optimizada de fuentes (preconnect + preload)
 - Imagen de perfil en WebP (mejor compresión)
@@ -182,12 +176,12 @@ npm run preview  # Previsualizar build
 
 ## ⚡ Optimizaciones de Rendimiento
 
-- **LCP Optimizado**: Code splitting con `React.lazy()` — El bundle se divide en chunks bajo demanda
+- **LCP Optimizado**: Code splitting con lazy loading — El bundle se divide en chunks bajo demanda
 - **Suspense boundaries individuales**: Cada sección carga en paralelo sin bloquear a las demás
 - **Fuentes optimizadas**: Preconexión temprana a Google Fonts + precarga no bloqueante
 - **Accesibilidad**: Contraste WCAG 2.0 AA verificado, skip-to-content, aria-controls en FAQ
 - **Imágenes**: Perfil convertido a WebP para mejor compresión
-- **Assets sin usar eliminados**: hero.png, react.svg, vite.svg
+- **Assets sin usar eliminados**: hero.png, vite.svg
 - **Vercel**: Despliegue automático con configuración optimizada
 - **0 errores críticos** en PageSpeed Insights y Accesibility Checker
 
