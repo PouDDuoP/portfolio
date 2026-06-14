@@ -1,4 +1,4 @@
-import { memo, useState } from 'react';
+import { memo, useState, useRef, useEffect, useLayoutEffect } from 'react';
 import skills from '../../data/skills.json';
 import { useT } from '../../i18n/useTranslation';
 import Section from '../common/Section';
@@ -39,6 +39,50 @@ const getTechColor = (name) => TECH_COLORS[name] || 'var(--color-primary)';
 const Skills = memo(function Skills() {
   const { t } = useT();
   const [searchTerm, setSearchTerm] = useState('');
+  const scrollDirRef = useRef('down');
+
+  // Track scroll direction only — always active
+  useEffect(() => {
+    let lastY = window.scrollY;
+    const onScroll = () => {
+      const curr = window.scrollY;
+      scrollDirRef.current = curr > lastY ? 'down' : 'up';
+      lastY = curr;
+    };
+    window.addEventListener('scroll', onScroll, { passive: true });
+    return () => window.removeEventListener('scroll', onScroll);
+  }, []);
+
+  // After each render (filter change, mount, etc.), animate visible pills
+  // and set up IntersectionObserver for pills below the fold
+  useLayoutEffect(() => {
+    const unanimated = document.querySelectorAll('.skills__pill:not([data-animated])');
+    if (unanimated.length === 0) return;
+
+    const io = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          const el = entry.target;
+          if (!el.dataset.animated) {
+            el.dataset.animated = scrollDirRef.current;
+          }
+        }
+      });
+    }, { threshold: 0.12, rootMargin: '0px 0px -20px 0px' });
+
+    unanimated.forEach(pill => {
+      // If already in viewport, set immediately (before paint)
+      const rect = pill.getBoundingClientRect();
+      const inViewport = rect.top < window.innerHeight - 20 && rect.bottom > 0;
+      if (inViewport) {
+        pill.dataset.animated = scrollDirRef.current;
+      } else {
+        io.observe(pill);
+      }
+    });
+
+    return () => io.disconnect();
+  }, [searchTerm]);
 
   // Compute filtered data
   const filteredCategories = searchTerm

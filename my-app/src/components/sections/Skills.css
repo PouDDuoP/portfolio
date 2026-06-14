@@ -40,15 +40,39 @@
   font-family: var(--font-body);
   font-size: 0.875rem;
   font-weight: 500;
-  transition: all var(--transition-fast);
-  animation: pillFadeIn 0.4s ease forwards;
-  animation-delay: var(--delay, 0s);
   opacity: 0;
+  transform: translateY(0);
 }
 
-@keyframes pillFadeIn {
+/* Entrance via scroll — appear from above (scrolling down or default) */
+.skills__pill[data-animated="down"] {
+  animation: pillFromAbove 0.45s cubic-bezier(0.21, 0.98, 0.35, 1) forwards;
+}
+
+/* Entrance via scroll — appear from below (scrolling up) */
+.skills__pill[data-animated="up"] {
+  animation: pillFromBelow 0.45s cubic-bezier(0.21, 0.98, 0.35, 1) forwards;
+}
+
+@keyframes pillFromAbove {
+  from {
+    opacity: 0;
+    transform: translateY(-24px);
+  }
   to {
     opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes pillFromBelow {
+  from {
+    opacity: 0;
+    transform: translateY(24px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
   }
 }
 
