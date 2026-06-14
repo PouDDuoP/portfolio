@@ -119,8 +119,8 @@ const translations = {
   'faq.subtitle': { es: 'Preguntas frecuentes', en: 'Frequently Asked Questions' },
   'faq.tech.title': { es: '¿Cuál es tu Stack Tecnológico?', en: 'What is your Tech Stack?' },
   'faq.tech.text': {
-    es: 'Soy Desarrollador Full Stack con experiencia en Node.js, PHP, Python, Django, Angular, Flutter, y bases de datos SQL como PostgreSQL, MySQL, SQL Server y Oracle. También trabajo con ASP Classic, VBScript, Docker y metodologías como MVC y Clean Architecture.',
-    en: 'I am a Full Stack Developer with experience in Node.js, PHP, Python, Django, Angular, Flutter, and SQL databases like PostgreSQL, MySQL, SQL Server, and Oracle. I also work with ASP Classic, VBScript, Docker, and methodologies like MVC and Clean Architecture.'
+    es: 'Soy Desarrollador Full Stack con experiencia en Node.js, PHP, Python, Django, Angular, Flutter, y bases de datos SQL como PostgreSQL, MySQL, SQL Server y Oracle Database. También trabajo con ASP Classic, VBScript, Docker y metodologías como MVC y Clean Architecture.',
+    en: 'I am a Full Stack Developer with experience in Node.js, PHP, Python, Django, Angular, Flutter, and SQL databases like PostgreSQL, MySQL, SQL Server, and Oracle Database. I also work with ASP Classic, VBScript, Docker, and methodologies like MVC and Clean Architecture.'
   },
   'faq.availability.title': { es: '¿Estás disponible para proyectos freelance?', en: 'Are you available for freelance projects?' },
   'faq.availability.text': {
@@ -210,8 +210,8 @@ const translations = {
     en: 'Corporate platform for real-time quotation and policy issuance with automated PDF document generation.'
   },
   'projects.mankind.challenge': {
-    es: 'Diseñar y desplegar la primera versión de la plataforma asegurando compatibilidad con bases de datos Oracle heredadas',
-    en: 'Design and deploy the first platform version ensuring compatibility with legacy Oracle databases'
+    es: 'Diseñar y desplegar la primera versión de la plataforma asegurando compatibilidad con bases de datos Oracle Database heredadas',
+    en: 'Design and deploy the first platform version ensuring compatibility with legacy Oracle Database databases'
   },
   'projects.mankind.result': {
     es: 'Despliegue exitoso en producción con Nginx y Gunicorn dentro de contenedores Docker, habilitando la interacción digital con clientes',
@@ -288,7 +288,7 @@ const translations = {
     en: 'Complete REST API with Swagger documentation, SPA with i18n, unit tests with Jest, and Docker deployment'
   },
 
-  'projects.humanitas.title': { es: 'Sistema Corporativo Humanitas', en: 'Humanitas Corporate System' },
+  'projects.humanitas.title': { es: 'Sistema de Humanitas', en: 'Humanitas System' },
   'projects.humanitas.description': {
     es: 'Plataforma web principal de administración de riesgos y servicios web afiliados con desarrollo continuo de nuevos módulos.',
     en: 'Main web platform for risk management and affiliated web services with continuous development of new modules.'
@@ -324,8 +324,8 @@ const translations = {
   'experience.humanitas-qualitas.role': { es: 'Especialista Web', en: 'Web Specialist' },
   'experience.humanitas-qualitas.location': { es: 'Caracas, Venezuela', en: 'Caracas, Venezuela' },
   'experience.humanitas-qualitas.achievements.0': {
-    es: 'Implementé nuevos módulos en el Sistema Corporativo Humanitas para responder a normativas cambiantes del negocio, asegurando la estabilidad continua de la plataforma',
-    en: 'Implemented new modules in the Humanitas Corporate System to respond to changing business regulations, ensuring continuous platform stability'
+    es: 'Implementé nuevos módulos en el Sistema de Humanitas para responder a normativas cambiantes del negocio, asegurando la estabilidad continua de la plataforma',
+    en: 'Implemented new modules in the Humanitas System to respond to changing business regulations, ensuring continuous platform stability'
   },
   'experience.humanitas-qualitas.achievements.1': {
     es: 'Realicé diagnóstico y debugging de errores críticos en Humanitas, garantizando alta disponibilidad del sitio web corporativo y resolución eficiente de tickets de soporte de alta complejidad',
@@ -352,8 +352,8 @@ const translations = {
     en: 'Developed the Mankaind plan quotation and coverage module with automated policy issuance and PDF document generation using ReportLab'
   },
   'experience.humanitas-qualitas.achievements.7': {
-    es: 'Realicé conexión y adaptación del ecosistema Django con base de datos Oracle preexistente mediante técnicas de ingeniería inversa (inspectdb)',
-    en: 'Performed connection and adaptation of the Django ecosystem with pre-existing Oracle databases using reverse engineering techniques (inspectdb)'
+    es: 'Realicé conexión y adaptación del ecosistema Django con base de datos Oracle Database preexistente mediante técnicas de ingeniería inversa (inspectdb)',
+    en: 'Performed connection and adaptation of the Django ecosystem with pre-existing Oracle Database databases using reverse engineering techniques (inspectdb)'
   },
   'experience.humanitas-qualitas.achievements.8': {
     es: 'Desplegué Mankaind en producción con Nginx y Gunicorn dentro de contenedores Docker, habilitando la interacción digital inmediata con clientes',
