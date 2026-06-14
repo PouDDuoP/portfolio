@@ -29,6 +29,10 @@
   /* Error */
   --color-error: #ef4444;
   
+  /* Status */
+  --color-success: #22c55e;
+  --color-info: #3b82f6;
+  
   /* Breakpoints */
   --container-width: 1200px;
   --container-padding: 1.5rem;
@@ -95,6 +99,10 @@
   --color-primary-glow: rgba(8, 145, 178, 0.2);
   
   --color-error: #dc2626;
+  
+  /* Status — más oscuros para contraste AA sobre fondo claro */
+  --color-success: #15803d;
+  --color-info: #2563eb;
 }
 
 /* Smooth theme transitions — solo background y color, NO border/box-shadow que disparan paint caro */
