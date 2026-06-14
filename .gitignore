@@ -19,3 +19,6 @@ my-app/skills-lock.json
 # OS
 .DS_Store
 Thumbs.db
+
+# Temporary info files
+info/

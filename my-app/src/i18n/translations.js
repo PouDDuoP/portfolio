@@ -171,107 +171,107 @@ const translations = {
   },
   'profile.availability': { es: 'Disponible para proyectos', en: 'Available for projects' },
   'profile.bio': {
-    es: 'Desarrollador Web Full-Stack con más de 5 años de experiencia en la industria, especializado en el diseño, desarrollo y optimización de aplicaciones escalables, gestión de bases de datos y consumo de APIs. Mi trayectoria se define por un fuerte compromiso con la mejora constante y el aprendizaje continuo, lo que me permite adoptar rápidamente metodologías avanzadas, integrar nuevas herramientas tecnológicas y optimizar flujos de trabajo con agilidad. Apasionado por la resolución de problemas complejos y la entrega de soluciones innovadoras que aporten valor real al negocio.',
-    en: 'Full-Stack Web Developer with over 5 years of industry experience, specialized in the design, development, and optimization of scalable applications, database management, and API consumption. My career is defined by a strong commitment to constant improvement and continuous learning, which allows me to quickly adopt advanced methodologies, integrate new technological tools, and optimize workflows with agility. Passionate about solving complex problems and delivering innovative solutions that bring real value to the business.'
+    es: 'Desarrollador Web Full-Stack con más de 5 años de experiencia en el diseño, desarrollo y optimización de aplicaciones altamente escalables, gestión de bases de datos relacionales y consumo de APIs. Con una sólida trayectoria adoptando ágilmente metodologías avanzadas de ingeniería de software (como Spec-Driven Development), herramientas modernas de contenedorización y arquitecturas desacopladas. Cuento con la capacidad probada de resolver problemas lógicos complejos y transformarlos en soluciones técnicas estables que impulsen directamente el rendimiento y la automatización del negocio.',
+    en: 'Full-Stack Web Developer with over 5 years of experience in the design, development, and optimization of highly scalable applications, relational database management, and API consumption. With a solid track record of agilely adopting advanced software engineering methodologies (such as Spec-Driven Development), modern containerization tools, and decoupled architectures. I have a proven ability to solve complex logical problems and transform them into stable technical solutions that directly drive business performance and automation.'
   },
 
   // Projects dynamic data
   'projects.qualitas-assitance.title': { es: 'Sistema de Qualitas Assistance', en: 'Qualitas Assistance System' },
   'projects.qualitas-assitance.description': {
-    es: 'Sistema integral para gestión de comisiones, pagos, upgrades de productos y reportes de data extensa.',
-    en: 'Comprehensive system for commission management, payments, product upgrades, and extensive data reporting.'
+    es: 'Sistema integral de automatización financiera y gestión operativa empresarial con núcleo de cálculo de comisiones, costos y registro masivo de pagos.',
+    en: 'Comprehensive financial automation and business operational management system with a core for commission calculation, costs, and bulk payment recording.'
   },
   'projects.qualitas-assitance.challenge': {
-    es: 'Centralizar múltiples procesos manuales en una sola plataforma escalable',
-    en: 'Centralize multiple manual processes into a single scalable platform'
+    es: 'Centralizar múltiples flujos operativos dispersos y procesos manuales en una arquitectura escalable',
+    en: 'Centralize multiple scattered operational workflows and manual processes into a scalable architecture'
   },
   'projects.qualitas-assitance.result': {
-    es: 'Reducción de requerimientos de reportes en al menos un 90%, eliminación de registros manuales en Excel',
-    en: 'Report requirements reduced by at least 90%, elimination of manual Excel records'
+    es: 'Reducción del 90% en solicitudes de soporte técnico para reportes y eliminación absoluta del error humano en registros financieros',
+    en: '90% reduction in technical support requests for reports and complete elimination of human error in financial records'
   },
 
   'projects.globalmate.title': { es: 'Sistema de Globalmate', en: 'Globalmate System' },
   'projects.globalmate.description': {
-    es: 'Sistema con diseño responsive y soporte multi-idiomas para página web corporativa.',
-    en: 'System with responsive design and multi-language support for corporate website.'
+    es: 'Plataforma web internacional de gestión y visualización de datos con arquitectura multi-idioma y diseño responsive.',
+    en: 'International web platform for data management and visualization with multi-language architecture and responsive design.'
   },
   'projects.globalmate.challenge': {
-    es: 'Adaptar el sistema para dispositivos móviles y múltiples idiomas',
-    en: 'Adapt the system for mobile devices and multiple languages'
+    es: 'Implementar internacionalización (i18n) y diseño adaptable para una experiencia de usuario global consistente',
+    en: 'Implement internationalization (i18n) and responsive design for a consistent global user experience'
   },
   'projects.globalmate.result': {
-    es: 'Página más cómoda para navegar en dispositivos móviles, eliminación de errores de información',
-    en: 'More comfortable page for navigating on mobile devices, elimination of information errors'
+    es: 'Consistencia total de la información en entornos multi-idioma y mejora significativa en usabilidad desde dispositivos móviles',
+    en: 'Total information consistency in multi-language environments and significant usability improvement on mobile devices'
   },
 
   'projects.mankind.title': { es: 'Sistema de Mankind', en: 'Mankind System' },
   'projects.mankind.description': {
-    es: 'Cotizador de planes con generación de PDF y despliegue en producción con Gunicorn y Nginx.',
-    en: 'Plan quoter with PDF generation and production deployment with Gunicorn and Nginx.'
+    es: 'Plataforma corporativa de cotización y emisión de pólizas en tiempo real con generación automatizada de documentos PDF.',
+    en: 'Corporate platform for real-time quotation and policy issuance with automated PDF document generation.'
   },
   'projects.mankind.challenge': {
-    es: 'Crear la primera versión de Mankind conectando bases de datos existentes',
-    en: 'Create the first version of Mankind connecting existing databases'
+    es: 'Diseñar y desplegar la primera versión de la plataforma asegurando compatibilidad con bases de datos Oracle heredadas',
+    en: 'Design and deploy the first platform version ensuring compatibility with legacy Oracle databases'
   },
   'projects.mankind.result': {
-    es: 'Interacción exitosa de clientes y agentes, conexión de base de datos existente mediante InspectDB',
-    en: 'Successful interaction of clients and agents, existing database connection via InspectDB'
+    es: 'Despliegue exitoso en producción con Nginx y Gunicorn dentro de contenedores Docker, habilitando la interacción digital con clientes',
+    en: 'Successful production deployment with Nginx and Gunicorn inside Docker containers, enabling digital customer interaction'
   },
 
   'projects.inventario.title': { es: 'Sistema de Control de Inventario', en: 'Inventory Control System' },
   'projects.inventario.description': {
-    es: 'Sistema desarrollado con C++ para gestión de inventario universitario.',
-    en: 'System developed with C++ for university inventory management.'
+    es: 'Aplicación nativa en C++ para la optimización y control de recursos de almacén con estructuras de datos dinámicas.',
+    en: 'Native C++ application for warehouse resource optimization and control with dynamic data structures.'
   },
   'projects.inventario.challenge': {
-    es: 'Aprender las bases de la programación estructurada',
-    en: 'Learn the basics of structured programming'
+    es: 'Implementar estructuras de datos avanzadas y algoritmos eficientes con gestión manual de memoria',
+    en: 'Implement advanced data structures and efficient algorithms with manual memory management'
   },
   'projects.inventario.result': {
-    es: 'Bases sólidas de programación, primer contacto con desarrollo de software',
-    en: 'Solid programming foundations, first contact with software development'
+    es: 'Funciones de ordenamiento y búsqueda rápida para el control exacto de existencias en inventario universitario',
+    en: 'Sorting and fast search functions for precise inventory stock control in a university setting'
   },
 
   'projects.buzon.title': { es: 'Sistema de Buzón para Reporte de Incidencias', en: 'Bulletin System for Incident Reporting' },
   'projects.buzon.description': {
-    es: 'Sistema con patrón MVC para reporte de incidencias en instalaciones.',
-    en: 'System with MVC pattern for incident reporting in facilities.'
+    es: 'Plataforma institucional con patrón MVC para reporte, seguimiento y gestión de eventos de TI mediante buzón automatizado.',
+    en: 'Institutional platform with MVC pattern for reporting, tracking, and managing IT events through an automated mailbox.'
   },
   'projects.buzon.challenge': {
-    es: 'Desarrollar una aplicación desde cero con arquitectura MVC',
-    en: 'Develop an application from scratch with MVC architecture'
+    es: 'Diseñar una aplicación web completa con separación estricta de responsabilidades entre datos y vistas del cliente',
+    en: 'Design a complete web application with strict separation of concerns between data and client views'
   },
   'projects.buzon.result': {
-    es: 'Aprendizaje completo de desarrollo web con PHP y PostgreSQL',
-    en: 'Complete learning of web development with PHP and PostgreSQL'
+    es: 'Sistema funcional de asignación y categorización de tickets, garantizando modularidad y escalabilidad en la red institucional',
+    en: 'Functional ticket assignment and categorization system, ensuring modularity and scalability on the institutional network'
   },
 
   'projects.control-incidencias.title': { es: 'Sistema de Control de Incidencias', en: 'Incident Control System' },
   'projects.control-incidencias.description': {
-    es: 'Sistema MVC con Bootstrap 3 y jQuery para reporte y gestión de averías.',
-    en: 'MVC system with Bootstrap 3 and jQuery for reporting and managing failures.'
+    es: 'Sistema web con Bootstrap y jQuery para el reporte, seguimiento y gestión de averías e incidencias técnicas.',
+    en: 'Web system with Bootstrap and jQuery for reporting, tracking, and managing technical failures and incidents.'
   },
   'projects.control-incidencias.challenge': {
-    es: 'Profundizar conocimientos frontend y patrones de arquitectura',
-    en: 'Deepen frontend knowledge and architecture patterns'
+    es: 'Desarrollar un sistema de tickets institucional con flujo de asignación y categorización automatizado',
+    en: 'Develop an institutional ticket system with automated assignment and categorization flow'
   },
   'projects.control-incidencias.result': {
-    es: 'Canal para informar sobre averías, mayor conocimiento de frontend con Bootstrap',
-    en: 'Channel to report breakdowns, greater frontend knowledge with Bootstrap'
+    es: 'Canal eficiente para informar sobre averías con interfaz frontend moderna y arquitectura MVC robusta',
+    en: 'Efficient channel for reporting failures with modern frontend interface and robust MVC architecture'
   },
 
   'projects.stability.title': { es: 'Stability - Desarrollo Front-end', en: 'Stability - Front-end Development' },
   'projects.stability.description': {
-    es: 'Front-end de Stability desarrollado con Flutter, Dart y BLoC siguiendo Clean Architecture.',
-    en: 'Stability Front-end developed with Flutter, Dart and BLoC following Clean Architecture.'
+    es: 'Aplicación móvil de alto rendimiento diseñada bajo estándares modernos de ingeniería de software con Flutter y Clean Architecture.',
+    en: 'High-performance mobile application designed under modern software engineering standards with Flutter and Clean Architecture.'
   },
   'projects.stability.challenge': {
-    es: 'Aplicar Clean Architecture con BLoC para escalabilidad y mantenibilidad en Flutter',
-    en: 'Apply Clean Architecture with BLoC for scalability and maintainability in Flutter'
+    es: 'Construir una interfaz fluida y un estado robusto capaz de manejar flujos de información asíncronos complejos',
+    en: 'Build a fluid interface and robust state capable of handling complex asynchronous information flows'
   },
   'projects.stability.result': {
-    es: 'Sistema completo de gestión de clases con autenticación, reservas, perfiles y localización en español',
-    en: 'Complete class management system with authentication, reservations, profiles, and Spanish localization'
+    es: 'Aplicación móvil escalable, modular y con rendimiento nativo optimizado tanto para Android como iOS',
+    en: 'Scalable, modular mobile application with optimized native performance for both Android and iOS'
   },
 
   'projects.my-store.title': { es: 'Desarrollo de My Store', en: 'My Store Development' },
@@ -288,6 +288,34 @@ const translations = {
     en: 'Complete REST API with Swagger documentation, SPA with i18n, unit tests with Jest, and Docker deployment'
   },
 
+  'projects.humanitas.title': { es: 'Sistema Corporativo Humanitas', en: 'Humanitas Corporate System' },
+  'projects.humanitas.description': {
+    es: 'Plataforma web principal de administración de riesgos y servicios web afiliados con desarrollo continuo de nuevos módulos.',
+    en: 'Main web platform for risk management and affiliated web services with continuous development of new modules.'
+  },
+  'projects.humanitas.challenge': {
+    es: 'Mantener y evolucionar la plataforma corporativa frente a normativas cambiantes del negocio',
+    en: 'Maintain and evolve the corporate platform amidst changing business regulations'
+  },
+  'projects.humanitas.result': {
+    es: 'Estabilidad continua de la plataforma corporativa y resolución eficiente de tickets de soporte de alta complejidad',
+    en: 'Continuous stability of the corporate platform and efficient resolution of high-complexity support tickets'
+  },
+
+  'projects.sacs-audit.title': { es: 'Auditoría de TI — Sistema SACS', en: 'IT Audit — SACS System' },
+  'projects.sacs-audit.description': {
+    es: 'Auditoría técnica integral al Sistema Automatizado de Control y Vigilancia Sanitaria evaluando vulnerabilidades y cumplimiento normativo.',
+    en: 'Comprehensive technical audit of the Automated Health Control and Surveillance System evaluating vulnerabilities and regulatory compliance.'
+  },
+  'projects.sacs-audit.challenge': {
+    es: 'Evaluar vulnerabilidades y cumplimiento normativo de un sistema de salud pública',
+    en: 'Evaluate vulnerabilities and regulatory compliance of a public health system'
+  },
+  'projects.sacs-audit.result': {
+    es: 'Identificación de brechas de seguridad y diseño de plan de mitigación para garantizar integridad de datos',
+    en: 'Identification of security gaps and design of a mitigation plan to ensure data integrity'
+  },
+
   // Experience dynamic data
   'experience.humanitas-qualitas.company': {
     es: 'Humanitas Administradora de Riesgos / Qualitas Assistance',
@@ -296,37 +324,87 @@ const translations = {
   'experience.humanitas-qualitas.role': { es: 'Especialista Web', en: 'Web Specialist' },
   'experience.humanitas-qualitas.location': { es: 'Caracas, Venezuela', en: 'Caracas, Venezuela' },
   'experience.humanitas-qualitas.achievements.0': {
-    es: 'Diseñé y desarrollé soluciones de software utilizando patrones MVC y MVT, mejorando la escalabilidad del sistema principal',
-    en: 'Designed and developed software solutions using MVC and MVT patterns, improving main system scalability'
+    es: 'Implementé nuevos módulos en el Sistema Corporativo Humanitas para responder a normativas cambiantes del negocio, asegurando la estabilidad continua de la plataforma',
+    en: 'Implemented new modules in the Humanitas Corporate System to respond to changing business regulations, ensuring continuous platform stability'
   },
   'experience.humanitas-qualitas.achievements.1': {
-    es: 'Refactoricé y depuré código existente, mejorando el rendimiento de las aplicaciones y facilitando su mantenimiento',
-    en: 'Refactored and debugged existing code, improving application performance and maintainability'
+    es: 'Realicé diagnóstico y debugging de errores críticos en Humanitas, garantizando alta disponibilidad del sitio web corporativo y resolución eficiente de tickets de soporte de alta complejidad',
+    en: 'Performed diagnosis and debugging of critical errors in Humanitas, guaranteeing high availability of the corporate website and efficient resolution of high-complexity support tickets'
   },
-  'experience.humanitas-qualitas.achievements.2': { es: 'Optimización de procesos', en: 'Process optimization' },
+  'experience.humanitas-qualitas.achievements.2': {
+    es: 'Optimicé consultas complejas y realicé mantenimiento preventivo en Oracle Database para el sistema Humanitas',
+    en: 'Optimized complex queries and performed preventive maintenance on Oracle Database for the Humanitas system'
+  },
   'experience.humanitas-qualitas.achievements.3': {
-    es: 'Gestioné la integración y el consumo de APIs y Web Services (REST/SOAP), asegurando el intercambio de datos JSON',
-    en: 'Managed integration and consumption of APIs and Web Services (REST/SOAP), ensuring JSON data exchange'
+    es: 'Diseñé el núcleo financiero automatizado de Qualitas Assistance con módulos de cálculo de comisiones, costos y registro masivo de pagos, sustituyendo flujos manuales en Excel',
+    en: 'Designed the automated financial core of Qualitas Assistance with commission calculation, cost management, and bulk payment recording modules, replacing manual Excel workflows'
   },
   'experience.humanitas-qualitas.achievements.4': {
-    es: 'Gestioné y optimicé bases de datos relacionales (SQL Server, Oracle, PostgreSQL, MySQL)',
-    en: 'Managed and optimized relational databases (SQL Server, Oracle, PostgreSQL, MySQL)'
+    es: 'Implementé stored procedures y triggers en SQL Server para el procesamiento eficiente de reportes de data extensa en Qualitas Assistance',
+    en: 'Implemented stored procedures and triggers in SQL Server for efficient processing of extensive data reports in Qualitas Assistance'
   },
   'experience.humanitas-qualitas.achievements.5': {
-    es: 'Proporcioné mantenimiento y soporte crítico a páginas web afiliadas',
-    en: 'Provided critical maintenance and support for affiliate websites'
+    es: 'Integré consumo en tiempo real de la API del proveedor mediante un cliente de servicios web con sistema activo de monitoreo de excepciones',
+    en: 'Integrated real-time consumption of the provider\'s API through a web service client with active exception monitoring system'
   },
   'experience.humanitas-qualitas.achievements.6': {
-    es: 'Entrenamiento de nuevos desarrolladores en el funcionamiento de Qualitas Assistance',
-    en: 'Trained new developers on Qualitas Assistance operations and workflow'
+    es: 'Desarrollé el módulo cotizador de planes y coberturas de Mankaind con automatización de emisión de pólizas y documentos PDF mediante ReportLab',
+    en: 'Developed the Mankaind plan quotation and coverage module with automated policy issuance and PDF document generation using ReportLab'
+  },
+  'experience.humanitas-qualitas.achievements.7': {
+    es: 'Realicé conexión y adaptación del ecosistema Django con base de datos Oracle preexistente mediante técnicas de ingeniería inversa (inspectdb)',
+    en: 'Performed connection and adaptation of the Django ecosystem with pre-existing Oracle databases using reverse engineering techniques (inspectdb)'
+  },
+  'experience.humanitas-qualitas.achievements.8': {
+    es: 'Desplegué Mankaind en producción con Nginx y Gunicorn dentro de contenedores Docker, habilitando la interacción digital inmediata con clientes',
+    en: 'Deployed Mankaind to production with Nginx and Gunicorn inside Docker containers, enabling immediate digital customer interaction'
+  },
+  'experience.humanitas-qualitas.achievements.9': {
+    es: 'Implementé el sistema de internacionalización (i18n) en Globalmate para mitigar errores de visualización global en entornos multi-idioma',
+    en: 'Implemented the internationalization (i18n) system in Globalmate to mitigate global display errors in multi-language environments'
+  },
+  'experience.humanitas-qualitas.achievements.10': {
+    es: 'Reestructuré componentes de Globalmate para lograr un diseño 100% responsive, mejorando significativamente la usabilidad desde dispositivos móviles',
+    en: 'Restructured Globalmate components to achieve 100% responsive design, significantly improving usability on mobile devices'
+  },
+  'experience.humanitas-qualitas.achievements.11': {
+    es: 'Proporcioné mantenimiento y soporte crítico a páginas web afiliadas del ecosistema corporativo',
+    en: 'Provided critical maintenance and support for affiliate websites in the corporate ecosystem'
+  },
+  'experience.humanitas-qualitas.achievements.12': {
+    es: 'Entrené a nuevos desarrolladores en el funcionamiento y flujos de trabajo de Qualitas Assistance',
+    en: 'Trained new developers on Qualitas Assistance operations and workflows'
+  },
+
+  'experience.stability.company': { es: 'Stability', en: 'Stability' },
+  'experience.stability.role': { es: 'Front-End Developer', en: 'Front-End Developer' },
+  'experience.stability.location': { es: 'Remoto', en: 'Remote' },
+  'experience.stability.achievements.0': {
+    es: 'Apliqué Clean Architecture y el gestor de estado BLoC para asegurar un código altamente modular, escalable y con inyección de dependencias mediante Getit',
+    en: 'Applied Clean Architecture and BLoC state management to ensure highly modular, scalable code with dependency injection via GetIt'
+  },
+  'experience.stability.achievements.1': {
+    es: 'Diseñé y desarrollé módulos de autenticación JWT, pasarelas de onboarding, visualizaciones de rendimiento y rankings interactivos',
+    en: 'Designed and developed JWT authentication modules, onboarding gateways, performance visualizations, and interactive rankings'
+  },
+  'experience.stability.achievements.2': {
+    es: 'Implementé manejo asíncrono de APIs con manejo de tokens automatizado y consumo seguro de servicios web externos',
+    en: 'Implemented asynchronous API handling with automated token management and secure external web service consumption'
   },
 
   // Education dynamic data
+  'education.tsu-informatica.institution': { es: 'Colegio Universitario de Caracas (CUC)', en: 'University College of Caracas (CUC)' },
+  'education.tsu-informatica.degree': { es: 'Técnico Superior Universitario en Informática (2012-2015)', en: "Associate's Degree in Computer Science (2012-2015)" },
+  'education.tsu-informatica.description': {
+    es: 'Formación técnica en informática. Proyectos: Sistema de Control de Inventario (C++), Sistema de Buzón e Incidencias (PHP, JavaScript, PostgreSQL, HTML5, CSS3, Bootstrap, MVC).',
+    en: 'Technical education in computer science. Projects: Inventory Control System (C++), Mailbox and Incident System (PHP, JavaScript, PostgreSQL, HTML5, CSS3, Bootstrap, MVC).'
+  },
+
   'education.ing-en-informatica.institution': { es: 'Colegio Universitario de Caracas (CUC)', en: 'University College of Caracas (CUC)' },
-  'education.ing-en-informatica.degree': { es: 'Ingeniero en Informatica (2012-2017)', en: 'Computer Engineer (2012-2017)' },
+  'education.ing-en-informatica.degree': { es: 'Ingeniero en Informatica (2015-2017)', en: "Bachelor's Degree in Computer Science - Software Engineering (2015-2017)" },
   'education.ing-en-informatica.description': {
-    es: 'Formacion universitaria en ingenieria informatica. Proyectos: Sistema de Control de Inventario (C++), Sistema de Buzon para Reporte de Incidencias (PHP, JavaScript, PostgreSQL, HTML5, CSS3, MVC), Sistema de Control de Incidencias (PHP, JavaScript, PostgreSQL, HTML5, CSS3, Bootstrap 3, jQuery, MVC).',
-    en: 'University education in computer engineering. Projects: Inventory Control System (C++), Incident Report Mailbox System (PHP, JavaScript, PostgreSQL, HTML5, CSS3, MVC), Incident Control System (PHP, JavaScript, PostgreSQL, HTML5, CSS3, Bootstrap 3, jQuery, MVC).'
+    es: 'Formación universitaria en ingeniería informática. Proyectos: Sistema de Gestión de Incidencias Help Desk (PHP, JavaScript, PostgreSQL, HTML5, CSS3, Bootstrap, jQuery, MVC), Auditoría de TI al Sistema SACS (Seguridad de la Información, Evaluación de Vulnerabilidades, Cumplimiento Normativo).',
+    en: 'University education in computer engineering. Projects: Help Desk Incident Management System (PHP, JavaScript, PostgreSQL, HTML5, CSS3, Bootstrap, jQuery, MVC), IT Audit of the SACS System (Information Security, Vulnerability Assessment, Regulatory Compliance).'
   },
 
   'education.hackerrank-sql.institution': { es: 'HackerRank', en: 'HackerRank' },
