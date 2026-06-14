@@ -394,14 +394,14 @@ const translations = {
 
   // Education dynamic data
   'education.tsu-informatica.institution': { es: 'Colegio Universitario de Caracas (CUC)', en: 'University College of Caracas (CUC)' },
-  'education.tsu-informatica.degree': { es: 'Técnico Superior Universitario en Informática (2012-2015)', en: 'Higher University Technician in Computer Science (2012-2015)' },
+  'education.tsu-informatica.degree': { es: 'Técnico Superior Universitario en Informática (2012-2015)', en: "Associate's Degree in Computer Science (2012-2015)" },
   'education.tsu-informatica.description': {
     es: 'Formación técnica en informática. Proyectos: Sistema de Control de Inventario (C++), Sistema de Buzón e Incidencias (PHP, JavaScript, PostgreSQL, HTML5, CSS3, Bootstrap, MVC).',
     en: 'Technical education in computer science. Projects: Inventory Control System (C++), Mailbox and Incident System (PHP, JavaScript, PostgreSQL, HTML5, CSS3, Bootstrap, MVC).'
   },
 
   'education.ing-en-informatica.institution': { es: 'Colegio Universitario de Caracas (CUC)', en: 'University College of Caracas (CUC)' },
-  'education.ing-en-informatica.degree': { es: 'Ingeniero en Informatica (2012-2017)', en: 'Computer Engineer (2012-2017)' },
+  'education.ing-en-informatica.degree': { es: 'Ingeniero en Informatica (2015-2017)', en: "Bachelor's Degree in Computer Science - Software Engineering (2015-2017)" },
   'education.ing-en-informatica.description': {
     es: 'Formación universitaria en ingeniería informática. Proyectos: Sistema de Gestión de Incidencias Help Desk (PHP, JavaScript, PostgreSQL, HTML5, CSS3, Bootstrap, jQuery, MVC), Auditoría de TI al Sistema SACS (Seguridad de la Información, Evaluación de Vulnerabilidades, Cumplimiento Normativo).',
     en: 'University education in computer engineering. Projects: Help Desk Incident Management System (PHP, JavaScript, PostgreSQL, HTML5, CSS3, Bootstrap, jQuery, MVC), IT Audit of the SACS System (Information Security, Vulnerability Assessment, Regulatory Compliance).'
