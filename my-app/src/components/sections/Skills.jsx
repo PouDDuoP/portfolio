@@ -1,4 +1,4 @@
-import { memo, useState, useRef, useEffect } from 'react';
+import { memo, useState, useRef, useEffect, useLayoutEffect } from 'react';
 import skills from '../../data/skills.json';
 import { useT } from '../../i18n/useTranslation';
 import Section from '../common/Section';
@@ -41,7 +41,7 @@ const Skills = memo(function Skills() {
   const [searchTerm, setSearchTerm] = useState('');
   const scrollDirRef = useRef('down');
 
-  // Track scroll direction + observe pills for entrance animation
+  // Track scroll direction only — always active
   useEffect(() => {
     let lastY = window.scrollY;
     const onScroll = () => {
@@ -50,6 +50,14 @@ const Skills = memo(function Skills() {
       lastY = curr;
     };
     window.addEventListener('scroll', onScroll, { passive: true });
+    return () => window.removeEventListener('scroll', onScroll);
+  }, []);
+
+  // After each render (filter change, mount, etc.), animate visible pills
+  // and set up IntersectionObserver for pills below the fold
+  useLayoutEffect(() => {
+    const unanimated = document.querySelectorAll('.skills__pill:not([data-animated])');
+    if (unanimated.length === 0) return;
 
     const io = new IntersectionObserver((entries) => {
       entries.forEach(entry => {
@@ -62,33 +70,19 @@ const Skills = memo(function Skills() {
       });
     }, { threshold: 0.12, rootMargin: '0px 0px -20px 0px' });
 
-    // Watch for DOM changes (search filtering) and observe new pills
-    // querySelectorAll because there's one .skills__pill-grid per category
-    const grids = document.querySelectorAll('.skills__pill-grid');
-    const mos = [];
-    grids.forEach(grid => {
-      const mo = new MutationObserver(() => {
-        grid.querySelectorAll('.skills__pill:not([data-observed])').forEach(el => {
-          el.dataset.observed = '';
-          io.observe(el);
-        });
-      });
-      mo.observe(grid, { childList: true, subtree: true });
-      mos.push(mo);
-
-      // Observe existing pills in this grid
-      grid.querySelectorAll('.skills__pill').forEach(el => {
-        el.dataset.observed = '';
-        io.observe(el);
-      });
+    unanimated.forEach(pill => {
+      // If already in viewport, set immediately (before paint)
+      const rect = pill.getBoundingClientRect();
+      const inViewport = rect.top < window.innerHeight - 20 && rect.bottom > 0;
+      if (inViewport) {
+        pill.dataset.animated = scrollDirRef.current;
+      } else {
+        io.observe(pill);
+      }
     });
 
-    return () => {
-      window.removeEventListener('scroll', onScroll);
-      io.disconnect();
-      mos.forEach(mo => mo.disconnect());
-    };
-  }, []);
+    return () => io.disconnect();
+  }, [searchTerm]);
 
   // Compute filtered data
   const filteredCategories = searchTerm
