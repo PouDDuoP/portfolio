@@ -475,6 +475,13 @@ const translations = {
   'education.platzi-scrum.description': {
     es: 'Marco de trabajo ágil utilizado para gestionar proyectos complejos mediante ciclos iterativos e incrementales.',
     en: 'Agile framework used to manage complex projects through iterative and incremental cycles.'
+  },
+
+  'education.bigschool-desarrollo-con-ia.institution': { es: 'BIG school', en: 'BIG school' },
+  'education.bigschool-desarrollo-con-ia.degree': { es: 'Desarrollo con IA', en: 'AI Development' },
+  'education.bigschool-desarrollo-con-ia.description': {
+    es: 'Uso de IA agéntica, trabajo bajo definiciones SDD (Spec-Driven Development) y el ecosistema Gentle AI + Engram + SDD.',
+    en: 'Use of agentic AI, working under SDD (Spec-Driven Development) definitions, and the Gentle AI + Engram + SDD ecosystem.'
   }
 };
 

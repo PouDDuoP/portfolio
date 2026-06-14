@@ -118,5 +118,15 @@
     "endDate": "2025",
     "description": "Marco de trabajo ágil utilizado para gestionar proyectos complejos mediante ciclos iterativos e incrementales.",
     "verified": true
+  },
+  {
+    "id": "bigschool-desarrollo-con-ia",
+    "institution": "BIG school",
+    "institutionUrl": "https://6nbjm9di6eazm7kv.public.blob.vercel-storage.com/Certificado-Kevin-Alvarado-Desarrollo-con-IA.pdf",
+    "degree": "Desarrollo con IA",
+    "startDate": "2026",
+    "endDate": "2026",
+    "description": "Uso de IA agéntica, trabajo bajo definiciones SDD (Spec-Driven Development) y el ecosistema Gentle AI + Engram + SDD.",
+    "verified": true
   }
 ]
