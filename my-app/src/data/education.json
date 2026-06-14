@@ -1,12 +1,22 @@
 [
   {
+    "id": "tsu-informatica",
+    "institution": "Colegio Universitario de Caracas (CUC)",
+    "institutionUrl": "https://unexca.org/",
+    "degree": "Técnico Superior Universitario en Informática (2012-2015)",
+    "startDate": "2012",
+    "endDate": "2015",
+    "description": "Formación técnica en informática. Proyectos: Sistema de Control de Inventario (C++), Sistema de Buzón e Incidencias (PHP, JavaScript, PostgreSQL, HTML5, CSS3, Bootstrap, MVC).",
+    "verified": true
+  },
+  {
     "id": "ing-en-informatica",
     "institution": "Colegio Universitario de Caracas (CUC)",
     "institutionUrl": "https://unexca.org/",
-    "degree": "Ingeniero en Informatica (2012-2017)",
-    "startDate": "2012",
+    "degree": "Ingeniero en Informatica (2015-2017)",
+    "startDate": "2015",
     "endDate": "2017",
-    "description": "Formacion universitaria en ingenieria informatica. Proyectos: Sistema de Control de Inventario (C++), Sistema de Buzon para Reporte de Incidencias (PHP, JavaScript, PostgreSQL, HTML5, CSS3, MVC), Sistema de Control de Incidencias (PHP, JavaScript, PostgreSQL, HTML5, CSS3, Bootstrap 3, jQuery, MVC).",
+    "description": "Formación universitaria en ingeniería informática. Proyectos: Sistema de Gestión de Incidencias Help Desk (PHP, JavaScript, PostgreSQL, HTML5, CSS3, Bootstrap, jQuery, MVC), Auditoría de TI al Sistema SACS (Seguridad de la Información, Evaluación de Vulnerabilidades, Cumplimiento Normativo).",
     "verified": true
   },
   {
