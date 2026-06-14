@@ -8,14 +8,35 @@
     "startDate": "2017-01",
     "endDate": "2024-12",
     "achievements": [
-      "Diseñé y desarrollé soluciones de software utilizando patrones MVC y MVT, mejorando la escalabilidad del sistema principal",
-      "Refactoricé y depuré código existente, mejorando el rendimiento de las aplicaciones y facilitando su mantenimiento",
-      "Optimización de procesos",
-      "Gestioné la integración y el consumo de APIs y Web Services (REST/SOAP), asegurando el intercambio de datos JSON",
-      "Gestioné y optimicé bases de datos relacionales (SQL Server, Oracle Database, PostgreSQL, MySQL)",
-      "Proporcioné mantenimiento y soporte crítico a páginas web afiliadas",
-      "Entrenamiento de nuevos desarrolladores en el funcionamiento de Qualitas Assistance"
+      "Implementé nuevos módulos en el Sistema Corporativo Humanitas para responder a normativas cambiantes del negocio, asegurando la estabilidad continua de la plataforma",
+      "Realicé diagnóstico y debugging de errores críticos en Humanitas, garantizando alta disponibilidad del sitio web corporativo y resolución eficiente de tickets de soporte de alta complejidad",
+      "Optimicé consultas complejas y realicé mantenimiento preventivo en Oracle Database para el sistema Humanitas",
+      "Diseñé el núcleo financiero automatizado de Qualitas Assistance con módulos de cálculo de comisiones, costos y registro masivo de pagos, sustituyendo flujos manuales en Excel",
+      "Implementé stored procedures y triggers en SQL Server para el procesamiento eficiente de reportes de data extensa en Qualitas Assistance",
+      "Integré consumo en tiempo real de la API del proveedor mediante un cliente de servicios web con sistema activo de monitoreo de excepciones",
+      "Desarrollé el módulo cotizador de planes y coberturas de Mankaind con automatización de emisión de pólizas y documentos PDF mediante ReportLab",
+      "Realicé conexión y adaptación del ecosistema Django con base de datos Oracle preexistente mediante técnicas de ingeniería inversa (inspectdb)",
+      "Desplegué Mankaind en producción con Nginx y Gunicorn dentro de contenedores Docker, habilitando la interacción digital inmediata con clientes",
+      "Implementé el sistema de internacionalización (i18n) en Globalmate para mitigar errores de visualización global en entornos multi-idioma",
+      "Reestructuré componentes de Globalmate para lograr un diseño 100% responsive, mejorando significativamente la usabilidad desde dispositivos móviles",
+      "Proporcioné mantenimiento y soporte crítico a páginas web afiliadas del ecosistema corporativo",
+      "Entrené a nuevos desarrolladores en el funcionamiento y flujos de trabajo de Qualitas Assistance"
     ],
-    "techStack": ["ASP Classic", "VBScript", "PHP", "Git", "Bootstrap 3", "jQuery", "JavaScript", "HTML5", "CSS", "SQL Server"]
+    "techStack": ["ASP Classic", "VBScript", "PHP", "Python", "Django", "Docker", "Git", "Bitbucket", "Bootstrap 3", "jQuery", "JavaScript", "HTML5", "CSS", "SQL Server", "Oracle Database"]
+  },
+  {
+    "id": "stability",
+    "company": "Stability",
+    "companyUrl": "",
+    "role": "Front-End Developer",
+    "location": "Remoto",
+    "startDate": "2025-01",
+    "endDate": "2026-06",
+    "achievements": [
+      "Apliqué Clean Architecture y el gestor de estado BLoC para asegurar un código altamente modular, escalable y con inyección de dependencias mediante Getit",
+      "Diseñé y desarrollé módulos de autenticación JWT, pasarelas de onboarding, visualizaciones de rendimiento y rankings interactivos",
+      "Implementé manejo asíncrono de APIs con manejo de tokens automatizado y consumo seguro de servicios web externos"
+    ],
+    "techStack": ["Flutter", "Dart", "BLoC", "GetIt", "Dio", "Shared Preferences", "Table Calendar", "Image Picker", "Flutter SVG", "Pin Code Fields", "Intl", "Animations", "GitHub"]
   }
 ]

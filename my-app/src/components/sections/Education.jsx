@@ -9,11 +9,12 @@ export default function Education() {
   const { t } = useT();
 
   const sortedEducation = useMemo(() => {
-    const uni = education.find(e => e.id === 'ing-en-informatica');
+    const uniIds = ['ing-en-informatica', 'tsu-informatica'];
+    const uni = uniIds.map(id => education.find(e => e.id === id)).filter(Boolean);
     const certs = education
-      .filter(e => e.id !== 'ing-en-informatica')
+      .filter(e => !uniIds.includes(e.id))
       .sort((a, b) => b.endDate.localeCompare(a.endDate));
-    return uni ? [uni, ...certs] : certs;
+    return uni.length ? [...uni, ...certs] : certs;
   }, []);
 
   return (

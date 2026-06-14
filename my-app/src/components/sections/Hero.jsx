@@ -16,12 +16,16 @@ const LANG_LEVELS = { 'Nativo': 'native', 'B1': 'B1' };
 const TITLE_KEYS = ['profile.title.0', 'profile.title.1', 'profile.title.2'];
 
 export default function Hero() {
-  const { t } = useT();
+  const { t, lang } = useT();
   const [titleIndex, setTitleIndex] = useState(0);
   const [isTyping, setIsTyping] = useState(true);
   const subtitleRef = useRef(null);
 
   const fullText = t(TITLE_KEYS[titleIndex]);
+  const cvUrl = lang === 'en'
+    ? import.meta.env.VITE_CV_BLOB_URL_EN
+    : import.meta.env.VITE_CV_BLOB_URL;
+  const cvLabel = `CV-KevinAlvarado-2026-${lang === 'en' ? 'EN' : 'ES'}`;
 
   // Typewriter: actualiza el DOM directo sin re-renders
   useEffect(() => {
@@ -119,9 +123,9 @@ export default function Hero() {
             <Button href="#projects" variant="secondary" size="large">
               {t('hero.viewProjects')}
             </Button>
-            {import.meta.env.VITE_CV_BLOB_URL && (
-              <Button href={import.meta.env.VITE_CV_BLOB_URL} target="_blank" rel="noopener noreferrer" variant="secondary" size="large"
-                onClick={() => trackEvent('CV', 'download', 'CV-KevinAlvarado-2026')}>
+            {cvUrl && (
+              <Button href={cvUrl} target="_blank" rel="noopener noreferrer" variant="secondary" size="large"
+                onClick={() => trackEvent('CV', 'download', cvLabel)}>
                 {t('hero.downloadCv')}
                 <span className="sr-only">{t('common.opensInNewTab')}</span>
               </Button>
