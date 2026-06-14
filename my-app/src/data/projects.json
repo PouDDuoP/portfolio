@@ -14,6 +14,20 @@
     "featured": true
   },
   {
+    "id": "humanitas",
+    "type": "laboral",
+    "date": "2017-01",
+    "title": "Sistema Corporativo Humanitas",
+    "description": "Plataforma web principal de administración de riesgos y servicios web afiliados.",
+    "challenge": "Mantener y evolucionar la plataforma corporativa frente a normativas cambiantes del negocio",
+    "result": "Estabilidad continua de la plataforma corporativa y resolución eficiente de tickets de soporte de alta complejidad",
+    "techStack": ["ASP Classic", "VBScript", "PHP", "Oracle Database", "Bootstrap", "jQuery", "JavaScript", "HTML5", "CSS3", "REST APIs"],
+    "image": "",
+    "github": "",
+    "demo": "",
+    "featured": true
+  },
+  {
     "id": "globalmate",
     "type": "laboral",
     "date": "2021-01",
@@ -56,6 +70,20 @@
     "featured": false
   },
   {
+    "id": "sacs-audit",
+    "type": "personal",
+    "date": "2017-01",
+    "title": "Auditoría de TI — Sistema SACS",
+    "description": "Auditoría técnica integral al Sistema Automatizado de Control y Vigilancia Sanitaria.",
+    "challenge": "Evaluar vulnerabilidades y cumplimiento normativo de un sistema de salud pública",
+    "result": "Identificación de brechas de seguridad y diseño de plan de mitigación para garantizar integridad de datos",
+    "techStack": ["Auditoría de TI", "Seguridad de la Información", "Evaluación de Vulnerabilidades", "Cumplimiento Normativo"],
+    "image": "",
+    "github": "",
+    "demo": "",
+    "featured": false
+  },
+  {
     "id": "buzon",
     "type": "personal",
     "date": "2016-01",
@@ -86,7 +114,7 @@
     {
       "id": "stability",
       "type": "laboral",
-      "date": "2024-01",
+      "date": "2025-01",
       "title": "Stability - Desarrollo Front-end",
       "description": "Front-end de Stability desarrollado con Flutter, Dart y BLoC siguiendo Clean Architecture.",
       "challenge": "Aplicar Clean Architecture con BLoC para escalabilidad y mantenibilidad en Flutter",
