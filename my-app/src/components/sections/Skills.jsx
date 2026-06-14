@@ -1,4 +1,4 @@
-import { memo, useState } from 'react';
+import { memo, useState, useRef, useEffect } from 'react';
 import skills from '../../data/skills.json';
 import { useT } from '../../i18n/useTranslation';
 import Section from '../common/Section';
@@ -39,6 +39,56 @@ const getTechColor = (name) => TECH_COLORS[name] || 'var(--color-primary)';
 const Skills = memo(function Skills() {
   const { t } = useT();
   const [searchTerm, setSearchTerm] = useState('');
+  const scrollDirRef = useRef('down');
+
+  // Track scroll direction + observe pills for entrance animation
+  useEffect(() => {
+    let lastY = window.scrollY;
+    const onScroll = () => {
+      const curr = window.scrollY;
+      scrollDirRef.current = curr > lastY ? 'down' : 'up';
+      lastY = curr;
+    };
+    window.addEventListener('scroll', onScroll, { passive: true });
+
+    const io = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          const el = entry.target;
+          if (!el.dataset.animated) {
+            el.dataset.animated = scrollDirRef.current;
+          }
+        }
+      });
+    }, { threshold: 0.12, rootMargin: '0px 0px -20px 0px' });
+
+    // Watch for DOM changes (search filtering) and observe new pills
+    // querySelectorAll because there's one .skills__pill-grid per category
+    const grids = document.querySelectorAll('.skills__pill-grid');
+    const mos = [];
+    grids.forEach(grid => {
+      const mo = new MutationObserver(() => {
+        grid.querySelectorAll('.skills__pill:not([data-observed])').forEach(el => {
+          el.dataset.observed = '';
+          io.observe(el);
+        });
+      });
+      mo.observe(grid, { childList: true, subtree: true });
+      mos.push(mo);
+
+      // Observe existing pills in this grid
+      grid.querySelectorAll('.skills__pill').forEach(el => {
+        el.dataset.observed = '';
+        io.observe(el);
+      });
+    });
+
+    return () => {
+      window.removeEventListener('scroll', onScroll);
+      io.disconnect();
+      mos.forEach(mo => mo.disconnect());
+    };
+  }, []);
 
   // Compute filtered data
   const filteredCategories = searchTerm
