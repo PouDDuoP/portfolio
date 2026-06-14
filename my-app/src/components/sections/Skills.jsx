@@ -1,4 +1,4 @@
-import { memo, useState, useRef, useEffect, useLayoutEffect } from 'react';
+import { memo, useState, useRef, useEffect } from 'react';
 import skills from '../../data/skills.json';
 import { useT } from '../../i18n/useTranslation';
 import Section from '../common/Section';
@@ -53,9 +53,9 @@ const Skills = memo(function Skills() {
     return () => window.removeEventListener('scroll', onScroll);
   }, []);
 
-  // After each render (filter change, mount, etc.), animate visible pills
-  // and set up IntersectionObserver for pills below the fold
-  useLayoutEffect(() => {
+  // After each render (filter change, mount, etc.), observe unanimated pills.
+  // IntersectionObserver evita getBoundingClientRect() → no hay forced reflow.
+  useEffect(() => {
     const unanimated = document.querySelectorAll('.skills__pill:not([data-animated])');
     if (unanimated.length === 0) return;
 
@@ -68,19 +68,9 @@ const Skills = memo(function Skills() {
           }
         }
       });
-    }, { threshold: 0.12, rootMargin: '0px 0px -20px 0px' });
+    }, { threshold: 0.01, rootMargin: '0px 0px -20px 0px' });
 
-    unanimated.forEach(pill => {
-      // If already in viewport, set immediately (before paint)
-      const rect = pill.getBoundingClientRect();
-      const inViewport = rect.top < window.innerHeight - 20 && rect.bottom > 0;
-      if (inViewport) {
-        pill.dataset.animated = scrollDirRef.current;
-      } else {
-        io.observe(pill);
-      }
-    });
-
+    unanimated.forEach(pill => io.observe(pill));
     return () => io.disconnect();
   }, [searchTerm]);
 

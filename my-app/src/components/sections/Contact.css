@@ -24,12 +24,12 @@
 }
 
 .contact__status--open-to-work {
-  color: #22c55e;
+  color: var(--color-success, #22c55e);
   animation: softPulse 2.5s ease-in-out infinite;
 }
 
 .contact__status--working {
-  color: #3b82f6;
+  color: var(--color-info, #3b82f6);
   animation: softPulse 2.5s ease-in-out infinite;
 }
 
