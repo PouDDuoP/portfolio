@@ -1,19 +1,13 @@
 import { useCallback } from 'react';
 import { useLanguage } from '../context/LanguageContext';
 import core from './translations-core';
-
-// Carga diferida del resto de traducciones — empieza inmediatamente pero no bloquea el bundle crítico
-let fullTranslations = null;
-import('./translations').then(m => {
-  fullTranslations = m.default;
-});
+import fullTranslations from './translations';
 
 export function useT() {
   const { lang, toggleLang } = useLanguage();
 
   const t = useCallback((key, params = {}) => {
-    // Busca primero en core (eager), luego en full (lazy — llega en paralelo)
-    const entry = core[key] || (fullTranslations && fullTranslations[key]);
+    const entry = core[key] || fullTranslations[key];
     if (!entry) return key;
 
     let text = entry[lang] || entry['es'] || key;

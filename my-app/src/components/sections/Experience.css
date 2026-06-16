@@ -110,6 +110,40 @@
   color: var(--color-text-secondary);
 }
 
+.experience__projects {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-lg);
+}
+
+.experience__project {
+  border-left: 2px solid var(--color-border);
+  padding-left: var(--space-lg);
+  transition: border-color var(--transition-fast);
+}
+
+.experience__project:hover {
+  border-left-color: var(--color-primary);
+}
+
+.experience__project-name {
+  font-family: var(--font-display);
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--color-primary);
+  margin: 0 0 var(--space-sm);
+}
+
+.experience__project .experience__achievements {
+  gap: var(--space-xs);
+}
+
+.experience__project .experience__stack {
+  padding-top: var(--space-sm);
+  border-top: 1px solid var(--color-border);
+  margin-top: var(--space-sm);
+}
+
 .experience__achievements {
   list-style: none;
   padding: 0;
@@ -139,7 +173,9 @@
   display: flex;
   flex-wrap: wrap;
   gap: var(--space-sm);
-  margin-top: var(--space-sm);
+  padding-top: var(--space-md);
+  border-top: 1px solid var(--color-border);
+  margin-top: var(--space-md);
 }
 
 .experience__tech {

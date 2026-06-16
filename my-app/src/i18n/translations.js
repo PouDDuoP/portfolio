@@ -179,8 +179,8 @@ const translations = {
   // Projects dynamic data
   'projects.qualitas-assitance.title': { es: 'Sistema de Qualitas Assistance', en: 'Qualitas Assistance System' },
   'projects.qualitas-assitance.description': {
-    es: 'Sistema integral de automatización financiera y gestión operativa empresarial con núcleo de cálculo de comisiones, costos y registro masivo de pagos.',
-    en: 'Comprehensive financial automation and business operational management system with a core for commission calculation, costs, and bulk payment recording.'
+    es: 'Sistema integral de automatización financiera y gestión operativa empresarial con núcleo de cálculo de comisiones, costos, registro masivo de pagos, gestión de upgrades de productos y monitoreo de integraciones en tiempo real.',
+    en: 'Comprehensive financial automation and business operational management system with a core for commission calculation, costs, bulk payment recording, product upgrade management, and real-time integration monitoring.'
   },
   'projects.qualitas-assitance.challenge': {
     es: 'Centralizar múltiples flujos operativos dispersos y procesos manuales en una arquitectura escalable',
@@ -205,18 +205,18 @@ const translations = {
     en: 'Total information consistency in multi-language environments and significant usability improvement on mobile devices'
   },
 
-  'projects.mankind.title': { es: 'Sistema de Mankind', en: 'Mankind System' },
-  'projects.mankind.description': {
-    es: 'Plataforma corporativa de cotización y emisión de pólizas en tiempo real con generación automatizada de documentos PDF.',
-    en: 'Corporate platform for real-time quotation and policy issuance with automated PDF document generation.'
+  'projects.mankaind.title': { es: 'Sistema de Mankaind', en: 'Mankaind System' },
+  'projects.mankaind.description': {
+    es: 'Sistema de cotización de planes y coberturas con automatización de emisión de pólizas y documentos PDF mediante ReportLab, conexión a base de datos Oracle existente con InspectDB, y puesta en producción con Gunicorn, Nginx y Docker.',
+    en: 'Plan and coverage quotation system with automated policy issuance and PDF document generation using ReportLab, connection to existing Oracle database with InspectDB, and production deployment with Gunicorn, Nginx and Docker.'
   },
-  'projects.mankind.challenge': {
-    es: 'Diseñar y desplegar la primera versión de la plataforma asegurando compatibilidad con bases de datos Oracle Database heredadas',
-    en: 'Design and deploy the first platform version ensuring compatibility with legacy Oracle Database databases'
+  'projects.mankaind.challenge': {
+    es: 'Crear la primera versión de Mankaind desde cero, integrando una base de datos Oracle preexistente mediante ingeniería inversa y proporcionando cotizaciones digitales con generación automatizada de documentos',
+    en: 'Create the first Mankaind version from scratch, integrating a pre-existing Oracle database through reverse engineering and providing digital quotations with automated document generation'
   },
-  'projects.mankind.result': {
-    es: 'Despliegue exitoso en producción con Nginx y Gunicorn dentro de contenedores Docker, habilitando la interacción digital con clientes',
-    en: 'Successful production deployment with Nginx and Gunicorn inside Docker containers, enabling digital customer interaction'
+  'projects.mankaind.result': {
+    es: 'Despliegue exitoso de Mankaind en producción con Nginx y Gunicorn dentro de contenedores Docker, habilitando la interacción digital inmediata con clientes y agentes, con cotizaciones automatizadas y conexión exitosa de base de datos Oracle existente mediante InspectDB',
+    en: 'Successful Mankaind production deployment with Nginx and Gunicorn inside Docker containers, enabling immediate digital interaction with clients and agents, with automated quotations and successful Oracle database connection via InspectDB'
   },
 
   'projects.inventario.title': { es: 'Sistema de Control de Inventario', en: 'Inventory Control System' },
@@ -263,16 +263,16 @@ const translations = {
 
   'projects.stability.title': { es: 'Stability - Desarrollo Front-end', en: 'Stability - Front-end Development' },
   'projects.stability.description': {
-    es: 'Front-end de Stability desarrollado con Flutter, Dart y BLoC siguiendo Clean Architecture.',
-    en: 'Stability front-end developed with Flutter, Dart and BLoC following Clean Architecture.'
+    es: 'Front-end completo de Stability desarrollado con Flutter, Dart y BLoC siguiendo Clean Architecture, con módulo de autenticación, sistema de gestión de clases, perfiles de usuario, localización y consumo seguro de APIs REST.',
+    en: 'Complete Stability front-end developed with Flutter, Dart and BLoC following Clean Architecture, with authentication module, class management system, user profiles, localization, and secure REST API consumption.'
   },
   'projects.stability.challenge': {
-    es: 'Desarrollar un front-end completo en Flutter aplicando Clean Architecture con BLoC para escalabilidad y mantenibilidad',
-    en: 'Develop a complete front-end in Flutter applying Clean Architecture with BLoC for scalability and maintainability'
+    es: 'Desarrollar un front-end completo en Flutter aplicando Clean Architecture con BLoC para escalabilidad y mantenibilidad, incluyendo autenticación JWT, gestión de clases con horarios, perfiles y localización multi-idioma',
+    en: 'Develop a complete front-end in Flutter applying Clean Architecture with BLoC for scalability and maintainability, including JWT authentication, class management with schedules, profiles, and multi-language localization'
   },
   'projects.stability.result': {
-    es: 'Front-end funcional completo con autenticación JWT, onboarding, visualizaciones de rendimiento y rankings, integrando APIs REST de extremo a extremo',
-    en: 'Complete functional front-end with JWT authentication, onboarding, performance visualizations and rankings, integrating REST APIs end-to-end'
+    es: 'Front-end funcional completo con autenticación JWT, sistema de gestión de clases con Table Calendar, perfiles de usuario, localización español e inglés, y consumo seguro de APIs REST con manejo asíncrono de tokens',
+    en: 'Complete functional front-end with JWT authentication, Table Calendar class management system, user profiles, Spanish and English localization, and secure REST API consumption with async token handling'
   },
 
   'projects.my-store.title': { es: 'Desarrollo de My Store', en: 'My Store Development' },
@@ -295,12 +295,12 @@ const translations = {
     en: 'Main web platform for risk management and affiliated web services with continuous development of new modules.'
   },
   'projects.humanitas.challenge': {
-    es: 'Mantener y evolucionar la plataforma corporativa frente a normativas cambiantes del negocio',
-    en: 'Maintain and evolve the corporate platform amidst changing business regulations'
+    es: 'Mantener y evolucionar la plataforma frente a normativas cambiantes del negocio',
+    en: 'Maintain and evolve the platform amidst changing business regulations'
   },
   'projects.humanitas.result': {
-    es: 'Estabilidad continua de la plataforma corporativa y resolución eficiente de tickets de soporte de alta complejidad',
-    en: 'Continuous stability of the corporate platform and efficient resolution of high-complexity support tickets'
+    es: 'Estabilidad continua de la plataforma y resolución eficiente de tickets de soporte de alta complejidad',
+    en: 'Continuous platform stability and efficient resolution of high-complexity support tickets'
   },
 
   'projects.sacs-audit.title': { es: 'Auditoría de TI — Sistema SACS', en: 'IT Audit — SACS System' },
@@ -325,56 +325,76 @@ const translations = {
   'experience.humanitas-qualitas.role': { es: 'Especialista Web', en: 'Web Specialist' },
   'experience.humanitas-qualitas.location': { es: 'Caracas, Venezuela', en: 'Caracas, Venezuela' },
   'experience.humanitas-qualitas.achievements.0': {
-    es: 'Implementé nuevos módulos en el Sistema de Humanitas para responder a normativas cambiantes del negocio, asegurando la estabilidad continua de la plataforma',
-    en: 'Implemented new modules in the Humanitas System to respond to changing business regulations, ensuring continuous platform stability'
+    es: 'Implementé nuevos módulos en el Sistema de Humanitas para responder a normativas cambiantes del negocio, asegurando la estabilidad continua de la plataforma.',
+    en: 'Implemented new modules in the Humanitas System to respond to changing business regulations, ensuring continuous platform stability.'
   },
   'experience.humanitas-qualitas.achievements.1': {
-    es: 'Realicé diagnóstico y debugging de errores críticos en Humanitas, garantizando alta disponibilidad del sitio web corporativo y resolución eficiente de tickets de soporte de alta complejidad',
-    en: 'Performed diagnosis and debugging of critical errors in Humanitas, guaranteeing high availability of the corporate website and efficient resolution of high-complexity support tickets'
+    es: 'Realicé diagnóstico y debugging de errores críticos en Humanitas, garantizando alta disponibilidad del sitio web y resolución eficiente de tickets de soporte de alta complejidad.',
+    en: 'Performed diagnosis and debugging of critical errors in Humanitas, guaranteeing high availability of the website and efficient resolution of high-complexity support tickets.'
   },
   'experience.humanitas-qualitas.achievements.2': {
-    es: 'Optimicé consultas complejas y realicé mantenimiento preventivo en Oracle Database para el sistema Humanitas',
-    en: 'Optimized complex queries and performed preventive maintenance on Oracle Database for the Humanitas system'
+    es: 'Optimicé consultas complejas y realicé mantenimiento preventivo en Oracle Database para el sistema Humanitas.',
+    en: 'Optimized complex queries and performed preventive maintenance on Oracle Database for the Humanitas system.'
   },
   'experience.humanitas-qualitas.achievements.3': {
-    es: 'Diseñé el núcleo financiero automatizado de Qualitas Assistance con módulos de cálculo de comisiones, costos y registro masivo de pagos, sustituyendo flujos manuales en Excel',
-    en: 'Designed the automated financial core of Qualitas Assistance with commission calculation, cost management, and bulk payment recording modules, replacing manual Excel workflows'
+    es: 'Diseñé el núcleo financiero automatizado de Qualitas Assistance con módulos de cálculo de comisiones, costos y registro masivo de pagos, sustituyendo flujos manuales en Excel.',
+    en: 'Designed the automated financial core of Qualitas Assistance with commission calculation, cost management, and bulk payment recording modules, replacing manual Excel workflows.'
   },
   'experience.humanitas-qualitas.achievements.4': {
-    es: 'Implementé stored procedures y triggers en SQL Server para el procesamiento eficiente de reportes de data extensa en Qualitas Assistance',
-    en: 'Implemented stored procedures and triggers in SQL Server for efficient processing of extensive data reports in Qualitas Assistance'
+    es: 'Implementé stored procedures y triggers en SQL Server para el procesamiento eficiente de reportes de data extensa en Qualitas Assistance.',
+    en: 'Implemented stored procedures and triggers in SQL Server for efficient processing of extensive data reports in Qualitas Assistance.'
   },
   'experience.humanitas-qualitas.achievements.5': {
-    es: 'Integré consumo en tiempo real de la API del proveedor mediante un cliente de servicios web con sistema activo de monitoreo de excepciones',
-    en: 'Integrated real-time consumption of the provider\'s API through a web service client with active exception monitoring system'
+    es: 'Integré consumo en tiempo real de la API del proveedor mediante un cliente de servicios web con sistema activo de monitoreo de excepciones.',
+    en: 'Integrated real-time consumption of the provider\'s API through a web service client with active exception monitoring system.'
   },
   'experience.humanitas-qualitas.achievements.6': {
-    es: 'Desarrollé el módulo cotizador de planes y coberturas de Mankaind con automatización de emisión de pólizas y documentos PDF mediante ReportLab',
-    en: 'Developed the Mankaind plan quotation and coverage module with automated policy issuance and PDF document generation using ReportLab'
+    es: 'Desarrollé un módulo para la gestión de upgrades de productos en Qualitas Assistance, permitiendo activar o desactivar características de forma individual y masiva para optimizar el control del catálogo.',
+    en: 'Developed a product upgrade management module in Qualitas Assistance, allowing individual and bulk activation or deactivation of features to optimize catalog control.'
   },
   'experience.humanitas-qualitas.achievements.7': {
-    es: 'Realicé conexión y adaptación del ecosistema Django con base de datos Oracle Database preexistente mediante técnicas de ingeniería inversa (inspectdb)',
-    en: 'Performed connection and adaptation of the Django ecosystem with pre-existing Oracle Database databases using reverse engineering techniques (inspectdb)'
+    es: 'Refactoricé por completo la interfaz principal del sistema Qualitas Assistance, unificando headers, footer, navegación y menú en dos bases reutilizables (home page y dashboard) para todo el sitio web.',
+    en: 'Completely refactored the main interface of Qualitas Assistance, unifying headers, footer, navigation, and menu into two reusable bases (home page and dashboard) for the entire website.'
   },
   'experience.humanitas-qualitas.achievements.8': {
-    es: 'Desplegué Mankaind en producción con Nginx y Gunicorn dentro de contenedores Docker, habilitando la interacción digital inmediata con clientes',
-    en: 'Deployed Mankaind to production with Nginx and Gunicorn inside Docker containers, enabling immediate digital customer interaction'
+    es: 'Unifiqué dos cotizadores existentes en una sola interfaz en Qualitas Assistance, mejorando el tiempo de respuesta del cotizador y reduciendo la carga operativa del equipo.',
+    en: 'Unified two existing quoters into a single interface in Qualitas Assistance, improving response time and reducing the team\'s operational workload.'
   },
   'experience.humanitas-qualitas.achievements.9': {
-    es: 'Implementé el sistema de internacionalización (i18n) en Globalmate para mitigar errores de visualización global en entornos multi-idioma',
-    en: 'Implemented the internationalization (i18n) system in Globalmate to mitigate global display errors in multi-language environments'
+    es: 'Implementé un módulo de registro y monitoreo de errores de la API del proveedor en Qualitas Assistance, proporcionando al equipo técnico una interfaz visual para diagnosticar y resolver incidencias.',
+    en: 'Implemented an API error logging and monitoring module in Qualitas Assistance, providing the technical team with a visual interface to diagnose and resolve incidents.'
   },
   'experience.humanitas-qualitas.achievements.10': {
-    es: 'Reestructuré componentes de Globalmate para lograr un diseño 100% responsive, mejorando significativamente la usabilidad desde dispositivos móviles',
-    en: 'Restructured Globalmate components to achieve 100% responsive design, significantly improving usability on mobile devices'
+    es: 'Desarrollé un módulo integral para la gestión masiva de costos, netas y características de planes en Qualitas Assistance, junto con un módulo de registro de datos bancarios de agentes y agencias, eliminando procesos manuales.',
+    en: 'Developed an integrated module for bulk management of costs, net amounts, and plan features in Qualitas Assistance, along with a bank data registration module for agents and agencies, eliminating manual processes.'
   },
   'experience.humanitas-qualitas.achievements.11': {
-    es: 'Proporcioné mantenimiento y soporte crítico a páginas web afiliadas del ecosistema corporativo',
-    en: 'Provided critical maintenance and support for affiliate websites in the corporate ecosystem'
+    es: 'Desarrollé el módulo cotizador de planes y coberturas de Mankaind con automatización de emisión de pólizas y documentos PDF mediante ReportLab.',
+    en: 'Developed the Mankaind plan quotation and coverage module with automated policy issuance and PDF document generation using ReportLab.'
   },
   'experience.humanitas-qualitas.achievements.12': {
-    es: 'Entrené a nuevos desarrolladores en el funcionamiento y flujos de trabajo de Qualitas Assistance',
-    en: 'Trained new developers on Qualitas Assistance operations and workflows'
+    es: 'Realicé conexión y adaptación del ecosistema Django con base de datos Oracle Database preexistente mediante técnicas de ingeniería inversa (inspectdb).',
+    en: 'Performed connection and adaptation of the Django ecosystem with pre-existing Oracle Database databases using reverse engineering techniques (inspectdb).'
+  },
+  'experience.humanitas-qualitas.achievements.13': {
+    es: 'Desplegué Mankaind en producción con Nginx y Gunicorn dentro de contenedores Docker, habilitando la interacción digital inmediata con clientes.',
+    en: 'Deployed Mankaind to production with Nginx and Gunicorn inside Docker containers, enabling immediate digital customer interaction.'
+  },
+  'experience.humanitas-qualitas.achievements.14': {
+    es: 'Implementé el sistema de internacionalización (i18n) en Globalmate para mitigar errores de visualización global en entornos multi-idioma.',
+    en: 'Implemented the internationalization (i18n) system in Globalmate to mitigate global display errors in multi-language environments.'
+  },
+  'experience.humanitas-qualitas.achievements.15': {
+    es: 'Reestructuré componentes de Globalmate para lograr un diseño 100% responsive, mejorando significativamente la usabilidad desde dispositivos móviles.',
+    en: 'Restructured Globalmate components to achieve 100% responsive design, significantly improving usability on mobile devices.'
+  },
+  'experience.humanitas-qualitas.achievements.16': {
+    es: 'Proporcioné mantenimiento y soporte crítico a páginas web afiliadas del ecosistema corporativo.',
+    en: 'Provided critical maintenance and support for affiliate websites in the corporate ecosystem.'
+  },
+  'experience.humanitas-qualitas.achievements.17': {
+    es: 'Entrené a nuevos desarrolladores en el funcionamiento y flujos de trabajo de Qualitas Assistance.',
+    en: 'Trained new developers on Qualitas Assistance operations and workflows.'
   },
 
   'experience.stability.company': { es: 'Stability', en: 'Stability' },
@@ -382,15 +402,23 @@ const translations = {
   'experience.stability.location': { es: 'Remoto', en: 'Remote' },
   'experience.stability.achievements.0': {
     es: 'Apliqué Clean Architecture y el gestor de estado BLoC para asegurar un código altamente modular, escalable y con inyección de dependencias mediante Getit.',
-    en: 'Applied Clean Architecture and BLoC state management to ensure highly modular, scalable code with dependency injection via GetIt'
+    en: 'Applied Clean Architecture and BLoC state management to ensure highly modular, scalable code with dependency injection via GetIt.'
   },
   'experience.stability.achievements.1': {
-    es: 'Desarrollé el front-end completo con Flutter, implementando las pantallas de autenticación JWT, onboarding, visualizaciones de rendimiento y rankings interactivos, consumiendo las APIs REST correspondientes.',
-    en: 'Developed the complete front-end with Flutter, implementing JWT authentication screens, onboarding flows, performance visualizations, and interactive rankings by consuming the corresponding REST APIs.'
+    es: 'Desarrollé el módulo de autenticación completo con Flutter, incluyendo login, registro, recuperación de contraseña, verificación de cuenta y flujo de onboarding, consumiendo las APIs REST correspondientes.',
+    en: 'Developed the complete authentication module with Flutter, including login, registration, password recovery, account verification, and onboarding flow, consuming the corresponding REST APIs.'
   },
   'experience.stability.achievements.2': {
-    es: 'Implementé un sistema automatizado para el manejo y refresco asíncrono de tokens, asegurando el consumo seguro de servicios web externos, validando previamente los flujos y payloads de la API mediante colecciones de Postman.',
-    en: 'Implemented an automated system for asynchronous token management and refresh, ensuring secure consumption of external web services, pre-validating API flows and payloads using Postman collections.'
+    es: 'Creé un sistema integral de gestión de clases con operaciones CRUD, reservas, asignaciones, visualizaciones de rendimiento y rankings interactivos, integrando Table Calendar para la visualización de horarios y disponibilidad.',
+    en: 'Created a comprehensive class management system with CRUD operations, reservations, assignments, performance visualizations and interactive rankings, integrating Table Calendar for schedule and availability display.'
+  },
+  'experience.stability.achievements.3': {
+    es: 'Implementé gestión completa de perfiles de usuario con datos personales, avatares, roles y centros de entrenamiento, añadiendo localización en español, soporte para imágenes, SVGs y animaciones.',
+    en: 'Implemented complete user profile management with personal data, avatars, roles and training centers, adding Spanish localization, support for images, SVGs and animations.'
+  },
+  'experience.stability.achievements.4': {
+    es: 'Configuré un cliente HTTP con autenticación JWT automática, subida multipart y manejo de errores, implementando un sistema automatizado para el refresco asíncrono de tokens validado mediante colecciones de Postman.',
+    en: 'Configured an HTTP client with automatic JWT authentication, multipart upload and error handling, implementing an automated system for async token refresh validated through Postman collections.'
   },
 
   // Education dynamic data
