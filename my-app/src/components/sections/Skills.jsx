@@ -29,7 +29,8 @@ const TECH_COLORS = {
   'Docker': '#2496ED',
   'GitHub': '#6e40c9',
   'Bitbucket': '#2684FF',
-  'OpenCode': '#0E9BBF'
+  'OpenCode': '#0E9BBF',
+  'Postman': '#FF6C37'
 };
 
 const getTechColor = (name) => TECH_COLORS[name] || 'var(--color-primary)';

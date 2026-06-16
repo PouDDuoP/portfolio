@@ -66,6 +66,7 @@ const translations = {
   'skills.years.1+ año': { es: '1+ año', en: '1+ year' },
   'skills.years.2+ años': { es: '2+ años', en: '2+ years' },
   'skills.years.3+ años': { es: '3+ años', en: '3+ years' },
+  'skills.years.4+ años': { es: '4+ años', en: '4+ years' },
   'skills.years.5+ años': { es: '5+ años', en: '5+ years' },
 
   // Soft skills names
