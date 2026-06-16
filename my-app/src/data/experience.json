@@ -7,22 +7,56 @@
     "location": "Caracas, Venezuela",
     "startDate": "2017-03",
     "endDate": "2024-07",
-    "achievements": [
-      "Implementé nuevos módulos en el Sistema de Humanitas para responder a normativas cambiantes del negocio, asegurando la estabilidad continua de la plataforma",
-      "Realicé diagnóstico y debugging de errores críticos en Humanitas, garantizando alta disponibilidad del sitio web corporativo y resolución eficiente de tickets de soporte de alta complejidad",
-      "Optimicé consultas complejas y realicé mantenimiento preventivo en Oracle Database para el sistema Humanitas",
-      "Diseñé el núcleo financiero automatizado de Qualitas Assistance con módulos de cálculo de comisiones, costos y registro masivo de pagos, sustituyendo flujos manuales en Excel",
-      "Implementé stored procedures y triggers en SQL Server para el procesamiento eficiente de reportes de data extensa en Qualitas Assistance",
-      "Integré consumo en tiempo real de la API del proveedor mediante un cliente de servicios web con sistema activo de monitoreo de excepciones",
-      "Desarrollé el módulo cotizador de planes y coberturas de Mankaind con automatización de emisión de pólizas y documentos PDF mediante ReportLab",
-      "Realicé conexión y adaptación del ecosistema Django con base de datos Oracle Database preexistente mediante técnicas de ingeniería inversa (inspectdb)",
-      "Desplegué Mankaind en producción con Nginx y Gunicorn dentro de contenedores Docker, habilitando la interacción digital inmediata con clientes",
-      "Implementé el sistema de internacionalización (i18n) en Globalmate para mitigar errores de visualización global en entornos multi-idioma",
-      "Reestructuré componentes de Globalmate para lograr un diseño 100% responsive, mejorando significativamente la usabilidad desde dispositivos móviles",
-      "Proporcioné mantenimiento y soporte crítico a páginas web afiliadas del ecosistema corporativo",
-      "Entrené a nuevos desarrolladores en el funcionamiento y flujos de trabajo de Qualitas Assistance"
-    ],
-    "techStack": ["ASP Classic", "VBScript", "PHP", "Python", "Django", "Docker", "Git", "SourceTree", "Bitbucket", "Bootstrap 3", "jQuery", "JavaScript", "HTML5", "CSS", "SQL Server", "Oracle Database", "MySQL"]
+    "projects": [
+      {
+        "name": "Humanitas",
+        "techStack": ["ASP Classic", "VBScript", "PHP", "Oracle Database", "Bootstrap 3", "jQuery", "JavaScript", "HTML5", "CSS"],
+        "achievements": [
+          "Implementé nuevos módulos en el Sistema de Humanitas para responder a normativas cambiantes del negocio, asegurando la estabilidad continua de la plataforma.",
+          "Realicé diagnóstico y debugging de errores críticos en Humanitas, garantizando alta disponibilidad del sitio web y resolución eficiente de tickets de soporte de alta complejidad.",
+          "Optimicé consultas complejas y realicé mantenimiento preventivo en Oracle Database para el sistema Humanitas."
+        ]
+      },
+      {
+        "name": "Qualitas Assistance",
+        "techStack": ["ASP Classic", "VBScript", "PHP", "Git", "SourceTree", "Bitbucket", "Bootstrap 3", "jQuery", "JavaScript", "HTML5", "CSS", "SQL Server"],
+        "achievements": [
+          "Diseñé el núcleo financiero automatizado de Qualitas Assistance con módulos de cálculo de comisiones, costos y registro masivo de pagos, sustituyendo flujos manuales en Excel.",
+          "Implementé stored procedures y triggers en SQL Server para el procesamiento eficiente de reportes de data extensa en Qualitas Assistance.",
+          "Integré consumo en tiempo real de la API del proveedor mediante un cliente de servicios web con sistema activo de monitoreo de excepciones.",
+          "Desarrollé un módulo para la gestión de upgrades de productos en Qualitas Assistance, permitiendo activar o desactivar características de forma individual y masiva para optimizar el control del catálogo.",
+          "Refactoricé por completo la interfaz principal del sistema Qualitas Assistance, unificando headers, footer, navegación y menú en dos bases reutilizables (home page y dashboard) para todo el sitio web.",
+          "Unifiqué dos cotizadores existentes en una sola interfaz en Qualitas Assistance, mejorando el tiempo de respuesta del cotizador y reduciendo la carga operativa del equipo.",
+          "Implementé un módulo de registro y monitoreo de errores de la API del proveedor en Qualitas Assistance, proporcionando al equipo técnico una interfaz visual para diagnosticar y resolver incidencias.",
+          "Desarrollé un módulo integral para la gestión masiva de costos, netas y características de planes en Qualitas Assistance, junto con un módulo de registro de datos bancarios de agentes y agencias, eliminando procesos manuales."
+        ]
+      },
+      {
+        "name": "Mankaind",
+        "techStack": ["Python", "Django", "Docker", "Git", "Bootstrap 3", "jQuery", "JavaScript", "HTML5", "CSS", "Oracle Database"],
+        "achievements": [
+          "Desarrollé el módulo cotizador de planes y coberturas de Mankaind con automatización de emisión de pólizas y documentos PDF mediante ReportLab.",
+          "Realicé conexión y adaptación del ecosistema Django con base de datos Oracle Database preexistente mediante técnicas de ingeniería inversa (inspectdb).",
+          "Desplegué Mankaind en producción con Nginx y Gunicorn dentro de contenedores Docker, habilitando la interacción digital inmediata con clientes."
+        ]
+      },
+      {
+        "name": "Globalmate",
+        "techStack": ["PHP", "Bootstrap 3", "jQuery", "JavaScript", "HTML5", "CSS", "Oracle Database", "Bitbucket"],
+        "achievements": [
+          "Implementé el sistema de internacionalización (i18n) en Globalmate para mitigar errores de visualización global en entornos multi-idioma.",
+          "Reestructuré componentes de Globalmate para lograr un diseño 100% responsive, mejorando significativamente la usabilidad desde dispositivos móviles."
+        ]
+      },
+      {
+        "name": "General",
+        "techStack": [],
+        "achievements": [
+          "Proporcioné mantenimiento y soporte crítico a páginas web afiliadas del ecosistema corporativo.",
+          "Entrené a nuevos desarrolladores en el funcionamiento y flujos de trabajo de Qualitas Assistance."
+        ]
+      }
+    ]
   },
   {
     "id": "stability",
@@ -34,8 +68,10 @@
     "endDate": "2026-01",
     "achievements": [
       "Apliqué Clean Architecture y el gestor de estado BLoC para asegurar un código altamente modular, escalable y con inyección de dependencias mediante Getit.",
-      "Desarrollé el front-end completo con Flutter, implementando las pantallas de autenticación JWT, onboarding, visualizaciones de rendimiento y rankings interactivos, consumiendo las APIs REST correspondientes.",
-      "Implementé un sistema automatizado para el manejo y refresco asíncrono de tokens, asegurando el consumo seguro de servicios web externos, validando previamente los flujos y payloads de la API mediante colecciones de Postman."
+      "Desarrollé el módulo de autenticación completo con Flutter, incluyendo login, registro, recuperación de contraseña, verificación de cuenta y flujo de onboarding, consumiendo las APIs REST correspondientes.",
+      "Creé un sistema integral de gestión de clases con operaciones CRUD, reservas, asignaciones, visualizaciones de rendimiento y rankings interactivos, integrando Table Calendar para la visualización de horarios y disponibilidad.",
+      "Implementé gestión completa de perfiles de usuario con datos personales, avatares, roles y centros de entrenamiento, añadiendo localización en español, soporte para imágenes, SVGs y animaciones.",
+      "Configuré un cliente HTTP con autenticación JWT automática, subida multipart y manejo de errores, implementando un sistema automatizado para el refresco asíncrono de tokens validado mediante colecciones de Postman."
     ],
     "techStack": ["Flutter", "Dart", "BLoC", "GetIt", "Dio", "Shared Preferences", "Table Calendar", "Image Picker", "Flutter SVG", "Pin Code Fields", "Intl", "Animations", "Postman", "Git", "GitHub"]
   }
