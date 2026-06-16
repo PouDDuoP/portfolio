@@ -98,8 +98,12 @@
         ]},
         { "name": "OpenCode", "years": "2+ meses", "type": "personal", "examples": [
           "Metodología SDD con persistencia Engram para el desarrollo de my-store"
+        ]},
+        { "name": "Postman", "years": "4+ años", "type": "personal", "examples": [
+          "Pruebas y documentación de endpoints REST para my-store con Node.js y Express",
+          "Validación de colecciones de API REST para Stability con Flutter y BLoC"
         ]}
-       ]
+        ]
      }
    ],
   "soft": [
