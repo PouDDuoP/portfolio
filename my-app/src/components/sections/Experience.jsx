@@ -59,17 +59,49 @@ export default function Experience() {
                 {t('experience.' + job.id + '.location')}
               </span>
               
-              <ul className="experience__achievements">
-                  {job.achievements.map((achievement, idx) => (
-                  <li key={achievement}>{t('experience.' + job.id + '.achievements.' + idx)}</li>
-                ))}
-              </ul>
-              
-              <div className="experience__stack">
-                {job.techStack.map((tech) => (
-                  <span key={tech} className="experience__tech">{tech}</span>
-                ))}
-              </div>
+              {job.projects ? (
+                <div className="experience__projects">
+                  {(() => {
+                    let globalIdx = 0;
+                    return job.projects.map(project => {
+                      const startIdx = globalIdx;
+                      globalIdx += project.achievements.length;
+                      return (
+                        <div key={project.name} className="experience__project">
+                          <h4 className="experience__project-name">{project.name}</h4>
+                          <ul className="experience__achievements">
+                            {project.achievements.map((achievement, i) => (
+                              <li key={achievement}>
+                                {t(`experience.${job.id}.achievements.${startIdx + i}`)}
+                              </li>
+                            ))}
+                          </ul>
+                          {project.techStack?.length > 0 && (
+                            <div className="experience__stack">
+                              {project.techStack.map(tech => (
+                                <span key={tech} className="experience__tech">{tech}</span>
+                              ))}
+                            </div>
+                          )}
+                        </div>
+                      );
+                    });
+                  })()}
+                </div>
+              ) : (
+                <>
+                  <ul className="experience__achievements">
+                    {job.achievements.map((achievement, idx) => (
+                      <li key={achievement}>{t('experience.' + job.id + '.achievements.' + idx)}</li>
+                    ))}
+                  </ul>
+                  <div className="experience__stack">
+                    {job.techStack.map((tech) => (
+                      <span key={tech} className="experience__tech">{tech}</span>
+                    ))}
+                  </div>
+                </>
+              )}
             </div>
           </div>
         ))}
