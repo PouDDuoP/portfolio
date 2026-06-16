@@ -281,8 +281,8 @@ const translations = {
     en: 'Full-stack application with Node.js/Express/PostgreSQL back-end and Angular/Tailwind CSS front-end. Includes documented REST API, JWT authentication, shopping cart, and admin panel.'
   },
   'projects.my-store.challenge': {
-    es: 'Desarrollar una aplicación completa con arquitectura por capas y dominios, aplicando metodología SDD y persistencia con Engram',
-    en: 'Develop a complete application with layered and domain architecture, applying SDD methodology and Engram persistence'
+    es: 'Desarrollar una aplicación full-stack con arquitectura por capas y dominios, usando SDD y Engram para semillas de datos, componentes Angular y pruebas',
+    en: 'Develop a full-stack application with layered and domain architecture, using SDD and Engram for data seeders, Angular components, and tests'
   },
   'projects.my-store.result': {
     es: 'API REST completa con documentación Swagger, SPA con i18n, pruebas unitarias con Jest, y despliegue con Docker',
@@ -389,8 +389,8 @@ const translations = {
     en: 'Developed the complete front-end with Flutter, implementing JWT authentication screens, onboarding flows, performance visualizations, and interactive rankings by consuming the corresponding REST APIs.'
   },
   'experience.stability.achievements.2': {
-    es: 'Implementé un sistema automatizado para el manejo y refresco asíncrono de tokens, asegurando el consumo seguro de servicios web externos.',
-    en: 'Implemented an automated system for asynchronous token management and refresh, ensuring secure consumption of external web services.'
+    es: 'Implementé un sistema automatizado para el manejo y refresco asíncrono de tokens, asegurando el consumo seguro de servicios web externos, validando previamente los flujos y payloads de la API mediante colecciones de Postman.',
+    en: 'Implemented an automated system for asynchronous token management and refresh, ensuring secure consumption of external web services, pre-validating API flows and payloads using Postman collections.'
   },
 
   // Education dynamic data
