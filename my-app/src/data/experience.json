@@ -33,9 +33,9 @@
     "startDate": "2025-07",
     "endDate": "2026-01",
     "achievements": [
-      "Apliqué Clean Architecture y el gestor de estado BLoC para asegurar un código altamente modular, escalable y con inyección de dependencias mediante Getit",
-      "Diseñé y desarrollé módulos de autenticación JWT, pasarelas de onboarding, visualizaciones de rendimiento y rankings interactivos",
-      "Implementé manejo asíncrono de APIs con manejo de tokens automatizado y consumo seguro de servicios web externos"
+      "Apliqué Clean Architecture y el gestor de estado BLoC para asegurar un código altamente modular, escalable y con inyección de dependencias mediante Getit.",
+      "Desarrollé el front-end completo con Flutter, implementando las pantallas de autenticación JWT, onboarding, visualizaciones de rendimiento y rankings interactivos, consumiendo las APIs REST correspondientes.",
+      "Implementé un sistema automatizado para el manejo y refresco asíncrono de tokens, asegurando el consumo seguro de servicios web externos."
     ],
     "techStack": ["Flutter", "Dart", "BLoC", "GetIt", "Dio", "Shared Preferences", "Table Calendar", "Image Picker", "Flutter SVG", "Pin Code Fields", "Intl", "Animations", "GitHub"]
   }
