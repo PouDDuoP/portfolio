@@ -262,16 +262,16 @@ const translations = {
 
   'projects.stability.title': { es: 'Stability - Desarrollo Front-end', en: 'Stability - Front-end Development' },
   'projects.stability.description': {
-    es: 'Aplicación móvil de alto rendimiento diseñada bajo estándares modernos de ingeniería de software con Flutter y Clean Architecture.',
-    en: 'High-performance mobile application designed under modern software engineering standards with Flutter and Clean Architecture.'
+    es: 'Front-end de Stability desarrollado con Flutter, Dart y BLoC siguiendo Clean Architecture.',
+    en: 'Stability front-end developed with Flutter, Dart and BLoC following Clean Architecture.'
   },
   'projects.stability.challenge': {
-    es: 'Construir una interfaz fluida y un estado robusto capaz de manejar flujos de información asíncronos complejos',
-    en: 'Build a fluid interface and robust state capable of handling complex asynchronous information flows'
+    es: 'Desarrollar un front-end completo en Flutter aplicando Clean Architecture con BLoC para escalabilidad y mantenibilidad',
+    en: 'Develop a complete front-end in Flutter applying Clean Architecture with BLoC for scalability and maintainability'
   },
   'projects.stability.result': {
-    es: 'Aplicación móvil escalable, modular y con rendimiento nativo optimizado tanto para Android como iOS',
-    en: 'Scalable, modular mobile application with optimized native performance for both Android and iOS'
+    es: 'Front-end funcional completo con autenticación JWT, onboarding, visualizaciones de rendimiento y rankings, integrando APIs REST de extremo a extremo',
+    en: 'Complete functional front-end with JWT authentication, onboarding, performance visualizations and rankings, integrating REST APIs end-to-end'
   },
 
   'projects.my-store.title': { es: 'Desarrollo de My Store', en: 'My Store Development' },
@@ -380,16 +380,16 @@ const translations = {
   'experience.stability.role': { es: 'Front-End Developer', en: 'Front-End Developer' },
   'experience.stability.location': { es: 'Remoto', en: 'Remote' },
   'experience.stability.achievements.0': {
-    es: 'Apliqué Clean Architecture y el gestor de estado BLoC para asegurar un código altamente modular, escalable y con inyección de dependencias mediante Getit',
+    es: 'Apliqué Clean Architecture y el gestor de estado BLoC para asegurar un código altamente modular, escalable y con inyección de dependencias mediante Getit.',
     en: 'Applied Clean Architecture and BLoC state management to ensure highly modular, scalable code with dependency injection via GetIt'
   },
   'experience.stability.achievements.1': {
-    es: 'Diseñé y desarrollé módulos de autenticación JWT, pasarelas de onboarding, visualizaciones de rendimiento y rankings interactivos',
-    en: 'Designed and developed JWT authentication modules, onboarding gateways, performance visualizations, and interactive rankings'
+    es: 'Desarrollé el front-end completo con Flutter, implementando las pantallas de autenticación JWT, onboarding, visualizaciones de rendimiento y rankings interactivos, consumiendo las APIs REST correspondientes.',
+    en: 'Developed the complete front-end with Flutter, implementing JWT authentication screens, onboarding flows, performance visualizations, and interactive rankings by consuming the corresponding REST APIs.'
   },
   'experience.stability.achievements.2': {
-    es: 'Implementé manejo asíncrono de APIs con manejo de tokens automatizado y consumo seguro de servicios web externos',
-    en: 'Implemented asynchronous API handling with automated token management and secure external web service consumption'
+    es: 'Implementé un sistema automatizado para el manejo y refresco asíncrono de tokens, asegurando el consumo seguro de servicios web externos.',
+    en: 'Implemented an automated system for asynchronous token management and refresh, ensuring secure consumption of external web services.'
   },
 
   // Education dynamic data
