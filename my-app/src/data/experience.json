@@ -22,7 +22,7 @@
       "Proporcioné mantenimiento y soporte crítico a páginas web afiliadas del ecosistema corporativo",
       "Entrené a nuevos desarrolladores en el funcionamiento y flujos de trabajo de Qualitas Assistance"
     ],
-    "techStack": ["ASP Classic", "VBScript", "PHP", "Python", "Django", "Docker", "Git", "Bitbucket", "Bootstrap 3", "jQuery", "JavaScript", "HTML5", "CSS", "SQL Server", "Oracle Database"]
+    "techStack": ["ASP Classic", "VBScript", "PHP", "Python", "Django", "Docker", "Git", "SourceTree", "Bitbucket", "Bootstrap 3", "jQuery", "JavaScript", "HTML5", "CSS", "SQL Server", "Oracle Database", "MySQL"]
   },
   {
     "id": "stability",
@@ -35,8 +35,8 @@
     "achievements": [
       "Apliqué Clean Architecture y el gestor de estado BLoC para asegurar un código altamente modular, escalable y con inyección de dependencias mediante Getit.",
       "Desarrollé el front-end completo con Flutter, implementando las pantallas de autenticación JWT, onboarding, visualizaciones de rendimiento y rankings interactivos, consumiendo las APIs REST correspondientes.",
-      "Implementé un sistema automatizado para el manejo y refresco asíncrono de tokens, asegurando el consumo seguro de servicios web externos."
+      "Implementé un sistema automatizado para el manejo y refresco asíncrono de tokens, asegurando el consumo seguro de servicios web externos, validando previamente los flujos y payloads de la API mediante colecciones de Postman."
     ],
-    "techStack": ["Flutter", "Dart", "BLoC", "GetIt", "Dio", "Shared Preferences", "Table Calendar", "Image Picker", "Flutter SVG", "Pin Code Fields", "Intl", "Animations", "GitHub"]
+    "techStack": ["Flutter", "Dart", "BLoC", "GetIt", "Dio", "Shared Preferences", "Table Calendar", "Image Picker", "Flutter SVG", "Pin Code Fields", "Intl", "Animations", "Postman", "Git", "GitHub"]
   }
 ]
