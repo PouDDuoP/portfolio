@@ -35,7 +35,7 @@
     "description": "Sistema con diseño responsive y soporte multi-idiomas para página web corporativa.",
     "challenge": "Adaptar el sistema para dispositivos móviles y múltiples idiomas",
     "result": "Página más cómoda para navegar en dispositivos móviles, eliminación de errores de información",
-    "techStack": ["PHP", "Bootstrap 3", "jQuery", "JavaScript", "HTML5", "CSS", "Oracle Database", "Bitbucket"],
+    "techStack": ["PHP", "Bootstrap 3", "jQuery", "JavaScript", "HTML5", "CSS", "MySQL", "Bitbucket"],
     "image": "",
     "github": "",
     "demo": "",
@@ -52,6 +52,34 @@
     "techStack": ["Python", "Django", "Git", "Bitbucket", "Bootstrap 3", "jQuery", "JavaScript", "HTML5", "CSS", "Oracle Database", "Docker"],
     "image": "",
     "github": "",
+    "demo": "",
+    "featured": true
+  },
+  {
+    "id": "todo-app",
+    "type": "personal",
+    "date": "2026-06",
+    "title": "Todo App — Gestión de Tareas",
+    "description": "Aplicación Angular para gestión de tareas con diseño emerald, múltiples proyectos, i18n ES/EN, persistencia en localStorage, exportación/importación JSON, alertas de tareas estancadas, filtros por estado, campo de descripción, estadísticas por proyecto y modo oscuro. Iniciada en 2024, con ajustes mayores en 2026 usando OpenCode, SDD y Engram.",
+    "challenge": "Migrar de un todo simple a una app profesional con multi-proyecto, i18n, diseño inspirado en tienda online, dark mode, alertas inteligentes y refactorización asistida con OpenCode + SDD",
+    "result": "Aplicación responsive con Angular 17 + Tailwind CSS, diseño emerald con Space Mono + DM Sans, i18n ES/EN con toggle, soporte multi-proyecto, export/import, stale alerts, dark mode, estadísticas en tiempo real y flujo SDD con Engram",
+    "techStack": ["Angular", "TypeScript", "Tailwind CSS", "Signals", "Reactive Forms", "i18n", "HTML5", "CSS3", "Git", "GitHub"],
+    "image": "",
+    "github": "https://github.com/PouDDuoP/todo-app",
+    "demo": "",
+    "featured": true
+  },
+  {
+    "id": "itmc",
+    "type": "personal",
+    "date": "2017-03",
+    "title": "ITMC — Sistema de Gestión de Recursos Humanos",
+    "description": "Sistema de gestión de empleados, solicitudes y beneficios con arquitectura MVC y despliegue Docker, desarrollado originalmente en 2017 por estudiantes universitarios como proyecto académico. Refactorizado en 2026 para garantizar su correcta ejecución: autenticación centralizada, eliminación de PII, limpieza de código muerto y corrección de bugs.",
+    "challenge": "El código original tenía lógica de autenticación dispersa en 62+ archivos, exponía datos sensibles sin protección (PII), contenía errores de parse, BOM en 28 archivos y múltiples archivos huérfanos sin referenciar",
+    "result": "Autenticación centralizada auth.php, eliminación de endpoints con PII, +1400 líneas de código muerto eliminadas, 28 archivos corregidos, validación estricta de tipos y migración a src/",
+    "techStack": ["PHP", "PostgreSQL", "Docker", "Bootstrap", "jQuery", "JavaScript", "HTML5", "CSS3", "MVC", "Git", "GitHub"],
+    "image": "",
+    "github": "https://github.com/PouDDuoP/ITMC",
     "demo": "",
     "featured": true
   },
@@ -139,6 +167,20 @@
         "frontend": "https://github.com/PouDDuoP/my-store-font-end",
         "backend": "https://github.com/PouDDuoP/my-store"
       },
+      "demo": "",
+      "featured": true
+    },
+    {
+      "id": "currency-converter",
+      "type": "personal",
+      "date": "2026-06",
+      "title": "RateVES — Tipo de Cambio VES",
+      "description": "Visor de tasas de cambio del BCV y Binance en tiempo real con arquitectura Clean Architecture, BLoC, emerald UI, i18n ES/EN, accesibilidad WCAG, walkthrough interactivo, compartir resultados, caché offline, pull-to-refresh y 40+ tests. Desarrollada con OpenCode, SDD y Engram.",
+      "challenge": "Transformar un prototipo incompleto de calculadora en una app profesional de tasas de cambio con scraping de BCV y Binance, testing completo, WCAG A11y, i18n, y un plan completo de rendimiento y optimización",
+      "result": "App Flutter completa con Clean Architecture, BLoC, tasas en vivo BCV+Binance, i18n ES/EN, WCAG A11y, walkthrough, caché offline, pull-to-refresh, 40+ tests y análisis estático limpio tras aplicar un plan completo de mejoras en 3 tiers",
+      "techStack": ["Flutter", "Dart", "BLoC", "Clean Architecture", "Dio", "Dartz", "Equatable", "Google Fonts", "Shared Preferences", "HTML", "Git", "GitHub"],
+      "image": "",
+      "github": "https://github.com/PouDDuoP/currency_converter.git",
       "demo": "",
       "featured": true
     }

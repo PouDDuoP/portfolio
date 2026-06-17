@@ -22,3 +22,6 @@ Thumbs.db
 
 # Temporary info files
 info/
+
+# npm lock files (usamos pnpm)
+package-lock.json

@@ -51,9 +51,25 @@ Portafolio personal de Kevin Alvarado, Desarrollador Full Stack con más de 5 a�
 2. **Sistema de Buzón para Reporte de Incidencias** - PHP, JavaScript, PostgreSQL, HTML5, CSS3, MVC
 3. **Sistema de Control de Incidencias** - PHP, JavaScript, PostgreSQL, HTML5, CSS3, Bootstrap 3, jQuery, MVC
 4. **Stability - Desarrollo Front-end** (Colaboración externa) - Flutter, Dart, BLoC, GetIt, Dio
-5. **My Store** (Personal) - Node.js, Express, PostgreSQL, Angular, TypeScript, Tailwind CSS
+5. **RateVES — Tipo de Cambio VES** (Personal)
+   - Flutter, Dart, BLoC, Clean Architecture, Dio, Dartz
+   - Tasas BCV+Binance en vivo, i18n ES/EN, caché offline, compartir resultados, walkthrough, 40+ tests
+6. **Todo App — Gestión de Tareas** (Personal)
+   - Angular 17, TypeScript, Tailwind CSS, Signals
+   - Multi-proyecto, export/import, stale alerts, dark mode
+7. **ITMC — Sistema de Gestión de Recursos Humanos** (Consultoría)
+   - PHP, PostgreSQL, Docker, Bootstrap, jQuery, MVC
+   - Refactorización de seguridad y autenticación centralizada
+8. **My Store** (Personal) - Node.js, Express, PostgreSQL, Angular, TypeScript, Tailwind CSS
 
 ## 💼 Experiencia
+
+**Front-End Developer** (2025-2026)
+Stability — Remoto
+
+- Desarrollo de front-end completo con Flutter, Dart y BLoC siguiendo Clean Architecture
+- Módulo de autenticación con JWT, gestión de clases y perfiles de usuario
+- Localización multi-idioma (ES/EN) y consumo seguro de APIs REST
 
 **Especialista Web** (2017-2024)
 Humanitas Administradora de Riesgos / Qualitas Assistance
@@ -65,6 +81,13 @@ Caracas, Venezuela
 - Gestión y optimización de bases de datos relacionales
 - Consumo de APIs externas
 - Entrenamiento de nuevos desarrolladores
+
+**Consultor de Arquitectura y Seguridad Web** (2017-2018)
+ITMC (Consultoría) — Remoto
+
+- Asesoría en arquitectura de autenticación centralizada (PHP)
+- Auditoría de seguridad y eliminación de datos sensibles (PII)
+- Limpieza de deuda técnica: +1400 líneas de código muerto eliminadas
 
 ## 🎓 Educación
 

@@ -312,9 +312,51 @@ const translations = {
     es: 'Evaluar vulnerabilidades y cumplimiento normativo de un sistema de salud pública',
     en: 'Evaluate vulnerabilities and regulatory compliance of a public health system'
   },
+  'projects.todo-app.title': { es: 'Todo App — Gestión de Tareas', en: 'Todo App — Task Management' },
+  'projects.todo-app.description': {
+    es: 'Aplicación Angular para gestión de tareas con diseño emerald, múltiples proyectos, i18n ES/EN, persistencia en localStorage, exportación/importación JSON, alertas de tareas estancadas, filtros por estado, campo de descripción, estadísticas por proyecto y modo oscuro. Iniciada en 2024, con ajustes mayores en 2026 usando OpenCode, SDD y Engram.',
+    en: 'Angular task management app with emerald design, multiple projects, i18n ES/EN, localStorage persistence, JSON export/import, stale task alerts, status filters, description field, per-project statistics, and dark mode. Started in 2024, with major updates in 2026 using OpenCode, SDD, and Engram.'
+  },
+  'projects.todo-app.challenge': {
+    es: 'Migrar de un todo simple a una app profesional con multi-proyecto, i18n, diseño inspirado en tienda online, dark mode, alertas inteligentes y refactorización asistida con OpenCode + SDD',
+    en: 'Migrate from a simple todo to a professional app with multi-project, i18n, store-inspired design, dark mode, smart alerts, and assisted refactoring with OpenCode + SDD'
+  },
+  'projects.todo-app.result': {
+    es: 'Aplicación responsive con Angular 17 + Tailwind CSS, diseño emerald con Space Mono + DM Sans, i18n ES/EN con toggle, soporte multi-proyecto, export/import, stale alerts, dark mode, estadísticas en tiempo real y flujo SDD con Engram',
+    en: 'Responsive app with Angular 17 + Tailwind CSS, emerald design with Space Mono + DM Sans, i18n ES/EN toggle, multi-project support, export/import, stale alerts, dark mode, real-time statistics, and SDD workflow with Engram'
+  },
+
   'projects.sacs-audit.result': {
     es: 'Identificación de brechas de seguridad y diseño de plan de mitigación para garantizar integridad de datos',
     en: 'Identification of security gaps and design of a mitigation plan to ensure data integrity'
+  },
+
+  'projects.itmc.title': { es: 'ITMC — Sistema de Gestión de Recursos Humanos', en: 'ITMC — Human Resources Management System' },
+  'projects.itmc.description': {
+    es: 'Sistema de gestión de empleados, solicitudes y beneficios con arquitectura MVC y despliegue Docker, desarrollado originalmente en 2017 por estudiantes universitarios como proyecto académico. Refactorizado en 2026 para garantizar su correcta ejecución: autenticación centralizada, eliminación de PII, limpieza de código muerto y corrección de bugs.',
+    en: 'Employee, request, and benefit management system with MVC architecture and Docker deployment, originally developed in 2017 by university students as an academic project. Refactored in 2026 to ensure proper execution: centralized authentication, PII removal, dead code cleanup, and bug fixes.'
+  },
+  'projects.itmc.challenge': {
+    es: 'El código original tenía lógica de autenticación dispersa en 62+ archivos, exponía datos sensibles sin protección (PII), contenía errores de parse, BOM en 28 archivos y múltiples archivos huérfanos sin referenciar',
+    en: 'The original code had authentication logic scattered across 62+ files, exposed sensitive data without protection (PII), contained parse errors, BOM in 28 files, and multiple orphaned unreferenced files'
+  },
+  'projects.itmc.result': {
+    es: 'Autenticación centralizada auth.php, eliminación de endpoints con PII, +1400 líneas de código muerto eliminadas, 28 archivos corregidos, validación estricta de tipos y migración a src/',
+    en: 'Centralized authentication in auth.php, PII endpoint removal, +1400 lines of dead code eliminated, 28 files fixed, strict type validation, and migration to src/'
+  },
+
+  'projects.currency-converter.title': { es: 'RateVES — Tipo de Cambio VES', en: 'RateVES — VES Exchange Rate' },
+  'projects.currency-converter.description': {
+    es: 'Visor de tasas de cambio del BCV y Binance en tiempo real con arquitectura Clean Architecture, BLoC, emerald UI, i18n ES/EN, accesibilidad WCAG, walkthrough interactivo, compartir resultados, caché offline, pull-to-refresh y más de 40 pruebas. Desarrollada con OpenCode, SDD y Engram.',
+    en: 'Real-time BCV and Binance exchange rate viewer with Clean Architecture, BLoC, emerald UI, i18n ES/EN, WCAG accessibility, interactive walkthrough, share results, offline cache, pull-to-refresh, and 40+ tests. Built with OpenCode, SDD, and Engram.'
+  },
+  'projects.currency-converter.challenge': {
+    es: 'Transformar un prototipo incompleto de calculadora en una aplicación profesional de tasas de cambio con scraping de BCV y Binance, suite completa de pruebas, accesibilidad WCAG, internacionalización, y un plan integral de rendimiento y optimización en 3 tiers',
+    en: 'Transform an incomplete calculator prototype into a professional exchange rate app with BCV and Binance scraping, full test suite, WCAG accessibility, internationalization, and a comprehensive 3-tier performance and optimization plan'
+  },
+  'projects.currency-converter.result': {
+    es: 'Aplicación Flutter completa con Clean Architecture, BLoC, tasas en vivo BCV+Binance, i18n ES/EN, WCAG A11y, walkthrough guiado, caché offline, pull-to-refresh, 40+ pruebas y análisis estático limpio tras aplicar un plan completo de mejoras en 3 tiers',
+    en: 'Complete Flutter app with Clean Architecture, BLoC, live BCV+Binance rates, i18n ES/EN, WCAG A11y, guided walkthrough, offline cache, pull-to-refresh, 40+ tests, and clean static analysis after applying a full 3-tier improvement plan'
   },
 
   // Experience dynamic data
@@ -419,6 +461,26 @@ const translations = {
   'experience.stability.achievements.4': {
     es: 'Configuré un cliente HTTP con autenticación JWT automática, subida multipart y manejo de errores, implementando un sistema automatizado para el refresco asíncrono de tokens validado mediante colecciones de Postman.',
     en: 'Configured an HTTP client with automatic JWT authentication, multipart upload and error handling, implementing an automated system for async token refresh validated through Postman collections.'
+  },
+
+  'experience.itmc-consulting.company': { es: 'ITMC (Consultoría)', en: 'ITMC (Consulting)' },
+  'experience.itmc-consulting.role': { es: 'Consultor de Arquitectura y Seguridad Web', en: 'Web Architecture & Security Consultant' },
+  'experience.itmc-consulting.location': { es: 'Remoto', en: 'Remote' },
+  'experience.itmc-consulting.achievements.0': {
+    es: 'Asesoré en el diseño e implementación de una arquitectura de autenticación centralizada en PHP, reduciendo la lógica de sesión dispersa en 62+ archivos a un solo punto de control (auth.php).',
+    en: 'Advised on the design and implementation of a centralized authentication architecture in PHP, reducing session logic scattered across 62+ files to a single control point (auth.php).'
+  },
+  'experience.itmc-consulting.achievements.1': {
+    es: 'Realicé una auditoría de seguridad identificando endpoints que exponían datos personales (PII), coordinando su eliminación y migrando el código a un modelo de acceso autenticado.',
+    en: 'Performed a security audit identifying endpoints that exposed personal data (PII), coordinating their removal and migrating the code to an authenticated access model.'
+  },
+  'experience.itmc-consulting.achievements.2': {
+    es: 'Lideré la limpieza de deuda técnica eliminando +1400 líneas de código muerto, 5 archivos huérfanos y corrigiendo 28 archivos con BOM y errores de parse.',
+    en: 'Led technical debt cleanup by removing +1400 lines of dead code, 5 orphaned files, and fixing 28 files with BOM and parse errors.'
+  },
+  'experience.itmc-consulting.achievements.3': {
+    es: 'Implementé validación estricta de tipos en comparaciones de perfil de usuario y centralicé el manejo de sesiones con funciones require_auth() y require_perfil().',
+    en: 'Implemented strict type validation in user profile comparisons and centralized session handling with require_auth() and require_perfil() functions.'
   },
 
   // Education dynamic data
