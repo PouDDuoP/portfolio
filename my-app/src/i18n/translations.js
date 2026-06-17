@@ -345,6 +345,20 @@ const translations = {
     en: 'Centralized authentication in auth.php, PII endpoint removal, +1400 lines of dead code eliminated, 28 files fixed, strict type validation, and migration to src/'
   },
 
+  'projects.currency-converter.title': { es: 'RateVES — Tipo de Cambio VES', en: 'RateVES — VES Exchange Rate' },
+  'projects.currency-converter.description': {
+    es: 'Visor de tasas de cambio del BCV y Binance en tiempo real con arquitectura Clean Architecture, BLoC, emerald UI, i18n ES/EN, accesibilidad WCAG, walkthrough interactivo, compartir resultados, caché offline, pull-to-refresh y más de 40 pruebas. Desarrollada con OpenCode, SDD y Engram.',
+    en: 'Real-time BCV and Binance exchange rate viewer with Clean Architecture, BLoC, emerald UI, i18n ES/EN, WCAG accessibility, interactive walkthrough, share results, offline cache, pull-to-refresh, and 40+ tests. Built with OpenCode, SDD, and Engram.'
+  },
+  'projects.currency-converter.challenge': {
+    es: 'Transformar un prototipo incompleto de calculadora en una aplicación profesional de tasas de cambio con scraping de BCV y Binance, suite completa de pruebas, accesibilidad WCAG, internacionalización, y un plan integral de rendimiento y optimización en 3 tiers',
+    en: 'Transform an incomplete calculator prototype into a professional exchange rate app with BCV and Binance scraping, full test suite, WCAG accessibility, internationalization, and a comprehensive 3-tier performance and optimization plan'
+  },
+  'projects.currency-converter.result': {
+    es: 'Aplicación Flutter completa con Clean Architecture, BLoC, tasas en vivo BCV+Binance, i18n ES/EN, WCAG A11y, walkthrough guiado, caché offline, pull-to-refresh, 40+ pruebas y análisis estático limpio tras aplicar un plan completo de mejoras en 3 tiers',
+    en: 'Complete Flutter app with Clean Architecture, BLoC, live BCV+Binance rates, i18n ES/EN, WCAG A11y, guided walkthrough, offline cache, pull-to-refresh, 40+ tests, and clean static analysis after applying a full 3-tier improvement plan'
+  },
+
   // Experience dynamic data
   'experience.humanitas-qualitas.company': {
     es: 'Humanitas Administradora de Riesgos / Qualitas Assistance',

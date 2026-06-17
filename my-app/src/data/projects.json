@@ -169,5 +169,19 @@
       },
       "demo": "",
       "featured": true
+    },
+    {
+      "id": "currency-converter",
+      "type": "personal",
+      "date": "2026-06",
+      "title": "RateVES — Tipo de Cambio VES",
+      "description": "Visor de tasas de cambio del BCV y Binance en tiempo real con arquitectura Clean Architecture, BLoC, emerald UI, i18n ES/EN, accesibilidad WCAG, walkthrough interactivo, compartir resultados, caché offline, pull-to-refresh y 40+ tests. Desarrollada con OpenCode, SDD y Engram.",
+      "challenge": "Transformar un prototipo incompleto de calculadora en una app profesional de tasas de cambio con scraping de BCV y Binance, testing completo, WCAG A11y, i18n, y un plan completo de rendimiento y optimización",
+      "result": "App Flutter completa con Clean Architecture, BLoC, tasas en vivo BCV+Binance, i18n ES/EN, WCAG A11y, walkthrough, caché offline, pull-to-refresh, 40+ tests y análisis estático limpio tras aplicar un plan completo de mejoras en 3 tiers",
+      "techStack": ["Flutter", "Dart", "BLoC", "Clean Architecture", "Dio", "Dartz", "Equatable", "Google Fonts", "Shared Preferences", "HTML", "Git", "GitHub"],
+      "image": "",
+      "github": "https://github.com/PouDDuoP/currency_converter.git",
+      "demo": "",
+      "featured": true
     }
   ]
