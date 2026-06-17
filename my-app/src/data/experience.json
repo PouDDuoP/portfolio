@@ -1,5 +1,27 @@
 [
   {
+    "id": "stability",
+    "company": "Stability",
+    "companyUrl": "",
+    "role": "Front-End Developer",
+    "location": "Remoto",
+    "startDate": "2025-07",
+    "endDate": "2026-01",
+    "projects": [
+      {
+        "name": "Stability",
+        "techStack": ["Flutter", "Dart", "BLoC", "GetIt", "Dio", "Shared Preferences", "Table Calendar", "Image Picker", "Flutter SVG", "Pin Code Fields", "Intl", "Animations", "Postman", "Git", "GitHub"],
+        "achievements": [
+          "Apliqué Clean Architecture y el gestor de estado BLoC para asegurar un código altamente modular, escalable y con inyección de dependencias mediante Getit.",
+          "Desarrollé el módulo de autenticación completo con Flutter, incluyendo login, registro, recuperación de contraseña, verificación de cuenta y flujo de onboarding, consumiendo las APIs REST correspondientes.",
+          "Creé un sistema integral de gestión de clases con operaciones CRUD, reservas, asignaciones, visualizaciones de rendimiento y rankings interactivos, integrando Table Calendar para la visualización de horarios y disponibilidad.",
+          "Implementé gestión completa de perfiles de usuario con datos personales, avatares, roles y centros de entrenamiento, añadiendo localización en español, soporte para imágenes, SVGs y animaciones.",
+          "Configuré un cliente HTTP con autenticación JWT automática, subida multipart y manejo de errores, implementando un sistema automatizado para el refresco asíncrono de tokens validado mediante colecciones de Postman."
+        ]
+      }
+    ]
+  },
+  {
     "id": "humanitas-qualitas",
     "company": "Humanitas Administradora de Riesgos / Qualitas Assistance",
     "companyUrl": "",
@@ -42,7 +64,7 @@
       },
       {
         "name": "Globalmate",
-        "techStack": ["PHP", "Bootstrap 3", "jQuery", "JavaScript", "HTML5", "CSS", "Oracle Database", "Bitbucket"],
+        "techStack": ["PHP", "Bootstrap 3", "jQuery", "JavaScript", "HTML5", "CSS", "MySQL", "Bitbucket"],
         "achievements": [
           "Implementé el sistema de internacionalización (i18n) en Globalmate para mitigar errores de visualización global en entornos multi-idioma.",
           "Reestructuré componentes de Globalmate para lograr un diseño 100% responsive, mejorando significativamente la usabilidad desde dispositivos móviles."
@@ -59,20 +81,24 @@
     ]
   },
   {
-    "id": "stability",
-    "company": "Stability",
+    "id": "itmc-consulting",
+    "company": "ITMC (Consultoría)",
     "companyUrl": "",
-    "role": "Front-End Developer",
+    "role": "Consultor de Arquitectura y Seguridad Web",
     "location": "Remoto",
-    "startDate": "2025-07",
-    "endDate": "2026-01",
-    "achievements": [
-      "Apliqué Clean Architecture y el gestor de estado BLoC para asegurar un código altamente modular, escalable y con inyección de dependencias mediante Getit.",
-      "Desarrollé el módulo de autenticación completo con Flutter, incluyendo login, registro, recuperación de contraseña, verificación de cuenta y flujo de onboarding, consumiendo las APIs REST correspondientes.",
-      "Creé un sistema integral de gestión de clases con operaciones CRUD, reservas, asignaciones, visualizaciones de rendimiento y rankings interactivos, integrando Table Calendar para la visualización de horarios y disponibilidad.",
-      "Implementé gestión completa de perfiles de usuario con datos personales, avatares, roles y centros de entrenamiento, añadiendo localización en español, soporte para imágenes, SVGs y animaciones.",
-      "Configuré un cliente HTTP con autenticación JWT automática, subida multipart y manejo de errores, implementando un sistema automatizado para el refresco asíncrono de tokens validado mediante colecciones de Postman."
-    ],
-    "techStack": ["Flutter", "Dart", "BLoC", "GetIt", "Dio", "Shared Preferences", "Table Calendar", "Image Picker", "Flutter SVG", "Pin Code Fields", "Intl", "Animations", "Postman", "Git", "GitHub"]
+    "startDate": "2017-01",
+    "endDate": "2018-06",
+    "projects": [
+      {
+        "name": "ITMC",
+        "techStack": ["PHP", "PostgreSQL", "Docker", "Bootstrap", "jQuery", "JavaScript", "HTML5", "CSS3", "MVC", "Git", "GitHub"],
+        "achievements": [
+          "Asesoré en el diseño e implementación de una arquitectura de autenticación centralizada en PHP, reduciendo la lógica de sesión dispersa en 62+ archivos a un solo punto de control (auth.php).",
+          "Realicé una auditoría de seguridad identificando endpoints que exponían datos personales (PII), coordinando su eliminación y migrando el código a un modelo de acceso autenticado.",
+          "Lideré la limpieza de deuda técnica eliminando +1400 líneas de código muerto, 5 archivos huérfanos y corrigiendo 28 archivos con BOM y errores de parse.",
+          "Implementé validación estricta de tipos en comparaciones de perfil de usuario y centralicé el manejo de sesiones con funciones require_auth() y require_perfil()."
+        ]
+      }
+    ]
   }
 ]
