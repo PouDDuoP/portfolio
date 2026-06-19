@@ -70,7 +70,7 @@ const svg = `
   <text x="80" y="270" font-family="'DM Sans', 'Segoe UI', system-ui, sans-serif" font-size="30" font-weight="500" fill="#a1a1aa">Full Stack Developer</text>
 
   <!-- Tagline -->
-  <text x="80" y="305" font-family="'DM Sans', 'Segoe UI', system-ui, sans-serif" font-size="17" font-weight="400" fill="#71717a">5+ years of experience</text>
+  <text x="80" y="305" font-family="'DM Sans', 'Segoe UI', system-ui, sans-serif" font-size="17" font-weight="400" fill="#71717a">8+ years of experience</text>
 
   <!-- ===== TECH STACK ===== -->
 
