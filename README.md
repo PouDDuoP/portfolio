@@ -1,11 +1,12 @@
 ﻿# Kevin Alvarado - Portfolio
 
-Portafolio personal de Kevin Alvarado, Desarrollador Full Stack con más de 5 años de experiencia en la industria, especializado en soluciones back-end y front-end.
+Portafolio personal de Kevin Alvarado, Desarrollador Full Stack con más de 8 años de experiencia en la industria, especializado en soluciones back-end y front-end.
 
 ## 🚀 Stack Tecnológico
 
 ### Back-end
-- ASP Classic / VBScript
+- ASP Classic
+- VBScript
 - PHP
 - Python / Django
 - Node.js / Express
@@ -15,6 +16,7 @@ Portafolio personal de Kevin Alvarado, Desarrollador Full Stack con más de 5 a�
 - HTML / CSS
 - Bootstrap
 - Angular
+- TypeScript
 - Tailwind CSS
 - Flutter
 
@@ -29,6 +31,8 @@ Portafolio personal de Kevin Alvarado, Desarrollador Full Stack con más de 5 a�
 - SourceTree
 - Jira
 - Docker
+- Docker Compose
+- Postman
 - OpenCode
 
 ## 📁 Proyectos
@@ -45,6 +49,14 @@ Portafolio personal de Kevin Alvarado, Desarrollador Full Stack con más de 5 a�
 3. **Sistema de Mankind**
    - Python, Django, Git, Bitbucket, Bootstrap 3, jQuery, JavaScript, HTML5, CSS, Oracle Database, Docker
    - Cotizador de planes con generación de PDF y despliegue con Gunicorn/Nginx
+
+4. **Sistema de Humaticket** (Aliado Comercial)
+   - PHP, Oracle Database, Bootstrap, jQuery, JavaScript, HTML5, CSS, MVC
+   - Refactorización de código, corrección de bugs y mejora de arquitectura
+
+5. **Sistema de Previsora** (Aliado Comercial)
+   - ASP Classic, VBScript, Oracle Database, Bootstrap, jQuery, JavaScript, HTML5, CSS
+   - Desarrollo de módulos, soporte técnico y corrección de bugs
 
 ### Personales
 1. **Sistema de Control de Inventario** - C++
@@ -75,12 +87,12 @@ Stability — Remoto
 Humanitas Administradora de Riesgos / Qualitas Assistance
 Caracas, Venezuela
 
-- Diseño y desarrollo de software con patrones MVC y MVT
-- Refactorización y depuración de código
-- Integración de APIs y Web Services (REST/SOAP)
-- Gestión y optimización de bases de datos relacionales
-- Consumo de APIs externas
-- Entrenamiento de nuevos desarrolladores
+Proyectos:
+- **Qualitas Assistance**: Núcleo financiero automatizado (comisiones, pagos, upgrades), integración SOAP API, monitoreo de errores, refactorización UI, entrenamiento de desarrolladores
+- **Humanitas**: Nuevos módulos normativos, debugging crítico, optimización Oracle DB
+- **Mankaind**: Cotizador de planes con Django + ReportLab, conexión Oracle con inspectdb, despliegue Docker + Gunicorn
+- **Globalmate**: Internacionalización (i18n), diseño responsive
+- **Aliados Comerciales**: Soporte y desarrollo para Humaticket (refactorización a MVC) y Previsora (módulos de consulta, soporte sobre clon de Humanitas)
 
 **Consultor de Arquitectura y Seguridad Web** (2017-2018)
 ITMC (Consultoría) — Remoto
@@ -215,7 +227,7 @@ MIT
 ---
 
 **Kevin Alvarado** - Desarrollador Full Stack
-Desarrollador Full Stack versátil con más de 5 años de experiencia en la industria
+Desarrollador Full Stack versátil con más de 8 años de experiencia en la industria
 En búsqueda activa de empleo
 
 🌐 **Live Demo**: [kevin-alvarado.vercel.app](https://kevin-alvarado.vercel.app)
