@@ -7,10 +7,11 @@
     "description": "Sistema integral de automatización financiera y gestión operativa empresarial con núcleo de cálculo de comisiones, costos, registro masivo de pagos, gestión de upgrades de productos y monitoreo de integraciones en tiempo real.",
     "challenge": "Centralizar múltiples flujos operativos dispersos y procesos manuales en una arquitectura escalable",
     "result": "Reducción del 90% en solicitudes de soporte técnico para reportes y eliminación absoluta del error humano en registros financieros",
-    "techStack": ["ASP Classic", "VBScript", "PHP", "Git", "SourceTree", "Bitbucket", "Bootstrap 3", "jQuery", "JavaScript", "HTML5", "CSS", "SQL Server"],
+    "techStack": ["ASP Classic", "VBScript", "PHP", "Git", "SourceTree", "Bitbucket", "Bootstrap 3", "jQuery", "JavaScript", "HTML5", "CSS", "SQL Server", "SOAP API"],
     "image": "",
     "github": "",
     "demo": "",
+    "url": "https://www.qualitasassistance.com/",
     "featured": true
   },
   {
@@ -21,7 +22,36 @@
     "description": "Plataforma web principal de administración de riesgos y servicios web afiliados.",
     "challenge": "Mantener y evolucionar la plataforma frente a normativas cambiantes del negocio",
     "result": "Estabilidad continua de la plataforma y resolución eficiente de tickets de soporte de alta complejidad",
-    "techStack": ["ASP Classic", "VBScript", "PHP", "Oracle Database", "Bootstrap", "jQuery", "JavaScript", "HTML5", "CSS3", "REST APIs"],
+    "techStack": ["ASP Classic", "VBScript", "Oracle Database", "Bootstrap", "jQuery", "JavaScript", "HTML5", "CSS3"],
+    "image": "",
+    "github": "",
+    "demo": "",
+    "url": "https://www.humanitas.com.ve/",
+    "featured": true
+  },
+  {
+    "id": "humatiket",
+    "type": "laboral",
+    "date": "2017-03",
+    "title": "Sistema de Humaticket",
+    "description": "Plataforma web de aliado comercial desarrollada en PHP con arquitectura MVC, con refactorización de código, corrección de bugs y mejoras arquitectónicas.",
+    "challenge": "Refactorizar y estabilizar el aplicativo existente para garantizar su mantenibilidad",
+    "result": "Código refactorizado, bugs corregidos y arquitectura mejorada",
+    "techStack": ["PHP", "Oracle Database", "Bootstrap", "jQuery", "JavaScript", "HTML5", "CSS", "MVC"],
+    "image": "",
+    "github": "",
+    "demo": "",
+    "featured": true
+  },
+  {
+    "id": "previsora",
+    "type": "laboral",
+    "date": "2017-03",
+    "title": "Sistema de Previsora",
+    "description": "Sistema de Previsora basado en la plataforma Humanitas, donde desarrollé nuevas funcionalidades, brindé soporte técnico y realicé corrección de bugs.",
+    "challenge": "Desarrollar funcionalidades específicas y mantener la estabilidad del sistema existente",
+    "result": "Funcionalidades implementadas y sistema estabilizado con corrección de bugs",
+    "techStack": ["ASP Classic", "VBScript", "Oracle Database", "Bootstrap", "jQuery", "JavaScript", "HTML5", "CSS"],
     "image": "",
     "github": "",
     "demo": "",
@@ -39,6 +69,7 @@
     "image": "",
     "github": "",
     "demo": "",
+    "url": "https://web.archive.org/web/20220207122209/https://globalmate.com/",
     "featured": true
   },
   {

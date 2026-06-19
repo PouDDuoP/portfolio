@@ -11,12 +11,14 @@ const TECH_COLORS = {
   'Django': '#2D8A4E',
   'PHP': '#8892BF',
   'ASP': '#7c5cfc',
+  'VBScript': '#5D2F8E',
   'JavaScript': '#C7A600',
   'jQuery': '#1976D2',
   'Bootstrap': '#7952B3',
   'CSS': '#1572B6',
   'HTML': '#E34F26',
   'Angular': '#DD0031',
+  'TypeScript': '#3178C6',
   'Tailwind CSS': '#06B6D4',
   'Flutter': '#1389FD',
   'SQL Server': '#CC2927',
@@ -30,6 +32,7 @@ const TECH_COLORS = {
   'GitHub': '#6e40c9',
   'Bitbucket': '#2684FF',
   'OpenCode': '#0E9BBF',
+  'Docker Compose': '#2496ED',
   'Postman': '#FF6C37'
 };
 

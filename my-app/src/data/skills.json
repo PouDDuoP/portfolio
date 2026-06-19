@@ -22,6 +22,9 @@
         ]},
         { "name": "ASP", "years": "5+ años", "type": "laboral", "examples": [
           "Mantenimiento y nuevas funcionalidades en sistema legacy de Qualitas Assistance con ASP Classic y VBScript"
+        ]},
+        { "name": "VBScript", "years": "5+ años", "type": "laboral", "examples": [
+          "Lógica de servidor y mantenimiento de sistemas legacy con ASP Classic en Qualitas Assistance y Humanitas"
         ]}
       ]
     },
@@ -50,6 +53,9 @@
         ]},
         { "name": "Tailwind CSS", "years": "6+ meses", "type": "personal", "examples": [
           "Diseño utilitario y responsive para el frontend de my-store"
+        ]},
+        { "name": "TypeScript", "years": "6+ meses", "type": "personal", "examples": [
+          "Tipado estático, interfaces y genéricos en Angular para my-store y todo-app"
         ]},
         { "name": "Flutter", "years": "6+ meses", "type": "laboral", "examples": [
           "Frontend de Stability con Dart, BLoC y Clean Architecture para gestión de clases y reservas"
@@ -98,6 +104,9 @@
         ]},
         { "name": "OpenCode", "years": "2+ meses", "type": "personal", "examples": [
           "Metodología SDD con persistencia Engram para el desarrollo de my-store"
+        ]},
+        { "name": "Docker Compose", "years": "6+ meses", "type": "personal", "examples": [
+          "Orquestación de servicios back-end, base de datos y frontend para despliegue de my-store"
         ]},
         { "name": "Postman", "years": "4+ años", "type": "personal", "examples": [
           "Pruebas y documentación de endpoints REST para my-store con Node.js y Express",
