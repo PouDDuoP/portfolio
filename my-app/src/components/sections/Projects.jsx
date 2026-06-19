@@ -44,6 +44,7 @@ export default function Projects() {
   
   const hasActions = useCallback((project) => {
     if (project.demo) return true;
+    if (project.url) return true;
     const repos = getGithubRepos(project);
     return repos.length > 0;
   }, []);
@@ -123,6 +124,19 @@ export default function Projects() {
                     >
                       <Icon name="external" size={16} />
                       Demo
+                      <span className="sr-only">{t('common.opensInNewTab')}</span>
+                    </a>
+                  )}
+                  {project.url && (
+                    <a
+                      href={project.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="project-card__btn project-card__btn--primary"
+                      aria-label={`${t('projects.visitSite')} - ${t('common.opensInNewTab')}`}
+                    >
+                      <Icon name="external" size={16} />
+                      {t('projects.visitSite')}
                       <span className="sr-only">{t('common.opensInNewTab')}</span>
                     </a>
                   )}

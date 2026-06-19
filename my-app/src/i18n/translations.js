@@ -90,6 +90,7 @@ const translations = {
   'projects.viewCode': { es: 'Ver código de {{title}}', en: 'View code of {{title}}' },
   'projects.viewCodeBtn': { es: 'Ver código', en: 'View code' },
   'projects.viewDemo': { es: 'Ver demo de {{title}}', en: 'View demo of {{title}}' },
+  'projects.visitSite': { es: 'Visitar sitio', en: 'Visit site' },
   'projects.prevSlide': { es: 'Anterior', en: 'Previous' },
   'projects.nextSlide': { es: 'Siguiente', en: 'Next' },
 
@@ -135,8 +136,8 @@ const translations = {
   },
   'faq.experience.title': { es: '¿Cuántos años de experiencia tienes?', en: 'How many years of experience do you have?' },
   'faq.experience.text': {
-    es: 'Cuento con más de 5 años de experiencia como Desarrollador Full Stack, habiendo trabajado en Humanitas Administradora de Riesgos / Qualitas Assistance desde 2017 hasta 2024.',
-    en: 'I have over 5 years of experience as a Full Stack Developer, having worked at Humanitas Administradora de Riesgos / Qualitas Assistance from 2017 to 2024.'
+    es: 'Cuento con más de 8 años de experiencia como Desarrollador Full Stack, habiendo trabajado en Humanitas Administradora de Riesgos / Qualitas Assistance desde 2017 hasta 2024.',
+    en: 'I have over 8 years of experience as a Full Stack Developer, having worked at Humanitas Administradora de Riesgos / Qualitas Assistance from 2017 to 2024.'
   },
   'faq.projects.title': { es: '¿Qué tipo de proyectos has realizado?', en: 'What type of projects have you worked on?' },
   'faq.projects.text': {
@@ -167,13 +168,13 @@ const translations = {
   'profile.title.1': { es: 'Desarrollador Backend', en: 'Backend Developer' },
   'profile.title.2': { es: 'Desarrollador Frontend', en: 'Frontend Developer' },
   'profile.tagline': {
-    es: 'Desarrollador full stack versátil con más de 5 años de experiencia en la industria',
-    en: 'Versatile full stack developer with over 5 years of industry experience'
+    es: 'Desarrollador full stack versátil con más de 8 años de experiencia en la industria',
+    en: 'Versatile full stack developer with over 8 years of industry experience'
   },
   'profile.availability': { es: 'Disponible para proyectos', en: 'Available for projects' },
   'profile.bio': {
-    es: 'Desarrollador Web Full-Stack con más de 5 años de experiencia en el diseño, desarrollo y optimización de aplicaciones altamente escalables, gestión de bases de datos relacionales y consumo de APIs. Con una sólida trayectoria adoptando ágilmente metodologías avanzadas de ingeniería de software (como Spec-Driven Development), herramientas modernas de contenedorización y arquitecturas desacopladas. Cuento con la capacidad probada de resolver problemas lógicos complejos y transformarlos en soluciones técnicas estables que impulsen directamente el rendimiento y la automatización del negocio.',
-    en: 'Full-Stack Web Developer with over 5 years of experience in the design, development, and optimization of highly scalable applications, relational database management, and API consumption. With a solid track record of agilely adopting advanced software engineering methodologies (such as Spec-Driven Development), modern containerization tools, and decoupled architectures. I have a proven ability to solve complex logical problems and transform them into stable technical solutions that directly drive business performance and automation.'
+    es: 'Desarrollador Web Full-Stack con m\u00e1s de 8 a\u00f1os de experiencia en el dise\u00f1o, desarrollo y optimizaci\u00f3n de aplicaciones altamente escalables, gesti\u00f3n de bases de datos relacionales y consumo de APIs. He gestionado el ecosistema digital de un grupo empresarial, actuando como desarrollador principal en sistemas core como Qualitas Assistance, Globalmate, Humaticket y Mankaind V1, y brindando soporte especializado a plataformas como Humanitas y Previsora. Con una s\u00f3lida trayectoria adoptando \u00e1gilmente metodolog\u00edas avanzadas de ingenier\u00eda de software (como Spec-Driven Development), herramientas modernas de contenedorizaci\u00f3n y arquitecturas desacopladas. Cuento con la capacidad probada de resolver problemas l\u00f3gicos complejos y transformarlos en soluciones t\u00e9cnicas estables que impulsen directamente el rendimiento y la automatizaci\u00f3n del negocio.',
+    en: 'Full-Stack Web Developer with over 8 years of experience in the design, development, and optimization of highly scalable applications, relational database management, and API consumption. I have managed the digital ecosystem of a corporate group, acting as lead developer for core systems such as Qualitas Assistance, Globalmate, Humaticket and Mankaind V1, while providing specialized support for Humanitas and Previsora platforms. With a solid track record of agilely adopting advanced software engineering methodologies (such as Spec-Driven Development), modern containerization tools, and decoupled architectures. I have a proven ability to solve complex logical problems and transform them into stable technical solutions that directly drive business performance and automation.'
   },
 
   // Projects dynamic data
@@ -358,6 +359,32 @@ const translations = {
     es: 'Aplicación Flutter completa con Clean Architecture, BLoC, tasas en vivo BCV+Binance, i18n ES/EN, WCAG A11y, walkthrough guiado, caché offline, pull-to-refresh, 40+ pruebas y análisis estático limpio tras aplicar un plan completo de mejoras en 3 tiers',
     en: 'Complete Flutter app with Clean Architecture, BLoC, live BCV+Binance rates, i18n ES/EN, WCAG A11y, guided walkthrough, offline cache, pull-to-refresh, 40+ tests, and clean static analysis after applying a full 3-tier improvement plan'
   },
+  'projects.humatiket.title': { es: 'Sistema de Humaticket', en: 'Humaticket System' },
+  'projects.humatiket.description': {
+    es: 'Plataforma web de aliado comercial desarrollada en PHP con arquitectura MVC, con refactorización de código, corrección de bugs y mejoras arquitectónicas.',
+    en: 'Commercial partner web platform developed in PHP with MVC architecture, featuring code refactoring, bug fixes, and architectural improvements.'
+  },
+  'projects.humatiket.challenge': {
+    es: 'Refactorizar y estabilizar el aplicativo existente para garantizar su mantenibilidad',
+    en: 'Refactor and stabilize the existing application to ensure maintainability'
+  },
+  'projects.humatiket.result': {
+    es: 'Código refactorizado, bugs corregidos y arquitectura mejorada',
+    en: 'Refactored code, fixed bugs, and improved architecture'
+  },
+  'projects.previsora.title': { es: 'Sistema de Previsora', en: 'Previsora System' },
+  'projects.previsora.description': {
+    es: 'Sistema de Previsora basado en la plataforma Humanitas, donde desarrollé nuevas funcionalidades, brindé soporte técnico y realicé corrección de bugs.',
+    en: 'Previsora system based on the Humanitas platform, where I developed new features, provided technical support, and performed bug fixes.'
+  },
+  'projects.previsora.challenge': {
+    es: 'Desarrollar funcionalidades específicas y mantener la estabilidad del sistema existente',
+    en: 'Develop specific features and maintain the stability of the existing system'
+  },
+  'projects.previsora.result': {
+    es: 'Funcionalidades implementadas y sistema estabilizado con corrección de bugs',
+    en: 'Implemented features and stabilized system with bug fixes'
+  },
 
   // Experience dynamic data
   'experience.humanitas-qualitas.company': {
@@ -411,32 +438,40 @@ const translations = {
     en: 'Developed an integrated module for bulk management of costs, net amounts, and plan features in Qualitas Assistance, along with a bank data registration module for agents and agencies, eliminating manual processes.'
   },
   'experience.humanitas-qualitas.achievements.11': {
+    es: 'Entrené a nuevos desarrolladores en el funcionamiento y flujos de trabajo de Qualitas Assistance.',
+    en: 'Trained new developers on Qualitas Assistance operations and workflows.'
+  },
+  'experience.humanitas-qualitas.achievements.12': {
     es: 'Desarrollé el módulo cotizador de planes y coberturas de Mankaind con automatización de emisión de pólizas y documentos PDF mediante ReportLab.',
     en: 'Developed the Mankaind plan quotation and coverage module with automated policy issuance and PDF document generation using ReportLab.'
   },
-  'experience.humanitas-qualitas.achievements.12': {
+  'experience.humanitas-qualitas.achievements.13': {
     es: 'Realicé conexión y adaptación del ecosistema Django con base de datos Oracle Database preexistente mediante técnicas de ingeniería inversa (inspectdb).',
     en: 'Performed connection and adaptation of the Django ecosystem with pre-existing Oracle Database databases using reverse engineering techniques (inspectdb).'
   },
-  'experience.humanitas-qualitas.achievements.13': {
+  'experience.humanitas-qualitas.achievements.14': {
     es: 'Desplegué Mankaind en producción con Nginx y Gunicorn dentro de contenedores Docker, habilitando la interacción digital inmediata con clientes.',
     en: 'Deployed Mankaind to production with Nginx and Gunicorn inside Docker containers, enabling immediate digital customer interaction.'
   },
-  'experience.humanitas-qualitas.achievements.14': {
+  'experience.humanitas-qualitas.achievements.15': {
     es: 'Implementé el sistema de internacionalización (i18n) en Globalmate para mitigar errores de visualización global en entornos multi-idioma.',
     en: 'Implemented the internationalization (i18n) system in Globalmate to mitigate global display errors in multi-language environments.'
   },
-  'experience.humanitas-qualitas.achievements.15': {
+  'experience.humanitas-qualitas.achievements.16': {
     es: 'Reestructuré componentes de Globalmate para lograr un diseño 100% responsive, mejorando significativamente la usabilidad desde dispositivos móviles.',
     en: 'Restructured Globalmate components to achieve 100% responsive design, significantly improving usability on mobile devices.'
   },
-  'experience.humanitas-qualitas.achievements.16': {
-    es: 'Proporcioné mantenimiento y soporte crítico a páginas web afiliadas del ecosistema corporativo.',
-    en: 'Provided critical maintenance and support for affiliate websites in the corporate ecosystem.'
-  },
   'experience.humanitas-qualitas.achievements.17': {
-    es: 'Entrené a nuevos desarrolladores en el funcionamiento y flujos de trabajo de Qualitas Assistance.',
-    en: 'Trained new developers on Qualitas Assistance operations and workflows.'
+    es: 'Brindé soporte, mantenimiento y desarrollo de nuevas funcionalidades a las plataformas web de aliados comerciales como Humaticket y Previsora.',
+    en: 'Provided support, maintenance, and development of new features for web platforms of commercial partners such as Humaticket and Previsora.'
+  },
+  'experience.humanitas-qualitas.achievements.18': {
+    es: 'En Humaticket realicé refactorización de código, corrección de bugs y mejoras en la arquitectura del aplicativo, migrando a PHP puro con MVC.',
+    en: 'At Humaticket I performed code refactoring, bug fixes, and architectural improvements to the application, migrating to pure PHP with MVC.'
+  },
+  'experience.humanitas-qualitas.achievements.19': {
+    es: 'En Previsora desarrollé funcionalidades específicas, aporté soporte técnico y realicé corrección de bugs sobre el sistema basado en la plataforma Humanitas.',
+    en: 'At Previsora I developed specific features, provided technical support, and performed bug fixes on the system based on the Humanitas platform.'
   },
 
   'experience.stability.company': { es: 'Stability', en: 'Stability' },

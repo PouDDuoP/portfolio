@@ -151,19 +151,19 @@ export default function Hero() {
           
           <div className="hero__stats">
             <div className="hero__stat">
-              <span className="hero__stat-number">5+</span>
+              <span className="hero__stat-number">8+</span>
               <span className="hero__stat-label">
                 {t('hero.yearsExperience')}
               </span>
             </div>
             <div className="hero__stat">
-              <span className="hero__stat-number">8</span>
+              <span className="hero__stat-number">15+</span>
               <span className="hero__stat-label">
                 {t('hero.projects')}
               </span>
             </div>
             <div className="hero__stat">
-              <span className="hero__stat-number">3</span>
+              <span className="hero__stat-number">10+</span>
               <span className="hero__stat-label">
                 {t('hero.clients')}
               </span>

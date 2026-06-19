@@ -32,7 +32,7 @@
     "projects": [
       {
         "name": "Humanitas",
-        "techStack": ["ASP Classic", "VBScript", "PHP", "Oracle Database", "Bootstrap 3", "jQuery", "JavaScript", "HTML5", "CSS"],
+        "techStack": ["ASP Classic", "VBScript", "Oracle Database", "Bootstrap 3", "jQuery", "JavaScript", "HTML5", "CSS"],
         "achievements": [
           "Implementé nuevos módulos en el Sistema de Humanitas para responder a normativas cambiantes del negocio, asegurando la estabilidad continua de la plataforma.",
           "Realicé diagnóstico y debugging de errores críticos en Humanitas, garantizando alta disponibilidad del sitio web y resolución eficiente de tickets de soporte de alta complejidad.",
@@ -41,7 +41,7 @@
       },
       {
         "name": "Qualitas Assistance",
-        "techStack": ["ASP Classic", "VBScript", "PHP", "Git", "SourceTree", "Bitbucket", "Bootstrap 3", "jQuery", "JavaScript", "HTML5", "CSS", "SQL Server"],
+        "techStack": ["ASP Classic", "VBScript", "PHP", "Git", "SourceTree", "Bitbucket", "Bootstrap 3", "jQuery", "JavaScript", "HTML5", "CSS", "SQL Server", "SOAP API"],
         "achievements": [
           "Diseñé el núcleo financiero automatizado de Qualitas Assistance con módulos de cálculo de comisiones, costos y registro masivo de pagos, sustituyendo flujos manuales en Excel.",
           "Implementé stored procedures y triggers en SQL Server para el procesamiento eficiente de reportes de data extensa en Qualitas Assistance.",
@@ -50,7 +50,8 @@
           "Refactoricé por completo la interfaz principal del sistema Qualitas Assistance, unificando headers, footer, navegación y menú en dos bases reutilizables (home page y dashboard) para todo el sitio web.",
           "Unifiqué dos cotizadores existentes en una sola interfaz en Qualitas Assistance, mejorando el tiempo de respuesta del cotizador y reduciendo la carga operativa del equipo.",
           "Implementé un módulo de registro y monitoreo de errores de la API del proveedor en Qualitas Assistance, proporcionando al equipo técnico una interfaz visual para diagnosticar y resolver incidencias.",
-          "Desarrollé un módulo integral para la gestión masiva de costos, netas y características de planes en Qualitas Assistance, junto con un módulo de registro de datos bancarios de agentes y agencias, eliminando procesos manuales."
+          "Desarrollé un módulo integral para la gestión masiva de costos, netas y características de planes en Qualitas Assistance, junto con un módulo de registro de datos bancarios de agentes y agencias, eliminando procesos manuales.",
+          "Entrené a nuevos desarrolladores en el funcionamiento y flujos de trabajo de Qualitas Assistance."
         ]
       },
       {
@@ -71,11 +72,12 @@
         ]
       },
       {
-        "name": "General",
+        "name": "Aliados Comerciales",
         "techStack": [],
         "achievements": [
-          "Proporcioné mantenimiento y soporte crítico a páginas web afiliadas del ecosistema corporativo.",
-          "Entrené a nuevos desarrolladores en el funcionamiento y flujos de trabajo de Qualitas Assistance."
+          "Brindé soporte, mantenimiento y desarrollo de nuevas funcionalidades a las plataformas web de aliados comerciales como Humaticket y Previsora.",
+          "En Humaticket realicé refactorización de código, corrección de bugs y mejoras en la arquitectura del aplicativo, migrando a PHP puro con MVC.",
+          "En Previsora desarrollé módulos específicos para consulta de información del sistema, además de soporte y corrección de bugs sobre un clon del sistema Humanitas."
         ]
       }
     ]
