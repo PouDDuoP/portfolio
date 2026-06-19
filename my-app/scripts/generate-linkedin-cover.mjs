@@ -59,7 +59,7 @@ const svg = `
   <text x="360" y="216" font-family="'DM Sans', 'Segoe UI', system-ui, sans-serif" font-size="40" font-weight="500" fill="#a1a1aa">Full Stack Developer</text>
 
   <!-- Tagline — solo experiencia, sin "Building with..." -->
-  <text x="360" y="260" font-family="'DM Sans', 'Segoe UI', system-ui, sans-serif" font-size="28" font-weight="400" fill="#a1a1aa">5+ years of experience</text>
+  <text x="360" y="260" font-family="'DM Sans', 'Segoe UI', system-ui, sans-serif" font-size="28" font-weight="400" fill="#a1a1aa">8+ years of experience</text>
 
   <!-- ===== RIGHT SECTION: Open to Work + Tech ===== -->
 
