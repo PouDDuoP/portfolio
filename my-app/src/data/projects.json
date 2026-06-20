@@ -102,7 +102,7 @@
   },
   {
     "id": "itmc",
-    "type": "personal",
+    "type": "laboral",
     "date": "2017-03",
     "title": "ITMC — Sistema de Gestión de Recursos Humanos",
     "description": "Sistema de gestión de empleados, solicitudes y beneficios con arquitectura MVC, desarrollado originalmente en 2017 por estudiantes universitarios como proyecto académico. Refactorizado en 2026 para garantizar su correcta ejecución: autenticación centralizada, eliminación de PII, limpieza de código muerto y corrección de bugs.",
