@@ -56,7 +56,7 @@ const translations = {
   'skills.categories.Back-end': { es: 'Back-end', en: 'Back-end' },
   'skills.categories.Front-end': { es: 'Front-end', en: 'Front-end' },
   'skills.categories.Bases de Datos': { es: 'Bases de Datos', en: 'Databases' },
-  'skills.categories.Tools': { es: 'Herramientas', en: 'Tools' },
+  'skills.categories.Herramientas & Metodologías': { es: 'Herramientas & Metodologías', en: 'Tools & Methodologies' },
   'skills.categories.Idiomas': { es: 'Idiomas', en: 'Languages' },
   'skills.categories.Habilidades Blandas': { es: 'Habilidades Blandas', en: 'Soft Skills' },
 
@@ -208,19 +208,19 @@ const translations = {
 
   'projects.mankaind.title': { es: 'Sistema de Mankaind', en: 'Mankaind System' },
   'projects.mankaind.description': {
-    es: 'Sistema de cotización de planes y coberturas con automatización de emisión de pólizas y documentos PDF mediante ReportLab, conexión a base de datos Oracle existente con InspectDB, y puesta en producción con Gunicorn, Nginx y Docker.',
-    en: 'Plan and coverage quotation system with automated policy issuance and PDF document generation using ReportLab, connection to existing Oracle database with InspectDB, and production deployment with Gunicorn, Nginx and Docker.'
+    es: 'Sistema de cotización de planes y coberturas con automatización de emisión de pólizas y documentos PDF mediante ReportLab, conexión a base de datos Oracle existente con InspectDB, y puesta en producción con Gunicorn, Nginx y Docker Compose.',
+    en: 'Plan and coverage quotation system with automated policy issuance and PDF document generation using ReportLab, connection to existing Oracle database with InspectDB, and production deployment with Gunicorn, Nginx and Docker Compose.'
   },
   'projects.mankaind.challenge': {
     es: 'Crear la primera versión de Mankaind desde cero, integrando una base de datos Oracle preexistente mediante ingeniería inversa y proporcionando cotizaciones digitales con generación automatizada de documentos',
     en: 'Create the first Mankaind version from scratch, integrating a pre-existing Oracle database through reverse engineering and providing digital quotations with automated document generation'
   },
   'projects.mankaind.result': {
-    es: 'Despliegue exitoso de Mankaind en producción con Nginx y Gunicorn dentro de contenedores Docker, habilitando la interacción digital inmediata con clientes y agentes, con cotizaciones automatizadas y conexión exitosa de base de datos Oracle existente mediante InspectDB',
-    en: 'Successful Mankaind production deployment with Nginx and Gunicorn inside Docker containers, enabling immediate digital interaction with clients and agents, with automated quotations and successful Oracle database connection via InspectDB'
+    es: 'Despliegue exitoso de Mankaind en producción con Nginx y Gunicorn dentro de contenedores con Docker Compose, habilitando la interacción digital inmediata con clientes y agentes, con cotizaciones automatizadas y conexión exitosa de base de datos Oracle existente mediante InspectDB',
+    en: 'Successful Mankaind production deployment with Nginx and Gunicorn inside Docker Compose containers, enabling immediate digital interaction with clients and agents, with automated quotations and successful Oracle database connection via InspectDB'
   },
 
-  'projects.inventario.title': { es: 'Sistema de Control de Inventario', en: 'Inventory Control System' },
+  'projects.inventario.title': { es: 'Sistema de Control de Inventario — CMBLC', en: 'Inventory Control System — CMBLC' },
   'projects.inventario.description': {
     es: 'Aplicación nativa en C++ para la optimización y control de recursos de almacén con estructuras de datos dinámicas.',
     en: 'Native C++ application for warehouse resource optimization and control with dynamic data structures.'
@@ -234,7 +234,7 @@ const translations = {
     en: 'Sorting and fast search functions for precise inventory stock control in a university setting'
   },
 
-  'projects.buzon.title': { es: 'Sistema de Buzón para Reporte de Incidencias', en: 'Bulletin System for Incident Reporting' },
+  'projects.buzon.title': { es: 'Sistema de Buzón e Incidencias — CMBLC (Ticketing System)', en: 'Bulletin and Incident System — CMBLC (Ticketing System)' },
   'projects.buzon.description': {
     es: 'Plataforma institucional con patrón MVC para reporte, seguimiento y gestión de eventos de TI mediante buzón automatizado.',
     en: 'Institutional platform with MVC pattern for reporting, tracking, and managing IT events through an automated mailbox.'
@@ -248,7 +248,7 @@ const translations = {
     en: 'Functional ticket assignment and categorization system, ensuring modularity and scalability on the institutional network'
   },
 
-  'projects.control-incidencias.title': { es: 'Sistema de Control de Incidencias', en: 'Incident Control System' },
+  'projects.control-incidencias.title': { es: 'Sistema de Gestión de Incidencias — CUC (Help Desk)', en: 'Incident Management System — CUC (Help Desk)' },
   'projects.control-incidencias.description': {
     es: 'Sistema web con Bootstrap y jQuery para el reporte, seguimiento y gestión de averías e incidencias técnicas.',
     en: 'Web system with Bootstrap and jQuery for reporting, tracking, and managing technical failures and incidents.'
@@ -286,8 +286,8 @@ const translations = {
     en: 'Develop a full-stack application with layered and domain architecture, using SDD and Engram for data seeders, Angular components, and tests'
   },
   'projects.my-store.result': {
-    es: 'API REST completa con documentación Swagger, SPA con i18n, pruebas unitarias con Jest, y despliegue con Docker',
-    en: 'Complete REST API with Swagger documentation, SPA with i18n, unit tests with Jest, and Docker deployment'
+    es: 'API REST completa con documentación Swagger, SPA con i18n, pruebas unitarias con Jest, y despliegue con Docker Compose',
+    en: 'Complete REST API with Swagger documentation, SPA with i18n, unit tests with Jest, and Docker Compose deployment'
   },
 
   'projects.humanitas.title': { es: 'Sistema de Humanitas', en: 'Humanitas System' },
@@ -334,8 +334,8 @@ const translations = {
 
   'projects.itmc.title': { es: 'ITMC — Sistema de Gestión de Recursos Humanos', en: 'ITMC — Human Resources Management System' },
   'projects.itmc.description': {
-    es: 'Sistema de gestión de empleados, solicitudes y beneficios con arquitectura MVC y despliegue Docker, desarrollado originalmente en 2017 por estudiantes universitarios como proyecto académico. Refactorizado en 2026 para garantizar su correcta ejecución: autenticación centralizada, eliminación de PII, limpieza de código muerto y corrección de bugs.',
-    en: 'Employee, request, and benefit management system with MVC architecture and Docker deployment, originally developed in 2017 by university students as an academic project. Refactored in 2026 to ensure proper execution: centralized authentication, PII removal, dead code cleanup, and bug fixes.'
+    es: 'Sistema de gestión de empleados, solicitudes y beneficios con arquitectura MVC y despliegue con Docker Compose, desarrollado originalmente en 2017 por estudiantes universitarios como proyecto académico. Refactorizado en 2026 para garantizar su correcta ejecución: autenticación centralizada, eliminación de PII, limpieza de código muerto y corrección de bugs.',
+    en: 'Employee, request, and benefit management system with MVC architecture and Docker Compose deployment, originally developed in 2017 by university students as an academic project. Refactored in 2026 to ensure proper execution: centralized authentication, PII removal, dead code cleanup, and bug fixes.'
   },
   'projects.itmc.challenge': {
     es: 'El código original tenía lógica de autenticación dispersa en 62+ archivos, exponía datos sensibles sin protección (PII), contenía errores de parse, BOM en 28 archivos y múltiples archivos huérfanos sin referenciar',
@@ -450,8 +450,8 @@ const translations = {
     en: 'Performed connection and adaptation of the Django ecosystem with pre-existing Oracle Database databases using reverse engineering techniques (inspectdb).'
   },
   'experience.humanitas-qualitas.achievements.14': {
-    es: 'Desplegué Mankaind en producción con Nginx y Gunicorn dentro de contenedores Docker, habilitando la interacción digital inmediata con clientes.',
-    en: 'Deployed Mankaind to production with Nginx and Gunicorn inside Docker containers, enabling immediate digital customer interaction.'
+    es: 'Desplegué Mankaind en producción con Nginx y Gunicorn dentro de contenedores con Docker Compose, habilitando la interacción digital inmediata con clientes.',
+    en: 'Deployed Mankaind to production with Nginx and Gunicorn inside Docker Compose containers, enabling immediate digital customer interaction.'
   },
   'experience.humanitas-qualitas.achievements.15': {
     es: 'Implementé el sistema de internacionalización (i18n) en Globalmate para mitigar errores de visualización global en entornos multi-idioma.',

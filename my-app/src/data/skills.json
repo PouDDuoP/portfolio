@@ -10,7 +10,7 @@
           "Creación de endpoints REST, middleware de autenticación y manejo de rutas para my-store"
         ]},
         { "name": "Python", "years": "2+ años", "type": "laboral", "examples": [
-          "Desarrollo backend con Django y Gunicorn para el cotizador de planes de Mankind",
+          "Desarrollo backend con Django y Gunicorn para el cotizador de planes de Mankaind",
           "Creación de API REST con Django REST Framework para proyectos OpenWebinars"
         ]},
         { "name": "Django", "years": "1+ año", "type": "laboral", "examples": [
@@ -69,7 +69,7 @@
           "Gestión de consultas complejas, reportes de data extensa y optimización en Qualitas Assistance"
         ]},
         { "name": "Oracle Database", "years": "5+ años", "type": "laboral", "examples": [
-          "Administración de bases de datos corporativas y consultas optimizadas para Mankind"
+          "Administración de bases de datos corporativas y consultas optimizadas para Mankaind"
         ]},
         { "name": "PostgreSQL", "years": "5+ años", "type": "personal", "examples": [
           "Modelado de datos y consultas para API REST de my-store y sistemas MVC con PHP"
@@ -80,7 +80,7 @@
       ]
     },
     {
-      "name": "Tools",
+      "name": "Herramientas & Metodologías",
       "skills": [
         { "name": "Git", "years": "3+ años", "type": "laboral", "examples": [
           "Control de versiones, branching strategy y trabajo colaborativo en equipos de desarrollo"
@@ -97,15 +97,19 @@
         ]},
         { "name": "Bitbucket", "years": "3+ años", "type": "laboral", "examples": [
           "Control de versiones y trabajo colaborativo en Qualitas Assistance",
-          "Repositorios corporativos para Globalmate y Mankind"
-        ]},
-        { "name": "Docker", "years": "6+ meses", "type": "laboral", "examples": [
-          "Contenedorización de aplicaciones y despliegue con Docker Compose para my-store"
+          "Repositorios corporativos para Globalmate y Mankaind"
         ]},
         { "name": "OpenCode", "years": "2+ meses", "type": "personal", "examples": [
           "Metodología SDD con persistencia Engram para el desarrollo de my-store"
         ]},
-        { "name": "Docker Compose", "years": "6+ meses", "type": "personal", "examples": [
+        { "name": "SDD (Spec-Driven Development)", "years": "2+ meses", "type": "personal", "examples": [
+          "Metodología SDD con persistencia Engram para el desarrollo de my-store y todo-app"
+        ]},
+        { "name": "Engram", "years": "2+ meses", "type": "personal", "examples": [
+          "Persistencia de memoria persistente y trazabilidad de decisiones con OpenCode"
+        ]},
+        { "name": "Docker Compose", "years": "6+ meses", "type": "laboral", "examples": [
+          "Contenedorización de aplicaciones y despliegue con Docker Compose para my-store",
           "Orquestación de servicios back-end, base de datos y frontend para despliegue de my-store"
         ]},
         { "name": "Postman", "years": "4+ años", "type": "personal", "examples": [
