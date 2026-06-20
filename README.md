@@ -26,14 +26,15 @@ Portafolio personal de Kevin Alvarado, Desarrollador Full Stack con más de 8 a�
 - PostgreSQL
 - MySQL
 
-### Herramientas
+### Herramientas & Metodologías
 - Git / GitHub / Bitbucket
 - SourceTree
 - Jira
-- Docker
 - Docker Compose
 - Postman
 - OpenCode
+- SDD (Spec-Driven Development)
+- Engram
 
 ## 📁 Proyectos
 
@@ -46,8 +47,8 @@ Portafolio personal de Kevin Alvarado, Desarrollador Full Stack con más de 8 a�
    - PHP, Bootstrap 3, jQuery, JavaScript, HTML5, CSS, Oracle Database, Bitbucket
    - Diseño responsive y soporte multi-idiomas
 
-3. **Sistema de Mankind**
-   - Python, Django, Git, Bitbucket, Bootstrap 3, jQuery, JavaScript, HTML5, CSS, Oracle Database, Docker
+3. **Sistema de Mankaind**
+   - Python, Django, Git, Bitbucket, Bootstrap 3, jQuery, JavaScript, HTML5, CSS, Oracle Database, Docker Compose
    - Cotizador de planes con generación de PDF y despliegue con Gunicorn/Nginx
 
 4. **Sistema de Humaticket** (Aliado Comercial)
@@ -59,9 +60,9 @@ Portafolio personal de Kevin Alvarado, Desarrollador Full Stack con más de 8 a�
    - Desarrollo de módulos, soporte técnico y corrección de bugs
 
 ### Personales
-1. **Sistema de Control de Inventario** - C++
-2. **Sistema de Buzón para Reporte de Incidencias** - PHP, JavaScript, PostgreSQL, HTML5, CSS3, MVC
-3. **Sistema de Control de Incidencias** - PHP, JavaScript, PostgreSQL, HTML5, CSS3, Bootstrap 3, jQuery, MVC
+1. **Sistema de Control de Inventario — CMBLC** - C++
+2. **Sistema de Buzón e Incidencias — CMBLC (Ticketing System)** - PHP, JavaScript, PostgreSQL, HTML5, CSS3, MVC
+3. **Sistema de Gestión de Incidencias — CUC (Help Desk)** - PHP, JavaScript, PostgreSQL, HTML5, CSS3, Bootstrap 3, jQuery, MVC
 4. **Stability - Desarrollo Front-end** (Colaboración externa) - Flutter, Dart, BLoC, GetIt, Dio
 5. **RateVES — Tipo de Cambio VES** (Personal)
    - Flutter, Dart, BLoC, Clean Architecture, Dio, Dartz
@@ -70,7 +71,7 @@ Portafolio personal de Kevin Alvarado, Desarrollador Full Stack con más de 8 a�
    - Angular 17, TypeScript, Tailwind CSS, Signals
    - Multi-proyecto, export/import, stale alerts, dark mode
 7. **ITMC — Sistema de Gestión de Recursos Humanos** (Consultoría)
-   - PHP, PostgreSQL, Docker, Bootstrap, jQuery, MVC
+   - PHP, PostgreSQL, Docker Compose, Bootstrap, jQuery, MVC
    - Refactorización de seguridad y autenticación centralizada
 8. **My Store** (Personal) - Node.js, Express, PostgreSQL, Angular, TypeScript, Tailwind CSS
 
@@ -90,7 +91,7 @@ Caracas, Venezuela
 Proyectos:
 - **Qualitas Assistance**: Núcleo financiero automatizado (comisiones, pagos, upgrades), integración SOAP API, monitoreo de errores, refactorización UI, entrenamiento de desarrolladores
 - **Humanitas**: Nuevos módulos normativos, debugging crítico, optimización Oracle DB
-- **Mankaind**: Cotizador de planes con Django + ReportLab, conexión Oracle con inspectdb, despliegue Docker + Gunicorn
+- **Mankaind**: Cotizador de planes con Django + ReportLab, conexión Oracle con inspectdb, despliegue con Docker Compose + Gunicorn
 - **Globalmate**: Internacionalización (i18n), diseño responsive
 - **Aliados Comerciales**: Soporte y desarrollo para Humaticket (refactorización a MVC) y Previsora (módulos de consulta, soporte sobre clon de Humanitas)
 
@@ -107,16 +108,17 @@ ITMC (Consultoría) — Remoto
   Colegio Universitario de Caracas (CUC)
 
 ### Certificaciones
-- SQL (Advanced) Certificate - HackerRank (2022)
+- Desarrollo con IA - BIG school (2026)
+- Angular 17: Creación de Aplicaciones Web - Platzi (2025)
+- Curso Profesional de Scrum - Platzi (2025)
+- Backend Node.js + Autenticación con Passport.js y JWT - Platzi (2024)
+- Backend Node.js + API REST con Express.js - Platzi (2023)
+- Backend Node.js + PostgreSQL - Platzi (2023)
 - Fundamentos de Angular - Platzi (2023)
 - Angular: Componentes y Servicios - Platzi (2023)
 - API REST con Django desde cero - OpenWebinars (2023)
 - Fundamentos de Node.js - Platzi (2023)
-- Backend Node.js + API REST con Express.js - Platzi (2023)
-- Backend Node.js + PostgreSQL - Platzi (2023)
-- Backend Node.js + Autenticación con Passport.js y JWT - Platzi (2024)
-- Angular 17: Creación de Aplicaciones Web - Platzi (2025)
-- Curso Profesional de Scrum - Platzi (2025)
+- SQL (Advanced) Certificate - HackerRank (2022)
 
 ## 🌐 Idiomas
 - Español (Nativo)
