@@ -56,11 +56,11 @@
       },
       {
         "name": "Mankaind",
-        "techStack": ["Python", "Django", "Docker", "Git", "Bootstrap 3", "jQuery", "JavaScript", "HTML5", "CSS", "Oracle Database"],
+        "techStack": ["Python", "Django", "Docker Compose", "Git", "Bootstrap 3", "jQuery", "JavaScript", "HTML5", "CSS", "Oracle Database"],
         "achievements": [
           "Desarrollé el módulo cotizador de planes y coberturas de Mankaind con automatización de emisión de pólizas y documentos PDF mediante ReportLab.",
           "Realicé conexión y adaptación del ecosistema Django con base de datos Oracle Database preexistente mediante técnicas de ingeniería inversa (inspectdb).",
-          "Desplegué Mankaind en producción con Nginx y Gunicorn dentro de contenedores Docker, habilitando la interacción digital inmediata con clientes."
+          "Desplegué Mankaind en producción con Nginx y Gunicorn dentro de contenedores con Docker Compose, habilitando la interacción digital inmediata con clientes."
         ]
       },
       {
@@ -93,7 +93,7 @@
     "projects": [
       {
         "name": "ITMC",
-        "techStack": ["PHP", "PostgreSQL", "Docker", "Bootstrap", "jQuery", "JavaScript", "HTML5", "CSS3", "MVC", "Git", "GitHub"],
+        "techStack": ["PHP", "PostgreSQL", "Docker Compose", "Bootstrap", "jQuery", "JavaScript", "HTML5", "CSS3", "MVC", "Git", "GitHub"],
         "achievements": [
           "Asesoré en el diseño e implementación de una arquitectura de autenticación centralizada en PHP, reduciendo la lógica de sesión dispersa en 62+ archivos a un solo punto de control (auth.php).",
           "Realicé una auditoría de seguridad identificando endpoints que exponían datos personales (PII), coordinando su eliminación y migrando el código a un modelo de acceso autenticado.",
