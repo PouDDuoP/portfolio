@@ -45,7 +45,6 @@ Mi enfoque está en la confiabilidad, el rendimiento y la automatización, adopt
 
 ### Herramientas & Metodologías
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![Docker Compose](https://img.shields.io/badge/Docker_Compose-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
 ![Jira](https://img.shields.io/badge/Jira-0052CC?style=for-the-badge&logo=jira&logoColor=white)
@@ -83,7 +82,7 @@ Mi enfoque está en la confiabilidad, el rendimiento y la automatización, adopt
 Flutter + BLoC + Clean Architecture. Autenticación JWT, gestión de clases, localización ES/EN.
 
 **Especialista Web / Full-Stack** — Humanitas Administradora de Riesgos / Qualitas Assistance · *2017 - 2024*
-Desarrollador principal de Qualitas Assistance, Globalmate, Mankaind V1 y Humaticket. Soporte especializado en Humanitas y Previsora. Automatización financiera, integración SOAP, Django, Docker.
+Desarrollador principal de Qualitas Assistance, Globalmate, Mankaind V1 y Humaticket. Soporte especializado en Humanitas y Previsora. Automatización financiera, integración SOAP, Django, Docker Compose.
 
 **Consultor de Arquitectura y Seguridad Web** — ITMC · *2017 - 2018*
 Autenticación centralizada PHP, auditoría de seguridad, limpieza de deuda técnica.
