@@ -71,7 +71,7 @@ Portafolio personal de Kevin Alvarado, Desarrollador Full Stack con más de 8 a�
    - Angular 17, TypeScript, Tailwind CSS, Signals
    - Multi-proyecto, export/import, stale alerts, dark mode
 7. **ITMC — Sistema de Gestión de Recursos Humanos** (Consultoría)
-   - PHP, PostgreSQL, Docker Compose, Bootstrap, jQuery, MVC
+   - PHP, PostgreSQL, Bootstrap, jQuery, MVC
    - Refactorización de seguridad y autenticación centralizada
 8. **My Store** (Personal) - Node.js, Express, PostgreSQL, Angular, TypeScript, Tailwind CSS
 

@@ -334,8 +334,8 @@ const translations = {
 
   'projects.itmc.title': { es: 'ITMC — Sistema de Gestión de Recursos Humanos', en: 'ITMC — Human Resources Management System' },
   'projects.itmc.description': {
-    es: 'Sistema de gestión de empleados, solicitudes y beneficios con arquitectura MVC y despliegue con Docker Compose, desarrollado originalmente en 2017 por estudiantes universitarios como proyecto académico. Refactorizado en 2026 para garantizar su correcta ejecución: autenticación centralizada, eliminación de PII, limpieza de código muerto y corrección de bugs.',
-    en: 'Employee, request, and benefit management system with MVC architecture and Docker Compose deployment, originally developed in 2017 by university students as an academic project. Refactored in 2026 to ensure proper execution: centralized authentication, PII removal, dead code cleanup, and bug fixes.'
+    es: 'Sistema de gestión de empleados, solicitudes y beneficios con arquitectura MVC, desarrollado originalmente en 2017 por estudiantes universitarios como proyecto académico. Refactorizado en 2026 para garantizar su correcta ejecución: autenticación centralizada, eliminación de PII, limpieza de código muerto y corrección de bugs.',
+    en: 'Employee, request, and benefit management system with MVC architecture, originally developed in 2017 by university students as an academic project. Refactored in 2026 to ensure proper execution: centralized authentication, PII removal, dead code cleanup, and bug fixes.'
   },
   'projects.itmc.challenge': {
     es: 'El código original tenía lógica de autenticación dispersa en 62+ archivos, exponía datos sensibles sin protección (PII), contenía errores de parse, BOM en 28 archivos y múltiples archivos huérfanos sin referenciar',
