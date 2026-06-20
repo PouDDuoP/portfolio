@@ -93,7 +93,7 @@
     "projects": [
       {
         "name": "ITMC",
-        "techStack": ["PHP", "PostgreSQL", "Docker Compose", "Bootstrap", "jQuery", "JavaScript", "HTML5", "CSS3", "MVC", "Git", "GitHub"],
+        "techStack": ["PHP", "PostgreSQL", "Bootstrap", "jQuery", "JavaScript", "HTML5", "CSS3", "MVC", "Git", "GitHub"],
         "achievements": [
           "Asesoré en el diseño e implementación de una arquitectura de autenticación centralizada en PHP, reduciendo la lógica de sesión dispersa en 62+ archivos a un solo punto de control (auth.php).",
           "Realicé una auditoría de seguridad identificando endpoints que exponían datos personales (PII), coordinando su eliminación y migrando el código a un modelo de acceso autenticado.",
