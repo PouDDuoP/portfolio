@@ -131,8 +131,8 @@ const translations = {
   },
   'faq.location.title': { es: '¿Dónde estás ubicado?', en: 'Where are you located?' },
   'faq.location.text': {
-    es: 'Estoy ubicado en Caracas, Venezuela, y trabajo de forma remota con clientes y empresas de toda Latinoamérica.',
-    en: 'I am based in Caracas, Venezuela, working remotely with clients and companies across Latin America.'
+    es: 'Estoy ubicado en Caracas, Venezuela, y estoy abierto a oportunidades remotas de cualquier parte del mundo.',
+    en: 'I am based in Caracas, Venezuela, and I am open to remote opportunities from anywhere in the world.'
   },
   'faq.experience.title': { es: '¿Cuántos años de experiencia tienes?', en: 'How many years of experience do you have?' },
   'faq.experience.text': {
