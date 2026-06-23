@@ -608,6 +608,76 @@ const translations = {
   'education.bigschool-desarrollo-con-ia.description': {
     es: 'Uso de IA agéntica, trabajo bajo definiciones SDD (Spec-Driven Development) y el ecosistema Gentle AI + Engram + SDD.',
     en: 'Use of agentic AI, working under SDD (Spec-Driven Development) definitions, and the Gentle AI + Engram + SDD ecosystem.'
+  },
+
+  'education.efset-english.institution': { es: 'EF SET', en: 'EF SET' },
+  'education.efset-english.degree': { es: 'EF SET English Certificate 55/100 (B2 Upper Intermediate)', en: 'EF SET English Certificate 55/100 (B2 Upper Intermediate)' },
+  'education.efset-english.description': {
+    es: 'Certificación de inglés nivel B2 (Upper Intermediate) que evalúa comprensión lectora y auditiva.',
+    en: 'B2 Upper Intermediate English certification assessing reading and listening comprehension.'
+  },
+
+  'education.platzi-php-composer.institution': { es: 'Platzi', en: 'Platzi' },
+  'education.platzi-php-composer.degree': { es: 'Curso de PHP con Composer', en: 'PHP with Composer' },
+  'education.platzi-php-composer.description': {
+    es: 'Gestión de dependencias en PHP con Composer, autoloading y creación de paquetes.',
+    en: 'PHP dependency management with Composer, autoloading, and package creation.'
+  },
+
+  'education.platzi-php-html.institution': { es: 'Platzi', en: 'Platzi' },
+  'education.platzi-php-html.degree': { es: 'Curso de PHP: Integración con HTML', en: 'PHP: Integration with HTML' },
+  'education.platzi-php-html.description': {
+    es: 'Integración de PHP con HTML para crear páginas web dinámicas y formularios.',
+    en: 'PHP integration with HTML for dynamic web pages and forms.'
+  },
+
+  'education.platzi-php-practico.institution': { es: 'Platzi', en: 'Platzi' },
+  'education.platzi-php-practico.degree': { es: 'Curso Práctico de PHP', en: 'Practical PHP Course' },
+  'education.platzi-php-practico.description': {
+    es: 'Proyectos prácticos con PHP, manejo de sesiones, cookies y bases de datos.',
+    en: 'Hands-on PHP projects, session handling, cookies, and databases.'
+  },
+
+  'education.platzi-php-arrays.institution': { es: 'Platzi', en: 'Platzi' },
+  'education.platzi-php-arrays.degree': { es: 'Curso de PHP: Arreglos, Funciones y Estructuras de Control', en: 'PHP: Arrays, Functions and Control Structures' },
+  'education.platzi-php-arrays.description': {
+    es: 'Manejo de arreglos, funciones y estructuras de control en PHP.',
+    en: 'Working with arrays, functions, and control structures in PHP.'
+  },
+
+  'education.platzi-php-basico.institution': { es: 'Platzi', en: 'Platzi' },
+  'education.platzi-php-basico.degree': { es: 'Curso Básico de PHP: Instalación, Fundamentos y Operadores', en: 'Basic PHP: Installation, Fundamentals and Operators' },
+  'education.platzi-php-basico.description': {
+    es: 'Fundamentos de PHP, instalación, sintaxis básica, variables y operadores.',
+    en: 'PHP fundamentals, installation, basic syntax, variables, and operators.'
+  },
+
+  'education.platzi-ecmascript.institution': { es: 'Platzi', en: 'Platzi' },
+  'education.platzi-ecmascript.degree': { es: 'Curso de ECMAScript: Historia y Versiones de JavaScript', en: 'ECMAScript: History and JavaScript Versions' },
+  'education.platzi-ecmascript.description': {
+    es: 'Historia y evolución de JavaScript, características de ES6, ES7 y versiones posteriores.',
+    en: 'JavaScript history and evolution, ES6, ES7, and later version features.'
+  },
+
+  'education.platzi-javascript-basico.institution': { es: 'Platzi', en: 'Platzi' },
+  'education.platzi-javascript-basico.degree': { es: 'Curso Básico de JavaScript', en: 'Basic JavaScript Course' },
+  'education.platzi-javascript-basico.description': {
+    es: 'Fundamentos de JavaScript, variables, tipos de datos, funciones y manipulación del DOM.',
+    en: 'JavaScript fundamentals, variables, data types, functions, and DOM manipulation.'
+  },
+
+  'education.hackerrank-python.institution': { es: 'HackerRank', en: 'HackerRank' },
+  'education.hackerrank-python.degree': { es: 'Python (Basic) Certificate', en: 'Python (Basic) Certificate' },
+  'education.hackerrank-python.description': {
+    es: 'Certificación básica en Python que cubre sintaxis fundamental, estructuras de datos y resolución de problemas.',
+    en: 'Basic Python certification covering fundamental syntax, data structures, and problem-solving.'
+  },
+
+  'education.hackerrank-sql-intermediate.institution': { es: 'HackerRank', en: 'HackerRank' },
+  'education.hackerrank-sql-intermediate.degree': { es: 'SQL (Intermediate) Certificate', en: 'SQL (Intermediate) Certificate' },
+  'education.hackerrank-sql-intermediate.description': {
+    es: 'Certificación intermedia en SQL que cubre consultas avanzadas, joins, subconsultas y agregaciones.',
+    en: 'Intermediate SQL certification covering advanced queries, joins, subqueries, and aggregations.'
   }
 };
 

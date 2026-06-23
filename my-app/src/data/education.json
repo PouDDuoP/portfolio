@@ -128,5 +128,105 @@
     "endDate": "2026",
     "description": "Uso de IA agéntica, trabajo bajo definiciones SDD (Spec-Driven Development) y el ecosistema Gentle AI + Engram + SDD.",
     "verified": true
+  },
+  {
+    "id": "efset-english",
+    "institution": "EF SET",
+    "institutionUrl": "https://cert.efset.org/d6bFa8",
+    "degree": "EF SET English Certificate 55/100 (B2 Upper Intermediate)",
+    "startDate": "2025",
+    "endDate": "2025",
+    "description": "Certificación de inglés nivel B2 (Upper Intermediate) que evalúa comprensión lectora y auditiva.",
+    "verified": true
+  },
+  {
+    "id": "platzi-php-composer",
+    "institution": "Platzi",
+    "institutionUrl": "https://platzi.com/p/kevinalvarado.ag/curso/2024-course/diploma/detalle/",
+    "degree": "Curso de PHP con Composer",
+    "startDate": "2023",
+    "endDate": "2023",
+    "description": "Gestión de dependencias en PHP con Composer, autoloading y creación de paquetes.",
+    "verified": true
+  },
+  {
+    "id": "platzi-php-html",
+    "institution": "Platzi",
+    "institutionUrl": "https://platzi.com/p/kevinalvarado.ag/curso/2947-course/diploma/detalle/",
+    "degree": "Curso de PHP: Integración con HTML",
+    "startDate": "2023",
+    "endDate": "2023",
+    "description": "Integración de PHP con HTML para crear páginas web dinámicas y formularios.",
+    "verified": true
+  },
+  {
+    "id": "platzi-php-practico",
+    "institution": "Platzi",
+    "institutionUrl": "https://platzi.com/p/kevinalvarado.ag/curso/2516-course/diploma/detalle/",
+    "degree": "Curso Práctico de PHP",
+    "startDate": "2023",
+    "endDate": "2023",
+    "description": "Proyectos prácticos con PHP, manejo de sesiones, cookies y bases de datos.",
+    "verified": true
+  },
+  {
+    "id": "platzi-php-arrays",
+    "institution": "Platzi",
+    "institutionUrl": "https://platzi.com/p/kevinalvarado.ag/curso/2794-course/diploma/detalle/",
+    "degree": "Curso de PHP: Arreglos, Funciones y Estructuras de Control",
+    "startDate": "2023",
+    "endDate": "2023",
+    "description": "Manejo de arreglos, funciones y estructuras de control en PHP.",
+    "verified": true
+  },
+  {
+    "id": "platzi-php-basico",
+    "institution": "Platzi",
+    "institutionUrl": "https://platzi.com/p/kevinalvarado.ag/curso/2646-course/diploma/detalle/",
+    "degree": "Curso Básico de PHP: Instalación, Fundamentos y Operadores",
+    "startDate": "2023",
+    "endDate": "2023",
+    "description": "Fundamentos de PHP, instalación, sintaxis básica, variables y operadores.",
+    "verified": true
+  },
+  {
+    "id": "platzi-ecmascript",
+    "institution": "Platzi",
+    "institutionUrl": "https://platzi.com/p/kevinalvarado.ag/curso/3504-ecmascript-6/diploma/detalle/",
+    "degree": "Curso de ECMAScript: Historia y Versiones de JavaScript",
+    "startDate": "2023",
+    "endDate": "2023",
+    "description": "Historia y evolución de JavaScript, características de ES6, ES7 y versiones posteriores.",
+    "verified": true
+  },
+  {
+    "id": "platzi-javascript-basico",
+    "institution": "Platzi",
+    "institutionUrl": "https://platzi.com/p/kevinalvarado.ag/curso/1814-basico-javascript/diploma/detalle/",
+    "degree": "Curso Básico de JavaScript",
+    "startDate": "2023",
+    "endDate": "2023",
+    "description": "Fundamentos de JavaScript, variables, tipos de datos, funciones y manipulación del DOM.",
+    "verified": true
+  },
+  {
+    "id": "hackerrank-python",
+    "institution": "HackerRank",
+    "institutionUrl": "https://www.hackerrank.com/certificates/719d01ef3061",
+    "degree": "Python (Basic) Certificate",
+    "startDate": "2022",
+    "endDate": "2022",
+    "description": "Certificación básica en Python que cubre sintaxis fundamental, estructuras de datos y resolución de problemas.",
+    "verified": true
+  },
+  {
+    "id": "hackerrank-sql-intermediate",
+    "institution": "HackerRank",
+    "institutionUrl": "https://www.hackerrank.com/certificates/f23e5d36be57",
+    "degree": "SQL (Intermediate) Certificate",
+    "startDate": "2021",
+    "endDate": "2021",
+    "description": "Certificación intermedia en SQL que cubre consultas avanzadas, joins, subconsultas y agregaciones.",
+    "verified": true
   }
 ]
