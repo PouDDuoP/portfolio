@@ -8,8 +8,9 @@ import Icon from '../common/Icon';
 import './Contact.css';
 
 export default function Contact() {
-  const { t } = useT();
+  const { t, lang } = useT();
   const [copied, setCopied] = useState(false);
+  const linkedinUrl = profile.social[lang === 'es' ? 'linkedinEs' : 'linkedin'];
 
   const handleEmail = () => {
     trackEvent('Contact', 'send_email', profile.email);
@@ -102,7 +103,7 @@ export default function Contact() {
              <span className="sr-only">{t('common.opensInNewTab')}</span>
            </a>
           
-          <a href={profile.social.linkedin} target="_blank" rel="noopener noreferrer" className="contact__card" onClick={() => trackEvent('Social', 'click', 'LinkedIn')}>
+           <a href={linkedinUrl} target="_blank" rel="noopener noreferrer" className="contact__card" onClick={() => trackEvent('Social', 'click', 'LinkedIn')}>
              <div className="contact__card-icon">
                 <Icon name="linkedin" size={20} />
              </div>

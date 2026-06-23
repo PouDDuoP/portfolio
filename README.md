@@ -127,7 +127,7 @@ ITMC (Consultoría) — Remoto
 ## 📬 Contacto
 - Email: kevinalvarado.ag+jobs@gmail.com (botón de copia disponible)
 - GitHub: [@PouDDuoP](https://github.com/PouDDuoP)
-- LinkedIn: [/in/kevin-alvarado-graterol](https://linkedin.com/in/kevin-alvarado-graterol)
+- LinkedIn: [/in/kevin-alvarado-graterol](https://www.linkedin.com/in/kevin-alvarado-graterol) — locale según idioma (EN/ES)
 - Ubicación: Caracas, Venezuela
 - **CV disponible**: [Descargar PDF](https://kevin-alvarado.vercel.app) (sección Hero)
 

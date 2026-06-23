@@ -4,8 +4,9 @@ import Icon from '../common/Icon';
 import './Footer.css';
 
 export default function Footer() {
-  const { t } = useT();
+  const { t, lang } = useT();
   const currentYear = new Date().getFullYear();
+  const linkedinUrl = profile.social[lang === 'es' ? 'linkedinEs' : 'linkedin'];
   
   return (
     <footer className="footer">
@@ -21,7 +22,7 @@ export default function Footer() {
               <Icon name="github" size={20} />
               <span className="sr-only">{t('common.opensInNewTab')}</span>
             </a>
-            <a href={profile.social.linkedin} target="_blank" rel="noopener noreferrer" aria-label={`LinkedIn - ${t('common.opensInNewTab')}`}>
+            <a href={linkedinUrl} target="_blank" rel="noopener noreferrer" aria-label={`LinkedIn - ${t('common.opensInNewTab')}`}>
               <Icon name="linkedin" size={20} />
               <span className="sr-only">{t('common.opensInNewTab')}</span>
             </a>
