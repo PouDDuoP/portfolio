@@ -4,17 +4,17 @@
 
 **Nombre del Producto:** Portfolio Personal (Frontend)
 
-**Tipo de Producto:** Sitio web est├ítico - Single Page Application (SPA)
+**Tipo de Producto:** Sitio web estático - Single Page Application (SPA)
 
-**Descripci├│n Breve:**
-Sitio web personal est├ítico que presenta la informaci├│n profesional, proyectos, habilidades y experiencia de un desarrollador. Funciona como carta de presentaci├│n digital y escaparate profesional, sin necesidad de backend.
+**Descripción Breve:**
+Sitio web personal estático que presenta la información profesional, proyectos, habilidades y experiencia de un desarrollador. Funciona como carta de presentación digital y escaparate profesional, sin necesidad de backend.
 
 **Problema que Resuelve:**
-La necesidad de tener una presencia profesional en l├¡nea que muestre el trabajo, habilidades y trayectoria de un desarrollador de manera accesible, atractiva y profesional para potenciales empleadores o clientes.
+La necesidad de tener una presencia profesional en línea que muestre el trabajo, habilidades y trayectoria de un desarrollador de manera accesible, atractiva y profesional para potenciales empleadores o clientes.
 
-**P├║blico Objetivo:**
-- Reclutadores yManager de RRHH de empresas de tecnolog├¡a
-- CTOs y l├¡deres t├®cnicos buscando talento
+**Público Objetivo:**
+- Reclutadores y Manager de RRHH de empresas de tecnología
+- CTOs y líderes técnicos buscando talento
 - Clientes potenciales que buscan servicios de desarrollo
 - Otros desarrolladores y profesionales del sector
 
@@ -24,17 +24,17 @@ La necesidad de tener una presencia profesional en l├¡nea que muestre el trab
 
 ### Objetivos Principales (MOPS)
 
-| Objetivo | M├®trica de ├ëxito | Prioridad |
+| Objetivo | Métrica de Éxito | Prioridad |
 |---------|------------------|-----------|
-| Presentar informaci├│n profesional de manera clara | El usuario encuentra la informaci├│n en < 3 clics | Alta |
-| Mostrar proyectos realizados con evidencia visual | Galer├¡as de proyectos accesibles con screenshots/code | Alta |
-| Demostrar habilidades t├®cnicas y blandas | Secci├│n de skills con indicadores visuales | Alta |
-| Facilitar contacto profesional | Botones de contacto visibles sin fricci├│n | Alta |
-| Posicionar en buscadores (SEO) | Indexaci├│n correcta en Google, Bing | Media |
+| Presentar información profesional de manera clara | El usuario encuentra la información en < 3 clics | Alta |
+| Mostrar proyectos realizados con evidencia visual | Galerías de proyectos accesibles con screenshots/code | Alta |
+| Demostrar habilidades técnicas y blandas | Sección de skills con indicadores visuales | Alta |
+| Facilitar contacto profesional | Botones de contacto visibles sin fricción | Alta |
+| Posicionar en buscadores (SEO) | Indexación correcta en Google, Bing | Media |
 
 ### Objetivos Secundarios
 
-- Demostrar capacidades de dise├▒o y frontend
+- Demostrar capacidades de diseño y frontend
 - Crear una identidad profesional memorable
 - Facilitar networking profesional
 - Servir como documento de referencia personal
@@ -45,27 +45,27 @@ La necesidad de tener una presencia profesional en l├¡nea que muestre el trab
 
 ### In-Scope (Included)
 
-| M├│dulo | Descripci├│n |
+| Módulo | Descripción |
 |--------|-------------|
-| **Hero Section** | Presentaci├│n personal con nombre, t├¡tulo profesional y tagline |
-| **About** | Biograf├¡a profesional, historia, valores |
-| **Skills** | Habilidades t├®cnicas y blandas con niveles |
+| **Hero Section** | Presentación personal con nombre, título profesional y tagline |
+| **About** | Biografía profesional, historia, valores |
+| **Skills** | Habilidades técnicas y blandas con niveles |
 | **Proyectos** | Portafolio de proyectos con screenshots, DESC, tech stack |
 | **Experiencia** | Historial laboral/freelance con fechas y logros |
-| **Educaci├│n** | Formaci├│n acad├®mica y certificaciones |
-| **Contacto** | Formas de contacto (email, redes sociales, linkedIn) |
+| **Educación** | Formación académica y certificaciones |
+| **Contacto** | Formas de contacto (email, redes sociales, LinkedIn) |
 | **Footer** | Enlaces legales, redes sociales, copyright |
 
 ### Out-of-Scope (Excluded)
 
-| M├│dulo | Raz├│n de Exclusi├│n |
+| Módulo | Razón de Exclusión |
 |--------|-------------------|
-| **Backend/API** | Portfolio est├ítico, no requiere servidor din├ímico |
-| **Base de datos** | Contenido hardcoded o JSON est├ítico |
-| **Autenticaci├│n** | No requiere usuarios ni login |
-| **CMS** | Contenido se/edita directamente en c├│digo |
-| **Blog/Dynamic Content** | No hay publicaciones din├ímicas |
-| **Dashboard Admin** | No hay panel de administraci├│n |
+| **Backend/API** | Portfolio estático, no requiere servidor dinámico |
+| **Base de datos** | Contenido hardcoded o JSON estático |
+| **Autenticación** | No requiere usuarios ni login |
+| **CMS** | Contenido se edita directamente en código |
+| **Blog/Dynamic Content** | No hay publicaciones dinámicas |
+| **Dashboard Admin** | No hay panel de administración |
 | **Formulario de contacto con DB** | Solo mailto o enlaces externos |
 
 ### Nice-to-have (Futuro)
@@ -73,79 +73,79 @@ La necesidad de tener una presencia profesional en l├¡nea que muestre el trab
 - Modo oscuro/claro con toggle
 - Animaciones suaves (framer-motion o CSS)
 - Multilenguaje (i18n)
-- Modo impresi├│n optimizado
+- Modo impresión optimizado
 
 ---
 
 ## 4. Requisitos Funcionales
 
-### 4.1 Navegaci├│n
+### 4.1 Navegación
 
-| ID | Requisito | Criterio de Aceptaci├│n |
+| ID | Requisito | Criterio de Aceptación |
 |---|----------|----------------------|
-| RF-01 | Navegaci├│n fija (sticky header) | El men├║ permanece visible al hacer scroll |
-| RF-02 | Navegaci├│n suave (smooth scroll) | Desplazamiento animado entre secciones |
-| RF-03 | Navegaci├│n responsiva | Men├║ hamburguesa en m├│vil (< 768px) |
-| RF-04 | Links funcionales | Todos los enlaces navegan a la secci├│n correcta |
+| RF-01 | Navegación fija (sticky header) | El menú permanece visible al hacer scroll |
+| RF-02 | Navegación suave (smooth scroll) | Desplazamiento animado entre secciones |
+| RF-03 | Navegación responsiva | Menú hamburguesa en móvil (< 768px) |
+| RF-04 | Links funcionales | Todos los enlaces navegan a la sección correcta |
 
 ### 4.2 Hero Section
 
-| ID | Requisito | Criterio de Aceptaci├│n |
+| ID | Requisito | Criterio de Aceptación |
 |---|----------|----------------------|
-| RF-05 | Nombre y t├¡tulo profesional | Texto visible y legible en todos los dispositivos |
+| RF-05 | Nombre y título profesional | Texto visible y legible en todos los dispositivos |
 | RF-06 | Foto de perfil | Imagen optimizada para web |
-| RF-07 | Tagline personal | Frase descriptiva de valor ├║nico |
-| RF-08 | CTA (Call to Action) | Bot├│n para ir a proyectos o contacto |
+| RF-07 | Tagline personal | Frase descriptiva de valor único |
+| RF-08 | CTA (Call to Action) | Botón para ir a proyectos o contacto |
 
-### 4.3 Secci├│n About
+### 4.3 Sección About
 
-| ID | Requisito | Criterio de Aceptaci├│n |
+| ID | Requisito | Criterio de Aceptación |
 |---|----------|----------------------|
-| RF-09 | Biograf├¡a | Texto de 150-300 palabras |
+| RF-09 | Biografía | Texto de 150-300 palabras |
 | RF-10 | Foto profesional | Imagen de calidad correcta |
-| RF-11 | Valores/misi├│n | Declaraci├│n de valores profesionales |
+| RF-11 | Valores/misión | Declaración de valores profesionales |
 
 ### 4.4 Skills
 
-| ID | Requisito | Criterio de Aceptaci├│n |
+| ID | Requisito | Criterio de Aceptación |
 |---|----------|----------------------|
-| RF-12 | Categorizaci├│n | Skills agrupados por categor├¡a (Frontend, Backend, Tools, Soft Skills) |
-| RF-13 | Indicadores visuales | Barras, badges o ÐâÐÇð¥ð▓ð¢ð© para representar nivel |
-| RF-14 | Tech stack principal | Lista de tecnolog├¡as principales |
+| RF-12 | Categorización | Skills agrupados por categoría (Frontend, Backend, Tools, Soft Skills) |
+| RF-13 | Indicadores visuales | Barras, badges o niveles para representar nivel |
+| RF-14 | Tech stack principal | Lista de tecnologías principales |
 
 ### 4.5 Proyectos
 
-| ID | Requisito | Criterio de Aceptaci├│n |
+| ID | Requisito | Criterio de Aceptación |
 |---|----------|----------------------|
 | RF-15 | Grid de proyectos | Malla visual de tarjetas de proyectos |
-| RF-16 | Informaci├│n por proyecto | T├¡tulo, descripci├│n, tech stack, enlaces |
-| RF-17 | Im├ígenes/screenshots | Capturas visuales de cada proyecto |
+| RF-16 | Información por proyecto | Título, descripción, tech stack, enlaces |
+| RF-17 | Imágenes/screenshots | Capturas visuales de cada proyecto |
 | RF-18 | Enlaces externos | Links a GitHub, Demo, caso de estudio |
-| RF-19 | Modal o expandable | Ver detalles sin salir de la p├ígina |
+| RF-19 | Modal o expandable | Ver detalles sin salir de la página |
 
 ### 4.6 Experiencia
 
-| ID | Requisito | Criterio de Aceptaci├│n |
+| ID | Requisito | Criterio de Aceptación |
 |---|----------|----------------------|
-| RF-20 | Chronological timeline | L├¡nea de tiempo cronol├│gica |
-| RF-21 | Info por posici├│n | Empresa, rol, fechas, logros destacados |
+| RF-20 | Chronological timeline | Línea de tiempo cronológica |
+| RF-21 | Info por posición | Empresa, rol, fechas, logros destacados |
 | RF-22 | Enlace a empresa (opcional) | Link al sitio de la empresa |
 
-### 4.7 Educaci├│n
+### 4.7 Educación
 
-| ID | Requisito | Criterio de Aceptaci├│n |
+| ID | Requisito | Criterio de Aceptación |
 |---|----------|----------------------|
 | RF-23 | Lista de certificaciones | Cursos, certificaciones obtenidas |
-| RF-24 | Fechas relevantes | Fecha de obtenci├│n/caducidad |
+| RF-24 | Fechas relevantes | Fecha de obtención/caducidad |
 
 ### 4.8 Contacto
 
-| ID | Requisito | Criterio de Aceptaci├│n |
+| ID | Requisito | Criterio de Aceptación |
 |---|----------|----------------------|
-| RF-25 | Email clickeable | mailto: con direcci├│n prellenada |
+| RF-25 | Email clickeable | mailto: con dirección prellenada |
 | RF-26 | Redes sociales | GitHub, LinkedIn, Twitter/X, Bluesky |
-| RF-27 | QR Code (opcional) | C├│digo QR con vCard o email |
-| RF-28 | Ubicaci├│n (opcional) | Ciudad/pa├¡s sin datos precisos por privacidad |
+| RF-27 | QR Code (opcional) | Código QR con vCard o email |
+| RF-28 | Ubicación (opcional) | Ciudad/país sin datos precisos por privacidad |
 
 ---
 
@@ -159,18 +159,18 @@ La necesidad de tener una presencia profesional en l├¡nea que muestre el trab
 | RNF-02 | Largest Contentful Paint (LCP) | < 2.5s |
 | RNF-03 | Time to Interactive (TTI) | < 3.5s |
 | RNF-04 | Cumulative Layout Shift (CLS) | < 0.1 |
-| RNF-05 | Tama├▒o total (sin comprimir) | < 500KB (JS + CSS + Im├ígenes) |
-| RNF-06 | Im├ígenes optimizadas | WebP con fallback, lazy loading |
+| RNF-05 | Tamaño total (sin comprimir) | < 500KB (JS + CSS + Imágenes) |
+| RNF-06 | Imágenes optimizadas | WebP con fallback, lazy loading |
 
 ### 5.2 Accesibilidad (WCAG 2.2 AA)
 
 | ID | Requisito | Criterio |
 |---|----------|----------|
-| RNF-07 | Contraste | Ratio m├¡nimo 4.5:1 para texto |
-| RNF-08 | Navegaci├│n por teclado | Todos los elementos accesibles con Tab |
+| RNF-07 | Contraste | Ratio mínimo 4.5:1 para texto |
+| RNF-08 | Navegación por teclado | Todos los elementos accesibles con Tab |
 | RNF-09 | Screen readers | Etiquetas ARIA correctas |
 | RNF-10 | Focus visible | Indicador de focus claro |
-| RNF-11 | Alt text | Textos alternativos en todas las im├ígenes |
+| RNF-11 | Alt text | Textos alternativos en todas las imágenes |
 | RNF-12 | Motion reduced | Respetar prefers-reduced-motion |
 
 ### 5.3 Compatibilidad
@@ -178,33 +178,33 @@ La necesidad de tener una presencia profesional en l├¡nea que muestre el trab
 | ID | Requisito | Browsers/Versiones |
 |---|----------|-------------------|
 | RNF-13 | Navegadores modernos | Chrome (last 2), Firefox (last 2), Safari (last 2), Edge (last 2) |
-| RNF-14 | Dispositivos | Desktop, Tablet (ÔëÑ 768px), Mobile (ÔëÑ 320px) |
+| RNF-14 | Dispositivos | Desktop, Tablet (≥ 768px), Mobile (≥ 320px) |
 
 ### 5.4 SEO
 
-| ID | Requisito | Implementaci├│n |
+| ID | Requisito | Implementación |
 |---|----------|---------------|
 | RNF-15 | Meta tags | Title, description, Open Graph, Twitter Cards |
 | RNF-16 | Semantic HTML | Header, main, section, article, footer |
 | RNF-17 | Sitemap | sitemap.xml generado |
 | RNF-18 | Robots.txt | Allow correct |
 | RNF-19 | Structured data | Schema.org Person o ProfilePage |
-| RNF-20 | URLs amigables | Est├íticas, sin hashes (#) |
+| RNF-20 | URLs amigables | Estáticas, sin hashes (#) |
 
 ### 5.5 Seguridad
 
-| ID | Requisito | Implementaci├│n |
+| ID | Requisito | Implementación |
 |---|----------|---------------|
 | RNF-21 | HTTPS | enforced por hosting (Vercel/Netlify/GitHub Pages) |
 | RNF-22 | CSP | Headers de Content Security Policy |
-| RNF-23 | No info sensible | Sin datos personales sensibles expublicados |
+| RNF-23 | No info sensible | Sin datos personales sensibles expuestos |
 
 ### 5.6 Mantenibilidad
 
 | ID | Requisito | Criterio |
 |---|----------|----------|
-| RNF-24 | C├│digo estructurado | Componentes separados por funci├│n |
-| RNF-25 | Documentaci├│n | Gu├¡a de contribuciones y estructura |
+| RNF-24 | Código estructurado | Componentes separados por función |
+| RNF-25 | Documentación | Guía de contribuciones y estructura |
 | RNF-26 | Versionado | Conventional Commits |
 
 ---
@@ -213,7 +213,7 @@ La necesidad de tener una presencia profesional en l├¡nea que muestre el trab
 
 ### 6.1 Stack Propuesto
 
-| Capa | Tecnolog├¡a | Versi├│n Recomendada |
+| Capa | Tecnología | Versión Recomendada |
 |-----|------------|-------------------|
 | **Framework** | React | 19.x |
 | **Build Tool** | Vite | 8.x |
@@ -228,80 +228,80 @@ La necesidad de tener una presencia profesional en l├¡nea que muestre el trab
 
 ```
 my-app/
-Ôö£ÔöÇÔöÇ public/
-Ôöé   Ôö£ÔöÇÔöÇ images/
-Ôöé   Ôöé   Ôö£ÔöÇÔöÇ profile.jpg
-Ôöé   Ôöé   Ôö£ÔöÇÔöÇ projects/
-Ôöé   Ôöé   Ôöé   Ôö£ÔöÇÔöÇ project-1.png
-Ôöé   Ôöé   Ôöé   ÔööÔöÇÔöÇ project-2.png
-Ôöé   Ôöé   ÔööÔöÇÔöÇ favicon.svg
-Ôöé   Ôö£ÔöÇÔöÇ icons.svg
-Ôöé   ÔööÔöÇÔöÇ robots.txt
-Ôö£ÔöÇÔöÇ src/
-Ôöé   Ôö£ÔöÇÔöÇ components/
-Ôöé   Ôöé   Ôö£ÔöÇÔöÇ common/
-Ôöé   Ôöé   Ôöé   Ôö£ÔöÇÔöÇ Button.jsx
-Ôöé   Ôöé   Ôöé   Ôö£ÔöÇÔöÇ Section.jsx
-Ôöé   Ôöé   Ôöé   ÔööÔöÇÔöÇ Card.jsx
-Ôöé   Ôöé   Ôö£ÔöÇÔöÇ layout/
-Ôöé   Ôöé   Ôöé   Ôö£ÔöÇÔöÇ Header.jsx
-Ôöé   Ôöé   Ôöé   Ôö£ÔöÇÔöÇ Footer.jsx
-Ôöé   Ôöé   Ôöé   ÔööÔöÇÔöÇ Layout.jsx
-Ôöé   Ôöé   ÔööÔöÇÔöÇ sections/
-Ôöé   Ôöé       Ôö£ÔöÇÔöÇ Hero.jsx
-Ôöé   Ôöé       Ôö£ÔöÇÔöÇ About.jsx
-Ôöé   Ôöé       Ôö£ÔöÇÔöÇ Skills.jsx
-Ôöé   Ôöé       Ôö£ÔöÇÔöÇ Projects.jsx
-Ôöé   Ôöé       Ôö£ÔöÇÔöÇ Experience.jsx
-Ôöé   Ôöé       Ôö£ÔöÇÔöÇ Education.jsx
-Ôöé   Ôöé       ÔööÔöÇÔöÇ Contact.jsx
-Ôöé   Ôö£ÔöÇÔöÇ data/
-Ôöé   Ôöé   Ôö£ÔöÇÔöÇ profile.json
-Ôöé   Ôöé   Ôö£ÔöÇÔöÇ projects.json
-Ôöé   Ôöé   Ôö£ÔöÇÔöÇ experience.json
-Ôöé   Ôöé   Ôö£ÔöÇÔöÇ education.json
-Ôöé   Ôöé   ÔööÔöÇÔöÇ skills.json
-Ôöé   Ôö£ÔöÇÔöÇ hooks/
-Ôöé   Ôöé   ÔööÔöÇÔöÇ useScrollToSection.js
-Ôöé   Ôö£ÔöÇÔöÇ styles/
-Ôöé   Ôöé   Ôö£ÔöÇÔöÇ variables.css
-Ôöé   Ôöé   Ôö£ÔöÇÔöÇ reset.css
-Ôöé   Ôöé   ÔööÔöÇÔöÇ global.css
-Ôöé   Ôö£ÔöÇÔöÇ utils/
-Ôöé   Ôöé   ÔööÔöÇÔöÇ seo.js
-Ôöé   Ôö£ÔöÇÔöÇ App.jsx
-Ôöé   Ôö£ÔöÇÔöÇ main.jsx
-Ôöé   ÔööÔöÇÔöÇ index.css
-Ôö£ÔöÇÔöÇ index.html
-Ôö£ÔöÇÔöÇ vite.config.js
-ÔööÔöÇÔöÇ package.json
+├── public/
+│   ├── images/
+│   │   ├── profile.jpg
+│   │   ├── projects/
+│   │   │   ├── project-1.png
+│   │   │   └── project-2.png
+│   │   └── favicon.svg
+│   ├── icons.svg
+│   └── robots.txt
+├── src/
+│   ├── components/
+│   │   ├── common/
+│   │   │   ├── Button.jsx
+│   │   │   ├── Section.jsx
+│   │   │   └── Card.jsx
+│   │   ├── layout/
+│   │   │   ├── Header.jsx
+│   │   │   ├── Footer.jsx
+│   │   │   └── Layout.jsx
+│   │   └── sections/
+│   │       ├── Hero.jsx
+│   │       ├── About.jsx
+│   │       ├── Skills.jsx
+│   │       ├── Projects.jsx
+│   │       ├── Experience.jsx
+│   │       ├── Education.jsx
+│   │       └── Contact.jsx
+│   ├── data/
+│   │   ├── profile.json
+│   │   ├── projects.json
+│   │   ├── experience.json
+│   │   ├── education.json
+│   │   └── skills.json
+│   ├── hooks/
+│   │   └── useScrollToSection.js
+│   ├── styles/
+│   │   ├── variables.css
+│   │   ├── reset.css
+│   │   └── global.css
+│   ├── utils/
+│   │   └── seo.js
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css
+├── index.html
+├── vite.config.js
+└── package.json
 ```
 
-### 6.3 Contenido Est├ítico (JSON Data)
+### 6.3 Contenido Estático (JSON Data)
 
-Todo el contenido se gestionar├í desde archivos JSON est├íticos para facilitar edici├│n sin modificar componentes:
+Todo el contenido se gestionará desde archivos JSON estáticos para facilitar edición sin modificar componentes:
 
 - `profile.json`: Nombre, tagline, email, redes sociales
 - `projects.json`: Array de proyectos
 - `experience.json`: Historial laboral
-- `education.json`: Formaci├│n acad├®mica
-- `skills.json`: Habilidades por categor├¡a
+- `education.json`: Formación académica
+- `skills.json`: Habilidades por categoría
 
 ---
 
-## 7. Dise├▒o UX/UI Guidelines
+## 7. Diseño UX/UI Guidelines
 
-### 7.1 Principios de Dise├▒o
+### 7.1 Principios de Diseño
 
-1. **Minimalista**: Espacios en blanco, jerarqu├¡a visual clara
-2. **Profesional pero memorable**: Evitar clones gen├®ricos de AI
-3. **Accesible**:WCAG 2.2 AA como m├¡nimo
+1. **Minimalista**: Espacios en blanco, jerarquía visual clara
+2. **Profesional pero memorable**: Evitar clones genéricos de AI
+3. **Accesible**: WCAG 2.2 AA como mínimo
 4. **Responsivo-first**: Mobile first approach
-5. **Performance**: Carga r├ípida ante dise├▒o complejo
+5. **Performance**: Carga rápida ante diseño complejo
 
 ### 7.2 Paleta de Colores
 
-| Prop├│sito | Color | Hex |
+| Propósito | Color | Hex |
 |----------|-------|-----|
 | Primary | [A definir] | #XXXXXX |
 | Secondary | [A definir] | #XXXXXX |
@@ -311,11 +311,11 @@ Todo el contenido se gestionar├í desde archivos JSON est├íticos para facil
 | Text Secondary | [A definir] | #XXXXXX |
 | Error | [A definir] | #XXXXXX |
 
-*(Los colores se definir├ín en fase de dise├▒o)*
+*(Los colores se definirán en fase de diseño)*
 
-### 7.3 Tipograf├¡a
+### 7.3 Tipografía
 
-| Uso | Familia | Tama├▒o |
+| Uso | Familia | Tamaño |
 |----|---------|-------|
 | Headings | [A definir] | H1: 48px, H2: 36px, H3: 28px |
 | Body | [A definir] | 16px |
@@ -345,33 +345,33 @@ Todo el contenido se gestionar├í desde archivos JSON est├íticos para facil
 
 | Campo | Ejemplo | Obligatorio |
 |-------|--------|-------------|
-| Nombre completo | Kevin | Ô£à |
-| T├¡tulo profesional | Frontend Developer | Ô£à |
-| Tagline | "Building digital experiences" | Ô£à |
-| Email | kevin@ejemplo.com | Ô£à |
-| Ubicaci├│n | Ciudad, Pa├¡s | Ô£à |
-| Foto de perfil | imagen JPG/WebP | Ô£à |
-| GitHub | @usuario | Ô£à |
-| LinkedIn | /in/usuario | Ô£à |
+| Nombre completo | Kevin | ✅ |
+| Título profesional | Frontend Developer | ✅ |
+| Tagline | "Building digital experiences" | ✅ |
+| Email | kevin@ejemplo.com | ✅ |
+| Ubicación | Ciudad, País | ✅ |
+| Foto de perfil | imagen JPG/WebP | ✅ |
+| GitHub | @usuario | ✅ |
+| LinkedIn | /in/usuario | ✅ |
 | Twitter/X | @usuario | Opcional |
 | Bluesky | @usuario.bsky.social | Opcional |
 
-### 8.2 Proyectos (M├¡nimo 3)
+### 8.2 Proyectos (Mínimo 3)
 
-| Campo | Descripci├│n |
+| Campo | Descripción |
 |------|-----------|
-| T├¡tulo | Nombre del proyecto |
-| Descripci├│n | 1-2 oraciones |
-| Tech Stack | Array de tecnolog├¡as |
-| Desaf├¡o | Problema que resuelve |
-| Resultado | Impacto/medici├│n |
-| screenshots | Im├ígenes del proyecto |
+| Título | Nombre del proyecto |
+| Descripción | 1-2 oraciones |
+| Tech Stack | Array de tecnologías |
+| Desafío | Problema que resuelve |
+| Resultado | Impacto/medición |
+| screenshots | Imágenes del proyecto |
 | Enlace demo | URL (si aplica) |
 | Enlace repo | URL de GitHub |
 
-### 8.3 Experiencia (M├¡nimo 2)
+### 8.3 Experiencia (Mínimo 2)
 
-| Campo | Descripci├│n |
+| Campo | Descripción |
 |------|-----------|
 | Empresa | Nombre de la empresa |
 | Rol | Puesto ocupado |
@@ -381,56 +381,56 @@ Todo el contenido se gestionar├í desde archivos JSON est├íticos para facil
 
 ---
 
-## 9. Plan de Implementaci├│n
+## 9. Plan de Implementación
 
 ### 9.1 Fases
 
-| Fase | Entregable | Estimaci├│n |
+| Fase | Entregable | Estimación |
 |------|------------|-------------|
-| 1. Setup | Repo configurado, boilerplate | 1 d├¡a |
-| 2. Estructura | Componentes base, routing | 1-2 d├¡as |
-| 3. Contenido | JSON con datosÕí½Õàà | 1-2 d├¡as |
-| 4. Estilos | CSS, dise├▒o responsive | 2-3 d├¡as |
-| 5. SEO/A11y | Meta tags, accesibilidad | 0.5 d├¡as |
-| 6. Deploy | Hosting configurado | 0.5 d├¡as |
+| 1. Setup | Repo configurado, boilerplate | 1 día |
+| 2. Estructura | Componentes base, routing | 1-2 días |
+| 3. Contenido | JSON con datos completos | 1-2 días |
+| 4. Estilos | CSS, diseño responsive | 2-3 días |
+| 5. SEO/A11y | Meta tags, accesibilidad | 0.5 días |
+| 6. Deploy | Hosting configurado | 0.5 días |
 
 ### 9.2 Total Estimado
 
-**Tiempo total: 6-9 d├¡as** (varies seg├║n scope)
+**Tiempo total: 6-9 días** (varía según scope)
 
 ---
 
-## 10. Criterios de ├ëxito del Proyecto
+## 10. Criterios de Éxito del Proyecto
 
 ### Done Criteria
 
 - [ ] El sitio carga sin errores en Chrome, Firefox, Safari, Edge
-- [ ] Lighthouse score ÔëÑ 90 en Performance, Accessibility, SEO
-- [ ] Navegaci├│n funciona correctamente en todos los dispositivos
+- [ ] Lighthouse score ≥ 90 en Performance, Accessibility, SEO
+- [ ] Navegación funciona correctamente en todos los dispositivos
 - [ ] Todos los enlaces externos funcionales
-- [ ] Im├ígenes cargan con lazy loading
+- [ ] Imágenes cargan con lazy loading
 - [ ] Modo oscuro/claro funciona (si implementado)
 - [ ] SEO valida en Google Search Console
-- [ ] Desplegado en producci├│n (Vercel/Netlify/GitHub Pages)
+- [ ] Desplegado en producción (Vercel/Netlify/GitHub Pages)
 
 ### Quality Gates
 
 - [ ] Sin errores de ESLint
-- [ ] Sin console.errors en producci├│n
+- [ ] Sin console.errors en producción
 - [ ] WCAG 2.2 AA compliant (verificado con axe DevTools)
 - [ ] Mobile responsive sin overflow horizontal
-- [ ] Lighthouse Performance ÔëÑ 90
+- [ ] Lighthouse Performance ≥ 90
 
 ---
 
 ## 11. Riesgos y Mitigaciones
 
-| Riesgo | Probabilidad | Impacto | Mitigaci├│n |
+| Riesgo | Probabilidad | Impacto | Mitigación |
 |--------|--------------|--------|------------|
 | Contenido no disponible | Media | Alto | Templates con placeholder data |
-| Im├ígenes de baja calidad | Media | Medio | Generar con herramientas AI ostock |
+| Imágenes de baja calidad | Media | Medio | Generar con herramientas AI o stock |
 | Costos de hosting | Baja | Bajo | Usar servicios gratuitos |
-| Actualizaci├│n compleja | Alta | Medio | JSON separado del c├│digo |
+| Actualización compleja | Alta | Medio | JSON separado del código |
 | SEO no funciona | Media | Alto | Validar pre-deploy |
 
 ---
@@ -439,7 +439,7 @@ Todo el contenido se gestionar├í desde archivos JSON est├íticos para facil
 
 ### Glosario
 
-| T├®rmino | Definici├│n |
+| Término | Definición |
 |---------|-----------|
 | SPA | Single Page Application |
 | CTA | Call to Action |
@@ -459,10 +459,10 @@ Todo el contenido se gestionar├í desde archivos JSON est├íticos para facil
 
 ## Historial de Cambios
 
-| Versi├│n | Fecha | Descripci├│n |
+| Versión | Fecha | Descripción |
 |---------|-------|-------------|
-| 1.0.0 | [Fecha] | Versi├│n inicial del PRD |
+| 1.0.0 | [Fecha] | Versión inicial del PRD |
 
 ---
 
-*Documento creado para el proyecto portfolio - [Tu Nombre]*
+*Documento creado para el proyecto portfolio - Kevin Alvarado*
