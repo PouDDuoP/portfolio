@@ -121,8 +121,8 @@ const translations = {
   'faq.subtitle': { es: 'Preguntas frecuentes', en: 'Frequently Asked Questions' },
   'faq.tech.title': { es: '¿Cuál es tu Stack Tecnológico?', en: 'What is your Tech Stack?' },
   'faq.tech.text': {
-    es: 'Soy Desarrollador Full Stack con experiencia en Node.js, PHP, Python, Django, Angular, Flutter, y bases de datos SQL como PostgreSQL, MySQL, SQL Server y Oracle Database. También trabajo con ASP Classic, VBScript, Docker y metodologías como MVC y Clean Architecture.',
-    en: 'I am a Full Stack Developer with experience in Node.js, PHP, Python, Django, Angular, Flutter, and SQL databases like PostgreSQL, MySQL, SQL Server, and Oracle Database. I also work with ASP Classic, VBScript, Docker, and methodologies like MVC and Clean Architecture.'
+    es: 'Soy Desarrollador Full Stack con experiencia en Node.js, PHP, Python, Django, Angular, Flutter, y bases de datos SQL como PostgreSQL, MySQL, SQL Server y Oracle Database. También trabajo con ASP Classic, VBScript, Docker Compose y metodologías como MVC y Clean Architecture.',
+    en: 'I am a Full Stack Developer with experience in Node.js, PHP, Python, Django, Angular, Flutter, and SQL databases like PostgreSQL, MySQL, SQL Server, and Oracle Database. I also work with ASP Classic, VBScript, Docker Compose, and methodologies like MVC and Clean Architecture.'
   },
   'faq.availability.title': { es: '¿Estás disponible para proyectos freelance?', en: 'Are you available for freelance projects?' },
   'faq.availability.text': {
@@ -136,13 +136,13 @@ const translations = {
   },
   'faq.experience.title': { es: '¿Cuántos años de experiencia tienes?', en: 'How many years of experience do you have?' },
   'faq.experience.text': {
-    es: 'Cuento con más de 8 años de experiencia como Desarrollador Full Stack, habiendo trabajado en Humanitas Administradora de Riesgos / Qualitas Assistance desde 2017 hasta 2024.',
-    en: 'I have over 8 years of experience as a Full Stack Developer, having worked at Humanitas Administradora de Riesgos / Qualitas Assistance from 2017 to 2024.'
+    es: 'Cuento con más de 8 años de experiencia como Desarrollador Full Stack, con roles en Stability (Front-End Developer con Flutter, 2025-2026) y Humanitas Administradora de Riesgos / Qualitas Assistance (Especialista Web, 2017-2024), además de consultorías en arquitectura y seguridad web.',
+    en: 'I have over 8 years of experience as a Full Stack Developer, with roles at Stability (Front-End Developer with Flutter, 2025-2026) and Humanitas Administradora de Riesgos / Qualitas Assistance (Web Specialist, 2017-2024), plus consulting in web architecture and security.'
   },
   'faq.projects.title': { es: '¿Qué tipo de proyectos has realizado?', en: 'What type of projects have you worked on?' },
   'faq.projects.text': {
-    es: 'He trabajado en una amplia variedad de proyectos: sistemas de gestión de comisiones, plataformas de cotización con generación de PDF, aplicaciones móviles con Flutter y Clean Architecture, APIs REST documentadas con Swagger, sistemas de control de incidencias, y aplicaciones full-stack con Node.js y Angular.',
-    en: 'I have worked on a wide variety of projects: commission management systems, quoting platforms with PDF generation, mobile applications with Flutter and Clean Architecture, documented REST APIs with Swagger, incident control systems, and full-stack applications with Node.js and Angular.'
+    es: 'He trabajado en una amplia variedad de proyectos: sistemas de gestión de comisiones, plataformas de cotización con generación de PDF, aplicaciones móviles con Flutter y Clean Architecture (como RateVES con tasas BCV+Binance en vivo y Stability), APIs REST documentadas con Swagger, sistemas de control de incidencias, aplicaciones full-stack con Node.js y Angular, y gestores de tareas multi-proyecto como Todo App con Angular.',
+    en: 'I have worked on a wide variety of projects: commission management systems, quoting platforms with PDF generation, mobile applications with Flutter and Clean Architecture (such as RateVES with live BCV+Binance rates and Stability), documented REST APIs with Swagger, incident control systems, full-stack applications with Node.js and Angular, and multi-project task managers like Todo App with Angular.'
   },
 
   // Contact
@@ -178,16 +178,16 @@ const translations = {
   },
 
   // Projects dynamic data
-  'projects.qualitas-assitance.title': { es: 'Sistema de Qualitas Assistance', en: 'Qualitas Assistance System' },
-  'projects.qualitas-assitance.description': {
+  'projects.qualitas-assistance.title': { es: 'Sistema de Qualitas Assistance', en: 'Qualitas Assistance System' },
+  'projects.qualitas-assistance.description': {
     es: 'Sistema integral de automatización financiera y gestión operativa empresarial con núcleo de cálculo de comisiones, costos, registro masivo de pagos, gestión de upgrades de productos y monitoreo de integraciones en tiempo real.',
     en: 'Comprehensive financial automation and business operational management system with a core for commission calculation, costs, bulk payment recording, product upgrade management, and real-time integration monitoring.'
   },
-  'projects.qualitas-assitance.challenge': {
+  'projects.qualitas-assistance.challenge': {
     es: 'Centralizar múltiples flujos operativos dispersos y procesos manuales en una arquitectura escalable',
     en: 'Centralize multiple scattered operational workflows and manual processes into a scalable architecture'
   },
-  'projects.qualitas-assitance.result': {
+  'projects.qualitas-assistance.result': {
     es: 'Reducción del 90% en solicitudes de soporte técnico para reportes y eliminación absoluta del error humano en registros financieros',
     en: '90% reduction in technical support requests for reports and complete elimination of human error in financial records'
   },
@@ -359,16 +359,16 @@ const translations = {
     es: 'Aplicación Flutter completa con Clean Architecture, BLoC, tasas en vivo BCV+Binance, i18n ES/EN, WCAG A11y, walkthrough guiado, caché offline, pull-to-refresh, 40+ pruebas y análisis estático limpio tras aplicar un plan completo de mejoras en 3 tiers',
     en: 'Complete Flutter app with Clean Architecture, BLoC, live BCV+Binance rates, i18n ES/EN, WCAG A11y, guided walkthrough, offline cache, pull-to-refresh, 40+ tests, and clean static analysis after applying a full 3-tier improvement plan'
   },
-  'projects.humatiket.title': { es: 'Sistema de Humaticket', en: 'Humaticket System' },
-  'projects.humatiket.description': {
+  'projects.humaticket.title': { es: 'Sistema de Humaticket', en: 'Humaticket System' },
+  'projects.humaticket.description': {
     es: 'Plataforma web de aliado comercial desarrollada en PHP con arquitectura MVC, con refactorización de código, corrección de bugs y mejoras arquitectónicas.',
     en: 'Commercial partner web platform developed in PHP with MVC architecture, featuring code refactoring, bug fixes, and architectural improvements.'
   },
-  'projects.humatiket.challenge': {
+  'projects.humaticket.challenge': {
     es: 'Refactorizar y estabilizar el aplicativo existente para garantizar su mantenibilidad',
     en: 'Refactor and stabilize the existing application to ensure maintainability'
   },
-  'projects.humatiket.result': {
+  'projects.humaticket.result': {
     es: 'Código refactorizado, bugs corregidos y arquitectura mejorada',
     en: 'Refactored code, fixed bugs, and improved architecture'
   },
@@ -527,7 +527,7 @@ const translations = {
   },
 
   'education.ing-en-informatica.institution': { es: 'Colegio Universitario de Caracas (CUC)', en: 'University College of Caracas (CUC)' },
-  'education.ing-en-informatica.degree': { es: 'Ingeniero en Informatica (2015-2017)', en: "Bachelor's Degree in Computer Science - Software Engineering (2015-2017)" },
+  'education.ing-en-informatica.degree': { es: 'Ingeniero en Informática (2015-2017)', en: "Bachelor's Degree in Computer Science - Software Engineering (2015-2017)" },
   'education.ing-en-informatica.description': {
     es: 'Formación universitaria en ingeniería informática. Proyectos: Sistema de Gestión de Incidencias Help Desk (PHP, JavaScript, PostgreSQL, HTML5, CSS3, Bootstrap, jQuery, MVC), Auditoría de TI al Sistema SACS (Seguridad de la Información, Evaluación de Vulnerabilidades, Cumplimiento Normativo).',
     en: 'University education in computer engineering. Projects: Help Desk Incident Management System (PHP, JavaScript, PostgreSQL, HTML5, CSS3, Bootstrap, jQuery, MVC), IT Audit of the SACS System (Information Security, Vulnerability Assessment, Regulatory Compliance).'
